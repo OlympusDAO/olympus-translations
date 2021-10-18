@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:110
 msgid "ADD TOKEN TO WALLET"
-msgstr ""
+msgstr "지갑에 토큰 추가"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
 #: src/views/Stake/Stake.jsx:182
