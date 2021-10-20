@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/views/33Together/33Together.jsx:120
+#: src/views/33Together/33Together.jsx:149
 msgid "3, 3 Together"
 msgstr "3, 3 Together"
 
-#: src/components/TopBar/OhmMenu.jsx:110
+#: src/components/TopBar/OhmMenu.jsx:121
 msgid "ADD TOKEN TO WALLET"
 msgstr "AJOUTER UN TOKEN AU PORTEFEUILLE"
 
@@ -26,11 +26,11 @@ msgstr "AJOUTER UN TOKEN AU PORTEFEUILLE"
 #~ msgstr "APR"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
-#: src/views/Stake/Stake.jsx:182
+#: src/views/Stake/Stake.jsx:190
 msgid "APY"
 msgstr "APY"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:264
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:301
 msgid "APY over time"
 msgstr "Evolution de l'APY"
 
@@ -38,10 +38,10 @@ msgstr "Evolution de l'APY"
 msgid "Amount"
 msgstr "Quantité"
 
-#: src/views/33Together/PoolDeposit.jsx:161
+#: src/views/33Together/PoolDeposit.jsx:166
 #: src/views/Bond/BondPurchase.jsx:170
-#: src/views/Stake/Stake.jsx:309
-#: src/views/Stake/Stake.jsx:337
+#: src/views/Stake/Stake.jsx:317
+#: src/views/Stake/Stake.jsx:345
 msgid "Approve"
 msgstr "Approuver"
 
@@ -65,6 +65,10 @@ msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Toget
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Together pour terminer la distribution"
 
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:142
+msgid "Backing per OHM"
+msgstr ""
+
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
 msgid "Balance"
@@ -85,8 +89,8 @@ msgstr "Prix de l'obligation"
 msgid "Bond discounts"
 msgstr "Rabais sur les obligations"
 
-#: src/components/TopBar/OhmMenu.jsx:86
-#: src/components/TopBar/OhmMenu.jsx:99
+#: src/components/TopBar/OhmMenu.jsx:89
+#: src/components/TopBar/OhmMenu.jsx:102
 msgid "Buy on"
 msgstr "Acheter sur"
 
@@ -99,7 +103,7 @@ msgstr "Changer le thème"
 #~ msgid "Change language"
 #~ msgstr "Changer de langue"
 
-#: src/views/33Together/PoolDeposit.jsx:104
+#: src/views/33Together/PoolDeposit.jsx:109
 #: src/views/33Together/PoolWithdraw.jsx:108
 msgid "Check back soon!"
 msgstr "Rendez nous une autre visite plus tard!"
@@ -108,7 +112,7 @@ msgstr "Rendez nous une autre visite plus tard!"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Choisissez l'addresse de reception. Par défaut il s'agit de l'addresse du portefeuille avec lequel vous êtes actuellement connecté"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:104
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:129
 msgid "Circulating Supply (total)"
 msgstr "Jetons en circulation (total)"
 
@@ -154,12 +158,12 @@ msgstr "Disponible prochainement"
 msgid "Connect Wallet"
 msgstr "Connecter le portefeuille"
 
-#: src/views/Stake/Stake.jsx:235
+#: src/views/Stake/Stake.jsx:243
 msgid "Connect your wallet to stake OHM"
 msgstr "Connectez votre portefeuille pour déposer des OHM"
 
-#: src/views/Stake/Stake.jsx:217
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:117
+#: src/views/Stake/Stake.jsx:225
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:151
 msgid "Current Index"
 msgstr "Indice actuel"
 
@@ -176,11 +180,11 @@ msgstr "Tableau de bord"
 msgid "Debt Ratio"
 msgstr "Taux d'endettement"
 
-#: src/views/33Together/33Together.jsx:132
+#: src/views/33Together/33Together.jsx:161
 msgid "Deposit"
 msgstr "Déposer"
 
-#: src/views/33Together/PoolDeposit.jsx:151
+#: src/views/33Together/PoolDeposit.jsx:156
 msgid "Deposit sOHM"
 msgstr "Déposer sOHM"
 
@@ -188,11 +192,11 @@ msgstr "Déposer sOHM"
 #~ msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
 #~ msgstr "Deposez des sOHM pour gagner! Une fois déposés, vous recevrez une quantité équivalente de 33T et serrez susceptible de gagner jusqu'à ce que vous retiriez vos sOHM."
 
-#: src/views/33Together/PoolDeposit.jsx:168
+#: src/views/33Together/PoolDeposit.jsx:173
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "Deposer {quantity} sOHM augmentera vos chances de gagner à 1 sur {newOdds}"
 
-#: src/views/33Together/PoolDeposit.jsx:101
+#: src/views/33Together/PoolDeposit.jsx:106
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "Vous pourrez effectuer des dépôts quand les récompenses auront été distribuées."
 
@@ -205,7 +209,7 @@ msgstr "Déconnexion"
 msgid "Docs"
 msgstr "Documentation"
 
-#: src/views/33Together/PoolInfo.jsx:120
+#: src/views/33Together/PoolInfo.jsx:121
 msgid "Early Exit Fee"
 msgstr "Frais de sortie prématurée"
 
@@ -213,11 +217,11 @@ msgstr "Frais de sortie prématurée"
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "Un retrait prématurée provoquera des frais de s'élevant à {exitFee}. "
 
-#: src/views/33Together/PoolDeposit.jsx:122
+#: src/views/33Together/PoolDeposit.jsx:127
 msgid "Enter an amount"
 msgstr "Entrez un montant"
 
-#: src/views/33Together/PoolInfo.jsx:126
+#: src/views/33Together/PoolInfo.jsx:127
 msgid "Exit Fee Decay Time"
 msgstr "Temps d'érosion des frais de sortie"
 
@@ -251,7 +255,7 @@ msgid "Less than a minute"
 msgstr "Moins d'une minute"
 
 #: src/views/Dashboard/Dashboard.jsx:44
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:85
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:94
 msgid "Market Cap"
 msgstr "Capitalisation"
 
@@ -259,11 +263,11 @@ msgstr "Capitalisation"
 msgid "Market Price"
 msgstr "Prix du marché"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:164
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:201
 msgid "Market Value of Treasury Assets"
 msgstr "Valeur de marché des actifs en trésorerie"
 
-#: src/views/33Together/PoolDeposit.jsx:135
+#: src/views/33Together/PoolDeposit.jsx:140
 #: src/views/33Together/PoolWithdraw.jsx:139
 #: src/views/Bond/BondPurchase.jsx:144
 msgid "Max"
@@ -273,15 +277,15 @@ msgstr "Max"
 msgid "Max You Can Buy"
 msgstr "Maximum que vous pouvez acheter"
 
-#: src/views/Stake/Stake.jsx:169
+#: src/views/Stake/Stake.jsx:177
 msgid "Migrate sOHM!"
 msgstr "Migrez vos sOHM"
 
-#: src/views/Stake/Stake.jsx:365
+#: src/views/Stake/Stake.jsx:373
 msgid "Next Reward Amount"
 msgstr "Montant de la prochaine récompense"
 
-#: src/views/Stake/Stake.jsx:374
+#: src/views/Stake/Stake.jsx:382
 msgid "Next Reward Yield"
 msgstr "Pourcentage de gain de la prochaine récompense"
 
@@ -293,16 +297,16 @@ msgstr "Prochaine récompense"
 msgid "Note: The \"Approve\" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the \"Bond\" transaction."
 msgstr "Note: La transaction \"Approuver\" n'est nécessaire que pour le premier achat; Les achats suivants ne nécessitent que la transaction \"Acheter\"."
 
-#: src/views/Stake/Stake.jsx:257
+#: src/views/Stake/Stake.jsx:265
 msgid "Note: The \"Approve\" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the \"Stake\" or \"Unstake\" transaction."
 msgstr "Note: La transaction \"Approuver\" n'est nécessaire que pour le premier dépôt/retrait; Les achats suivants ne nécessitent que la transaction \"Acheter\"."
 
 #: src/views/ChooseBond/ChooseBond.jsx:97
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:94
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:104
 msgid "OHM Price"
 msgstr "Valeur de OHM"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:244
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:281
 msgid "OHM Staked"
 msgstr "OHM en dépôt"
 
@@ -330,7 +334,8 @@ msgstr "Merci d'entrer une valeur valide!"
 #: src/views/33Together/PoolDeposit.jsx:64
 #: src/views/33Together/PoolWithdraw.jsx:59
 #: src/views/Bond/BondPurchase.jsx:48
-#: src/views/Stake/Stake.jsx:111
+#: src/views/Stake/Stake.jsx:109
+#: src/views/Stake/Stake.jsx:109
 msgid "Please enter a value!"
 msgstr "Merci d'entrer une valeur!"
 
@@ -338,7 +343,7 @@ msgstr "Merci d'entrer une valeur!"
 msgid "Pool Award Balance is currently 0."
 msgstr "Le montant de la cagnote est actuellement 0."
 
-#: src/views/33Together/PoolInfo.jsx:108
+#: src/views/33Together/PoolInfo.jsx:112
 msgid "Pool owner"
 msgstr "Propriétaire de la cagnote"
 
@@ -356,7 +361,7 @@ msgstr "Information concernant la cagnote"
 msgid "Prize is being awarded"
 msgstr "La récompense est en cours de distribution"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:206
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:243
 msgid "Protocol Owned Liquidity OHM-DAI"
 msgstr "Liquidité OHM-DAI dont le protocol est propriétaire"
 
@@ -372,7 +377,7 @@ msgstr "Acheté"
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.jsx:383
+#: src/views/Stake/Stake.jsx:391
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (Sur 5 jours)"
 
@@ -392,11 +397,11 @@ msgstr "Adresse de retrait"
 msgid "Redeem"
 msgstr "Retirer"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:188
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:225
 msgid "Risk Free Value of Treasury Assets"
 msgstr "Valeur assurée des actifs en trésorerie"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:284
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:321
 msgid "Runway Available"
 msgstr "Durée d'inflation soutenable"
 
@@ -404,7 +409,7 @@ msgstr "Durée d'inflation soutenable"
 msgid "Slippage"
 msgstr "Glissement"
 
-#: src/views/33Together/PoolInfo.jsx:141
+#: src/views/33Together/PoolInfo.jsx:142
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Quelque chose ne va pas ami? Vérifie sur le site Pool Together."
 
@@ -412,14 +417,14 @@ msgstr "Quelque chose ne va pas ami? Vérifie sur le site Pool Together."
 msgid "Stake"
 msgstr "Dépôts (Staking)"
 
-#: src/views/Stake/Stake.jsx:297
+#: src/views/Stake/Stake.jsx:305
 msgid "Stake OHM"
-msgstr "Déposez des OHM"
+msgstr "Déposer des OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
 msgid "Stake in Crucible"
-msgstr ""
+msgstr "Déposer dans Crucible"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
@@ -443,11 +448,15 @@ msgstr "Nombre de jetons (en circulation/total)"
 msgid "TVD"
 msgstr "TVD"
 
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:153
+msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
+msgstr "L'indice courant track la quantité de sOHM accumulée depuis le début des dépôts. C'est à dire la quantité d'OHM obtenue par un individu ayant déposer 1 OHM au premier epoch."
+
 #: src/views/33Together/PoolPrize.jsx:209
 #~ msgid "The random number generator has timed out. You must cancel the awarding process to unlock users funds users funds and start the awarding process again."
 #~ msgstr "Le générateur de nombre aléatoire a excédé sondélai d'exécution maximum. Vous devez stopper le processus de distribution des récompenses afin de libérer les fonds des participants et démarrer un nouveau processus de distribution des récompenses."
 
-#: src/views/33Together/PoolDeposit.jsx:98
+#: src/views/33Together/PoolDeposit.jsx:103
 msgid "This Prize Pool is unable to accept deposits at this time."
 msgstr "Cette cagnote ne peut accepter de dépôts en ce moment."
 
@@ -459,16 +468,16 @@ msgstr "Cette cagnote ne peut accepter de retraits en ce moment."
 msgid "Time until fully vested"
 msgstr "Durée avant disponibilité totale"
 
-#: src/views/33Together/PoolInfo.jsx:86
+#: src/views/33Together/PoolInfo.jsx:90
 msgid "Total Deposits"
 msgstr "Montant total des dépôts"
 
-#: src/views/33Together/PoolInfo.jsx:94
+#: src/views/33Together/PoolInfo.jsx:98
 msgid "Total Sponsorship"
 msgstr "Montant total des parrainages"
 
-#: src/views/Stake/Stake.jsx:197
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:136
+#: src/views/Stake/Stake.jsx:205
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:173
 msgid "Total Value Deposited"
 msgstr "Montant total déposé"
 
@@ -484,15 +493,19 @@ msgstr "La transaction peut-être annulée si un changement de prix supérieure 
 msgid "Treasury Balance"
 msgstr "Solde de Trésorerie"
 
-#: src/views/Stake/Stake.jsx:252
+#: src/views/Stake/Stake.jsx:260
 msgid "Unstake"
 msgstr "Retirer"
 
 #: src/components/TopBar/OhmMenu.jsx:147
-msgid "Unstake LP Token"
+#~ msgid "Unstake LP Token"
+#~ msgstr "Retirer ses Token LP"
+
+#: src/components/TopBar/OhmMenu.jsx:155
+msgid "Unstake Legacy LP Token"
 msgstr "Retirer ses Token LP"
 
-#: src/views/Stake/Stake.jsx:325
+#: src/views/Stake/Stake.jsx:333
 msgid "Unstake OHM"
 msgstr "Retirer vos OHM"
 
@@ -510,11 +523,11 @@ msgstr "Date de livraison"
 msgid "View Contract"
 msgstr "Voir le contrat"
 
-#: src/views/33Together/PoolInfo.jsx:80
+#: src/views/33Together/PoolInfo.jsx:84
 msgid "Winners / prize period"
 msgstr "Gagnants / période de distribution"
 
-#: src/views/33Together/33Together.jsx:133
+#: src/views/33Together/33Together.jsx:162
 msgid "Withdraw"
 msgstr "Retirer"
 
@@ -534,7 +547,7 @@ msgstr "Les retraits peuvent être effectués après la distribution de la cagno
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Retirer {quantity} sOHM réduit vos chances de gagner à  1 sur {newOdds}"
 
-#: src/views/33Together/PoolInfo.jsx:102
+#: src/views/33Together/PoolInfo.jsx:106
 msgid "Yield Source"
 msgstr "Source de profit"
 
@@ -546,6 +559,16 @@ msgstr "Vous obtiendrez"
 #~ msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating / reducing the chance to win the prize in this pool in future prize periods"
 #~ msgstr "Vous pouvez choisir de retirer les fonds déposés à votre discrétion. En retirant vos fonds vous supprimez / réduisez vos chances de gagner cette cagnote lors des prochaines périodes de distribution"
 
+#: src/views/Stake/Stake.jsx:115
+#: src/views/Stake/Stake.jsx:115
+msgid "You cannot stake more than your OHM balance."
+msgstr "Vous ne pouvez pas déposer plus d'OHM que votre solde"
+
+#: src/views/Stake/Stake.jsx:119
+#: src/views/Stake/Stake.jsx:119
+msgid "You cannot unstake more than your sOHM balance."
+msgstr "Vous ne pouvez pas retirer plus de sOHM que vous n'en avez en dépôt"
+
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
 msgstr "Vous ne pouvez pas retirer plus ce que ce que vous avez déposé"
@@ -555,7 +578,7 @@ msgid "You have an existing bond. Bonding will reset your vesting period and for
 msgstr "Vous avez déjà une obligation. En acquérir une autre réinitialisera la durée de livraison. Nous vous recommendons de prendre livraison de vos récompenses ou d'utiliser un autre portefeuille. Souhaitez-vous vraiment continuer?"
 
 #: src/views/Bond/BondPurchase.jsx:192
-#: src/views/Stake/Stake.jsx:347
+#: src/views/Stake/Stake.jsx:355
 msgid "Your Balance"
 msgstr "Votre solde"
 
@@ -563,11 +586,11 @@ msgstr "Votre solde"
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "Vos avoirs dans la cagnote (Récupérable)"
 
-#: src/views/Stake/Stake.jsx:356
+#: src/views/Stake/Stake.jsx:364
 msgid "Your Staked Balance"
 msgstr "Votre solde en dépôt"
 
-#: src/views/33Together/PoolDeposit.jsx:179
+#: src/views/33Together/PoolDeposit.jsx:184
 msgid "Your Staked Balance (Depositable)"
 msgstr "Vos avoirs en dépôt (pouvant être mis dans la cagnote)"
 
@@ -575,13 +598,17 @@ msgstr "Vos avoirs en dépôt (pouvant être mis dans la cagnote)"
 msgid "Your odds"
 msgstr "Vos chances"
 
-#: src/views/33Together/PoolInfo.jsx:49
+#: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
 msgstr "Vos dépôts"
 
+#: src/views/33Together/PoolInfo.jsx:49
+msgid "Your total awards"
+msgstr "Votre total de récompenses"
+
 #: src/views/33Together/PoolInfo.jsx:55
-msgid "Your wallet balance"
-msgstr "Vos avoirs en portefeuille"
+#~ msgid "Your wallet balance"
+#~ msgstr "Vos avoirs en portefeuille"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
@@ -593,7 +620,7 @@ msgstr "jours"
 msgid "do_bond"
 msgstr "Acheter"
 
-#: src/views/Stake/Stake.jsx:251
+#: src/views/Stake/Stake.jsx:259
 msgid "do_stake"
 msgstr "Déposer"
 
@@ -605,11 +632,11 @@ msgstr "hrs"
 msgid "min"
 msgstr "mins"
 
-#: src/views/33Together/PoolInfo.jsx:156
+#: src/views/33Together/PoolInfo.jsx:157
 msgid "sOHM Pool Details"
 msgstr "Détails de la cagnote sOHM"
 
-#: src/views/33Together/PoolInfo.jsx:148
+#: src/views/33Together/PoolInfo.jsx:149
 msgid "sOHM Prize Pool"
 msgstr "Taille de la cagnote sOHM"
 
