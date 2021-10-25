@@ -17,27 +17,26 @@ msgstr ""
 msgid "3, 3 Together"
 msgstr "3, 3 투게더"
 
-#: src/components/TopBar/OhmMenu.jsx:121
+#: src/components/TopBar/OhmMenu.jsx:147
 msgid "ADD TOKEN TO WALLET"
 msgstr "지갑에 토큰 추가"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
-#: src/views/Stake/Stake.jsx:190
+#: src/views/Stake/Stake.jsx:192
 msgid "APY"
 msgstr "APY"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:301
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:306
 msgid "APY over time"
 msgstr "APY 추이"
 
-#: src/views/Bond/BondPurchase.jsx:132
+#: src/views/Bond/BondPurchase.jsx:148
 msgid "Amount"
 msgstr "양"
 
 #: src/views/33Together/PoolDeposit.jsx:166
-#: src/views/Bond/BondPurchase.jsx:170
-#: src/views/Stake/Stake.jsx:317
-#: src/views/Stake/Stake.jsx:345
+#: src/views/Stake/Stake.jsx:334
+#: src/views/Stake/Stake.jsx:363
 msgid "Approve"
 msgstr "기능 승인"
 
@@ -57,7 +56,7 @@ msgstr "어워드 기간이 끝났습니다. 이제 투게터 풀의 UI를 통�
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "어워드 기간이 끝났습니다. 이제 풀의 UI를 통해 배분을 마칠 수 있습니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:142
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
 msgid "Backing per OHM"
 msgstr "OHM 당 지지 자산"
 
@@ -81,15 +80,18 @@ msgstr "본드 가격"
 msgid "Bond discounts"
 msgstr "본드 할인"
 
-#: src/components/TopBar/OhmMenu.jsx:89
-#: src/components/TopBar/OhmMenu.jsx:102
+#: src/components/TopBar/OhmMenu.jsx:104
+#: src/components/TopBar/OhmMenu.jsx:117
 msgid "Buy on"
 msgstr "구입"
 
-#: src/components/TopBar/LocaleSwitch.tsx:37
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
 msgstr "테마 변경"
+
+#: src/components/TopBar/LocaleSwitch.tsx:37
+msgid "Change locale"
+msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:109
 #: src/views/33Together/PoolWithdraw.jsx:108
@@ -100,7 +102,7 @@ msgstr "잠시 후 다시 확인해보세요!"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "수신자 주소를 지정하세요. 기본 값으로 설정하면 현재 연결되어 있는 당신의 주소가 사용됩니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:129
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:134
 msgid "Circulating Supply (total)"
 msgstr "유통량(총)"
 
@@ -117,7 +119,7 @@ msgstr "전부 청구"
 msgid "Claim all and Stake"
 msgstr "전부 청구하고 스테이크"
 
-#: src/views/Bond/BondRedeem.jsx:78
+#: src/views/Bond/BondRedeem.jsx:80
 msgid "Claim and Autostake"
 msgstr "청구하고 자동스테이크"
 
@@ -129,7 +131,7 @@ msgstr "청구하고 스테이크"
 msgid "Claimable"
 msgstr "청구 가능한"
 
-#: src/views/Bond/BondRedeem.jsx:94
+#: src/views/Bond/BondRedeem.jsx:96
 msgid "Claimable Rewards"
 msgstr "청구 가능한 보상"
 
@@ -142,12 +144,12 @@ msgstr "Coming Soon"
 msgid "Connect Wallet"
 msgstr "지갑 연결"
 
-#: src/views/Stake/Stake.jsx:243
+#: src/views/Stake/Stake.jsx:245
 msgid "Connect your wallet to stake OHM"
 msgstr "OHM 스테이크를 위해 지갑 연결"
 
-#: src/views/Stake/Stake.jsx:225
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:151
+#: src/views/Stake/Stake.jsx:227
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:156
 msgid "Current Index"
 msgstr "현재 인덱스"
 
@@ -159,8 +161,8 @@ msgstr "현재 상금"
 msgid "Dashboard"
 msgstr "대시보드"
 
-#: src/views/Bond/BondPurchase.jsx:234
-#: src/views/Bond/BondRedeem.jsx:118
+#: src/views/Bond/BondPurchase.jsx:241
+#: src/views/Bond/BondRedeem.jsx:120
 msgid "Debt Ratio"
 msgstr "부채 비율"
 
@@ -235,7 +237,7 @@ msgid "Less than a minute"
 msgstr "1분 미만"
 
 #: src/views/Dashboard/Dashboard.jsx:44
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:94
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:99
 msgid "Market Cap"
 msgstr "마켓캡(시가총액)"
 
@@ -243,29 +245,29 @@ msgstr "마켓캡(시가총액)"
 msgid "Market Price"
 msgstr "시장 가격"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:201
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:206
 msgid "Market Value of Treasury Assets"
 msgstr "금고 자산의 시장 가치"
 
 #: src/views/33Together/PoolDeposit.jsx:140
 #: src/views/33Together/PoolWithdraw.jsx:139
-#: src/views/Bond/BondPurchase.jsx:144
+#: src/views/Bond/BondPurchase.jsx:160
 msgid "Max"
 msgstr "최대"
 
-#: src/views/Bond/BondPurchase.jsx:216
+#: src/views/Bond/BondPurchase.jsx:223
 msgid "Max You Can Buy"
 msgstr "구입 가능한 최대"
 
-#: src/views/Stake/Stake.jsx:177
+#: src/views/Stake/Stake.jsx:179
 msgid "Migrate sOHM!"
 msgstr "sOHM 마이그레이트 하세요!"
 
-#: src/views/Stake/Stake.jsx:373
+#: src/views/Stake/Stake.jsx:391
 msgid "Next Reward Amount"
 msgstr "다음 보상 수량"
 
-#: src/views/Stake/Stake.jsx:382
+#: src/views/Stake/Stake.jsx:400
 msgid "Next Reward Yield"
 msgstr "다음 보상 이자"
 
@@ -274,19 +276,19 @@ msgid "Next award"
 msgstr "다음 어워드"
 
 #: src/views/Bond/BondPurchase.jsx:178
-msgid "Note: The \"Approve\" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the \"Bond\" transaction."
-msgstr "알림: \"기능 승인\" 트랜젝션은 최초 본딩시에만 필요로 합니다; 이후 본딩은 \"본드\" 트랜젝션만 수행하면 됩니다."
+#~ msgid "Note: The \"Approve\" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the \"Bond\" transaction."
+#~ msgstr "알림: \"기능 승인\" 트랜젝션은 최초 본딩시에만 필요로 합니다; 이후 본딩은 \"본드\" 트랜젝션만 수행하면 됩니다."
 
 #: src/views/Stake/Stake.jsx:265
-msgid "Note: The \"Approve\" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the \"Stake\" or \"Unstake\" transaction."
-msgstr "알림: \"기능 승인\" 트랜젝션은 최초 스테이킹/언스테이킹시에만 필요로 합니다; 이후 스테이킹/언스테이킹시에는 \"스테이크\" 또는 \"언스테이크\" 트랜젝션만 수행하면 됩니다."
+#~ msgid "Note: The \"Approve\" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the \"Stake\" or \"Unstake\" transaction."
+#~ msgstr "알림: \"기능 승인\" 트랜젝션은 최초 스테이킹/언스테이킹시에만 필요로 합니다; 이후 스테이킹/언스테이킹시에는 \"스테이크\" 또는 \"언스테이크\" 트랜젝션만 수행하면 됩니다."
 
 #: src/views/ChooseBond/ChooseBond.jsx:97
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:104
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:109
 msgid "OHM Price"
 msgstr "OHM 가격"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:281
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:286
 msgid "OHM Staked"
 msgstr "스테이크된 OHM"
 
@@ -298,7 +300,7 @@ msgstr "페이지를 찾을 수 없습니다"
 msgid "Pending"
 msgstr "계류중"
 
-#: src/views/Bond/BondRedeem.jsx:86
+#: src/views/Bond/BondRedeem.jsx:88
 msgid "Pending Rewards"
 msgstr "계류중인 보상"
 
@@ -341,7 +343,7 @@ msgstr "상금 풀 정보"
 msgid "Prize is being awarded"
 msgstr "상금이 지급중 입니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:243
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
 msgid "Protocol Owned Liquidity OHM-DAI"
 msgstr ""
 
@@ -350,14 +352,14 @@ msgstr ""
 msgid "Purchased"
 msgstr "구입량"
 
-#: src/views/Bond/BondPurchase.jsx:225
-#: src/views/Bond/BondRedeem.jsx:109
+#: src/views/Bond/BondPurchase.jsx:232
+#: src/views/Bond/BondRedeem.jsx:111
 #: src/views/ChooseBond/BondRow.jsx:46
 #: src/views/ChooseBond/ChooseBond.jsx:119
 msgid "ROI"
 msgstr "ROI(수익률)"
 
-#: src/views/Stake/Stake.jsx:391
+#: src/views/Stake/Stake.jsx:409
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5일 기준 수익)"
 
@@ -365,7 +367,7 @@ msgstr "ROI (5일 기준 수익)"
 msgid "Read more about Fairness"
 msgstr "공정성에 대해 더 읽어보세요"
 
-#: src/views/Bond/BondPurchase.jsx:251
+#: src/views/Bond/BondPurchase.jsx:258
 msgid "Recipient"
 msgstr "수취인"
 
@@ -377,11 +379,11 @@ msgstr "수취인 주소"
 msgid "Redeem"
 msgstr "상환"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:225
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:230
 msgid "Risk Free Value of Treasury Assets"
 msgstr "금고 자산의 무위험 가치"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:321
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:326
 msgid "Runway Available"
 msgstr "가능한 런웨이"
 
@@ -397,7 +399,7 @@ msgstr "무언가 맞지 않나요? 아래 풀 투게더의 UI를 통해서 다�
 msgid "Stake"
 msgstr "스테이크"
 
-#: src/views/Stake/Stake.jsx:305
+#: src/views/Stake/Stake.jsx:322
 msgid "Stake OHM"
 msgstr "OHM 스테이크"
 
@@ -419,7 +421,7 @@ msgstr "공급량 (순환/총)"
 msgid "TVD"
 msgstr "TVD"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:153
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
 msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sOHM이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 OHM을 스테이킹 했을 경우 현재 얼만큼의 sOHM이 되었는지를 보여줍니다."
 
@@ -431,7 +433,7 @@ msgstr "이 상금 풀은 현재 예치할 수 없습니다."
 msgid "This Prize Pool is unable to accept withdrawals at this time."
 msgstr "이 상금 풀은 현재 출금할 수 없습니다."
 
-#: src/views/Bond/BondRedeem.jsx:102
+#: src/views/Bond/BondRedeem.jsx:104
 msgid "Time until fully vested"
 msgstr "완전한 베스팅 까지 걸리는 시간"
 
@@ -443,8 +445,8 @@ msgstr "총 예치"
 msgid "Total Sponsorship"
 msgstr "총 스폰서십"
 
-#: src/views/Stake/Stake.jsx:205
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:173
+#: src/views/Stake/Stake.jsx:207
+#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:178
 msgid "Total Value Deposited"
 msgstr "예치된 총 가치"
 
@@ -456,7 +458,7 @@ msgstr "만약 가격이 슬리피지% 보다 높게 변할 경우 트랜젝션�
 msgid "Treasury Balance"
 msgstr "금고 잔고"
 
-#: src/views/Stake/Stake.jsx:260
+#: src/views/Stake/Stake.jsx:262
 msgid "Unstake"
 msgstr "언스테이크"
 
@@ -464,11 +466,11 @@ msgstr "언스테이크"
 #~ msgid "Unstake LP Token"
 #~ msgstr "LP 토큰 언스테이크"
 
-#: src/components/TopBar/OhmMenu.jsx:155
+#: src/components/TopBar/OhmMenu.jsx:186
 msgid "Unstake Legacy LP Token"
 msgstr "지난 LP 토큰 언스테이크"
 
-#: src/views/Stake/Stake.jsx:333
+#: src/views/Stake/Stake.jsx:351
 msgid "Unstake OHM"
 msgstr "OHM 언스테이크"
 
@@ -476,8 +478,8 @@ msgstr "OHM 언스테이크"
 msgid "Unstaking sOHM"
 msgstr "sOHM 언스테이킹"
 
-#: src/views/Bond/BondPurchase.jsx:243
-#: src/views/Bond/BondRedeem.jsx:127
+#: src/views/Bond/BondPurchase.jsx:250
+#: src/views/Bond/BondRedeem.jsx:129
 msgid "Vesting Term"
 msgstr "베스팅 "
 
@@ -514,7 +516,7 @@ msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로
 msgid "Yield Source"
 msgstr "이자 출처"
 
-#: src/views/Bond/BondPurchase.jsx:207
+#: src/views/Bond/BondPurchase.jsx:214
 msgid "You Will Get"
 msgstr "당신이 얻게 될 양"
 
@@ -536,8 +538,8 @@ msgstr "풀 잔고 보다 더 많은 양을 출금할 수 없습니다."
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "현재 본드를 갖고 있습니다. 새로 본딩하면 베스팅 기간과 보상이 몰수됩니다. 보상을 청구하거나 새 지갑을 사용하길 권장합니다. 그래도 진행하시겠습니까?"
 
-#: src/views/Bond/BondPurchase.jsx:192
-#: src/views/Stake/Stake.jsx:355
+#: src/views/Bond/BondPurchase.jsx:199
+#: src/views/Stake/Stake.jsx:373
 msgid "Your Balance"
 msgstr "당신의 잔고"
 
@@ -545,7 +547,7 @@ msgstr "당신의 잔고"
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "당신의 풀 잔고(출금 가능한)"
 
-#: src/views/Stake/Stake.jsx:364
+#: src/views/Stake/Stake.jsx:382
 msgid "Your Staked Balance"
 msgstr "당신의 스테이크된 잔고"
 
@@ -574,12 +576,11 @@ msgid "day"
 msgstr "일"
 
 #: src/views/Bond/Bond.jsx:90
-#: src/views/Bond/BondPurchase.jsx:159
 #: src/views/ChooseBond/BondRow.jsx:124
 msgid "do_bond"
 msgstr "본딩 하세요"
 
-#: src/views/Stake/Stake.jsx:259
+#: src/views/Stake/Stake.jsx:261
 msgid "do_stake"
 msgstr "스테이크 하세요"
 
