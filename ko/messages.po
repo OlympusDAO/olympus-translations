@@ -13,6 +13,18 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/views/33Together/PoolInfo.jsx:67
+msgid "1 in {0}"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:64
+#~ msgid "1 in{0}"
+#~ msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:64
+#~ msgid "1 in {0}"
+#~ msgstr ""
+
 #: src/views/33Together/33Together.jsx:149
 msgid "3, 3 Together"
 msgstr "3, 3 투게더"
@@ -191,7 +203,7 @@ msgstr "연결 해제"
 msgid "Docs"
 msgstr "Docs"
 
-#: src/views/33Together/PoolInfo.jsx:121
+#: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
 msgstr "초기 퇴장 수수료"
 
@@ -203,7 +215,7 @@ msgstr "공정성을 위해 초기 출금은 {exitFee} 만큼의 수수료가 �
 msgid "Enter an amount"
 msgstr "수량을 입력하세요"
 
-#: src/views/33Together/PoolInfo.jsx:127
+#: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
 msgstr "수수료 없이 퇴장하려면 걸리는 시간"
 
@@ -325,7 +337,7 @@ msgstr "가치를 입력하세요!"
 msgid "Pool Award Balance is currently 0."
 msgstr "풀 어워드 잔고는 현재 0 입니다."
 
-#: src/views/33Together/PoolInfo.jsx:112
+#: src/views/33Together/PoolInfo.jsx:113
 msgid "Pool owner"
 msgstr "풀 소유"
 
@@ -391,7 +403,7 @@ msgstr "가능한 런웨이"
 msgid "Slippage"
 msgstr "슬리피지"
 
-#: src/views/33Together/PoolInfo.jsx:142
+#: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "무언가 맞지 않나요? 아래 풀 투게더의 UI를 통해서 다시 확인해보세요"
 
@@ -437,11 +449,11 @@ msgstr "이 상금 풀은 현재 출금할 수 없습니다."
 msgid "Time until fully vested"
 msgstr "완전한 베스팅 까지 걸리는 시간"
 
-#: src/views/33Together/PoolInfo.jsx:90
+#: src/views/33Together/PoolInfo.jsx:91
 msgid "Total Deposits"
 msgstr "총 예치"
 
-#: src/views/33Together/PoolInfo.jsx:98
+#: src/views/33Together/PoolInfo.jsx:99
 msgid "Total Sponsorship"
 msgstr "총 스폰서십"
 
@@ -488,7 +500,7 @@ msgstr "베스팅 "
 msgid "View Contract"
 msgstr "컨트랙트 보기"
 
-#: src/views/33Together/PoolInfo.jsx:84
+#: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
 msgstr "우승자 / 수상 기간"
 
@@ -512,7 +524,7 @@ msgstr "상금이 지급된 후 출금할 수 있습니다."
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로 줄어듭니다."
 
-#: src/views/33Together/PoolInfo.jsx:106
+#: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
 msgstr "이자 출처"
 
@@ -567,9 +579,9 @@ msgstr ""
 msgid "Your total awards"
 msgstr "당신의 총 어워드"
 
-#: src/views/33Together/PoolInfo.jsx:55
-#~ msgid "Your wallet balance"
-#~ msgstr "당신의 지갑 잔고"
+#: src/views/33Together/PoolInfo.jsx:73
+msgid "Your wallet balance"
+msgstr "당신의 지갑 잔고"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
@@ -592,11 +604,11 @@ msgstr "시간"
 msgid "min"
 msgstr "분"
 
-#: src/views/33Together/PoolInfo.jsx:157
+#: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
 msgstr "sOHM 풀 정보"
 
-#: src/views/33Together/PoolInfo.jsx:149
+#: src/views/33Together/PoolInfo.jsx:150
 msgid "sOHM Prize Pool"
 msgstr "sOHM 상금 풀"
 

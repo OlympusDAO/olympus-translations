@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/views/33Together/PoolInfo.jsx:67
+msgid "1 in {0}"
+msgstr "1 sur {0}"
+
 #: src/views/33Together/33Together.jsx:149
 msgid "3, 3 Together"
 msgstr "3, 3 Together"
@@ -66,7 +70,7 @@ msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Toget
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
 msgid "Backing per OHM"
-msgstr ""
+msgstr "Réserve par OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
@@ -103,7 +107,7 @@ msgstr "Changer le thème"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
-msgstr ""
+msgstr "Changer de langue"
 
 #: src/views/33Together/PoolDeposit.jsx:109
 #: src/views/33Together/PoolWithdraw.jsx:108
@@ -211,7 +215,7 @@ msgstr "Déconnexion"
 msgid "Docs"
 msgstr "Documentation"
 
-#: src/views/33Together/PoolInfo.jsx:121
+#: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
 msgstr "Frais de sortie prématurée"
 
@@ -223,7 +227,7 @@ msgstr "Un retrait prématurée provoquera des frais de s'élevant à {exitFee}.
 msgid "Enter an amount"
 msgstr "Entrez un montant"
 
-#: src/views/33Together/PoolInfo.jsx:127
+#: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
 msgstr "Temps d'érosion des frais de sortie"
 
@@ -345,7 +349,7 @@ msgstr "Merci d'entrer une valeur!"
 msgid "Pool Award Balance is currently 0."
 msgstr "Le montant de la cagnote est actuellement 0."
 
-#: src/views/33Together/PoolInfo.jsx:112
+#: src/views/33Together/PoolInfo.jsx:113
 msgid "Pool owner"
 msgstr "Propriétaire de la cagnote"
 
@@ -411,7 +415,7 @@ msgstr "Durée d'inflation soutenable"
 msgid "Slippage"
 msgstr "Glissement"
 
-#: src/views/33Together/PoolInfo.jsx:142
+#: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Quelque chose ne va pas ami? Vérifie sur le site Pool Together."
 
@@ -470,11 +474,11 @@ msgstr "Cette cagnote ne peut accepter de retraits en ce moment."
 msgid "Time until fully vested"
 msgstr "Durée avant disponibilité totale"
 
-#: src/views/33Together/PoolInfo.jsx:90
+#: src/views/33Together/PoolInfo.jsx:91
 msgid "Total Deposits"
 msgstr "Montant total des dépôts"
 
-#: src/views/33Together/PoolInfo.jsx:98
+#: src/views/33Together/PoolInfo.jsx:99
 msgid "Total Sponsorship"
 msgstr "Montant total des parrainages"
 
@@ -525,7 +529,7 @@ msgstr "Date de livraison"
 msgid "View Contract"
 msgstr "Voir le contrat"
 
-#: src/views/33Together/PoolInfo.jsx:84
+#: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
 msgstr "Gagnants / période de distribution"
 
@@ -549,7 +553,7 @@ msgstr "Les retraits peuvent être effectués après la distribution de la cagno
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Retirer {quantity} sOHM réduit vos chances de gagner à  1 sur {newOdds}"
 
-#: src/views/33Together/PoolInfo.jsx:106
+#: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
 msgstr "Source de profit"
 
@@ -608,9 +612,9 @@ msgstr "Vos dépôts"
 msgid "Your total awards"
 msgstr "Votre total de récompenses"
 
-#: src/views/33Together/PoolInfo.jsx:55
-#~ msgid "Your wallet balance"
-#~ msgstr "Vos avoirs en portefeuille"
+#: src/views/33Together/PoolInfo.jsx:73
+msgid "Your wallet balance"
+msgstr "Vos avoirs en portefeuille"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
@@ -633,11 +637,11 @@ msgstr "hrs"
 msgid "min"
 msgstr "mins"
 
-#: src/views/33Together/PoolInfo.jsx:157
+#: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
 msgstr "Détails de la cagnote sOHM"
 
-#: src/views/33Together/PoolInfo.jsx:149
+#: src/views/33Together/PoolInfo.jsx:150
 msgid "sOHM Prize Pool"
 msgstr "Taille de la cagnote sOHM"
 
