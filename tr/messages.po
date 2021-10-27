@@ -81,7 +81,7 @@ msgstr "Bono indirimleri"
 #: src/components/TopBar/OhmMenu.jsx:104
 #: src/components/TopBar/OhmMenu.jsx:117
 msgid "Buy on"
-msgstr ""
+msgstr "Buy on"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
@@ -89,7 +89,7 @@ msgstr "Temayı değiştir"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
-msgstr ""
+msgstr "Change locale"
 
 #: src/views/33Together/PoolDeposit.jsx:109
 #: src/views/33Together/PoolWithdraw.jsx:108
@@ -183,7 +183,7 @@ msgstr "Para ancak ödül dağıtıldıktan sonra yatırılabilir."
 #: src/components/TopBar/ConnectMenu.jsx:27
 #: src/components/TopBar/ConnectMenu.jsx:110
 msgid "Disconnect"
-msgstr ""
+msgstr "Bağlantıyı Kes"
 
 #: src/components/Sidebar/externalUrls.jsx:20
 msgid "Docs"
