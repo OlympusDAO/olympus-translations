@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: tr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
@@ -80,7 +86,20 @@ msgstr "Bono indirimleri"
 
 #: src/components/TopBar/OhmMenu.jsx:104
 #: src/components/TopBar/OhmMenu.jsx:117
-msgid "Buy on"
+#~ msgid "Buy on"
+#~ msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:104
+#~ msgid "Buy on Sushiswap"
+#~ msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:117
+#~ msgid "Buy on Uniswap"
+#~ msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:104
+#: src/components/TopBar/OhmMenu.jsx:117
+msgid "Buy on {0}"
 msgstr ""
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
@@ -139,6 +158,7 @@ msgstr "Yakında"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
+#: src/views/Stake/Stake.jsx:140
 msgid "Connect Wallet"
 msgstr "Cüzdanınızı bağlayın"
 

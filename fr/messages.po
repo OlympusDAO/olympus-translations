@@ -94,8 +94,8 @@ msgstr "Rabais sur les obligations"
 
 #: src/components/TopBar/OhmMenu.jsx:104
 #: src/components/TopBar/OhmMenu.jsx:117
-msgid "Buy on"
-msgstr "Acheter sur"
+msgid "Buy on {0}"
+msgstr "Acheter sur {0}"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
@@ -161,6 +161,7 @@ msgstr "Disponible prochainement"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
+#: src/views/Stake/Stake.jsx:140
 msgid "Connect Wallet"
 msgstr "Connecter le portefeuille"
 
