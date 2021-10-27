@@ -9,74 +9,74 @@ msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
-msgstr ""
+msgstr "{0}de 1"
 
 #: src/views/33Together/33Together.jsx:149
 msgid "3, 3 Together"
-msgstr ""
+msgstr "3, 3 Together"
 
 #: src/components/TopBar/OhmMenu.jsx:147
 msgid "ADD TOKEN TO WALLET"
-msgstr ""
+msgstr "Token'ları Cüzdanınıza Ekleyin"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
 #: src/views/Stake/Stake.jsx:192
 msgid "APY"
-msgstr ""
+msgstr "YFG"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:306
 msgid "APY over time"
-msgstr ""
+msgstr "Zaman içinde YFG"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "Amount"
-msgstr ""
+msgstr "Miktar"
 
 #: src/views/33Together/PoolDeposit.jsx:166
 #: src/views/Stake/Stake.jsx:334
 #: src/views/Stake/Stake.jsx:363
 msgid "Approve"
-msgstr ""
+msgstr "Onayla"
 
 #: src/views/Stake/ExternalStakePool.jsx:84
 msgid "Asset"
-msgstr ""
+msgstr "Varlık"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
-msgstr ""
+msgstr "Ödül miktarı 1. rebase'de büyüyecektir."
 
 #: src/views/33Together/PoolPrize.jsx:202
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr ""
+msgstr "Ödül süresi sona erdi, dağıtmaya başlamak için Pool Together'ın arayüzüne girebilirsiniz."
 
 #: src/views/33Together/PoolPrize.jsx:181
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr ""
+msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'ın arayüzüne girebilirsiniz."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
 msgid "Backing per OHM"
-msgstr ""
+msgstr "OHM başına ciro"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
 msgid "Balance"
-msgstr ""
+msgstr "Bakiye"
 
 #: src/components/Sidebar/NavContent.jsx:119
 #: src/views/ChooseBond/ChooseBond.jsx:69
 #: src/views/ChooseBond/ChooseBond.jsx:113
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
-msgstr ""
+msgstr "Bono"
 
 #: src/views/Bond/Bond.jsx:66
 msgid "Bond Price"
-msgstr ""
+msgstr "Bono fiyatı"
 
 #: src/components/Sidebar/NavContent.jsx:126
 msgid "Bond discounts"
-msgstr ""
+msgstr "Bono indirimleri"
 
 #: src/components/TopBar/OhmMenu.jsx:104
 #: src/components/TopBar/OhmMenu.jsx:117
@@ -85,7 +85,7 @@ msgstr ""
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
-msgstr ""
+msgstr "Temayı değiştir"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
@@ -94,91 +94,91 @@ msgstr ""
 #: src/views/33Together/PoolDeposit.jsx:109
 #: src/views/33Together/PoolWithdraw.jsx:108
 msgid "Check back soon!"
-msgstr ""
+msgstr "Daha sonra yeniden kontrol edin."
 
 #: src/views/Bond/AdvancedSettings.jsx:63
 msgid "Choose recipient address. By default, this is your currently connected address"
-msgstr ""
+msgstr "Alıcı adresi seçiniz. Varsayılan olarak, bu şu an bağlı olan adresinizdir."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:134
 msgid "Circulating Supply (total)"
-msgstr ""
+msgstr "Dolaşımdaki Arz (Toplam)"
 
 #: src/views/Bond/BondRedeem.jsx:65
 #: src/views/ChooseBond/ClaimRow.jsx:131
 msgid "Claim"
-msgstr ""
+msgstr "Çek"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:118
 msgid "Claim all"
-msgstr ""
+msgstr "Hepsini çek"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:135
 msgid "Claim all and Stake"
-msgstr ""
+msgstr "Hepsini çek ve yatır"
 
 #: src/views/Bond/BondRedeem.jsx:80
 msgid "Claim and Autostake"
-msgstr ""
+msgstr "Çek ve Otomatik yatır"
 
 #: src/views/ChooseBond/ClaimRow.jsx:139
 msgid "Claim and Stake"
-msgstr ""
+msgstr "Çek ve yatır"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:78
 msgid "Claimable"
-msgstr ""
+msgstr "Çekilebilir"
 
 #: src/views/Bond/BondRedeem.jsx:96
 msgid "Claimable Rewards"
-msgstr ""
+msgstr "Mevcut Çekilebilir Bakiye"
 
 #: src/views/Stake/ExternalStakePool.jsx:164
 msgid "Coming Soon"
-msgstr ""
+msgstr "Yakında"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
 msgid "Connect Wallet"
-msgstr ""
+msgstr "Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:245
 msgid "Connect your wallet to stake OHM"
-msgstr ""
+msgstr "OHM yatırmak için Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:227
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:156
 msgid "Current Index"
-msgstr ""
+msgstr "Güncel Katsayı"
 
 #: src/views/33Together/PoolPrize.jsx:121
 msgid "Current Prize"
-msgstr ""
+msgstr "Mevcut Ödül"
 
 #: src/components/Sidebar/NavContent.jsx:74
 msgid "Dashboard"
-msgstr ""
+msgstr "Gösterge Panosu"
 
 #: src/views/Bond/BondPurchase.jsx:241
 #: src/views/Bond/BondRedeem.jsx:120
 msgid "Debt Ratio"
-msgstr ""
+msgstr "Borç oranı"
 
 #: src/views/33Together/33Together.jsx:161
 msgid "Deposit"
-msgstr ""
+msgstr "Yatır"
 
 #: src/views/33Together/PoolDeposit.jsx:156
 msgid "Deposit sOHM"
-msgstr ""
+msgstr "sOHM Yatır"
 
 #: src/views/33Together/PoolDeposit.jsx:173
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "{quantity} sOHM yatırarak kazanma şansınız {newOdds}de 1 olacak."
 
 #: src/views/33Together/PoolDeposit.jsx:106
 msgid "Deposits can be made once the prize has been awarded."
-msgstr ""
+msgstr "Para ancak ödül dağıtıldıktan sonra yatırılabilir."
 
 #: src/components/TopBar/ConnectMenu.jsx:27
 #: src/components/TopBar/ConnectMenu.jsx:110
@@ -187,121 +187,121 @@ msgstr ""
 
 #: src/components/Sidebar/externalUrls.jsx:20
 msgid "Docs"
-msgstr ""
+msgstr "Belgeler"
 
 #: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
-msgstr ""
+msgstr "Erken çekiş ücreti"
 
 #: src/views/33Together/PoolWithdraw.jsx:171
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr ""
+msgstr "Paranızı erken çektiğiniz takdirde {exitFee}'lik bir ücret kesilecektir."
 
 #: src/views/33Together/PoolDeposit.jsx:127
 msgid "Enter an amount"
-msgstr ""
+msgstr "Bir miktar giriniz."
 
 #: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
-msgstr ""
+msgstr "Erken çekiş ücreti süresi"
 
 #: src/views/Stake/ExternalStakePool.jsx:74
 msgid "Farm Pool"
-msgstr ""
+msgstr "Farm Havuzu"
 
 #: src/components/Sidebar/externalUrls.jsx:25
 msgid "Feedback"
-msgstr ""
+msgstr "Geri bildirim"
 
 #: src/components/Sidebar/externalUrls.jsx:10
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:84
 msgid "Fully Vested"
-msgstr ""
+msgstr "Süresi tamamlanmış"
 
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Governance"
-msgstr ""
+msgstr "Yönetim"
 
 #: src/components/TopBar/ConnectMenu.jsx:32
 msgid "In progress"
-msgstr ""
+msgstr "İşleniyor"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:29
 #: src/components/RebaseTimer/RebaseTimer.jsx:60
 msgid "Less than a minute"
-msgstr ""
+msgstr "Bir dakikadan az süre"
 
 #: src/views/Dashboard/Dashboard.jsx:44
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:99
 msgid "Market Cap"
-msgstr ""
+msgstr "Piyasa Değeri"
 
 #: src/views/Bond/Bond.jsx:74
 msgid "Market Price"
-msgstr ""
+msgstr "Piyasa Fiyatı"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:206
 msgid "Market Value of Treasury Assets"
-msgstr ""
+msgstr "Hazine Varlıklarının Piyasa Değeri"
 
 #: src/views/33Together/PoolDeposit.jsx:140
 #: src/views/33Together/PoolWithdraw.jsx:139
 #: src/views/Bond/BondPurchase.jsx:160
 msgid "Max"
-msgstr ""
+msgstr "Maks."
 
 #: src/views/Bond/BondPurchase.jsx:223
 msgid "Max You Can Buy"
-msgstr ""
+msgstr "Satın alabileceğiniz maksimum miktar"
 
 #: src/views/Stake/Stake.jsx:179
 msgid "Migrate sOHM!"
-msgstr ""
+msgstr "sOHM'unuzu taşıyın!"
 
 #: src/views/Stake/Stake.jsx:391
 msgid "Next Reward Amount"
-msgstr ""
+msgstr "Sıradaki Faiz Miktarı"
 
 #: src/views/Stake/Stake.jsx:400
 msgid "Next Reward Yield"
-msgstr ""
+msgstr "Sıradaki Faiz Yüzdesi"
 
 #: src/views/33Together/PoolPrize.jsx:131
 msgid "Next award"
-msgstr ""
+msgstr "Sıradaki Çekiliş"
 
 #: src/views/ChooseBond/ChooseBond.jsx:97
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:109
 msgid "OHM Price"
-msgstr ""
+msgstr "OHM Fiyatı"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:286
 msgid "OHM Staked"
-msgstr ""
+msgstr "Yatırılan OHM Yüzdesi"
 
 #: src/views/404/NotFound.jsx:14
 msgid "Page not found"
-msgstr ""
+msgstr "Sayfa bulunamadı."
 
 #: src/views/ChooseBond/ClaimBonds.jsx:81
 msgid "Pending"
-msgstr ""
+msgstr "Kalan"
 
 #: src/views/Bond/BondRedeem.jsx:88
 msgid "Pending Rewards"
-msgstr ""
+msgstr "Kalan miktar"
 
 #: src/slices/PendingTxnsSlice.ts:37
 #: src/slices/PendingTxnsSlice.ts:41
 msgid "Pending..."
-msgstr ""
+msgstr "İşleniyor..."
 
 #: src/views/Bond/BondPurchase.jsx:50
 msgid "Please enter a valid value!"
-msgstr ""
+msgstr "Lütfen geçerli bir değer giriniz."
 
 #: src/views/33Together/PoolDeposit.jsx:64
 #: src/views/33Together/PoolWithdraw.jsx:59
@@ -309,287 +309,287 @@ msgstr ""
 #: src/views/Stake/Stake.jsx:109
 #: src/views/Stake/Stake.jsx:109
 msgid "Please enter a value!"
-msgstr ""
+msgstr "Lütfen bir miktar giriniz."
 
 #: src/views/33Together/PoolPrize.jsx:111
 msgid "Pool Award Balance is currently 0."
-msgstr ""
+msgstr "Havuzdaki Ödül miktarı şu an 0."
 
 #: src/views/33Together/PoolInfo.jsx:113
 msgid "Pool owner"
-msgstr ""
+msgstr "Havuz Sahibi"
 
 #: src/views/ChooseBond/BondRow.jsx:37
 #: src/views/ChooseBond/ChooseBond.jsx:116
 #: src/views/Dashboard/Dashboard.jsx:31
 msgid "Price"
-msgstr ""
+msgstr "Fiyat"
 
 #: src/views/33Together/PoolInfo.jsx:40
 msgid "Prize Pool Info"
-msgstr ""
+msgstr "Ödül Havuzu Bilgileri"
 
 #: src/views/33Together/PoolPrize.jsx:127
 msgid "Prize is being awarded"
-msgstr ""
+msgstr "Ödül dağıtılıyor"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
 msgid "Protocol Owned Liquidity OHM-DAI"
-msgstr ""
+msgstr "Protokole Ait OHM-DAI Likiditesi"
 
 #: src/views/ChooseBond/BondRow.jsx:53
 #: src/views/ChooseBond/ChooseBond.jsx:122
 msgid "Purchased"
-msgstr ""
+msgstr "Satın alınan Miktar"
 
 #: src/views/Bond/BondPurchase.jsx:232
 #: src/views/Bond/BondRedeem.jsx:111
 #: src/views/ChooseBond/BondRow.jsx:46
 #: src/views/ChooseBond/ChooseBond.jsx:119
 msgid "ROI"
-msgstr ""
+msgstr "Getiri"
 
 #: src/views/Stake/Stake.jsx:409
 msgid "ROI (5-Day Rate)"
-msgstr ""
+msgstr "5 Günlük Getiri Oranı"
 
 #: src/views/33Together/PoolWithdraw.jsx:179
 msgid "Read more about Fairness"
-msgstr ""
+msgstr "Eşitlik hakkında daha fazla bilgi edinin"
 
 #: src/views/Bond/BondPurchase.jsx:258
 msgid "Recipient"
-msgstr ""
+msgstr "Alıcı"
 
 #: src/views/Bond/AdvancedSettings.jsx:57
 msgid "Recipient Address"
-msgstr ""
+msgstr "Alıcı adresi"
 
 #: src/views/Bond/Bond.jsx:91
 msgid "Redeem"
-msgstr ""
+msgstr "Çek"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:230
 msgid "Risk Free Value of Treasury Assets"
-msgstr ""
+msgstr "Hazine Varlıkarının Risksiz Değeri"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:326
 msgid "Runway Available"
-msgstr ""
+msgstr "Mevcut Runway"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
-msgstr ""
+msgstr "Slipaj"
 
 #: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
-msgstr ""
+msgstr "Detaylar için Pool Together arayüzüne gözatabilirsiniz."
 
 #: src/components/Sidebar/NavContent.jsx:89
 msgid "Stake"
-msgstr ""
+msgstr "Yatır"
 
 #: src/views/Stake/Stake.jsx:322
 msgid "Stake OHM"
-msgstr ""
+msgstr "OHM yatır"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
 msgid "Stake in Crucible"
-msgstr ""
+msgstr "Crucible'da yatır"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
-msgstr ""
+msgstr "OHM yatırılıyor"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
-msgstr ""
+msgstr "Arz (Dolaşımdaki/Toplam)"
 
 #: src/views/Stake/ExternalStakePool.jsx:90
 #: src/views/Stake/ExternalStakePool.jsx:172
 msgid "TVD"
-msgstr ""
+msgstr "Toplam yatırılan Miktar"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-msgstr ""
+msgstr "Güncel Katsayı yatırımın başlangıcından itibaren ne kadar sOHM kazanıldığını gösterir."
 
 #: src/views/33Together/PoolDeposit.jsx:103
 msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr ""
+msgstr "Ödül havuzuna şu an para yatırılamıyor."
 
 #: src/views/33Together/PoolWithdraw.jsx:102
 msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr ""
+msgstr "Ödül havuzundan şu an para çekilemiyor."
 
 #: src/views/Bond/BondRedeem.jsx:104
 msgid "Time until fully vested"
-msgstr ""
+msgstr "Tamamlanmasına kalan süre"
 
 #: src/views/33Together/PoolInfo.jsx:91
 msgid "Total Deposits"
-msgstr ""
+msgstr "Toplam yatırılan miktar"
 
 #: src/views/33Together/PoolInfo.jsx:99
 msgid "Total Sponsorship"
-msgstr ""
+msgstr "Toplam Sponsor Miktarı"
 
 #: src/views/Stake/Stake.jsx:207
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:178
 msgid "Total Value Deposited"
-msgstr ""
+msgstr "Yatırılmış Toplam Değer"
 
 #: src/views/Bond/AdvancedSettings.jsx:51
 msgid "Transaction may revert if price changes by more than slippage %"
-msgstr ""
+msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
 
 #: src/views/ChooseBond/ChooseBond.jsx:77
 msgid "Treasury Balance"
-msgstr ""
+msgstr "Hazine Bakiyesi"
 
 #: src/views/Stake/Stake.jsx:262
 msgid "Unstake"
-msgstr ""
+msgstr "Çek"
 
 #: src/components/TopBar/OhmMenu.jsx:186
 msgid "Unstake Legacy LP Token"
-msgstr ""
+msgstr "Eski LP Token'larınızı çekmek"
 
 #: src/views/Stake/Stake.jsx:351
 msgid "Unstake OHM"
-msgstr ""
+msgstr "OHM çek"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Unstaking sOHM"
-msgstr ""
+msgstr "sOHM çekiliyor"
 
 #: src/views/Bond/BondPurchase.jsx:250
 #: src/views/Bond/BondRedeem.jsx:129
 msgid "Vesting Term"
-msgstr ""
+msgstr "Tamamlanma Süresi"
 
 #: src/views/ChooseBond/BondRow.jsx:26
 #: src/views/ChooseBond/BondRow.jsx:92
 msgid "View Contract"
-msgstr ""
+msgstr "Sözleşmeyi görüntüle"
 
 #: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
-msgstr ""
+msgstr "Kazanan kullanıcı sayısı"
 
 #: src/views/33Together/33Together.jsx:162
 msgid "Withdraw"
-msgstr ""
+msgstr "Çek"
 
 #: src/views/33Together/PoolWithdraw.jsx:153
 msgid "Withdraw Early & pay"
-msgstr ""
+msgstr "Erken çek ve ücret öde"
 
 #: src/views/33Together/PoolWithdraw.jsx:154
 msgid "Withdraw sOHM"
-msgstr ""
+msgstr "sOHM çek"
 
 #: src/views/33Together/PoolWithdraw.jsx:105
 msgid "Withdrawals can be made once the prize has been awarded."
-msgstr ""
+msgstr "Ödül dağıtıldıktan sonra para çekilebilir."
 
 #: src/views/33Together/PoolWithdraw.jsx:161
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "{quantity} sOHM çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
 
 #: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
-msgstr ""
+msgstr "Getiri Kaynağı"
 
 #: src/views/Bond/BondPurchase.jsx:214
 msgid "You Will Get"
-msgstr ""
+msgstr "Alacağınız Miktar"
 
 #: src/views/Stake/Stake.jsx:115
 #: src/views/Stake/Stake.jsx:115
 msgid "You cannot stake more than your OHM balance."
-msgstr ""
+msgstr "OHM bakiyenizden daha fazla olan bir değeri yatıramazsınız."
 
 #: src/views/Stake/Stake.jsx:119
 #: src/views/Stake/Stake.jsx:119
 msgid "You cannot unstake more than your sOHM balance."
-msgstr ""
+msgstr "sOHM bakiyenizden daha fazla olan bir değeri çekemezsiniz."
 
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
-msgstr ""
+msgstr "Havuz bakiyenizden daha büyük bir değeri çekemezsiniz."
 
 #: src/views/Bond/BondPurchase.jsx:53
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
-msgstr ""
+msgstr "Mevcut bir Bononuz bulunuyor. Teker Bono satın almak mevcut bononuzun süresini sıfırlayacak ve ödüllerinizden caymış olacaksınız. İlk önce ödüllerinizi çekmenizi veya yeni bir cüzdan kullanmanızı öneririz. Yine de devam etmek istiyor musunuz?"
 
 #: src/views/Bond/BondPurchase.jsx:199
 #: src/views/Stake/Stake.jsx:373
 msgid "Your Balance"
-msgstr ""
+msgstr "Mevcut Bakiyeniz"
 
 #: src/views/33Together/PoolWithdraw.jsx:189
 msgid "Your Pooled Balance (withdrawable)"
-msgstr ""
+msgstr "Havuza Yatırılmış Çekilebilir bakiyeniz"
 
 #: src/views/Stake/Stake.jsx:382
 msgid "Your Staked Balance"
-msgstr ""
+msgstr "Yatırılmış Bakiyeniz"
 
 #: src/views/33Together/PoolDeposit.jsx:184
 msgid "Your Staked Balance (Depositable)"
-msgstr ""
+msgstr "Kullanılaiblir Yatırılmış bakiyeniz"
 
 #: src/views/33Together/PoolInfo.jsx:61
 msgid "Your odds"
-msgstr ""
+msgstr "Kazanma şansınız"
 
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
-msgstr ""
+msgstr "Havuza yatırılmış bakiyeniz"
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
-msgstr ""
+msgstr "Toplam kazandığınız ödül"
 
 #: src/views/33Together/PoolInfo.jsx:73
 msgid "Your wallet balance"
-msgstr ""
+msgstr "Cüzdan bakiyeniz"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
-msgstr ""
+msgstr "gün"
 
 #: src/views/Bond/Bond.jsx:90
 #: src/views/ChooseBond/BondRow.jsx:124
 msgid "do_bond"
-msgstr ""
+msgstr "do_bond"
 
 #: src/views/Stake/Stake.jsx:261
 msgid "do_stake"
-msgstr ""
+msgstr "do_stake"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
-msgstr ""
+msgstr "saat"
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
-msgstr ""
+msgstr "dk."
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
-msgstr ""
+msgstr "sOHM Havuzu Detayları"
 
 #: src/views/33Together/PoolInfo.jsx:150
 msgid "sOHM Prize Pool"
-msgstr ""
+msgstr "sOHM Ödül Havuzu"
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"
-msgstr ""
+msgstr "sn."
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:73
 msgid "to next rebase"
-msgstr ""
+msgstr "içerisinde sonraki faiz"
