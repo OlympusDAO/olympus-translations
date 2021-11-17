@@ -43,8 +43,8 @@ msgid "Amount"
 msgstr "Quantité"
 
 #: src/views/33Together/PoolDeposit.jsx:172
-#: src/views/Stake/Stake.jsx:350
-#: src/views/Stake/Stake.jsx:379
+#: src/views/Stake/Stake.jsx:356
+#: src/views/Stake/Stake.jsx:385
 msgid "Approve"
 msgstr "Approuver"
 
@@ -247,11 +247,11 @@ msgstr "Fermes"
 msgid "First time bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:285
+#: src/views/Stake/Stake.jsx:291
 msgid "First time staking"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:292
+#: src/views/Stake/Stake.jsx:298
 msgid "First time unstaking"
 msgstr ""
 
@@ -302,11 +302,11 @@ msgstr "Maximum que vous pouvez acheter"
 msgid "Migrate sOHM!"
 msgstr "Migrez vos sOHM"
 
-#: src/views/Stake/Stake.jsx:436
+#: src/views/Stake/Stake.jsx:442
 msgid "Next Reward Amount"
 msgstr "Montant de la prochaine récompense"
 
-#: src/views/Stake/Stake.jsx:445
+#: src/views/Stake/Stake.jsx:451
 msgid "Next Reward Yield"
 msgstr "Pourcentage de gain de la prochaine récompense"
 
@@ -348,8 +348,8 @@ msgid "Pending..."
 msgstr "En attente..."
 
 #: src/views/Bond/BondPurchase.jsx:147
-#: src/views/Stake/Stake.jsx:287
-#: src/views/Stake/Stake.jsx:294
+#: src/views/Stake/Stake.jsx:293
+#: src/views/Stake/Stake.jsx:300
 msgid "Please approve Olympus Dao to use your"
 msgstr ""
 
@@ -403,7 +403,7 @@ msgstr "Acheté"
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.jsx:454
+#: src/views/Stake/Stake.jsx:460
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (Sur 5 jours)"
 
@@ -419,7 +419,7 @@ msgstr "Récipiendaire"
 msgid "Recipient Address"
 msgstr "Adresse de retrait"
 
-#: src/views/Bond/Bond.jsx:91
+#: src/views/Bond/Bond.jsx:98
 msgid "Redeem"
 msgstr "Retirer"
 
@@ -431,7 +431,7 @@ msgstr "Retirer"
 #~ msgid "Runway Available"
 #~ msgstr "Durée d'inflation soutenable"
 
-#: src/views/Stake/Stake.jsx:407
+#: src/views/Stake/Stake.jsx:413
 msgid "Single Staking"
 msgstr ""
 
@@ -453,7 +453,7 @@ msgstr "Quelque chose ne va pas ami? Vérifie sur le site Pool Together."
 msgid "Stake"
 msgstr "Dépôts (Staking)"
 
-#: src/views/Stake/Stake.jsx:338
+#: src/views/Stake/Stake.jsx:344
 msgid "Stake OHM"
 msgstr "Déposer des OHM"
 
@@ -467,11 +467,11 @@ msgstr "Déposer dans Crucible"
 #~ msgid "Stake on Crucible"
 #~ msgstr "Déposer sur Crucible"
 
-#: src/views/Stake/Stake.jsx:398
+#: src/views/Stake/Stake.jsx:404
 msgid "Staked Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:416
+#: src/views/Stake/Stake.jsx:422
 msgid "Staked Balance in Fuse"
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr "La transaction peut-être annulée si un changement de prix supérieure 
 msgid "Treasury Balance"
 msgstr "Solde de Trésorerie"
 
-#: src/views/Stake/Stake.jsx:276
+#: src/views/Stake/Stake.jsx:282
 msgid "Unstake"
 msgstr "Retirer"
 
@@ -548,11 +548,11 @@ msgstr "Retirer"
 msgid "Unstake Legacy LP Token"
 msgstr "Retirer ses Token LP"
 
-#: src/views/Stake/Stake.jsx:367
+#: src/views/Stake/Stake.jsx:373
 msgid "Unstake OHM"
 msgstr "Retirer vos OHM"
 
-#: src/views/Stake/Stake.jsx:389
+#: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"
 msgstr ""
 
@@ -598,7 +598,7 @@ msgstr "Les retraits peuvent être effectués après la distribution de la cagno
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Retirer {quantity} sOHM réduit vos chances de gagner à  1 sur {newOdds}"
 
-#: src/views/Stake/Stake.jsx:425
+#: src/views/Stake/Stake.jsx:431
 msgid "Wrapped Balance"
 msgstr ""
 
@@ -676,12 +676,14 @@ msgstr "Vos avoirs en portefeuille"
 msgid "day"
 msgstr "jours"
 
-#: src/views/Bond/Bond.jsx:90
+#. The action of bonding (verb)
+#: src/views/Bond/Bond.jsx:92
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
 msgstr "Acheter"
 
-#: src/views/Stake/Stake.jsx:275
+#. The action of staking (verb)
+#: src/views/Stake/Stake.jsx:276
 msgid "do_stake"
 msgstr "Déposer"
 
@@ -689,11 +691,11 @@ msgstr "Déposer"
 msgid "for bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:288
+#: src/views/Stake/Stake.jsx:294
 msgid "for staking"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:295
+#: src/views/Stake/Stake.jsx:301
 msgid "for unstaking"
 msgstr ""
 

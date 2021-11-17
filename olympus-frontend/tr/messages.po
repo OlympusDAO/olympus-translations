@@ -39,8 +39,8 @@ msgid "Amount"
 msgstr "Miktar"
 
 #: src/views/33Together/PoolDeposit.jsx:172
-#: src/views/Stake/Stake.jsx:350
-#: src/views/Stake/Stake.jsx:379
+#: src/views/Stake/Stake.jsx:356
+#: src/views/Stake/Stake.jsx:385
 msgid "Approve"
 msgstr "Onayla"
 
@@ -244,11 +244,11 @@ msgstr "Farm Havuzu"
 msgid "First time bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:285
+#: src/views/Stake/Stake.jsx:291
 msgid "First time staking"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:292
+#: src/views/Stake/Stake.jsx:298
 msgid "First time unstaking"
 msgstr ""
 
@@ -299,11 +299,11 @@ msgstr "Satın alabileceğiniz maksimum miktar"
 msgid "Migrate sOHM!"
 msgstr "sOHM'unuzu taşıyın!"
 
-#: src/views/Stake/Stake.jsx:436
+#: src/views/Stake/Stake.jsx:442
 msgid "Next Reward Amount"
 msgstr "Sıradaki Faiz Miktarı"
 
-#: src/views/Stake/Stake.jsx:445
+#: src/views/Stake/Stake.jsx:451
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
 
@@ -337,8 +337,8 @@ msgid "Pending..."
 msgstr "İşleniyor..."
 
 #: src/views/Bond/BondPurchase.jsx:147
-#: src/views/Stake/Stake.jsx:287
-#: src/views/Stake/Stake.jsx:294
+#: src/views/Stake/Stake.jsx:293
+#: src/views/Stake/Stake.jsx:300
 msgid "Please approve Olympus Dao to use your"
 msgstr ""
 
@@ -392,7 +392,7 @@ msgstr "Satın alınan Miktar"
 msgid "ROI"
 msgstr "Getiri"
 
-#: src/views/Stake/Stake.jsx:454
+#: src/views/Stake/Stake.jsx:460
 msgid "ROI (5-Day Rate)"
 msgstr "5 Günlük Getiri Oranı"
 
@@ -408,7 +408,7 @@ msgstr "Alıcı"
 msgid "Recipient Address"
 msgstr "Alıcı adresi"
 
-#: src/views/Bond/Bond.jsx:91
+#: src/views/Bond/Bond.jsx:98
 msgid "Redeem"
 msgstr "Çek"
 
@@ -420,7 +420,7 @@ msgstr "Çek"
 #~ msgid "Runway Available"
 #~ msgstr "Mevcut Runway"
 
-#: src/views/Stake/Stake.jsx:407
+#: src/views/Stake/Stake.jsx:413
 msgid "Single Staking"
 msgstr ""
 
@@ -442,7 +442,7 @@ msgstr "Detaylar için Pool Together arayüzüne gözatabilirsiniz."
 msgid "Stake"
 msgstr "Yatır"
 
-#: src/views/Stake/Stake.jsx:338
+#: src/views/Stake/Stake.jsx:344
 msgid "Stake OHM"
 msgstr "OHM yatır"
 
@@ -451,11 +451,11 @@ msgstr "OHM yatır"
 msgid "Stake in Crucible"
 msgstr "Crucible'da yatır"
 
-#: src/views/Stake/Stake.jsx:398
+#: src/views/Stake/Stake.jsx:404
 msgid "Staked Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:416
+#: src/views/Stake/Stake.jsx:422
 msgid "Staked Balance in Fuse"
 msgstr ""
 
@@ -508,7 +508,7 @@ msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
 msgid "Treasury Balance"
 msgstr "Hazine Bakiyesi"
 
-#: src/views/Stake/Stake.jsx:276
+#: src/views/Stake/Stake.jsx:282
 msgid "Unstake"
 msgstr "Çek"
 
@@ -516,11 +516,11 @@ msgstr "Çek"
 msgid "Unstake Legacy LP Token"
 msgstr "Eski LP Token'larınızı çekmek"
 
-#: src/views/Stake/Stake.jsx:367
+#: src/views/Stake/Stake.jsx:373
 msgid "Unstake OHM"
 msgstr "OHM çek"
 
-#: src/views/Stake/Stake.jsx:389
+#: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr "Ödül dağıtıldıktan sonra para çekilebilir."
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
 
-#: src/views/Stake/Stake.jsx:425
+#: src/views/Stake/Stake.jsx:431
 msgid "Wrapped Balance"
 msgstr ""
 
@@ -640,12 +640,14 @@ msgstr "Cüzdan bakiyeniz"
 msgid "day"
 msgstr "gün"
 
-#: src/views/Bond/Bond.jsx:90
+#. The action of bonding (verb)
+#: src/views/Bond/Bond.jsx:92
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:275
+#. The action of staking (verb)
+#: src/views/Stake/Stake.jsx:276
 msgid "do_stake"
 msgstr ""
 
@@ -653,11 +655,11 @@ msgstr ""
 msgid "for bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:288
+#: src/views/Stake/Stake.jsx:294
 msgid "for staking"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:295
+#: src/views/Stake/Stake.jsx:301
 msgid "for unstaking"
 msgstr ""
 
