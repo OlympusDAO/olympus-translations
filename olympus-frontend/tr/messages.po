@@ -584,11 +584,11 @@ msgstr "gün"
 #: src/views/Bond/Bond.jsx:90
 #: src/views/ChooseBond/BondRow.jsx:124
 msgid "do_bond"
-msgstr "do_bond"
+msgstr ""
 
 #: src/views/Stake/Stake.jsx:261
 msgid "do_stake"
-msgstr "do_stake"
+msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
