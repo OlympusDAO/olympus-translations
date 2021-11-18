@@ -15,15 +15,15 @@ msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
-msgstr ""
+msgstr "{0} 분의 1"
 
 #: src/views/33Together/PoolInfo.jsx:64
 #~ msgid "1 in{0}"
-#~ msgstr ""
+#~ msgstr "{0} 분의 1"
 
 #: src/views/33Together/PoolInfo.jsx:64
 #~ msgid "1 in {0}"
-#~ msgstr ""
+#~ msgstr "{0} 분의 1"
 
 #: src/views/33Together/33Together.jsx:150
 msgid "3, 3 Together"
@@ -94,7 +94,7 @@ msgstr "본드 할인"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
-msgstr ""
+msgstr "본드 {0}"
 
 #: src/components/TopBar/OhmMenu.jsx:104
 #: src/components/TopBar/OhmMenu.jsx:117
@@ -103,16 +103,16 @@ msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:104
 #~ msgid "Buy on Sushiswap"
-#~ msgstr ""
+#~ msgstr "스시스왑에서 구입"
 
 #: src/components/TopBar/OhmMenu.jsx:117
 #~ msgid "Buy on Uniswap"
-#~ msgstr ""
+#~ msgstr "유니스왑에서 구입"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
 msgid "Buy on {0}"
-msgstr ""
+msgstr "{0} 에서 구입"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
@@ -120,7 +120,7 @@ msgstr "테마 변경"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
-msgstr ""
+msgstr "로컬 변경"
 
 #: src/views/33Together/PoolDeposit.jsx:115
 #: src/views/33Together/PoolWithdraw.jsx:108
@@ -250,15 +250,15 @@ msgstr "파밍 풀"
 
 #: src/views/Bond/BondPurchase.jsx:146
 msgid "First time bonding"
-msgstr ""
+msgstr "첫 본딩"
 
 #: src/views/Stake/Stake.jsx:291
 msgid "First time staking"
-msgstr ""
+msgstr "첫 스테이킹"
 
 #: src/views/Stake/Stake.jsx:298
 msgid "First time unstaking"
-msgstr ""
+msgstr "첫 언스테이킹"
 
 #: src/components/Sidebar/externalUrls.jsx:10
 msgid "Forum"
@@ -356,7 +356,7 @@ msgstr "계류중..."
 #: src/views/Stake/Stake.jsx:293
 #: src/views/Stake/Stake.jsx:300
 msgid "Please approve Olympus Dao to use your"
-msgstr ""
+msgstr "OlympusDAO를 승인해 주세요"
 
 #: src/views/Bond/BondPurchase.jsx:52
 msgid "Please enter a valid value!"
@@ -394,7 +394,7 @@ msgstr "상금이 지급중 입니다."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
 #~ msgid "Protocol Owned Liquidity OHM-DAI"
-#~ msgstr ""
+#~ msgstr "프로토콜 소유 유동성 OHM-DAI"
 
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.jsx:126
@@ -438,7 +438,7 @@ msgstr "상환"
 
 #: src/views/Stake/Stake.jsx:413
 msgid "Single Staking"
-msgstr ""
+msgstr "단일 스테이킹"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
@@ -448,7 +448,7 @@ msgstr "슬리피지"
 #: src/views/ChooseBond/BondRow.jsx:73
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "Sold Out"
-msgstr ""
+msgstr "매진"
 
 #: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
@@ -465,15 +465,15 @@ msgstr "OHM 스테이크"
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
 msgid "Stake in Crucible"
-msgstr "Cruicible에 스테이크"
+msgstr "Crucible에 스테이크"
 
 #: src/views/Stake/Stake.jsx:404
 msgid "Staked Balance"
-msgstr ""
+msgstr "스테이크 된 잔고"
 
 #: src/views/Stake/Stake.jsx:422
 msgid "Staked Balance in Fuse"
-msgstr ""
+msgstr "퓨즈에 스테이크 된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
@@ -542,7 +542,7 @@ msgstr "OHM 언스테이크"
 
 #: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"
-msgstr ""
+msgstr "언스테이크 된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Unstaking sOHM"
@@ -550,12 +550,12 @@ msgstr "sOHM 언스테이킹"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Unwrapping sOHM"
-msgstr ""
+msgstr "sOHM 래핑하기"
 
 #: src/views/Bond/BondPurchase.jsx:268
 #: src/views/Bond/BondRedeem.jsx:137
 msgid "Vesting Term"
-msgstr "베스팅 "
+msgstr "베스팅 기간"
 
 #: src/views/ChooseBond/BondRow.jsx:28
 #: src/views/ChooseBond/BondRow.jsx:97
@@ -588,11 +588,11 @@ msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로
 
 #: src/views/Stake/Stake.jsx:431
 msgid "Wrapped Balance"
-msgstr ""
+msgstr "래핑된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Wrapping OHM"
-msgstr ""
+msgstr "OHM 래핑하기"
 
 #: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
@@ -604,7 +604,7 @@ msgstr "당신이 얻게 될 양"
 
 #: src/views/33Together/PoolWithdraw.jsx:93
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr ""
+msgstr "예치된 잔고를 언제든 출금할 수 있습니다. 잔고를 출금하면, 이후 상금에 대한 우승 기회가 사라집니다."
 
 #: src/views/Stake/Stake.jsx:119
 #: src/views/Stake/Stake.jsx:119
@@ -646,7 +646,7 @@ msgstr "당신의 배당율"
 
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
-msgstr ""
+msgstr "당신의 풀 예치"
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
@@ -673,15 +673,15 @@ msgstr "스테이크 하세요"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "for bonding"
-msgstr ""
+msgstr "본딩을 위해"
 
 #: src/views/Stake/Stake.jsx:294
 msgid "for staking"
-msgstr ""
+msgstr "스테이킹을 위해"
 
 #: src/views/Stake/Stake.jsx:301
 msgid "for unstaking"
-msgstr ""
+msgstr "언스테이킹을 위해"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
