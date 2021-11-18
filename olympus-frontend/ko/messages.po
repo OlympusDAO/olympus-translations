@@ -136,7 +136,7 @@ msgstr "수신자 주소를 지정하세요. 기본 값으로 설정하면 현�
 #~ msgstr "유통량(총)"
 
 #: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:131
+#: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
 msgstr "청구"
 
@@ -152,7 +152,7 @@ msgstr "전부 청구하고 스테이크"
 msgid "Claim and Autostake"
 msgstr "청구하고 자동스테이크"
 
-#: src/views/ChooseBond/ClaimRow.jsx:139
+#: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
 msgstr "청구하고 스테이크"
 

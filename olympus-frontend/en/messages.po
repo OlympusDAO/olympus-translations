@@ -148,7 +148,7 @@ msgstr "Choose recipient address. By default, this is your currently connected a
 #~ msgstr "Circulating Supply (total)"
 
 #: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:131
+#: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
 msgstr "Claim"
 
@@ -164,7 +164,7 @@ msgstr "Claim all and Stake"
 msgid "Claim and Autostake"
 msgstr "Claim and Autostake"
 
-#: src/views/ChooseBond/ClaimRow.jsx:139
+#: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
 msgstr "Claim and Stake"
 

@@ -127,7 +127,7 @@ msgstr "Choisissez l'addresse de reception. Par défaut il s'agit de l'addresse 
 #~ msgstr "Jetons en circulation (total)"
 
 #: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:131
+#: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
 msgstr "Retirer"
 
@@ -143,7 +143,7 @@ msgstr "Tout retirer et dépôser"
 msgid "Claim and Autostake"
 msgstr "Retirer et mettre en dépôt"
 
-#: src/views/ChooseBond/ClaimRow.jsx:139
+#: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
 msgstr "Retirer et mettre en dépôt"
 

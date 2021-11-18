@@ -128,7 +128,7 @@ msgstr "Alıcı adresi seçiniz. Varsayılan olarak, bu şu an bağlı olan adre
 #~ msgstr "Dolaşımdaki Arz (Toplam)"
 
 #: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:131
+#: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
 msgstr "Çek"
 
@@ -144,7 +144,7 @@ msgstr "Hepsini çek ve yatır"
 msgid "Claim and Autostake"
 msgstr "Çek ve Otomatik yatır"
 
-#: src/views/ChooseBond/ClaimRow.jsx:139
+#: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
 msgstr "Çek ve yatır"
 
