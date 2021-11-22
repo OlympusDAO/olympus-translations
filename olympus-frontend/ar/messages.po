@@ -15,299 +15,299 @@ msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
-msgstr ""
+msgstr "١ من {0}"
 
-#: src/views/33Together/33together.tsx:156
+#: src/views/33Together/33Together.jsx:150
 msgid "3, 3 Together"
-msgstr ""
+msgstr "٣ ،٣ معا"
 
 #: src/components/TopBar/OhmMenu.jsx:155
 msgid "ADD TOKEN TO WALLET"
-msgstr ""
+msgstr "أضف العملة الرقمية إلى محفظتك الرقمية"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
 #: src/views/Stake/Stake.tsx:196
 msgid "APY"
-msgstr ""
+msgstr "نسبة العائد السنوي"
 
 #: src/views/Bond/BondPurchase.jsx:155
 msgid "Amount"
-msgstr ""
+msgstr "الكمية"
 
 #: src/views/33Together/PoolDeposit.jsx:172
 #: src/views/Stake/Stake.tsx:356
 #: src/views/Stake/Stake.tsx:385
 msgid "Approve"
-msgstr ""
+msgstr "قبول"
 
 #: src/views/Stake/ExternalStakePool.jsx:84
 msgid "Asset"
-msgstr ""
+msgstr "الأصول"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
-msgstr ""
+msgstr "سيزيد رصيد المكافأة عند العمولة الأولية"
 
 #: src/views/33Together/PoolPrize.jsx:202
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr ""
+msgstr "انتهت فترة السحب، يمكنك الانتقال إلى واجهة مستخدم (تجمع معا) لبدء التوزيع""
 
 #: src/views/33Together/PoolPrize.jsx:181
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr ""
+msgstr "انتهت فترة السحب، يمكنك الانتقال إلى واجهة مستخدم (تجمع معا) لاستكمال التوزيع"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
 msgid "Balance"
-msgstr ""
+msgstr "الرصيد"
 
 #: src/components/Sidebar/NavContent.jsx:122
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
-msgstr ""
+msgstr "سند"
 
 #: src/views/Bond/Bond.tsx:71
 msgid "Bond Price"
-msgstr ""
+msgstr "ثمن السند"
 
 #: src/components/Sidebar/NavContent.jsx:129
 msgid "Bond discounts"
-msgstr ""
+msgstr "تخفيضات السندات"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
-msgstr ""
+msgstr "السند {0}"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
 msgid "Buy on {0}"
-msgstr ""
+msgstr "{0} إشتري من"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
-msgstr ""
+msgstr "تغيير النُسق"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
-msgstr ""
+msgstr "تغيير اللغة "
 
 #: src/views/33Together/PoolDeposit.jsx:115
 #: src/views/33Together/PoolWithdraw.jsx:108
 msgid "Check back soon!"
-msgstr ""
+msgstr "تحقق لاحقا"
 
 #: src/views/Bond/AdvancedSettings.jsx:63
 msgid "Choose recipient address. By default, this is your currently connected address"
-msgstr ""
+msgstr "اختر عنوان المستلم. افتراضيا،إنه عنوان محفظتك الرقمية المتصلة حاليا"
 
 #: src/views/Bond/BondRedeem.jsx:71
 #: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
-msgstr ""
+msgstr "مطالبة"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:118
 msgid "Claim all"
-msgstr ""
+msgstr "المطالبة بالكل"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:135
 msgid "Claim all and Stake"
-msgstr ""
+msgstr "المطالبة بالكل و الإسناد "
 
 #: src/views/Bond/BondRedeem.jsx:87
 msgid "Claim and Autostake"
-msgstr ""
+msgstr "المطالبة و الإسناد التلقائي"
 
 #: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
-msgstr ""
+msgstr "المطالبة و الإسناد"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:78
 msgid "Claimable"
-msgstr ""
+msgstr "قابل للمطالبة به"
 
 #: src/views/Bond/BondRedeem.jsx:104
 msgid "Claimable Rewards"
-msgstr ""
+msgstr "المكافآت القابلة للمطالبة بها"
 
 #: src/views/Stake/ExternalStakePool.jsx:164
 msgid "Coming Soon"
-msgstr ""
+msgstr "قريباً"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
 #: src/views/Stake/Stake.tsx:144
 msgid "Connect Wallet"
-msgstr ""
+msgstr "ربط محفظتك الرقمية"
 
 #: src/views/Stake/Stake.tsx:257
 msgid "Connect your wallet to stake OHM"
-msgstr ""
+msgstr "اربط محفظتك الرقمية لإسناد OHM"
 
 #: src/views/Stake/Stake.tsx:235
 msgid "Current Index"
-msgstr ""
+msgstr "المؤشر الحالـي"
 
 #: src/views/33Together/PoolPrize.jsx:121
 msgid "Current Prize"
-msgstr ""
+msgstr "الجائزة الحالية"
 
 #: src/components/Sidebar/NavContent.jsx:77
 msgid "Dashboard"
-msgstr ""
+msgstr "الواجهة الإلكترونية"
 
 #: src/views/Bond/BondPurchase.jsx:259
 #: src/views/Bond/BondRedeem.jsx:128
 msgid "Debt Ratio"
-msgstr ""
+msgstr "نسبة الدين"
 
 #: src/views/33Together/33together.tsx:170
 msgid "Deposit"
-msgstr ""
+msgstr "إيداع"
 
 #: src/views/33Together/PoolDeposit.jsx:162
 msgid "Deposit sOHM"
-msgstr ""
+msgstr "إيداع sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:100
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
-msgstr ""
+msgstr "قم بإيداع sOHM للسحب! بمجرد الإيداع ، ستتلقى كمية مماثلة عن 33T وسيتم إدخالها للمشاركة حتى يتم سحب صندوق SOHM الخاص بك."
 
 #: src/views/33Together/PoolDeposit.jsx:179
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "إيداع {quantity} sOHM سيزيد احتمالات الفوز إلى 1 في {newOdds}"
 
 #: src/views/33Together/PoolDeposit.jsx:112
 msgid "Deposits can be made once the prize has been awarded."
-msgstr ""
+msgstr "يمكن الإيداع بمجرد منح الجائزة."
 
 #: src/components/TopBar/ConnectMenu.jsx:27
 #: src/components/TopBar/ConnectMenu.jsx:111
 msgid "Disconnect"
-msgstr ""
+msgstr "قطع الاتصال"
 
 #: src/components/Sidebar/externalUrls.jsx:20
 msgid "Docs"
-msgstr ""
+msgstr "مستندات"
 
 #: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
-msgstr ""
+msgstr "رسوم الاسترجاع المبكر"
 
 #: src/views/33Together/PoolWithdraw.jsx:171
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr ""
+msgstr "سيتحمل الاسترجاع المبكر رسوم إنصاف قدرها {exitFee}."
 
 #: src/views/33Together/PoolDeposit.jsx:133
 msgid "Enter an amount"
-msgstr ""
+msgstr "أدخل مبلغًا"
 
 #: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
-msgstr ""
+msgstr "زمن تضاؤل رسوم للاسترجاع المبكر"
 
 #: src/views/Stake/ExternalStakePool.jsx:74
 msgid "Farm Pool"
-msgstr ""
+msgstr "مجمع المزرعة"
 
 #: src/views/Bond/BondPurchase.jsx:146
 msgid "First time bonding"
-msgstr ""
+msgstr "التصكيك  لأول مرة"
 
 #: src/views/Stake/Stake.tsx:291
 msgid "First time staking"
-msgstr ""
+msgstr "الإسناد لأول مرة"
 
 #: src/views/Stake/Stake.tsx:298
 msgid "First time unstaking"
-msgstr ""
+msgstr " إلغاءالإسناد لأول مرة"
 
 #: src/components/Sidebar/externalUrls.jsx:10
 msgid "Forum"
-msgstr ""
+msgstr "منتدى"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:84
 msgid "Fully Vested"
-msgstr ""
+msgstr "مستثمر بالكامل"
 
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Governance"
-msgstr ""
+msgstr "الحوكمة"
 
 #: src/components/TopBar/ConnectMenu.jsx:32
 msgid "In progress"
-msgstr ""
+msgstr "قيد التنفيذ"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:29
 #: src/components/RebaseTimer/RebaseTimer.jsx:60
 msgid "Less than a minute"
-msgstr ""
+msgstr "أقل من دقيقة"
 
 #: src/views/Dashboard/Dashboard.jsx:44
 msgid "Market Cap"
-msgstr ""
+msgstr "رأس المال السوقي"
 
 #: src/views/Bond/Bond.tsx:79
 msgid "Market Price"
-msgstr ""
+msgstr "السعر السوقي"
 
 #: src/views/33Together/PoolDeposit.jsx:146
 #: src/views/33Together/PoolWithdraw.jsx:139
 #: src/views/Bond/BondPurchase.jsx:167
 msgid "Max"
-msgstr ""
+msgstr "الحد الأقصى"
 
 #: src/views/Bond/BondPurchase.jsx:241
 msgid "Max You Can Buy"
-msgstr ""
+msgstr "الحد الأقصى الذي يمكنك شراؤه"
 
 #: src/views/Stake/Stake.tsx:183
 msgid "Migrate sOHM!"
-msgstr ""
+msgstr "ترحيل sOHM"
 
 #: src/views/Stake/Stake.tsx:442
 msgid "Next Reward Amount"
-msgstr ""
+msgstr "كمية المكافأة التالية"
 
 #: src/views/Stake/Stake.tsx:451
 msgid "Next Reward Yield"
-msgstr ""
+msgstr "عائد المكافأة التالية"
 
 #: src/views/33Together/PoolPrize.jsx:131
 msgid "Next award"
-msgstr ""
+msgstr "المكافأة التالية"
 
 #: src/views/ChooseBond/ChooseBond.tsx:102
 msgid "OHM Price"
-msgstr ""
+msgstr "سعر OHM"
 
 #: src/views/404/NotFound.tsx:14
 msgid "Page not found"
-msgstr ""
+msgstr "الصفحة غير موجودة"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:81
 msgid "Pending"
-msgstr ""
+msgstr "معلق"
 
 #: src/views/Bond/BondRedeem.jsx:96
 msgid "Pending Rewards"
-msgstr ""
+msgstr "المكافأت المعلقة"
 
 #: src/slices/PendingTxnsSlice.ts:41
 #: src/slices/PendingTxnsSlice.ts:45
 msgid "Pending..."
-msgstr ""
+msgstr "معلق..."
 
 #: src/views/Bond/BondPurchase.jsx:147
 #: src/views/Stake/Stake.tsx:293
 #: src/views/Stake/Stake.tsx:300
 msgid "Please approve Olympus Dao to use your"
-msgstr ""
+msgstr "الرجاء الموافقة على أوليمبوس داو لاستخدام"
 
 #: src/views/Bond/BondPurchase.jsx:52
 msgid "Please enter a valid value!"
-msgstr ""
+msgstr "الرجاء إدخال قيمة صحيحة!"
 
 #: src/views/33Together/PoolDeposit.jsx:66
 #: src/views/33Together/PoolWithdraw.jsx:59
@@ -315,317 +315,317 @@ msgstr ""
 #: src/views/Stake/Stake.tsx:113
 #: src/views/Stake/Stake.tsx:113
 msgid "Please enter a value!"
-msgstr ""
+msgstr "الرجاء إدخال قدر القيمة!"
 
 #: src/views/33Together/PoolPrize.jsx:111
 msgid "Pool Award Balance is currently 0."
-msgstr ""
+msgstr "رصيد الجائزة للمجمع حاليًا صفر"
 
 #: src/views/33Together/PoolInfo.jsx:113
 msgid "Pool owner"
-msgstr ""
+msgstr "مالك المجمع"
 
 #: src/views/ChooseBond/BondRow.jsx:38
 #: src/views/ChooseBond/ChooseBond.tsx:121
 #: src/views/Dashboard/Dashboard.jsx:31
 msgid "Price"
-msgstr ""
+msgstr "السعر"
 
 #: src/views/33Together/PoolInfo.jsx:40
 msgid "Prize Pool Info"
-msgstr ""
+msgstr "معلومات عن مجمع الجوائز"
 
 #: src/views/33Together/PoolPrize.jsx:127
 msgid "Prize is being awarded"
-msgstr ""
+msgstr "يتم منح الجائزة"
 
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "Purchased"
-msgstr ""
+msgstr "المشتراة"
 
 #: src/views/Bond/BondPurchase.jsx:250
 #: src/views/Bond/BondRedeem.jsx:119
 #: src/views/ChooseBond/BondRow.jsx:46
 #: src/views/ChooseBond/ChooseBond.tsx:124
 msgid "ROI"
-msgstr ""
+msgstr "العائد على الإستثمار"
 
 #: src/views/Stake/Stake.tsx:460
 msgid "ROI (5-Day Rate)"
-msgstr ""
+msgstr "(معدل ٥ أيام) العائد على الإستثمار"
 
 #: src/views/33Together/PoolWithdraw.jsx:179
 msgid "Read more about Fairness"
-msgstr ""
+msgstr "قراءة المزيد عن الإنصاف"
 
 #: src/views/Bond/BondPurchase.jsx:276
 msgid "Recipient"
-msgstr ""
+msgstr "المستلم"
 
 #: src/views/Bond/AdvancedSettings.jsx:57
 msgid "Recipient Address"
-msgstr ""
+msgstr "عنوان المستلم"
 
 #: src/views/Bond/Bond.tsx:103
 msgid "Redeem"
-msgstr ""
+msgstr "استرداد"
 
 #: src/views/Stake/Stake.tsx:413
 msgid "Single Staking"
-msgstr ""
+msgstr "إسناد فردي"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
-msgstr ""
+msgstr "الانزلاق السعري"
 
 #: src/views/Bond/BondPurchase.jsx:182
 #: src/views/ChooseBond/BondRow.jsx:73
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "Sold Out"
-msgstr ""
+msgstr "مباع بالكامل"
 
 #: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
-msgstr ""
+msgstr "شيء ما ليس صحيحًا يا صديقي؟ تحقق من واجهة مستخدم (نجمع معا) أدناه."
 
 #: src/components/Sidebar/NavContent.jsx:92
 msgid "Stake"
-msgstr ""
+msgstr "إسناد"
 
 #: src/views/Stake/Stake.tsx:344
 msgid "Stake OHM"
-msgstr ""
+msgstr "إسناد OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
 msgid "Stake in Crucible"
-msgstr ""
+msgstr "Crucible إسناد في"
 
 #: src/views/Stake/Stake.tsx:404
 msgid "Staked Balance"
-msgstr ""
+msgstr "رصيدالإسناد"
 
 #: src/views/Stake/Stake.tsx:422
 msgid "Staked Balance in Fuse"
-msgstr ""
+msgstr "رصيدالإسناد في FUSE"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
-msgstr ""
+msgstr "يتم إسناد OHM"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
-msgstr ""
+msgstr "العرض (متداول / إجمالي)"
 
 #: src/views/Stake/ExternalStakePool.jsx:90
 #: src/views/Stake/ExternalStakePool.jsx:172
 msgid "TVD"
-msgstr ""
+msgstr "إجمالي القيمة المودعة"
 
 #: src/views/33Together/PoolDeposit.jsx:109
 msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr ""
+msgstr "مجمع الجوائز غير قادر على قبول الإيداعات في الوقت الحالي."
 
 #: src/views/33Together/PoolWithdraw.jsx:102
 msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr ""
+msgstr "تجمع الجوائز غير قادر على قبول عمليات لاسترجاع في الوقت الحالي."
 
 #: src/views/Bond/BondRedeem.jsx:112
 msgid "Time until fully vested"
-msgstr ""
+msgstr "الوقت الباقي حتى الإستثمار بالكامل"
 
 #: src/views/33Together/PoolInfo.jsx:91
 msgid "Total Deposits"
-msgstr ""
+msgstr "إجمالي الإيداعات"
 
 #: src/views/33Together/PoolInfo.jsx:99
 msgid "Total Sponsorship"
-msgstr ""
+msgstr "إجمالي الرعاية"
 
 #: src/views/Stake/Stake.tsx:213
 msgid "Total Value Deposited"
-msgstr ""
+msgstr "إجمالي القيمة المودعة"
 
 #: src/views/Bond/AdvancedSettings.jsx:51
 msgid "Transaction may revert if price changes by more than slippage %"
-msgstr ""
+msgstr "قد يتم إرجاع المعاملة إذا تغير السعر بأكثر من نسبة الانزلاق السعري"
 
 #: src/views/ChooseBond/ChooseBond.tsx:80
 msgid "Treasury Balance"
-msgstr ""
+msgstr "رصيد الخزانة"
 
 #: src/views/Stake/Stake.tsx:282
 msgid "Unstake"
-msgstr ""
+msgstr "إلغاءالإسناد"
 
 #: src/components/TopBar/OhmMenu.jsx:226
 msgid "Unstake Legacy LP Token"
-msgstr ""
+msgstr "إلغاء إسناد عملة مجمَّع سيولة الإرثية "
 
 #: src/views/Stake/Stake.tsx:373
 msgid "Unstake OHM"
-msgstr ""
+msgstr "إلغاءإسناد OHM"
 
 #: src/views/Stake/Stake.tsx:395
 msgid "Unstaked Balance"
-msgstr ""
+msgstr "رصيد الملغي إسناده"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Unstaking sOHM"
-msgstr ""
+msgstr "إلغاءإسناد sOHM"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Unwrapping sOHM"
-msgstr ""
+msgstr "إزالة تغليف sOHM"
 
 #: src/views/Bond/BondPurchase.jsx:268
 #: src/views/Bond/BondRedeem.jsx:137
 msgid "Vesting Term"
-msgstr ""
+msgstr "فترة استحقاق الملكية""
 
 #: src/views/ChooseBond/BondRow.jsx:28
 #: src/views/ChooseBond/BondRow.jsx:97
 msgid "View Contract"
-msgstr ""
+msgstr "عرض العقد"
 
 #: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
-msgstr ""
+msgstr "الفائزون / فترة الجائزة"
 
 #: src/views/33Together/33together.tsx:171
 msgid "Withdraw"
-msgstr ""
+msgstr "سحب"
 
 #: src/views/33Together/PoolWithdraw.jsx:153
 msgid "Withdraw Early & pay"
-msgstr ""
+msgstr "سحب مبكرً والدفع"
 
 #: src/views/33Together/PoolWithdraw.jsx:154
 msgid "Withdraw sOHM"
-msgstr ""
+msgstr "استرداد sOHM"
 
 #: src/views/33Together/PoolWithdraw.jsx:105
 msgid "Withdrawals can be made once the prize has been awarded."
-msgstr ""
+msgstr "يمكن إجراء عمليات الاسترداد بمجرد منح الجائزة"
 
 #: src/views/33Together/PoolWithdraw.jsx:161
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "استرداد {quantity} sOHM يقلل احتمالات ربحك إلى 1 في {newOdds}"
 
 #: src/views/Stake/Stake.tsx:431
 msgid "Wrapped Balance"
-msgstr ""
+msgstr "الرصيد المغلف"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Wrapping OHM"
-msgstr ""
+msgstr "تغليف OHM"
 
 #: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
-msgstr ""
+msgstr "مصدر العائد"
 
 #: src/views/Bond/BondPurchase.jsx:232
 msgid "You Will Get"
-msgstr ""
+msgstr "سوف تحصل على"
 
 #: src/views/33Together/PoolWithdraw.jsx:93
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr ""
+msgstr "يمكنك اختيار استرداد رصيدك المودع في أي وقت. بسحب رصيدك، فإنك تقلل من فرصة فوزك بالجائزة في هذا المجمع في فترات السحب المستقبلية"
 
 #: src/views/Stake/Stake.tsx:119
 #: src/views/Stake/Stake.tsx:119
 msgid "You cannot stake more than your OHM balance."
-msgstr ""
+msgstr "لا يمكنك إسناد بأكثر من رصيدك في OHM."
 
 #: src/views/Stake/Stake.tsx:123
 #: src/views/Stake/Stake.tsx:123
 msgid "You cannot unstake more than your sOHM balance."
-msgstr ""
+msgstr "لا يمكنك إلغاء إسنادك بأكثر من رصيدك في sOHM."
 
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
-msgstr ""
+msgstr "لا يمكنك سحب أكثر من رصيدك في المجمع"
 
 #: src/views/Bond/BondPurchase.jsx:55
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
-msgstr ""
+msgstr "لديك سند حالي. التصكيك سيعيد تعيين فترة الاستحقاق والمكافآت المصادرة. نوصي بالمطالبة بالمكافآت أولاً أو باستخدام محفظة إلكترونية مختلفة. هل ما زلت تريد المتابعة؟"
 
 #: src/views/Bond/BondPurchase.jsx:217
 msgid "Your Balance"
-msgstr ""
+msgstr "رصيدك"
 
 #: src/views/33Together/PoolWithdraw.jsx:189
 msgid "Your Pooled Balance (withdrawable)"
-msgstr ""
+msgstr "رصيدك المودع (قابل للسحب)"
 
 #: src/views/33Together/PoolDeposit.jsx:190
 msgid "Your Staked Balance (Depositable)"
-msgstr ""
+msgstr "رصيدك المسند (قابل للإيداع)"
 
 #: src/views/33Together/PoolInfo.jsx:61
 msgid "Your odds"
-msgstr ""
+msgstr "احتمالاتك"
 
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
-msgstr ""
+msgstr "ودائع المجمع الخاص بك"
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
-msgstr ""
+msgstr "مجموع جوائزك"
 
 #: src/views/33Together/PoolInfo.jsx:73
 msgid "Your wallet balance"
-msgstr ""
+msgstr "رصيد محفظتك الإلكترونية"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
-msgstr ""
+msgstr "يوم"
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:97
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
-msgstr ""
+msgstr "صك السند"
 
 #. The action of staking (verb)
 #: src/views/Stake/Stake.tsx:276
 msgid "do_stake"
-msgstr ""
+msgstr "إسناد"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "for bonding"
-msgstr ""
+msgstr "لالتصكيك"
 
 #: src/views/Stake/Stake.tsx:294
 msgid "for staking"
-msgstr ""
+msgstr "للاسناد"
 
 #: src/views/Stake/Stake.tsx:301
 msgid "for unstaking"
-msgstr ""
+msgstr "لإلغاء الإسناد"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
-msgstr ""
+msgstr "ساعة"
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
-msgstr ""
+msgstr "دقيقة "
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
-msgstr ""
+msgstr "تفاصيل مجمع sOHM"
 
 #: src/views/33Together/PoolInfo.jsx:150
 msgid "sOHM Prize Pool"
-msgstr ""
+msgstr "مجموع جوائز sOHM"
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"
-msgstr ""
+msgstr "ثانية"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:73
 msgid "to next rebase"
-msgstr ""
+msgstr "إلى العمولة التالية"
