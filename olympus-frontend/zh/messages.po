@@ -9,7 +9,7 @@ msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
-msgstr "{0} 中的1个"
+msgstr " {0} 中的1个"
 
 #: src/views/33Together/33together.tsx:156
 msgid "3, 3 Together"
@@ -40,203 +40,203 @@ msgstr "资产"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
-msgstr ""
+msgstr "奖励余额将在第一次变基时增长"
 
 #: src/views/33Together/PoolPrize.jsx:202
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr ""
+msgstr "奖力阶段已结束，您可以至一起彩池的使用者介面开始进行分发。"
 
 #: src/views/33Together/PoolPrize.jsx:181
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr ""
+msgstr "奖力阶段已结束，您可以至一起彩池的使用者介面完成分发。"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
 msgid "Balance"
-msgstr ""
+msgstr "余额"
 
 #: src/components/Sidebar/NavContent.jsx:122
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
-msgstr ""
+msgstr "债券"
 
 #: src/views/Bond/Bond.tsx:71
 msgid "Bond Price"
-msgstr ""
+msgstr "债券价钱"
 
 #: src/components/Sidebar/NavContent.jsx:129
 msgid "Bond discounts"
-msgstr ""
+msgstr "债券折扣"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
-msgstr ""
+msgstr "债券{0}"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
 msgid "Buy on {0}"
-msgstr ""
+msgstr "从{0}购买"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
-msgstr ""
+msgstr "更改主题"
 
 #: src/components/TopBar/LocaleSwitch.tsx:37
 msgid "Change locale"
-msgstr ""
+msgstr "更改语言"
 
 #: src/views/33Together/PoolDeposit.jsx:115
 #: src/views/33Together/PoolWithdraw.jsx:108
 msgid "Check back soon!"
-msgstr ""
+msgstr "稍后检查！"
 
 #: src/views/Bond/AdvancedSettings.jsx:63
 msgid "Choose recipient address. By default, this is your currently connected address"
-msgstr ""
+msgstr "选择接收者地址，预设值为您当前连接的地址"
 
 #: src/views/Bond/BondRedeem.jsx:71
 #: src/views/ChooseBond/ClaimRow.jsx:133
 msgid "Claim"
-msgstr ""
+msgstr "索取"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:118
 msgid "Claim all"
-msgstr ""
+msgstr "全部索取"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:135
 msgid "Claim all and Stake"
-msgstr ""
+msgstr "全部索取并质押"
 
 #: src/views/Bond/BondRedeem.jsx:87
 msgid "Claim and Autostake"
-msgstr ""
+msgstr "索取并自动质押"
 
 #: src/views/ChooseBond/ClaimRow.jsx:141
 msgid "Claim and Stake"
-msgstr ""
+msgstr "索取并质押"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:78
 msgid "Claimable"
-msgstr ""
+msgstr "可索取的"
 
 #: src/views/Bond/BondRedeem.jsx:104
 msgid "Claimable Rewards"
-msgstr ""
+msgstr "可索取的奖励"
 
 #: src/views/Stake/ExternalStakePool.jsx:164
 msgid "Coming Soon"
-msgstr ""
+msgstr "即将推出"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
 #: src/views/Stake/Stake.tsx:144
 msgid "Connect Wallet"
-msgstr ""
+msgstr "连接钱包"
 
 #: src/views/Stake/Stake.tsx:257
 msgid "Connect your wallet to stake OHM"
-msgstr ""
+msgstr "连接您的钱包以质押 OHM"
 
 #: src/views/Stake/Stake.tsx:235
 msgid "Current Index"
-msgstr ""
+msgstr "当前指数"
 
 #: src/views/33Together/PoolPrize.jsx:121
 msgid "Current Prize"
-msgstr ""
+msgstr "当前奖金"
 
 #: src/components/Sidebar/NavContent.jsx:77
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表盘"
 
 #: src/views/Bond/BondPurchase.jsx:259
 #: src/views/Bond/BondRedeem.jsx:128
 msgid "Debt Ratio"
-msgstr ""
+msgstr "负债比率"
 
 #: src/views/33Together/33together.tsx:170
 msgid "Deposit"
-msgstr ""
+msgstr "存入"
 
 #: src/views/33Together/PoolDeposit.jsx:162
 msgid "Deposit sOHM"
-msgstr ""
+msgstr "存入 sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:100
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
-msgstr ""
+msgstr "存入 sOHM 即可获胜！存入后，您将收到相对应数量的 33T 并将参与游戏直到您的 sOHM 被提取。"
 
 #: src/views/33Together/PoolDeposit.jsx:179
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 
 #: src/views/33Together/PoolDeposit.jsx:112
 msgid "Deposits can be made once the prize has been awarded."
-msgstr ""
+msgstr "一旦颁发奖赏 ，就可以进行存款。"
 
 #: src/components/TopBar/ConnectMenu.jsx:27
 #: src/components/TopBar/ConnectMenu.jsx:111
 msgid "Disconnect"
-msgstr ""
+msgstr "断开"
 
 #: src/components/Sidebar/externalUrls.jsx:20
 msgid "Docs"
-msgstr ""
+msgstr "文档"
 
 #: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
-msgstr ""
+msgstr "提前退出费用"
 
 #: src/views/33Together/PoolWithdraw.jsx:171
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr ""
+msgstr "为了公平起见，提前提款将产生 {exitFee} 的费用。"
 
 #: src/views/33Together/PoolDeposit.jsx:133
 msgid "Enter an amount"
-msgstr ""
+msgstr "输入金额"
 
 #: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
-msgstr ""
+msgstr "免费离场时间"
 
 #: src/views/Stake/ExternalStakePool.jsx:74
 msgid "Farm Pool"
-msgstr ""
+msgstr "礦池"
 
 #: src/views/Bond/BondPurchase.jsx:146
 msgid "First time bonding"
-msgstr ""
+msgstr "第一次买债券"
 
 #: src/views/Stake/Stake.tsx:291
 msgid "First time staking"
-msgstr ""
+msgstr "第一次质押"
 
 #: src/views/Stake/Stake.tsx:298
 msgid "First time unstaking"
-msgstr ""
+msgstr "第一次取消质押"
 
 #: src/components/Sidebar/externalUrls.jsx:10
 msgid "Forum"
-msgstr ""
+msgstr "论坛"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:84
 msgid "Fully Vested"
-msgstr ""
+msgstr "全数授予"
 
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Governance"
-msgstr ""
+msgstr "治理"
 
 #: src/components/TopBar/ConnectMenu.jsx:32
 msgid "In progress"
-msgstr ""
+msgstr "进行中"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:29
 #: src/components/RebaseTimer/RebaseTimer.jsx:60
 msgid "Less than a minute"
-msgstr ""
+msgstr "不到一分钟"
 
 #: src/views/Dashboard/Dashboard.jsx:44
 msgid "Market Cap"
@@ -244,64 +244,64 @@ msgstr ""
 
 #: src/views/Bond/Bond.tsx:79
 msgid "Market Price"
-msgstr ""
+msgstr "市值"
 
 #: src/views/33Together/PoolDeposit.jsx:146
 #: src/views/33Together/PoolWithdraw.jsx:139
 #: src/views/Bond/BondPurchase.jsx:167
 msgid "Max"
-msgstr ""
+msgstr "最大限度"
 
 #: src/views/Bond/BondPurchase.jsx:241
 msgid "Max You Can Buy"
-msgstr ""
+msgstr "您可以购买的最大数量"
 
 #: src/views/Stake/Stake.tsx:183
 msgid "Migrate sOHM!"
-msgstr ""
+msgstr "迁移 sOHM！"
 
 #: src/views/Stake/Stake.tsx:442
 msgid "Next Reward Amount"
-msgstr ""
+msgstr "下一次奖励金额"
 
 #: src/views/Stake/Stake.tsx:451
 msgid "Next Reward Yield"
-msgstr ""
+msgstr "下一次奖励收获量"
 
 #: src/views/33Together/PoolPrize.jsx:131
 msgid "Next award"
-msgstr ""
+msgstr "下一个奖赏"
 
 #: src/views/ChooseBond/ChooseBond.tsx:102
 msgid "OHM Price"
-msgstr ""
+msgstr "OHM 价格"
 
 #: src/views/404/NotFound.tsx:14
 msgid "Page not found"
-msgstr ""
+msgstr "找不到网页"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:81
 msgid "Pending"
-msgstr ""
+msgstr "待定中"
 
 #: src/views/Bond/BondRedeem.jsx:96
 msgid "Pending Rewards"
-msgstr ""
+msgstr "待定中的奖励"
 
 #: src/slices/PendingTxnsSlice.ts:41
 #: src/slices/PendingTxnsSlice.ts:45
 msgid "Pending..."
-msgstr ""
+msgstr "待定中..."
 
 #: src/views/Bond/BondPurchase.jsx:147
 #: src/views/Stake/Stake.tsx:293
 #: src/views/Stake/Stake.tsx:300
 msgid "Please approve Olympus Dao to use your"
-msgstr ""
+msgstr "请批准 Olympus Dao 使用您的"
 
 #: src/views/Bond/BondPurchase.jsx:52
 msgid "Please enter a valid value!"
-msgstr ""
+msgstr "请输入一个有效值！"
 
 #: src/views/33Together/PoolDeposit.jsx:66
 #: src/views/33Together/PoolWithdraw.jsx:59
@@ -309,149 +309,149 @@ msgstr ""
 #: src/views/Stake/Stake.tsx:113
 #: src/views/Stake/Stake.tsx:113
 msgid "Please enter a value!"
-msgstr ""
+msgstr "请输入一个值！"
 
 #: src/views/33Together/PoolPrize.jsx:111
 msgid "Pool Award Balance is currently 0."
-msgstr ""
+msgstr "目前矿池奖励余额为 0。"
 
 #: src/views/33Together/PoolInfo.jsx:113
 msgid "Pool owner"
-msgstr ""
+msgstr "矿池所有人"
 
 #: src/views/ChooseBond/BondRow.jsx:38
 #: src/views/ChooseBond/ChooseBond.tsx:121
 #: src/views/Dashboard/Dashboard.jsx:31
 msgid "Price"
-msgstr ""
+msgstr "价钱"
 
 #: src/views/33Together/PoolInfo.jsx:40
 msgid "Prize Pool Info"
-msgstr ""
+msgstr "矿池奖赏信息"
 
 #: src/views/33Together/PoolPrize.jsx:127
 msgid "Prize is being awarded"
-msgstr ""
+msgstr "正在颁发奖赏"
 
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "Purchased"
-msgstr ""
+msgstr "已购买"
 
 #: src/views/Bond/BondPurchase.jsx:250
 #: src/views/Bond/BondRedeem.jsx:119
 #: src/views/ChooseBond/BondRow.jsx:46
 #: src/views/ChooseBond/ChooseBond.tsx:124
 msgid "ROI"
-msgstr ""
+msgstr "投资回报率"
 
 #: src/views/Stake/Stake.tsx:460
 msgid "ROI (5-Day Rate)"
-msgstr ""
+msgstr "投资回报率（5天比率）"
 
 #: src/views/33Together/PoolWithdraw.jsx:179
 msgid "Read more about Fairness"
-msgstr ""
+msgstr "阅读更多有关公平性的信息"
 
 #: src/views/Bond/BondPurchase.jsx:276
 msgid "Recipient"
-msgstr ""
+msgstr "接收者"
 
 #: src/views/Bond/AdvancedSettings.jsx:57
 msgid "Recipient Address"
-msgstr ""
+msgstr "接收者地址"
 
 #: src/views/Bond/Bond.tsx:103
 msgid "Redeem"
-msgstr ""
+msgstr "兑换"
 
 #: src/views/Stake/Stake.tsx:413
 msgid "Single Staking"
-msgstr ""
+msgstr "单一质押"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
-msgstr ""
+msgstr "滑点"
 
 #: src/views/Bond/BondPurchase.jsx:182
 #: src/views/ChooseBond/BondRow.jsx:73
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "Sold Out"
-msgstr ""
+msgstr "售罄"
 
 #: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
-msgstr ""
+msgstr "朋友，有些不对劲，请确认下方一起彩池的使用者介面。"
 
 #: src/components/Sidebar/NavContent.jsx:92
 msgid "Stake"
-msgstr ""
+msgstr "质押"
 
 #: src/views/Stake/Stake.tsx:344
 msgid "Stake OHM"
-msgstr ""
+msgstr "质押 OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
 msgid "Stake in Crucible"
-msgstr ""
+msgstr "于 Crucible 质押"
 
 #: src/views/Stake/Stake.tsx:404
 msgid "Staked Balance"
-msgstr ""
+msgstr "质押余额"
 
 #: src/views/Stake/Stake.tsx:422
 msgid "Staked Balance in Fuse"
-msgstr ""
+msgstr "于 Fuse 的质押余额"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
-msgstr ""
+msgstr "质押 OHM"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
-msgstr ""
+msgstr "供应（流通/总量）"
 
 #: src/views/Stake/ExternalStakePool.jsx:90
 #: src/views/Stake/ExternalStakePool.jsx:172
 msgid "TVD"
-msgstr ""
+msgstr "存入总价值"
 
 #: src/views/33Together/PoolDeposit.jsx:109
 msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr ""
+msgstr "该矿池目前无法接受存款。"
 
 #: src/views/33Together/PoolWithdraw.jsx:102
 msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr ""
+msgstr "该矿池目前无法接受提款。"
 
 #: src/views/Bond/BondRedeem.jsx:112
 msgid "Time until fully vested"
-msgstr ""
+msgstr "待全数售予时间"
 
 #: src/views/33Together/PoolInfo.jsx:91
 msgid "Total Deposits"
-msgstr ""
+msgstr "总存款"
 
 #: src/views/33Together/PoolInfo.jsx:99
 msgid "Total Sponsorship"
-msgstr ""
+msgstr "总赞助"
 
 #: src/views/Stake/Stake.tsx:213
 msgid "Total Value Deposited"
-msgstr ""
+msgstr "存入总价值"
 
 #: src/views/Bond/AdvancedSettings.jsx:51
 msgid "Transaction may revert if price changes by more than slippage %"
-msgstr ""
+msgstr "如果价格变化超过滑点 %，交易可能会回复"
 
 #: src/views/ChooseBond/ChooseBond.tsx:80
 msgid "Treasury Balance"
-msgstr ""
+msgstr "金库余额"
 
 #: src/views/Stake/Stake.tsx:282
 msgid "Unstake"
-msgstr ""
+msgstr "取消质押"
 
 #: src/components/TopBar/OhmMenu.jsx:226
 msgid "Unstake Legacy LP Token"
