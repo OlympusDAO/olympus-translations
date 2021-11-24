@@ -9,34 +9,34 @@ msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
-msgstr ""
+msgstr "{0} 中的1个"
 
 #: src/views/33Together/33together.tsx:156
 msgid "3, 3 Together"
-msgstr ""
+msgstr "一起 3, 3"
 
 #: src/components/TopBar/OhmMenu.jsx:155
 msgid "ADD TOKEN TO WALLET"
-msgstr ""
+msgstr "将代币加入钱包"
 
 #: src/views/Stake/ExternalStakePool.jsx:87
 #: src/views/Stake/Stake.tsx:196
 msgid "APY"
-msgstr ""
+msgstr "年收益率"
 
 #: src/views/Bond/BondPurchase.jsx:155
 msgid "Amount"
-msgstr ""
+msgstr "数量"
 
 #: src/views/33Together/PoolDeposit.jsx:172
 #: src/views/Stake/Stake.tsx:356
 #: src/views/Stake/Stake.tsx:385
 msgid "Approve"
-msgstr ""
+msgstr "批准"
 
 #: src/views/Stake/ExternalStakePool.jsx:84
 msgid "Asset"
-msgstr ""
+msgstr "资产"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
