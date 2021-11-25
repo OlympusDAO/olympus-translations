@@ -490,15 +490,15 @@ msgstr "于 Fuse 的质押余额"
 
 #: src/views/Zap/ZapInfo.jsx:129
 msgid "Staking"
-msgstr ""
+msgstr "质押中"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
-msgstr "质押 OHM"
+msgstr "正在质押 OHM"
 
 #: src/views/Zap/ZapInfo.jsx:132
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal amount of sOHM."
-msgstr ""
+msgstr "质押是 Olympus 主要积累价值的策略。当您质押时，您将锁定 OHM 并获得等量的 sOHM。 "
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
@@ -506,15 +506,15 @@ msgstr "供应（流通/总量）"
 
 #: src/views/Zap/ZapStakeHeader.jsx:43
 msgid "Swap for OHM"
-msgstr ""
+msgstr "换 OHM"
 
 #: src/views/Zap/ZapStakeHeader.jsx:30
 msgid "Swap for sOHM"
-msgstr ""
+msgstr "换 sOHM"
 
 #: src/views/Zap/ZapCta.jsx:58
 msgid "Swap into sOHM"
-msgstr ""
+msgstr "换取 OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:91
 #: src/views/Stake/ExternalStakePool.jsx:176
@@ -561,107 +561,107 @@ msgstr "取消质押"
 
 #: src/components/TopBar/OhmMenu.jsx:226
 msgid "Unstake Legacy LP Token"
-msgstr ""
+msgstr "取消质押旧的 LP 代币"
 
 #: src/views/Stake/Stake.tsx:384
 msgid "Unstake OHM"
-msgstr ""
+msgstr "取消质押 OHM"
 
 #: src/views/Stake/Stake.tsx:406
 msgid "Unstaked Balance"
-msgstr ""
+msgstr "取消质押余额"
 
 #: src/slices/PendingTxnsSlice.ts:29
 msgid "Unstaking sOHM"
-msgstr ""
+msgstr "正在取消质押 sOHM"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Unwrapping sOHM"
-msgstr ""
+msgstr "去包装 sOHM"
 
 #: src/views/Bond/BondPurchase.jsx:268
 #: src/views/Bond/BondRedeem.jsx:137
 msgid "Vesting Term"
-msgstr ""
+msgstr "授予期限"
 
 #: src/views/ChooseBond/BondRow.jsx:28
 #: src/views/ChooseBond/BondRow.jsx:97
 msgid "View Contract"
-msgstr ""
+msgstr "查看合约"
 
 #: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
-msgstr ""
+msgstr "获奖者/获奖时间"
 
 #: src/views/33Together/33together.tsx:171
 msgid "Withdraw"
-msgstr ""
+msgstr "提取"
 
 #: src/views/33Together/PoolWithdraw.jsx:153
 msgid "Withdraw Early & pay"
-msgstr ""
+msgstr "提早取款并付款"
 
 #: src/views/33Together/PoolWithdraw.jsx:154
 msgid "Withdraw sOHM"
-msgstr ""
+msgstr "提取 sOHM"
 
 #: src/views/33Together/PoolWithdraw.jsx:105
 msgid "Withdrawals can be made once the prize has been awarded."
-msgstr ""
+msgstr "中奖后可以进行提款"
 
 #: src/views/33Together/PoolWithdraw.jsx:161
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr ""
+msgstr "提取 {quantity} sOHM 会将您获胜的几率从 {newOdds} 降低到 1"
 
 #: src/views/Stake/Stake.tsx:442
 msgid "Wrapped Balance"
-msgstr ""
+msgstr "包装的余额"
 
 #: src/slices/PendingTxnsSlice.ts:33
 msgid "Wrapping OHM"
-msgstr ""
+msgstr "包装 OHM"
 
 #: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
-msgstr ""
+msgstr "收益来源"
 
 #: src/views/Zap/ZapStakeAction.jsx:282
 msgid "You Get"
-msgstr ""
+msgstr "你获得 "
 
 #: src/views/Zap/ZapInfo.jsx:124
 msgid "You Get sOHM"
-msgstr ""
+msgstr "你获得 sOHM"
 
 #: src/views/Zap/ZapInfo.jsx:73
 msgid "You Give"
-msgstr ""
+msgstr "你给予"
 
 #: src/views/Zap/ZapStakeAction.jsx:201
 msgid "You Pay"
-msgstr ""
+msgstr "你支付"
 
 #: src/views/Bond/BondPurchase.jsx:232
 msgid "You Will Get"
-msgstr ""
+msgstr "你将会获得"
 
 #: src/views/33Together/PoolWithdraw.jsx:93
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr ""
+msgstr "您可以随时提取存入的资金。由于提取资金，您将减少在未来的奖赏期间赢得该矿池中奖赏的机会 "
 
 #: src/views/Stake/Stake.tsx:130
 #: src/views/Stake/Stake.tsx:130
 msgid "You cannot stake more than your OHM balance."
-msgstr ""
+msgstr "您不能质押超过您的 OHM 余额。"
 
 #: src/views/Stake/Stake.tsx:134
 #: src/views/Stake/Stake.tsx:134
 msgid "You cannot unstake more than your sOHM balance."
-msgstr ""
+msgstr "您不能取消质押超过您的 sOHM 余额。"
 
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
-msgstr ""
+msgstr "您的提款金额不能超过您的矿池余额"
 
 #: src/views/Bond/BondPurchase.jsx:55
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
