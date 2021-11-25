@@ -33,5 +33,6 @@ yarn start
 ```
 
 Replace `yarn` with `yarn.cmd` if you are using windows
+You may also need to make sure that you are not tempering with the end-line characters when cloning the repository `git config --global core.autocrlf false`
 
 A browser showing you the site should start with the latest develop branch and your updated translations
