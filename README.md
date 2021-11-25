@@ -32,6 +32,6 @@ yarn install
 yarn start
 ```
 
-Remplace `yarn` with `yarn.cmd` if you are using windows
+Replace `yarn` with `yarn.cmd` if you are using windows
 
 A browser showing you the site should start with the latest develop branch and your updated translations
