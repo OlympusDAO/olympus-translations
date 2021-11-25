@@ -59,7 +59,7 @@ msgstr "批准"
 
 #: src/views/Zap/ZapStakeAction.jsx:379
 msgid "Approved"
-msgstr ""
+msgstr "已批准"
 
 #: src/views/Stake/ExternalStakePool.jsx:85
 msgid "Asset"
