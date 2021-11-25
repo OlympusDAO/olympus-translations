@@ -665,35 +665,35 @@ msgstr "您的提款金额不能超过您的矿池余额"
 
 #: src/views/Bond/BondPurchase.jsx:55
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
-msgstr ""
+msgstr "您已经有一张债券，现在再购买债券将重置您的授予期限且失去奖励。我们建议您先领取奖励或使用新钱包。您还想要继续执行吗？"
 
 #: src/views/Bond/BondPurchase.jsx:217
 msgid "Your Balance"
-msgstr ""
+msgstr "你的余额"
 
 #: src/views/33Together/PoolWithdraw.jsx:189
 msgid "Your Pooled Balance (withdrawable)"
-msgstr ""
+msgstr "您于矿池中的余额（可被提取的）"
 
 #: src/views/33Together/PoolDeposit.jsx:190
 msgid "Your Staked Balance (Depositable)"
-msgstr ""
+msgstr "您的质押余额（可存入的）"
 
 #: src/views/33Together/PoolInfo.jsx:61
 msgid "Your odds"
-msgstr ""
+msgstr "你的赔率"
 
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
-msgstr ""
+msgstr "您的矿池存款"
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
-msgstr ""
+msgstr "您的总奖赏"
 
 #: src/views/33Together/PoolInfo.jsx:73
 msgid "Your wallet balance"
-msgstr ""
+msgstr "您的钱包余额"
 
 #: src/views/Zap/ZapInfo.jsx:78
 msgid "Zap is a swap"
@@ -710,18 +710,18 @@ msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
-msgstr ""
+msgstr "日"
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:97
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
-msgstr ""
+msgstr "买债券"
 
 #. The action of staking (verb)
 #: src/views/Stake/Stake.tsx:287
 msgid "do_stake"
-msgstr ""
+msgstr "进行质押"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "for bonding"
@@ -737,11 +737,11 @@ msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
-msgstr ""
+msgstr "小时"
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
-msgstr ""
+msgstr "分钟"
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
@@ -753,8 +753,8 @@ msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"
-msgstr ""
+msgstr "秒"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:73
 msgid "to next rebase"
-msgstr ""
+msgstr "至下一次变基"
