@@ -793,12 +793,12 @@ msgstr "일"
 #: src/views/Bond/Bond.tsx:97
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
-msgstr "본딩 하세요"
+msgstr "본드"
 
 #. The action of staking (verb)
 #: src/views/Stake/Stake.tsx:287
 msgid "do_stake"
-msgstr "스테이크 하세요"
+msgstr "스테이크"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "for bonding"
