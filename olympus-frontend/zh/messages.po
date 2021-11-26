@@ -23,7 +23,7 @@ msgstr "一起 3, 3"
 
 #: src/views/Zap/ZapInfo.jsx:81
 msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
-msgstr ""
+msgstr "Zap 换币是一系列的智能合约，将一项资产使用到另一项协议以处理一笔受信任的交易。"
 
 #: src/components/TopBar/OhmMenu.jsx:155
 msgid "ADD TOKEN TO WALLET"
@@ -36,15 +36,15 @@ msgstr "年收益率"
 
 #: src/views/Zap/ZapCta.jsx:50
 msgid "All-in-One contract to save time"
-msgstr ""
+msgstr "多合一合约以节省时间"
 
 #: src/views/Zap/ZapInfo.jsx:103
 msgid "All-in-one easy staking"
-msgstr ""
+msgstr "多合一轻松质押"
 
 #: src/views/Zap/ZapInfo.jsx:98
 msgid "All-in-one zap contracts"
-msgstr ""
+msgstr "多合一 ap 合约"
 
 #: src/views/Bond/BondPurchase.jsx:155
 msgid "Amount"
@@ -67,7 +67,7 @@ msgstr "资产"
 
 #: src/views/Zap/ZapStakeHeader.jsx:56
 msgid "Auto staked for sOHM"
-msgstr ""
+msgstr "自动以 sOHM 进行质押"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
@@ -103,12 +103,12 @@ msgstr "债券折扣"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
-msgstr "债券{0}"
+msgstr "债券 {0}"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
 msgid "Buy on {0}"
-msgstr "从{0}购买"
+msgstr "从 {0} 购买"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
@@ -173,7 +173,7 @@ msgstr "连接您的钱包以质押 OHM"
 
 #: src/views/Zap/Zap.jsx:37
 msgid "Connect your wallet to use Zap"
-msgstr ""
+msgstr "连接您的钱包以使用 Zap"
 
 #: src/views/Stake/Stake.tsx:246
 msgid "Current Index"
@@ -210,11 +210,11 @@ msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 
 #: src/views/33Together/PoolDeposit.jsx:112
 msgid "Deposits can be made once the prize has been awarded."
-msgstr "一旦颁发奖赏 ，就可以进行存款。"
+msgstr "一旦颁发奖赏，就可以进行存款。"
 
 #: src/views/Zap/ZapStakeAction.jsx:436
 msgid "Dialing Zapper..."
-msgstr ""
+msgstr "正在拨号给 Zapper..."
 
 #: src/components/TopBar/ConnectMenu.jsx:27
 #: src/components/TopBar/ConnectMenu.jsx:111
@@ -236,7 +236,7 @@ msgstr "为了公平起见，提前提款将产生 {exitFee} 的费用。"
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
 msgid "Enter an Amount"
-msgstr ""
+msgstr "输入金额"
 
 #: src/views/33Together/PoolDeposit.jsx:133
 msgid "Enter an amount"
@@ -244,7 +244,7 @@ msgstr "输入金额"
 
 #: src/views/Zap/ZapStakeAction.jsx:332
 msgid "Exchange Rate"
-msgstr ""
+msgstr "汇率"
 
 #: src/views/33Together/PoolInfo.jsx:128
 msgid "Exit Fee Decay Time"
@@ -289,11 +289,11 @@ msgstr "不到一分钟"
 
 #: src/views/Dashboard/Dashboard.jsx:44
 msgid "Market Cap"
-msgstr ""
+msgstr "市值"
 
 #: src/views/Bond/Bond.tsx:79
 msgid "Market Price"
-msgstr "市值"
+msgstr "市场价格"
 
 #: src/views/33Together/PoolDeposit.jsx:146
 #: src/views/33Together/PoolWithdraw.jsx:139
@@ -303,7 +303,7 @@ msgstr "最大限度"
 
 #: src/views/Zap/ZapStakeAction.jsx:326
 msgid "Max Slippage"
-msgstr ""
+msgstr "最大滑点"
 
 #: src/views/Bond/BondPurchase.jsx:241
 msgid "Max You Can Buy"
@@ -315,7 +315,7 @@ msgstr "迁移 sOHM！"
 
 #: src/views/Zap/ZapStakeAction.jsx:340
 msgid "Minimum You Get"
-msgstr ""
+msgstr "你将获取的最低额度"
 
 #: src/views/Stake/Stake.tsx:453
 msgid "Next Reward Amount"
@@ -335,7 +335,7 @@ msgstr "OHM 价格"
 
 #: src/views/Zap/ZapInfo.jsx:106
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
-msgstr ""
+msgstr "OlyZap 降低了复杂性，节省了您的时间，并让您留在 Olympus 这里。"
 
 #: src/views/404/NotFound.tsx:14
 msgid "Page not found"
@@ -384,7 +384,7 @@ msgstr "矿池所有人"
 
 #: src/views/Zap/ZapStakeAction.jsx:187
 msgid "Powered by Zapper"
-msgstr ""
+msgstr "由 Zapper 技术支持"
 
 #: src/views/ChooseBond/BondRow.jsx:38
 #: src/views/ChooseBond/ChooseBond.tsx:121
@@ -394,7 +394,7 @@ msgstr "价钱"
 
 #: src/views/33Together/PoolInfo.jsx:40
 msgid "Prize Pool Info"
-msgstr "矿池奖赏信息"
+msgstr "奖池信息"
 
 #: src/views/33Together/PoolPrize.jsx:127
 msgid "Prize is being awarded"
@@ -430,24 +430,24 @@ msgstr "接收者地址"
 
 #: src/views/Bond/Bond.tsx:103
 msgid "Redeem"
-msgstr "兑换"
+msgstr "赎回"
 
 #: src/views/Zap/ZapStakeAction.jsx:424
 msgid "Select Zap Token"
-msgstr ""
+msgstr "选择 Zap 代币"
 
 #: src/views/Zap/ZapStakeAction.jsx:230
 #: src/views/Zap/ZapStakeAction.jsx:269
 msgid "Select a Token"
-msgstr ""
+msgstr "选择一种代币"
 
 #: src/views/Zap/ZapStakeHeader.jsx:16
 msgid "Select any asset"
-msgstr ""
+msgstr "选择任何资产"
 
 #: src/views/Zap/ZapStakeAction.jsx:442
 msgid "Ser, you have no assets..."
-msgstr ""
+msgstr "先生/女士，你没有资产..."
 
 #: src/views/Stake/Stake.tsx:424
 msgid "Single Staking"
@@ -523,11 +523,11 @@ msgstr "存入总价值"
 
 #: src/views/33Together/PoolDeposit.jsx:109
 msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr "该矿池目前无法接受存款。"
+msgstr "该奖池目前无法接受存款。"
 
 #: src/views/33Together/PoolWithdraw.jsx:102
 msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr "该矿池目前无法接受提款。"
+msgstr "该奖池目前无法接受提款。"
 
 #: src/views/Bond/BondRedeem.jsx:112
 msgid "Time until fully vested"
@@ -697,16 +697,16 @@ msgstr "您的钱包余额"
 
 #: src/views/Zap/ZapInfo.jsx:78
 msgid "Zap is a swap"
-msgstr ""
+msgstr "Zap 提供换币"
 
 #: src/views/Zap/ZapCta.jsx:40
 msgid "Zap with more assets and stake <0>OHM</0>"
-msgstr ""
+msgstr "使用 Zap 换取更多资产并质押 <0>OHM</0>"
 
 #: src/views/Zap/ZapStakeAction.jsx:358
 #: src/views/Zap/ZapStakeAction.jsx:408
 msgid "Zap-Stake"
-msgstr ""
+msgstr "Zap 质押"
 
 #: src/views/33Together/PoolPrize.jsx:140
 msgid "day"
@@ -725,15 +725,15 @@ msgstr "进行质押"
 
 #: src/views/Bond/BondPurchase.jsx:148
 msgid "for bonding"
-msgstr ""
+msgstr "用于买债券"
 
 #: src/views/Stake/Stake.tsx:305
 msgid "for staking"
-msgstr ""
+msgstr "用于质押"
 
 #: src/views/Stake/Stake.tsx:312
 msgid "for unstaking"
-msgstr ""
+msgstr "用于取消质押"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
@@ -745,11 +745,11 @@ msgstr "分钟"
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
-msgstr ""
+msgstr "sOHM 矿池详情"
 
 #: src/views/33Together/PoolInfo.jsx:150
 msgid "sOHM Prize Pool"
-msgstr ""
+msgstr "sOHM 奖池"
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"
