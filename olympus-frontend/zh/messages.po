@@ -44,7 +44,7 @@ msgstr "多合一轻松质押"
 
 #: src/views/Zap/ZapInfo.jsx:98
 msgid "All-in-one zap contracts"
-msgstr "多合一 ap 合约"
+msgstr "多合一 Zap 合约"
 
 #: src/views/Bond/BondPurchase.jsx:155
 msgid "Amount"
