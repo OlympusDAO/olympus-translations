@@ -71,15 +71,15 @@ msgstr "自动以 sOHM 进行质押"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
-msgstr "奖励余额将在第一次变基时增长"
+msgstr "奖励余额将在第一次变基时增长。"
 
 #: src/views/33Together/PoolPrize.jsx:202
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr "奖力阶段已结束，您可以至一起彩池的使用者介面开始进行分发。"
+msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面开始进行分发"
 
 #: src/views/33Together/PoolPrize.jsx:181
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr "奖力阶段已结束，您可以至一起彩池的使用者介面完成分发。"
+msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面完成分发"
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
@@ -252,7 +252,7 @@ msgstr "免费离场时间"
 
 #: src/views/Stake/ExternalStakePool.jsx:75
 msgid "Farm Pool"
-msgstr "礦池"
+msgstr "矿池"
 
 #: src/views/Bond/BondPurchase.jsx:146
 msgid "First time bonding"
@@ -315,7 +315,7 @@ msgstr "迁移 sOHM！"
 
 #: src/views/Zap/ZapStakeAction.jsx:340
 msgid "Minimum You Get"
-msgstr "你将获取的最低额度"
+msgstr "你将取得的最低额度"
 
 #: src/views/Stake/Stake.tsx:453
 msgid "Next Reward Amount"
@@ -498,7 +498,7 @@ msgstr "正在质押 OHM"
 
 #: src/views/Zap/ZapInfo.jsx:132
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal amount of sOHM."
-msgstr "质押是 Olympus 主要积累价值的策略。当您质押时，您将锁定 OHM 并获得等量的 sOHM。 "
+msgstr "质押是 Olympus 主要积累价值的策略。当您质押时，您将锁定 OHM 并获得等量的 sOHM。"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
