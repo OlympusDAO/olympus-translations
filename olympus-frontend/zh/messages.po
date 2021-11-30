@@ -30,7 +30,7 @@ msgid "ADD TOKEN TO WALLET"
 msgstr "将代币加入钱包"
 
 #: src/views/Stake/ExternalStakePool.jsx:88
-#: src/views/Stake/Stake.tsx:207
+#: src/views/Stake/Stake.tsx:210
 msgid "APY"
 msgstr "年收益率"
 
@@ -50,14 +50,18 @@ msgstr "多合一 Zap 合约"
 msgid "Amount"
 msgstr "数量"
 
-#: src/views/33Together/PoolDeposit.jsx:172
-#: src/views/Stake/Stake.tsx:367
-#: src/views/Stake/Stake.tsx:396
-#: src/views/Zap/ZapStakeAction.jsx:386
+#: src/views/Zap/ZapStakeHeader.jsx:26
+msgid "Any asset"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:174
+#: src/views/Stake/Stake.tsx:373
+#: src/views/Stake/Stake.tsx:405
+#: src/views/Zap/ZapStakeAction.jsx:395
 msgid "Approve"
 msgstr "批准"
 
-#: src/views/Zap/ZapStakeAction.jsx:379
+#: src/views/Zap/ZapStakeAction.jsx:388
 msgid "Approved"
 msgstr "已批准"
 
@@ -65,7 +69,7 @@ msgstr "已批准"
 msgid "Asset"
 msgstr "资产"
 
-#: src/views/Zap/ZapStakeHeader.jsx:56
+#: src/views/Zap/ZapStakeHeader.jsx:63
 msgid "Auto staked for sOHM"
 msgstr "自动以 sOHM 进行质押"
 
@@ -86,7 +90,7 @@ msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面完成
 msgid "Balance"
 msgstr "余额"
 
-#: src/components/Sidebar/NavContent.jsx:143
+#: src/components/Sidebar/NavContent.jsx:144
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:75
@@ -97,13 +101,21 @@ msgstr "债券"
 msgid "Bond Price"
 msgstr "债券价钱"
 
-#: src/components/Sidebar/NavContent.jsx:150
+#: src/components/Sidebar/NavContent.jsx:151
 msgid "Bond discounts"
 msgstr "债券折扣"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
 msgstr "债券 {0}"
+
+#: src/components/Sidebar/NavContent.jsx:129
+msgid "Bridge"
+msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:237
+msgid "Bridge Tokens"
+msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
@@ -162,12 +174,12 @@ msgstr "即将推出"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
-#: src/views/Stake/Stake.tsx:155
+#: src/views/Stake/Stake.tsx:158
 #: src/views/Zap/Zap.jsx:33
 msgid "Connect Wallet"
 msgstr "连接钱包"
 
-#: src/views/Stake/Stake.tsx:268
+#: src/views/Stake/Stake.tsx:271
 msgid "Connect your wallet to stake OHM"
 msgstr "连接您的钱包以质押 OHM"
 
@@ -175,7 +187,7 @@ msgstr "连接您的钱包以质押 OHM"
 msgid "Connect your wallet to use Zap"
 msgstr "连接您的钱包以使用 Zap"
 
-#: src/views/Stake/Stake.tsx:246
+#: src/views/Stake/Stake.tsx:249
 msgid "Current Index"
 msgstr "当前指数"
 
@@ -183,7 +195,7 @@ msgstr "当前指数"
 msgid "Current Prize"
 msgstr "当前奖金"
 
-#: src/components/Sidebar/NavContent.jsx:82
+#: src/components/Sidebar/NavContent.jsx:87
 msgid "Dashboard"
 msgstr "仪表盘"
 
@@ -192,11 +204,11 @@ msgstr "仪表盘"
 msgid "Debt Ratio"
 msgstr "负债比率"
 
-#: src/views/33Together/33together.tsx:170
+#: src/views/33Together/33together.tsx:168
 msgid "Deposit"
 msgstr "存入"
 
-#: src/views/33Together/PoolDeposit.jsx:162
+#: src/views/33Together/PoolDeposit.jsx:163
 msgid "Deposit sOHM"
 msgstr "存入 sOHM"
 
@@ -204,7 +216,7 @@ msgstr "存入 sOHM"
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
 msgstr "存入 sOHM 即可获胜！存入后，您将收到相对应数量的 33T 并将参与游戏直到您的 sOHM 被提取。"
 
-#: src/views/33Together/PoolDeposit.jsx:179
+#: src/views/33Together/PoolDeposit.jsx:181
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 
@@ -212,7 +224,7 @@ msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "一旦颁发奖赏，就可以进行存款。"
 
-#: src/views/Zap/ZapStakeAction.jsx:436
+#: src/views/Zap/ZapStakeAction.jsx:445
 msgid "Dialing Zapper..."
 msgstr "正在拨号给 Zapper..."
 
@@ -229,20 +241,25 @@ msgstr "文档"
 msgid "Early Exit Fee"
 msgstr "提前退出费用"
 
-#: src/views/33Together/PoolWithdraw.jsx:171
+#: src/views/33Together/PoolWithdraw.jsx:172
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "为了公平起见，提前提款将产生 {exitFee} 的费用。"
 
+#: src/views/Zap/ZapStakeAction.jsx:365
+#: src/views/Zap/ZapStakeAction.jsx:417
+msgid "Enter Amount"
+msgstr ""
+
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
-msgid "Enter an Amount"
-msgstr "输入金额"
+#~ msgid "Enter an Amount"
+#~ msgstr "输入金额"
 
 #: src/views/33Together/PoolDeposit.jsx:133
 msgid "Enter an amount"
 msgstr "输入金额"
 
-#: src/views/Zap/ZapStakeAction.jsx:332
+#: src/views/Zap/ZapStakeAction.jsx:334
 msgid "Exchange Rate"
 msgstr "汇率"
 
@@ -258,11 +275,11 @@ msgstr "矿池"
 msgid "First time bonding"
 msgstr "第一次买债券"
 
-#: src/views/Stake/Stake.tsx:302
+#: src/views/Stake/Stake.tsx:306
 msgid "First time staking"
 msgstr "第一次质押"
 
-#: src/views/Stake/Stake.tsx:309
+#: src/views/Stake/Stake.tsx:313
 msgid "First time unstaking"
 msgstr "第一次取消质押"
 
@@ -301,7 +318,7 @@ msgstr "市场价格"
 msgid "Max"
 msgstr "最大限度"
 
-#: src/views/Zap/ZapStakeAction.jsx:326
+#: src/views/Zap/ZapStakeAction.jsx:328
 msgid "Max Slippage"
 msgstr "最大滑点"
 
@@ -309,19 +326,19 @@ msgstr "最大滑点"
 msgid "Max You Can Buy"
 msgstr "您可以购买的最大数量"
 
-#: src/views/Stake/Stake.tsx:194
+#: src/views/Stake/Stake.tsx:197
 msgid "Migrate sOHM!"
 msgstr "迁移 sOHM！"
 
-#: src/views/Zap/ZapStakeAction.jsx:340
+#: src/views/Zap/ZapStakeAction.jsx:349
 msgid "Minimum You Get"
 msgstr "你将取得的最低额度"
 
-#: src/views/Stake/Stake.tsx:453
+#: src/views/Stake/Stake.tsx:473
 msgid "Next Reward Amount"
 msgstr "下一次奖励金额"
 
-#: src/views/Stake/Stake.tsx:462
+#: src/views/Stake/Stake.tsx:482
 msgid "Next Reward Yield"
 msgstr "下一次奖励收获量"
 
@@ -351,14 +368,14 @@ msgstr "待定中的奖励"
 
 #: src/slices/PendingTxnsSlice.ts:41
 #: src/slices/PendingTxnsSlice.ts:45
-#: src/views/Zap/ZapStakeAction.jsx:354
-#: src/views/Zap/ZapStakeAction.jsx:386
+#: src/views/Zap/ZapStakeAction.jsx:363
+#: src/views/Zap/ZapStakeAction.jsx:395
 msgid "Pending..."
 msgstr "待定中..."
 
 #: src/views/Bond/BondPurchase.jsx:147
-#: src/views/Stake/Stake.tsx:304
-#: src/views/Stake/Stake.tsx:311
+#: src/views/Stake/Stake.tsx:308
+#: src/views/Stake/Stake.tsx:315
 msgid "Please approve Olympus Dao to use your"
 msgstr "请批准 Olympus Dao 使用您的"
 
@@ -369,8 +386,8 @@ msgstr "请输入一个有效值！"
 #: src/views/33Together/PoolDeposit.jsx:66
 #: src/views/33Together/PoolWithdraw.jsx:59
 #: src/views/Bond/BondPurchase.jsx:50
-#: src/views/Stake/Stake.tsx:124
-#: src/views/Stake/Stake.tsx:124
+#: src/views/Stake/Stake.tsx:127
+#: src/views/Stake/Stake.tsx:127
 msgid "Please enter a value!"
 msgstr "请输入一个值！"
 
@@ -383,8 +400,8 @@ msgid "Pool owner"
 msgstr "矿池所有人"
 
 #: src/views/Zap/ZapStakeAction.jsx:187
-msgid "Powered by Zapper"
-msgstr "由 Zapper 技术支持"
+#~ msgid "Powered by Zapper"
+#~ msgstr "由 Zapper 技术支持"
 
 #: src/views/ChooseBond/BondRow.jsx:38
 #: src/views/ChooseBond/ChooseBond.tsx:121
@@ -412,11 +429,11 @@ msgstr "已购买"
 msgid "ROI"
 msgstr "投资回报率"
 
-#: src/views/Stake/Stake.tsx:471
+#: src/views/Stake/Stake.tsx:491
 msgid "ROI (5-Day Rate)"
 msgstr "投资回报率（5天比率）"
 
-#: src/views/33Together/PoolWithdraw.jsx:179
+#: src/views/33Together/PoolWithdraw.jsx:180
 msgid "Read more about Fairness"
 msgstr "阅读更多有关公平性的信息"
 
@@ -432,24 +449,24 @@ msgstr "接收者地址"
 msgid "Redeem"
 msgstr "赎回"
 
-#: src/views/Zap/ZapStakeAction.jsx:424
+#: src/views/Zap/ZapStakeAction.jsx:433
 msgid "Select Zap Token"
 msgstr "选择 Zap 代币"
 
-#: src/views/Zap/ZapStakeAction.jsx:230
-#: src/views/Zap/ZapStakeAction.jsx:269
+#: src/views/Zap/ZapStakeAction.jsx:235
+#: src/views/Zap/ZapStakeAction.jsx:272
 msgid "Select a Token"
 msgstr "选择一种代币"
 
-#: src/views/Zap/ZapStakeHeader.jsx:16
+#: src/views/Zap/ZapStakeHeader.jsx:26
 msgid "Select any asset"
 msgstr "选择任何资产"
 
-#: src/views/Zap/ZapStakeAction.jsx:442
+#: src/views/Zap/ZapStakeAction.jsx:451
 msgid "Ser, you have no assets..."
 msgstr "先生/女士，你没有资产..."
 
-#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:435
 msgid "Single Staking"
 msgstr "单一质押"
 
@@ -467,11 +484,11 @@ msgstr "售罄"
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "朋友，有些不对劲，请确认下方一起彩池的使用者介面。"
 
-#: src/components/Sidebar/NavContent.jsx:97
+#: src/components/Sidebar/NavContent.jsx:102
 msgid "Stake"
 msgstr "质押"
 
-#: src/views/Stake/Stake.tsx:355
+#: src/views/Stake/Stake.tsx:361
 msgid "Stake OHM"
 msgstr "质押 OHM"
 
@@ -480,11 +497,11 @@ msgstr "质押 OHM"
 msgid "Stake in Crucible"
 msgstr "于 Crucible 质押"
 
-#: src/views/Stake/Stake.tsx:415
+#: src/views/Stake/Stake.tsx:426
 msgid "Staked Balance"
 msgstr "质押余额"
 
-#: src/views/Stake/Stake.tsx:433
+#: src/views/Stake/Stake.tsx:444
 msgid "Staked Balance in Fuse"
 msgstr "于 Fuse 的质押余额"
 
@@ -504,11 +521,11 @@ msgstr "质押是 Olympus 主要积累价值的策略。当您质押时，您将
 msgid "Supply (circulating/total)"
 msgstr "供应（流通/总量）"
 
-#: src/views/Zap/ZapStakeHeader.jsx:43
+#: src/views/Zap/ZapStakeHeader.jsx:50
 msgid "Swap for OHM"
 msgstr "换 OHM"
 
-#: src/views/Zap/ZapStakeHeader.jsx:30
+#: src/views/Zap/ZapStakeHeader.jsx:40
 msgid "Swap for sOHM"
 msgstr "换 sOHM"
 
@@ -543,7 +560,7 @@ msgstr "总赞助"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:178
-#: src/views/Stake/Stake.tsx:224
+#: src/views/Stake/Stake.tsx:227
 msgid "Total Value Deposited"
 msgstr "存入总价值"
 
@@ -555,7 +572,7 @@ msgstr "如果价格变化超过滑点 %，交易可能会回复"
 msgid "Treasury Balance"
 msgstr "金库余额"
 
-#: src/views/Stake/Stake.tsx:293
+#: src/views/Stake/Stake.tsx:296
 msgid "Unstake"
 msgstr "取消质押"
 
@@ -563,11 +580,11 @@ msgstr "取消质押"
 msgid "Unstake Legacy LP Token"
 msgstr "取消质押旧的 LP 代币"
 
-#: src/views/Stake/Stake.tsx:384
+#: src/views/Stake/Stake.tsx:393
 msgid "Unstake OHM"
 msgstr "取消质押 OHM"
 
-#: src/views/Stake/Stake.tsx:406
+#: src/views/Stake/Stake.tsx:417
 msgid "Unstaked Balance"
 msgstr "取消质押余额"
 
@@ -593,15 +610,15 @@ msgstr "查看合约"
 msgid "Winners / prize period"
 msgstr "获奖者/获奖时间"
 
-#: src/views/33Together/33together.tsx:171
+#: src/views/33Together/33together.tsx:169
 msgid "Withdraw"
 msgstr "提取"
 
-#: src/views/33Together/PoolWithdraw.jsx:153
+#: src/views/33Together/PoolWithdraw.jsx:154
 msgid "Withdraw Early & pay"
 msgstr "提早取款并付款"
 
-#: src/views/33Together/PoolWithdraw.jsx:154
+#: src/views/33Together/PoolWithdraw.jsx:155
 msgid "Withdraw sOHM"
 msgstr "提取 sOHM"
 
@@ -609,11 +626,12 @@ msgstr "提取 sOHM"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "中奖后可以进行提款"
 
-#: src/views/33Together/PoolWithdraw.jsx:161
+#: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "提取 {quantity} sOHM 会将您获胜的几率从 {newOdds} 降低到 1"
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:453
+#: src/views/Stake/Stake.tsx:462
 msgid "Wrapped Balance"
 msgstr "包装的余额"
 
@@ -625,7 +643,7 @@ msgstr "包装 OHM"
 msgid "Yield Source"
 msgstr "收益来源"
 
-#: src/views/Zap/ZapStakeAction.jsx:282
+#: src/views/Zap/ZapStakeAction.jsx:285
 msgid "You Get"
 msgstr "你获得 "
 
@@ -637,7 +655,7 @@ msgstr "你获得 sOHM"
 msgid "You Give"
 msgstr "你给予"
 
-#: src/views/Zap/ZapStakeAction.jsx:201
+#: src/views/Zap/ZapStakeAction.jsx:206
 msgid "You Pay"
 msgstr "你支付"
 
@@ -649,13 +667,13 @@ msgstr "你将会获得"
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "您可以随时提取存入的资金。由于提取资金，您将减少在未来的奖赏期间赢得该矿池中奖赏的机会 "
 
-#: src/views/Stake/Stake.tsx:130
-#: src/views/Stake/Stake.tsx:130
+#: src/views/Stake/Stake.tsx:133
+#: src/views/Stake/Stake.tsx:133
 msgid "You cannot stake more than your OHM balance."
 msgstr "您不能质押超过您的 OHM 余额。"
 
-#: src/views/Stake/Stake.tsx:134
-#: src/views/Stake/Stake.tsx:134
+#: src/views/Stake/Stake.tsx:137
+#: src/views/Stake/Stake.tsx:137
 msgid "You cannot unstake more than your sOHM balance."
 msgstr "您不能取消质押超过您的 sOHM 余额。"
 
@@ -671,11 +689,11 @@ msgstr "您已经有一张债券，现在再购买债券将重置您的授予期
 msgid "Your Balance"
 msgstr "你的余额"
 
-#: src/views/33Together/PoolWithdraw.jsx:189
+#: src/views/33Together/PoolWithdraw.jsx:190
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "您于矿池中的余额（可被提取的）"
 
-#: src/views/33Together/PoolDeposit.jsx:190
+#: src/views/33Together/PoolDeposit.jsx:192
 msgid "Your Staked Balance (Depositable)"
 msgstr "您的质押余额（可存入的）"
 
@@ -703,8 +721,8 @@ msgstr "Zap 提供换币"
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "使用 Zap 换取更多资产并质押 <0>OHM</0>"
 
-#: src/views/Zap/ZapStakeAction.jsx:358
-#: src/views/Zap/ZapStakeAction.jsx:408
+#: src/views/Zap/ZapStakeAction.jsx:367
+#: src/views/Zap/ZapStakeAction.jsx:417
 msgid "Zap-Stake"
 msgstr "Zap 质押"
 
@@ -719,7 +737,7 @@ msgid "do_bond"
 msgstr "买债券"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:287
+#: src/views/Stake/Stake.tsx:290
 msgid "do_stake"
 msgstr "进行质押"
 
@@ -727,11 +745,11 @@ msgstr "进行质押"
 msgid "for bonding"
 msgstr "用于买债券"
 
-#: src/views/Stake/Stake.tsx:305
+#: src/views/Stake/Stake.tsx:309
 msgid "for staking"
 msgstr "用于质押"
 
-#: src/views/Stake/Stake.tsx:312
+#: src/views/Stake/Stake.tsx:316
 msgid "for unstaking"
 msgstr "用于取消质押"
 

@@ -30,7 +30,7 @@ msgid "ADD TOKEN TO WALLET"
 msgstr "Token'ları Cüzdanınıza Ekleyin"
 
 #: src/views/Stake/ExternalStakePool.jsx:88
-#: src/views/Stake/Stake.tsx:207
+#: src/views/Stake/Stake.tsx:210
 msgid "APY"
 msgstr "YFG"
 
@@ -54,14 +54,18 @@ msgstr ""
 msgid "Amount"
 msgstr "Miktar"
 
-#: src/views/33Together/PoolDeposit.jsx:172
-#: src/views/Stake/Stake.tsx:367
-#: src/views/Stake/Stake.tsx:396
-#: src/views/Zap/ZapStakeAction.jsx:386
+#: src/views/Zap/ZapStakeHeader.jsx:26
+msgid "Any asset"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:174
+#: src/views/Stake/Stake.tsx:373
+#: src/views/Stake/Stake.tsx:405
+#: src/views/Zap/ZapStakeAction.jsx:395
 msgid "Approve"
 msgstr "Onayla"
 
-#: src/views/Zap/ZapStakeAction.jsx:379
+#: src/views/Zap/ZapStakeAction.jsx:388
 msgid "Approved"
 msgstr ""
 
@@ -69,7 +73,7 @@ msgstr ""
 msgid "Asset"
 msgstr "Varlık"
 
-#: src/views/Zap/ZapStakeHeader.jsx:56
+#: src/views/Zap/ZapStakeHeader.jsx:63
 msgid "Auto staked for sOHM"
 msgstr ""
 
@@ -94,7 +98,7 @@ msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'�
 msgid "Balance"
 msgstr "Bakiye"
 
-#: src/components/Sidebar/NavContent.jsx:143
+#: src/components/Sidebar/NavContent.jsx:144
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:75
@@ -105,12 +109,20 @@ msgstr "Bono"
 msgid "Bond Price"
 msgstr "Bono fiyatı"
 
-#: src/components/Sidebar/NavContent.jsx:150
+#: src/components/Sidebar/NavContent.jsx:151
 msgid "Bond discounts"
 msgstr "Bono indirimleri"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:129
+msgid "Bridge"
+msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:237
+msgid "Bridge Tokens"
 msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:104
@@ -187,12 +199,12 @@ msgstr "Yakında"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
-#: src/views/Stake/Stake.tsx:155
+#: src/views/Stake/Stake.tsx:158
 #: src/views/Zap/Zap.jsx:33
 msgid "Connect Wallet"
 msgstr "Cüzdanınızı bağlayın"
 
-#: src/views/Stake/Stake.tsx:268
+#: src/views/Stake/Stake.tsx:271
 msgid "Connect your wallet to stake OHM"
 msgstr "OHM yatırmak için Cüzdanınızı bağlayın"
 
@@ -200,7 +212,7 @@ msgstr "OHM yatırmak için Cüzdanınızı bağlayın"
 msgid "Connect your wallet to use Zap"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:246
+#: src/views/Stake/Stake.tsx:249
 msgid "Current Index"
 msgstr "Güncel Katsayı"
 
@@ -208,7 +220,7 @@ msgstr "Güncel Katsayı"
 msgid "Current Prize"
 msgstr "Mevcut Ödül"
 
-#: src/components/Sidebar/NavContent.jsx:82
+#: src/components/Sidebar/NavContent.jsx:87
 msgid "Dashboard"
 msgstr "Gösterge Panosu"
 
@@ -217,11 +229,11 @@ msgstr "Gösterge Panosu"
 msgid "Debt Ratio"
 msgstr "Borç oranı"
 
-#: src/views/33Together/33together.tsx:170
+#: src/views/33Together/33together.tsx:168
 msgid "Deposit"
 msgstr "Yatır"
 
-#: src/views/33Together/PoolDeposit.jsx:162
+#: src/views/33Together/PoolDeposit.jsx:163
 msgid "Deposit sOHM"
 msgstr "sOHM Yatır"
 
@@ -229,7 +241,7 @@ msgstr "sOHM Yatır"
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
 msgstr ""
 
-#: src/views/33Together/PoolDeposit.jsx:179
+#: src/views/33Together/PoolDeposit.jsx:181
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM yatırarak kazanma şansınız {newOdds}de 1 olacak."
 
@@ -237,7 +249,7 @@ msgstr "{quantity} sOHM yatırarak kazanma şansınız {newOdds}de 1 olacak."
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "Para ancak ödül dağıtıldıktan sonra yatırılabilir."
 
-#: src/views/Zap/ZapStakeAction.jsx:436
+#: src/views/Zap/ZapStakeAction.jsx:445
 msgid "Dialing Zapper..."
 msgstr ""
 
@@ -254,20 +266,25 @@ msgstr "Belgeler"
 msgid "Early Exit Fee"
 msgstr "Erken çekiş ücreti"
 
-#: src/views/33Together/PoolWithdraw.jsx:171
+#: src/views/33Together/PoolWithdraw.jsx:172
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "Paranızı erken çektiğiniz takdirde {exitFee}'lik bir ücret kesilecektir."
 
+#: src/views/Zap/ZapStakeAction.jsx:365
+#: src/views/Zap/ZapStakeAction.jsx:417
+msgid "Enter Amount"
+msgstr ""
+
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
-msgid "Enter an Amount"
-msgstr ""
+#~ msgid "Enter an Amount"
+#~ msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:133
 msgid "Enter an amount"
 msgstr "Bir miktar giriniz."
 
-#: src/views/Zap/ZapStakeAction.jsx:332
+#: src/views/Zap/ZapStakeAction.jsx:334
 msgid "Exchange Rate"
 msgstr ""
 
@@ -287,11 +304,11 @@ msgstr "Farm Havuzu"
 msgid "First time bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:302
+#: src/views/Stake/Stake.tsx:306
 msgid "First time staking"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:309
+#: src/views/Stake/Stake.tsx:313
 msgid "First time unstaking"
 msgstr ""
 
@@ -334,7 +351,7 @@ msgstr "Piyasa Fiyatı"
 msgid "Max"
 msgstr "Maks."
 
-#: src/views/Zap/ZapStakeAction.jsx:326
+#: src/views/Zap/ZapStakeAction.jsx:328
 msgid "Max Slippage"
 msgstr ""
 
@@ -342,19 +359,19 @@ msgstr ""
 msgid "Max You Can Buy"
 msgstr "Satın alabileceğiniz maksimum miktar"
 
-#: src/views/Stake/Stake.tsx:194
+#: src/views/Stake/Stake.tsx:197
 msgid "Migrate sOHM!"
 msgstr "sOHM'unuzu taşıyın!"
 
-#: src/views/Zap/ZapStakeAction.jsx:340
+#: src/views/Zap/ZapStakeAction.jsx:349
 msgid "Minimum You Get"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:453
+#: src/views/Stake/Stake.tsx:473
 msgid "Next Reward Amount"
 msgstr "Sıradaki Faiz Miktarı"
 
-#: src/views/Stake/Stake.tsx:462
+#: src/views/Stake/Stake.tsx:482
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
 
@@ -388,14 +405,14 @@ msgstr "Kalan miktar"
 
 #: src/slices/PendingTxnsSlice.ts:41
 #: src/slices/PendingTxnsSlice.ts:45
-#: src/views/Zap/ZapStakeAction.jsx:354
-#: src/views/Zap/ZapStakeAction.jsx:386
+#: src/views/Zap/ZapStakeAction.jsx:363
+#: src/views/Zap/ZapStakeAction.jsx:395
 msgid "Pending..."
 msgstr "İşleniyor..."
 
 #: src/views/Bond/BondPurchase.jsx:147
-#: src/views/Stake/Stake.tsx:304
-#: src/views/Stake/Stake.tsx:311
+#: src/views/Stake/Stake.tsx:308
+#: src/views/Stake/Stake.tsx:315
 msgid "Please approve Olympus Dao to use your"
 msgstr ""
 
@@ -406,8 +423,8 @@ msgstr "Lütfen geçerli bir değer giriniz."
 #: src/views/33Together/PoolDeposit.jsx:66
 #: src/views/33Together/PoolWithdraw.jsx:59
 #: src/views/Bond/BondPurchase.jsx:50
-#: src/views/Stake/Stake.tsx:124
-#: src/views/Stake/Stake.tsx:124
+#: src/views/Stake/Stake.tsx:127
+#: src/views/Stake/Stake.tsx:127
 msgid "Please enter a value!"
 msgstr "Lütfen bir miktar giriniz."
 
@@ -420,8 +437,8 @@ msgid "Pool owner"
 msgstr "Havuz Sahibi"
 
 #: src/views/Zap/ZapStakeAction.jsx:187
-msgid "Powered by Zapper"
-msgstr ""
+#~ msgid "Powered by Zapper"
+#~ msgstr ""
 
 #: src/views/ChooseBond/BondRow.jsx:38
 #: src/views/ChooseBond/ChooseBond.tsx:121
@@ -453,11 +470,11 @@ msgstr "Satın alınan Miktar"
 msgid "ROI"
 msgstr "Getiri"
 
-#: src/views/Stake/Stake.tsx:471
+#: src/views/Stake/Stake.tsx:491
 msgid "ROI (5-Day Rate)"
 msgstr "5 Günlük Getiri Oranı"
 
-#: src/views/33Together/PoolWithdraw.jsx:179
+#: src/views/33Together/PoolWithdraw.jsx:180
 msgid "Read more about Fairness"
 msgstr "Eşitlik hakkında daha fazla bilgi edinin"
 
@@ -481,24 +498,24 @@ msgstr "Çek"
 #~ msgid "Runway Available"
 #~ msgstr "Mevcut Runway"
 
-#: src/views/Zap/ZapStakeAction.jsx:424
+#: src/views/Zap/ZapStakeAction.jsx:433
 msgid "Select Zap Token"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:230
-#: src/views/Zap/ZapStakeAction.jsx:269
+#: src/views/Zap/ZapStakeAction.jsx:235
+#: src/views/Zap/ZapStakeAction.jsx:272
 msgid "Select a Token"
 msgstr ""
 
-#: src/views/Zap/ZapStakeHeader.jsx:16
+#: src/views/Zap/ZapStakeHeader.jsx:26
 msgid "Select any asset"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:442
+#: src/views/Zap/ZapStakeAction.jsx:451
 msgid "Ser, you have no assets..."
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:435
 msgid "Single Staking"
 msgstr ""
 
@@ -516,11 +533,11 @@ msgstr ""
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Detaylar için Pool Together arayüzüne gözatabilirsiniz."
 
-#: src/components/Sidebar/NavContent.jsx:97
+#: src/components/Sidebar/NavContent.jsx:102
 msgid "Stake"
 msgstr "Yatır"
 
-#: src/views/Stake/Stake.tsx:355
+#: src/views/Stake/Stake.tsx:361
 msgid "Stake OHM"
 msgstr "OHM yatır"
 
@@ -529,11 +546,11 @@ msgstr "OHM yatır"
 msgid "Stake in Crucible"
 msgstr "Crucible'da yatır"
 
-#: src/views/Stake/Stake.tsx:415
+#: src/views/Stake/Stake.tsx:426
 msgid "Staked Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:433
+#: src/views/Stake/Stake.tsx:444
 msgid "Staked Balance in Fuse"
 msgstr ""
 
@@ -553,11 +570,11 @@ msgstr ""
 msgid "Supply (circulating/total)"
 msgstr "Arz (Dolaşımdaki/Toplam)"
 
-#: src/views/Zap/ZapStakeHeader.jsx:43
+#: src/views/Zap/ZapStakeHeader.jsx:50
 msgid "Swap for OHM"
 msgstr ""
 
-#: src/views/Zap/ZapStakeHeader.jsx:30
+#: src/views/Zap/ZapStakeHeader.jsx:40
 msgid "Swap for sOHM"
 msgstr ""
 
@@ -596,7 +613,7 @@ msgstr "Toplam Sponsor Miktarı"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:178
-#: src/views/Stake/Stake.tsx:224
+#: src/views/Stake/Stake.tsx:227
 msgid "Total Value Deposited"
 msgstr "Yatırılmış Toplam Değer"
 
@@ -608,7 +625,7 @@ msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
 msgid "Treasury Balance"
 msgstr "Hazine Bakiyesi"
 
-#: src/views/Stake/Stake.tsx:293
+#: src/views/Stake/Stake.tsx:296
 msgid "Unstake"
 msgstr "Çek"
 
@@ -616,11 +633,11 @@ msgstr "Çek"
 msgid "Unstake Legacy LP Token"
 msgstr "Eski LP Token'larınızı çekmek"
 
-#: src/views/Stake/Stake.tsx:384
+#: src/views/Stake/Stake.tsx:393
 msgid "Unstake OHM"
 msgstr "OHM çek"
 
-#: src/views/Stake/Stake.tsx:406
+#: src/views/Stake/Stake.tsx:417
 msgid "Unstaked Balance"
 msgstr ""
 
@@ -646,15 +663,15 @@ msgstr "Sözleşmeyi görüntüle"
 msgid "Winners / prize period"
 msgstr "Kazanan kullanıcı sayısı"
 
-#: src/views/33Together/33together.tsx:171
+#: src/views/33Together/33together.tsx:169
 msgid "Withdraw"
 msgstr "Çek"
 
-#: src/views/33Together/PoolWithdraw.jsx:153
+#: src/views/33Together/PoolWithdraw.jsx:154
 msgid "Withdraw Early & pay"
 msgstr "Erken çek ve ücret öde"
 
-#: src/views/33Together/PoolWithdraw.jsx:154
+#: src/views/33Together/PoolWithdraw.jsx:155
 msgid "Withdraw sOHM"
 msgstr "sOHM çek"
 
@@ -662,11 +679,12 @@ msgstr "sOHM çek"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "Ödül dağıtıldıktan sonra para çekilebilir."
 
-#: src/views/33Together/PoolWithdraw.jsx:161
+#: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:453
+#: src/views/Stake/Stake.tsx:462
 msgid "Wrapped Balance"
 msgstr ""
 
@@ -678,7 +696,7 @@ msgstr ""
 msgid "Yield Source"
 msgstr "Getiri Kaynağı"
 
-#: src/views/Zap/ZapStakeAction.jsx:282
+#: src/views/Zap/ZapStakeAction.jsx:285
 msgid "You Get"
 msgstr ""
 
@@ -690,7 +708,7 @@ msgstr ""
 msgid "You Give"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:201
+#: src/views/Zap/ZapStakeAction.jsx:206
 msgid "You Pay"
 msgstr ""
 
@@ -702,13 +720,13 @@ msgstr "Alacağınız Miktar"
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:130
-#: src/views/Stake/Stake.tsx:130
+#: src/views/Stake/Stake.tsx:133
+#: src/views/Stake/Stake.tsx:133
 msgid "You cannot stake more than your OHM balance."
 msgstr "OHM bakiyenizden daha fazla olan bir değeri yatıramazsınız."
 
-#: src/views/Stake/Stake.tsx:134
-#: src/views/Stake/Stake.tsx:134
+#: src/views/Stake/Stake.tsx:137
+#: src/views/Stake/Stake.tsx:137
 msgid "You cannot unstake more than your sOHM balance."
 msgstr "sOHM bakiyenizden daha fazla olan bir değeri çekemezsiniz."
 
@@ -724,7 +742,7 @@ msgstr "Mevcut bir Bononuz bulunuyor. Teker Bono satın almak mevcut bononuzun s
 msgid "Your Balance"
 msgstr "Mevcut Bakiyeniz"
 
-#: src/views/33Together/PoolWithdraw.jsx:189
+#: src/views/33Together/PoolWithdraw.jsx:190
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "Havuza Yatırılmış Çekilebilir bakiyeniz"
 
@@ -732,7 +750,7 @@ msgstr "Havuza Yatırılmış Çekilebilir bakiyeniz"
 #~ msgid "Your Staked Balance"
 #~ msgstr "Yatırılmış Bakiyeniz"
 
-#: src/views/33Together/PoolDeposit.jsx:190
+#: src/views/33Together/PoolDeposit.jsx:192
 msgid "Your Staked Balance (Depositable)"
 msgstr "Kullanılaiblir Yatırılmış bakiyeniz"
 
@@ -760,8 +778,8 @@ msgstr ""
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:358
-#: src/views/Zap/ZapStakeAction.jsx:408
+#: src/views/Zap/ZapStakeAction.jsx:367
+#: src/views/Zap/ZapStakeAction.jsx:417
 msgid "Zap-Stake"
 msgstr ""
 
@@ -776,7 +794,7 @@ msgid "do_bond"
 msgstr ""
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:287
+#: src/views/Stake/Stake.tsx:290
 msgid "do_stake"
 msgstr ""
 
@@ -784,11 +802,11 @@ msgstr ""
 msgid "for bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:305
+#: src/views/Stake/Stake.tsx:309
 msgid "for staking"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:312
+#: src/views/Stake/Stake.tsx:316
 msgid "for unstaking"
 msgstr ""
 
