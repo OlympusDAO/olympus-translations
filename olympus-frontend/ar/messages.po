@@ -52,7 +52,7 @@ msgstr "الكمية"
 
 #: src/views/Zap/ZapStakeHeader.jsx:26
 msgid "Any asset"
-msgstr ""
+msgstr "أي أصل"
 
 #: src/views/33Together/PoolDeposit.jsx:175
 #: src/views/Stake/Stake.tsx:380
@@ -112,11 +112,11 @@ msgstr "سند {0}"
 #: src/components/Sidebar/NavContent.jsx:135
 #: src/components/Sidebar/NavContent.jsx:244
 msgid "Bridge"
-msgstr ""
+msgstr "الموصل"
 
 #: src/components/TopBar/OhmMenu.jsx:237
 msgid "Bridge Tokens"
-msgstr ""
+msgstr "توصيل العملات الرقمية"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
@@ -249,7 +249,7 @@ msgstr "سيتحمل السحب المبكر رسوم إنصاف قدرها {exi
 #: src/views/Zap/ZapStakeAction.jsx:365
 #: src/views/Zap/ZapStakeAction.jsx:417
 msgid "Enter Amount"
-msgstr ""
+msgstr "إدخل كمية"
 
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
@@ -270,7 +270,7 @@ msgstr "زمن تضاؤل رسوم السحب المبكر"
 
 #: src/views/Stake/ExternalStakePool.jsx:75
 msgid "Farm Pool"
-msgstr "ألية مجمع الزراعي"
+msgstr "ألية المجمع المزروع"
 
 #: src/views/Bond/BondPurchase.jsx:149
 msgid "First time bonding"
@@ -639,7 +639,7 @@ msgstr "الرصيد المربوط"
 
 #: src/views/Stake/Stake.tsx:468
 msgid "Wrapped Balance in FiatDAO"
-msgstr ""
+msgstr "الرصيد المربوط في FiatDao"
 
 #: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
