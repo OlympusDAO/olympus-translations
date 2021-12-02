@@ -79,7 +79,7 @@ msgstr "Actif"
 
 #: src/views/Zap/ZapStakeHeader.jsx:63
 msgid "Auto staked for sOHM"
-msgstr "Déposé automatiquement pour des sOHM"
+msgstr "Mise en dépôt automatiquement contre des sOHM"
 
 #: src/views/33Together/PoolPrize.jsx:114
 msgid "Award Balance will grow at 1st rebase."
@@ -593,15 +593,15 @@ msgstr "Nombre de jetons (en circulation/total)"
 
 #: src/views/Zap/ZapStakeHeader.jsx:50
 msgid "Swap for OHM"
-msgstr "Echanger pour des OHM"
+msgstr "Echangez pour des OHM"
 
 #: src/views/Zap/ZapStakeHeader.jsx:40
 msgid "Swap for sOHM"
-msgstr "Echanger pour des sOHM"
+msgstr "Echangez pour des sOHM"
 
 #: src/views/Zap/ZapCta.jsx:58
 msgid "Swap into sOHM"
-msgstr "Echanger pour des sOHM"
+msgstr "Echangez pour des sOHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:91
 #: src/views/Stake/ExternalStakePool.jsx:176
