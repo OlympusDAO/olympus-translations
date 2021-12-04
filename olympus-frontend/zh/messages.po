@@ -63,7 +63,7 @@ msgstr "批准"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 msgid "Approved"
-msgstr "已批准"
+msgstr "已被批准"
 
 #: src/views/Stake/ExternalStakePool.jsx:85
 msgid "Asset"
@@ -420,7 +420,7 @@ msgstr "正在颁发奖赏"
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "Purchased"
-msgstr "已购买"
+msgstr "已被购买总额"
 
 #: src/views/Bond/BondPurchase.jsx:250
 #: src/views/Bond/BondRedeem.jsx:119
@@ -645,7 +645,7 @@ msgstr "收益来源"
 
 #: src/views/Zap/ZapStakeAction.jsx:285
 msgid "You Get"
-msgstr "你获得 "
+msgstr "你获得"
 
 #: src/views/Zap/ZapInfo.jsx:124
 msgid "You Get sOHM"
@@ -653,7 +653,7 @@ msgstr "你获得 sOHM"
 
 #: src/views/Zap/ZapInfo.jsx:73
 msgid "You Give"
-msgstr "你给予"
+msgstr "你提供"
 
 #: src/views/Zap/ZapStakeAction.jsx:206
 msgid "You Pay"
