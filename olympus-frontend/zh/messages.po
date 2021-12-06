@@ -52,7 +52,7 @@ msgstr "数量"
 
 #: src/views/Zap/ZapStakeHeader.jsx:26
 msgid "Any asset"
-msgstr ""
+msgstr "任何资产"
 
 #: src/views/33Together/PoolDeposit.jsx:174
 #: src/views/Stake/Stake.tsx:373
@@ -63,7 +63,7 @@ msgstr "批准"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 msgid "Approved"
-msgstr "已批准"
+msgstr "已被批准"
 
 #: src/views/Stake/ExternalStakePool.jsx:85
 msgid "Asset"
@@ -111,11 +111,11 @@ msgstr "债券 {0}"
 
 #: src/components/Sidebar/NavContent.jsx:129
 msgid "Bridge"
-msgstr ""
+msgstr "跨链桥"
 
 #: src/components/TopBar/OhmMenu.jsx:237
 msgid "Bridge Tokens"
-msgstr ""
+msgstr "桥币"
 
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
@@ -248,7 +248,7 @@ msgstr "为了公平起见，提前提款将产生 {exitFee} 的费用。"
 #: src/views/Zap/ZapStakeAction.jsx:365
 #: src/views/Zap/ZapStakeAction.jsx:417
 msgid "Enter Amount"
-msgstr ""
+msgstr "输入金额"
 
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
@@ -420,7 +420,7 @@ msgstr "正在颁发奖赏"
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "Purchased"
-msgstr "已购买"
+msgstr "已被购买总额"
 
 #: src/views/Bond/BondPurchase.jsx:250
 #: src/views/Bond/BondRedeem.jsx:119
@@ -645,7 +645,7 @@ msgstr "收益来源"
 
 #: src/views/Zap/ZapStakeAction.jsx:285
 msgid "You Get"
-msgstr "你获得 "
+msgstr "你获得"
 
 #: src/views/Zap/ZapInfo.jsx:124
 msgid "You Get sOHM"
@@ -653,7 +653,7 @@ msgstr "你获得 sOHM"
 
 #: src/views/Zap/ZapInfo.jsx:73
 msgid "You Give"
-msgstr "你给予"
+msgstr "你提供"
 
 #: src/views/Zap/ZapStakeAction.jsx:206
 msgid "You Pay"
