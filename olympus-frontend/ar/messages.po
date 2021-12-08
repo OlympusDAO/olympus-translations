@@ -29,7 +29,6 @@ msgstr "مقايضة 'zap' هي سلسلة من العقود الذكية الت
 msgid "ADD TOKEN TO WALLET"
 msgstr "أضف العملة الرقمية إلى محفظتك الرقمية"
 
-#: src/views/Stake/ExternalStakePool.jsx:88
 #: src/views/Stake/Stake.tsx:217
 msgid "APY"
 msgstr "نسبة العائد السنوي"
@@ -66,8 +65,8 @@ msgid "Approved"
 msgstr "تمت الموافقة"
 
 #: src/views/Stake/ExternalStakePool.jsx:85
-msgid "Asset"
-msgstr "الأصول"
+#~ msgid "Asset"
+#~ msgstr "الأصول"
 
 #: src/views/Zap/ZapStakeHeader.jsx:63
 msgid "Auto staked for sOHM"
@@ -87,8 +86,8 @@ msgstr "انتهت فترة السحب، يمكنك الانتقال إلى وا
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
-msgid "Balance"
-msgstr "الرصيد"
+#~ msgid "Balance"
+#~ msgstr "الرصيد"
 
 #: src/components/Sidebar/NavContent.jsx:150
 #: src/views/ChooseBond/ChooseBond.tsx:71
@@ -170,8 +169,8 @@ msgid "Claimable Rewards"
 msgstr "المكافآت القابلة للمطالبة بها"
 
 #: src/views/Stake/ExternalStakePool.jsx:168
-msgid "Coming Soon"
-msgstr "قريباً"
+#~ msgid "Coming Soon"
+#~ msgstr "قريباً"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
@@ -268,7 +267,7 @@ msgstr "سعر الصرف"
 msgid "Exit Fee Decay Time"
 msgstr "زمن تضاؤل رسوم السحب المبكر"
 
-#: src/views/Stake/ExternalStakePool.jsx:75
+#: src/views/Stake/ExternalStakePool.jsx:79
 msgid "Farm Pool"
 msgstr "ألية المجمع المزروع"
 
@@ -496,8 +495,13 @@ msgstr "ربط حصة OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:144
 #: src/views/Stake/ExternalStakePool.jsx:212
-msgid "Stake in Crucible"
-msgstr "Crucible ربط حصة في"
+#~ msgid "Stake in Crucible"
+#~ msgstr "Crucible ربط حصة في"
+
+#: src/views/Stake/ExternalStakePool.jsx:150
+#: src/views/Stake/ExternalStakePool.jsx:219
+msgid "Stake on Trader Joe"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:433
 msgid "Staked Balance"
@@ -537,8 +541,8 @@ msgstr "بدل إلى OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:91
 #: src/views/Stake/ExternalStakePool.jsx:176
-msgid "TVD"
-msgstr "إجمالي القيمة المودعة"
+#~ msgid "TVD"
+#~ msgstr "إجمالي القيمة المودعة"
 
 #: src/views/33Together/PoolDeposit.jsx:110
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -560,8 +564,6 @@ msgstr "إجمالي الإيداعات"
 msgid "Total Sponsorship"
 msgstr "إجمالي الرعاية"
 
-#: src/views/Stake/ExternalStakePool.jsx:93
-#: src/views/Stake/ExternalStakePool.jsx:178
 #: src/views/Stake/Stake.tsx:234
 msgid "Total Value Deposited"
 msgstr "إجمالي القيمة المودعة"
