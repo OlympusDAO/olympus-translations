@@ -601,6 +601,10 @@ msgstr "Rút {số lượng} sOHM giảm tỷ lệ chiến thắng của bạn x
 msgid "Wrapped Balance"
 msgstr "Số dư được rút"
 
+#: src/views/Stake/Stake.tsx:468
+msgid "Wrapped Balance in FiatDAO"
+msgstr "Số dư được rút trên FiatDAO"
+
 #: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
 msgstr "Đang rút OHM"
