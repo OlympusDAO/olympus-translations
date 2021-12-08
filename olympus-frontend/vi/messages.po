@@ -79,24 +79,24 @@ msgstr "Thời gian trao thưởng đã kết thúc, bạn có thể điều hư
 #: src/views/ChooseBond/ChooseBond.tsx:117
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
-msgstr "dòng tiền"
+msgstr "Dòng tiền"
 
 #: src/views/Bond/Bond.tsx:71
 msgid "Bond Price"
-msgstr "Giá trái phiếu"
+msgstr "Dòng tiền giá bán"
 
 #: src/components/Sidebar/NavContent.jsx:157
 msgid "Bond discounts"
-msgstr "Chiết khấu trái phiếu"
+msgstr "Bhiết khấu dòng tiền"
 
 #: src/views/ChooseBond/BondRow.jsx:73
 msgid "Bond {0}"
-msgstr "Trái phiếu"
+msgstr "Dòng tiền {0}"
 
 #: src/components/Sidebar/NavContent.jsx:135
 #: src/components/Sidebar/NavContent.jsx:244
 msgid "Bridge"
-msgstr "cầu nối"
+msgstr "Cầu nối"
 
 #: src/components/TopBar/OhmMenu.jsx:237
 msgid "Bridge Tokens"
@@ -105,7 +105,7 @@ msgstr "Toeken cầu nối"
 #: src/components/TopBar/OhmMenu.jsx:114
 #: src/components/TopBar/OhmMenu.jsx:127
 msgid "Buy on {0}"
-msgstr "Mua vào{0}"
+msgstr "Mua vào {0}"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
@@ -199,7 +199,7 @@ msgstr "Đặt cọc OHM để giành chiến thắng! Sau khi tạm ứng, bạ
 
 #: src/views/33Together/PoolDeposit.jsx:182
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "Tiền đặt cọc {số lượng} vào sOHM sẽ tăng tỷ lệ đạt được lên 1 trong {Odds mới)"
+msgstr "Tiền đặt cọc {quantity} vào sOHM sẽ tăng tỷ lệ đạt được lên 1 trong {newOdds}"
 
 #: src/views/33Together/PoolDeposit.jsx:113
 msgid "Deposits can be made once the prize has been awarded."
@@ -224,7 +224,7 @@ msgstr "Phí trước khi thoát ra"
 
 #: src/views/33Together/PoolWithdraw.jsx:173
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr "Rút tiền trước hạn sẽ phải chịu một khoản phí là {Phí thoát ra}."
+msgstr "Rút tiền trước hạn sẽ phải chịu một khoản phí là {exitFee}."
 
 #: src/views/Zap/ZapStakeAction.jsx:365
 #: src/views/Zap/ZapStakeAction.jsx:417
@@ -594,7 +594,7 @@ msgstr "Rút tiền có thể được thực hiện sau khi giải thưởng đ
 
 #: src/views/33Together/PoolWithdraw.jsx:163
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr "Rút {số lượng} sOHM giảm tỷ lệ chiến thắng của bạn xuống còn 1 trong {Odds mới}"
+msgstr "Rút {quantity} sOHM giảm tỷ lệ chiến thắng của bạn xuống còn 1 trong {newOdds}"
 
 #: src/views/Stake/Stake.tsx:460
 #: src/views/Stake/Stake.tsx:476
