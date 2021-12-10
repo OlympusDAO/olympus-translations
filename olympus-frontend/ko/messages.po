@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/views/33Together/PoolWithdraw.jsx:121
+msgid "(exit fee has been waived)"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
 msgstr "{0} 분의 1"
@@ -25,19 +29,23 @@ msgstr "{0} 분의 1"
 #~ msgid "1 in {0}"
 #~ msgstr "{0} 분의 1"
 
-#: src/views/33Together/33together.tsx:156
+#: src/views/33Together/33together.tsx:167
 msgid "3, 3 Together"
 msgstr "3, 3 투게더"
 
 #: src/views/Zap/ZapInfo.jsx:81
-msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
+#~ msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
+#~ msgstr ""
+
+#: src/views/Zap/ZapInfo.jsx:81
+msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:155
 msgid "ADD TOKEN TO WALLET"
 msgstr "지갑에 토큰 추가"
 
-#: src/views/Stake/Stake.tsx:217
+#: src/views/Stake/Stake.tsx:218
 msgid "APY"
 msgstr "APY"
 
@@ -66,13 +74,13 @@ msgid "Any asset"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:175
-#: src/views/Stake/Stake.tsx:380
-#: src/views/Stake/Stake.tsx:412
-#: src/views/Zap/ZapStakeAction.jsx:395
+#: src/views/Stake/Stake.tsx:354
+#: src/views/Stake/Stake.tsx:386
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Approve"
 msgstr "기능 승인"
 
-#: src/views/Zap/ZapStakeAction.jsx:388
+#: src/views/Zap/ZapStakeAction.jsx:420
 msgid "Approved"
 msgstr ""
 
@@ -88,35 +96,35 @@ msgstr ""
 msgid "Award Balance will grow at 1st rebase."
 msgstr "상금은 첫 번째 리베이스에 증가합니다"
 
-#: src/views/33Together/PoolPrize.jsx:202
+#: src/views/33Together/PoolPrize.jsx:203
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
 msgstr "어워드 기간이 끝났습니다. 이제 투게터 풀의 UI를 통해 배분을 시작할 수 있습니다."
 
-#: src/views/33Together/PoolPrize.jsx:181
+#: src/views/33Together/PoolPrize.jsx:182
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "어워드 기간이 끝났습니다. 이제 풀의 UI를 통해 배분을 마칠 수 있습니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
-#~ msgid "Backing per OHM"
-#~ msgstr "OHM 당 지지 자산"
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:57
+msgid "Backing per OHM"
+msgstr "OHM 당 지지 자산"
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
 #~ msgid "Balance"
 #~ msgstr "잔고"
 
-#: src/components/Sidebar/NavContent.jsx:150
+#: src/components/Sidebar/NavContent.jsx:152
 #: src/views/ChooseBond/ChooseBond.tsx:71
-#: src/views/ChooseBond/ChooseBond.tsx:117
+#: src/views/ChooseBond/ChooseBond.tsx:121
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
 msgstr "본드"
 
-#: src/views/Bond/Bond.tsx:71
+#: src/views/Bond/Bond.tsx:80
 msgid "Bond Price"
 msgstr "본드 가격"
 
-#: src/components/Sidebar/NavContent.jsx:157
+#: src/components/Sidebar/NavContent.jsx:159
 msgid "Bond discounts"
 msgstr "본드 할인"
 
@@ -124,8 +132,8 @@ msgstr "본드 할인"
 msgid "Bond {0}"
 msgstr "본드 {0}"
 
-#: src/components/Sidebar/NavContent.jsx:135
-#: src/components/Sidebar/NavContent.jsx:244
+#: src/components/Sidebar/NavContent.jsx:136
+#: src/components/Sidebar/NavContent.jsx:246
 msgid "Bridge"
 msgstr ""
 
@@ -168,9 +176,9 @@ msgstr "잠시 후 다시 확인해보세요!"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "수신자 주소를 지정하세요. 기본 값으로 설정하면 현재 연결되어 있는 당신의 주소가 사용됩니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:134
-#~ msgid "Circulating Supply (total)"
-#~ msgstr "유통량(총)"
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:44
+msgid "Circulating Supply (total)"
+msgstr "유통량(총)"
 
 #: src/views/Bond/BondRedeem.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:133
@@ -207,12 +215,12 @@ msgstr "청구 가능한 보상"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
-#: src/views/Stake/Stake.tsx:164
+#: src/views/Stake/Stake.tsx:157
 #: src/views/Zap/Zap.jsx:33
 msgid "Connect Wallet"
 msgstr "지갑 연결"
 
-#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:252
 msgid "Connect your wallet to stake OHM"
 msgstr "OHM 스테이크를 위해 지갑 연결"
 
@@ -220,7 +228,8 @@ msgstr "OHM 스테이크를 위해 지갑 연결"
 msgid "Connect your wallet to use Zap"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:256
+#: src/views/Stake/Stake.tsx:236
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:70
 msgid "Current Index"
 msgstr "현재 인덱스"
 
@@ -228,7 +237,7 @@ msgstr "현재 인덱스"
 msgid "Current Prize"
 msgstr "현재 상금"
 
-#: src/components/Sidebar/NavContent.jsx:93
+#: src/components/Sidebar/NavContent.jsx:94
 msgid "Dashboard"
 msgstr "대시보드"
 
@@ -238,8 +247,8 @@ msgid "Debt Ratio"
 msgstr "부채 비율"
 
 #: src/views/33Together/33together.tsx:168
-msgid "Deposit"
-msgstr "예치"
+#~ msgid "Deposit"
+#~ msgstr "예치"
 
 #: src/views/33Together/PoolDeposit.jsx:164
 msgid "Deposit sOHM"
@@ -257,7 +266,7 @@ msgstr "{quantity} 만큼의 sOHM을 예치하면 {newOdds} 분의 1 만큼 우�
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "상금이 한번 지급된 이후 예치가 가능합니다."
 
-#: src/views/Zap/ZapStakeAction.jsx:445
+#: src/views/Zap/ZapStakeAction.jsx:477
 msgid "Dialing Zapper..."
 msgstr ""
 
@@ -274,12 +283,12 @@ msgstr "Docs"
 msgid "Early Exit Fee"
 msgstr "초기 퇴장 수수료"
 
-#: src/views/33Together/PoolWithdraw.jsx:173
+#: src/views/33Together/PoolWithdraw.jsx:180
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "공정성을 위해 초기 출금은 {exitFee} 만큼의 수수료가 발생합니다."
 
-#: src/views/Zap/ZapStakeAction.jsx:365
-#: src/views/Zap/ZapStakeAction.jsx:417
+#: src/views/Zap/ZapStakeAction.jsx:397
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Enter Amount"
 msgstr ""
 
@@ -292,7 +301,7 @@ msgstr ""
 msgid "Enter an amount"
 msgstr "수량을 입력하세요"
 
-#: src/views/Zap/ZapStakeAction.jsx:334
+#: src/views/Zap/ZapStakeAction.jsx:366
 msgid "Exchange Rate"
 msgstr ""
 
@@ -300,7 +309,7 @@ msgstr ""
 msgid "Exit Fee Decay Time"
 msgstr "수수료 없이 퇴장하려면 걸리는 시간"
 
-#: src/views/Stake/ExternalStakePool.jsx:79
+#: src/views/Stake/ExternalStakePool.tsx:62
 msgid "Farm Pool"
 msgstr "파밍 풀"
 
@@ -312,11 +321,11 @@ msgstr "파밍 풀"
 msgid "First time bonding"
 msgstr "첫 본딩"
 
-#: src/views/Stake/Stake.tsx:313
+#: src/views/Stake/Stake.tsx:287
 msgid "First time staking"
 msgstr "첫 스테이킹"
 
-#: src/views/Stake/Stake.tsx:320
+#: src/views/Stake/Stake.tsx:294
 msgid "First time unstaking"
 msgstr "첫 언스테이킹"
 
@@ -341,11 +350,11 @@ msgstr "진행 중"
 msgid "Less than a minute"
 msgstr "1분 미만"
 
-#: src/views/Dashboard/Dashboard.jsx:44
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:16
 msgid "Market Cap"
 msgstr "마켓캡(시가총액)"
 
-#: src/views/Bond/Bond.tsx:79
+#: src/views/Bond/Bond.tsx:88
 msgid "Market Price"
 msgstr "시장 가격"
 
@@ -354,38 +363,38 @@ msgstr "시장 가격"
 #~ msgstr "금고 자산의 시장 가치"
 
 #: src/views/33Together/PoolDeposit.jsx:147
-#: src/views/33Together/PoolWithdraw.jsx:140
+#: src/views/33Together/PoolWithdraw.jsx:147
 #: src/views/Bond/BondPurchase.jsx:170
 msgid "Max"
 msgstr "최대"
 
 #: src/views/Zap/ZapStakeAction.jsx:328
-msgid "Max Slippage"
-msgstr ""
+#~ msgid "Max Slippage"
+#~ msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:248
 msgid "Max You Can Buy"
 msgstr "구입 가능한 최대"
 
-#: src/views/Stake/Stake.tsx:204
+#: src/views/Stake/Stake.tsx:205
 msgid "Migrate sOHM!"
 msgstr "sOHM 마이그레이트 하세요!"
 
-#: src/views/Zap/ZapStakeAction.jsx:349
+#: src/views/Zap/ZapStakeAction.jsx:381
 msgid "Minimum You Get"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:487
+#: src/views/Stake/Stake.tsx:444
 msgid "Next Reward Amount"
 msgstr "다음 보상 수량"
 
-#: src/views/Stake/Stake.tsx:496
+#: src/views/Stake/Stake.tsx:446
 msgid "Next Reward Yield"
 msgstr "다음 보상 이자"
 
 #: src/views/33Together/PoolPrize.jsx:131
-msgid "Next award"
-msgstr "다음 어워드"
+#~ msgid "Next award"
+#~ msgstr "다음 어워드"
 
 #: src/views/Bond/BondPurchase.jsx:178
 #~ msgid "Note: The \"Approve\" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the \"Bond\" transaction."
@@ -396,6 +405,7 @@ msgstr "다음 어워드"
 #~ msgstr "알림: \"기능 승인\" 트랜젝션은 최초 스테이킹/언스테이킹시에만 필요로 합니다; 이후 스테이킹/언스테이킹시에는 \"스테이크\" 또는 \"언스테이크\" 트랜젝션만 수행하면 됩니다."
 
 #: src/views/ChooseBond/ChooseBond.tsx:101
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:29
 msgid "OHM Price"
 msgstr "OHM 가격"
 
@@ -422,14 +432,14 @@ msgstr "계류중인 보상"
 #: src/slices/PendingTxnsSlice.ts:38
 #: src/slices/PendingTxnsSlice.ts:42
 #: src/slices/PendingTxnsSlice.ts:46
-#: src/views/Zap/ZapStakeAction.jsx:363
 #: src/views/Zap/ZapStakeAction.jsx:395
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Pending..."
 msgstr "계류중..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:315
-#: src/views/Stake/Stake.tsx:322
+#: src/views/Stake/Stake.tsx:289
+#: src/views/Stake/Stake.tsx:296
 msgid "Please approve Olympus Dao to use your"
 msgstr "OlympusDAO를 승인해 주세요"
 
@@ -440,8 +450,8 @@ msgstr "유효한 값을 입력하세요"
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:51
-#: src/views/Stake/Stake.tsx:133
-#: src/views/Stake/Stake.tsx:133
+#: src/views/Stake/Stake.tsx:126
+#: src/views/Stake/Stake.tsx:126
 msgid "Please enter a value!"
 msgstr "가치를 입력하세요!"
 
@@ -458,8 +468,7 @@ msgstr "풀 소유"
 #~ msgstr ""
 
 #: src/views/ChooseBond/BondRow.jsx:38
-#: src/views/ChooseBond/ChooseBond.tsx:120
-#: src/views/Dashboard/Dashboard.jsx:31
+#: src/views/ChooseBond/ChooseBond.tsx:124
 msgid "Price"
 msgstr "가격"
 
@@ -476,22 +485,22 @@ msgstr "상금이 지급중 입니다."
 #~ msgstr "프로토콜 소유 유동성 OHM-DAI"
 
 #: src/views/ChooseBond/BondRow.jsx:55
-#: src/views/ChooseBond/ChooseBond.tsx:126
+#: src/views/ChooseBond/ChooseBond.tsx:130
 msgid "Purchased"
 msgstr "구입량"
 
 #: src/views/Bond/BondPurchase.jsx:261
 #: src/views/Bond/BondRedeem.jsx:120
 #: src/views/ChooseBond/BondRow.jsx:46
-#: src/views/ChooseBond/ChooseBond.tsx:123
+#: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "ROI"
 msgstr "ROI(수익률)"
 
-#: src/views/Stake/Stake.tsx:505
+#: src/views/Stake/Stake.tsx:451
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5일 기준 수익)"
 
-#: src/views/33Together/PoolWithdraw.jsx:181
+#: src/views/33Together/PoolWithdraw.jsx:188
 msgid "Read more about Fairness"
 msgstr "공정성에 대해 더 읽어보세요"
 
@@ -503,7 +512,7 @@ msgstr "수취인"
 msgid "Recipient Address"
 msgstr "수취인 주소"
 
-#: src/views/Bond/Bond.tsx:103
+#: src/views/Bond/Bond.tsx:112
 msgid "Redeem"
 msgstr "상환"
 
@@ -515,12 +524,12 @@ msgstr "상환"
 #~ msgid "Runway Available"
 #~ msgstr "가능한 런웨이"
 
-#: src/views/Zap/ZapStakeAction.jsx:433
+#: src/views/Zap/ZapStakeAction.jsx:465
 msgid "Select Zap Token"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:235
-#: src/views/Zap/ZapStakeAction.jsx:272
+#: src/views/Zap/ZapStakeAction.jsx:241
+#: src/views/Zap/ZapStakeAction.jsx:278
 msgid "Select a Token"
 msgstr ""
 
@@ -528,17 +537,21 @@ msgstr ""
 msgid "Select any asset"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:451
+#: src/views/Zap/ZapStakeAction.jsx:483
 msgid "Ser, you have no assets..."
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:412
 msgid "Single Staking"
 msgstr "단일 스테이킹"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
 msgstr "슬리피지"
+
+#: src/views/Zap/ZapStakeAction.jsx:341
+msgid "Slippage Tolerance"
+msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:185
 #: src/views/ChooseBond/BondRow.jsx:73
@@ -550,11 +563,11 @@ msgstr "매진"
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "무언가 맞지 않나요? 아래 풀 투게더의 UI를 통해서 다시 확인해보세요"
 
-#: src/components/Sidebar/NavContent.jsx:108
+#: src/components/Sidebar/NavContent.jsx:109
 msgid "Stake"
 msgstr "스테이크"
 
-#: src/views/Stake/Stake.tsx:368
+#: src/views/Stake/Stake.tsx:342
 msgid "Stake OHM"
 msgstr "OHM 스테이크"
 
@@ -563,16 +576,16 @@ msgstr "OHM 스테이크"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible에 스테이크"
 
-#: src/views/Stake/ExternalStakePool.jsx:150
-#: src/views/Stake/ExternalStakePool.jsx:219
+#: src/views/Stake/ExternalStakePool.tsx:87
+#: src/views/Stake/ExternalStakePool.tsx:115
 msgid "Stake on Trader Joe"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:433
+#: src/views/Stake/Stake.tsx:404
 msgid "Staked Balance"
 msgstr "스테이크 된 잔고"
 
-#: src/views/Stake/Stake.tsx:451
+#: src/views/Stake/Stake.tsx:418
 msgid "Staked Balance in Fuse"
 msgstr "퓨즈에 스테이크 된 잔고"
 
@@ -589,8 +602,8 @@ msgid "Staking is the primary value accrual strategy of Olympus. When you stake,
 msgstr ""
 
 #: src/views/Dashboard/Dashboard.jsx:66
-msgid "Supply (circulating/total)"
-msgstr "공급량 (순환/총)"
+#~ msgid "Supply (circulating/total)"
+#~ msgstr "공급량 (순환/총)"
 
 #: src/views/Zap/ZapStakeHeader.jsx:50
 msgid "Swap for OHM"
@@ -613,6 +626,10 @@ msgstr ""
 #~ msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
 #~ msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sOHM이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 OHM을 스테이킹 했을 경우 현재 얼만큼의 sOHM이 되었는지를 보여줍니다."
 
+#: src/views/33Together/PoolWithdraw.jsx:118
+msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
+msgstr ""
+
 #: src/views/33Together/PoolDeposit.jsx:110
 msgid "This Prize Pool is unable to accept deposits at this time."
 msgstr "이 상금 풀은 현재 예치할 수 없습니다."
@@ -633,7 +650,7 @@ msgstr "총 예치"
 msgid "Total Sponsorship"
 msgstr "총 스폰서십"
 
-#: src/views/Stake/Stake.tsx:234
+#: src/views/Stake/Stake.tsx:227
 msgid "Total Value Deposited"
 msgstr "예치된 총 가치"
 
@@ -645,7 +662,7 @@ msgstr "만약 가격이 슬리피지% 보다 높게 변할 경우 트랜젝션�
 msgid "Treasury Balance"
 msgstr "금고 잔고"
 
-#: src/views/Stake/Stake.tsx:303
+#: src/views/Stake/Stake.tsx:277
 msgid "Unstake"
 msgstr "언스테이크"
 
@@ -657,11 +674,11 @@ msgstr "언스테이크"
 msgid "Unstake Legacy LP Token"
 msgstr "지난 LP 토큰 언스테이크"
 
-#: src/views/Stake/Stake.tsx:400
+#: src/views/Stake/Stake.tsx:374
 msgid "Unstake OHM"
 msgstr "OHM 언스테이크"
 
-#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:396
 msgid "Unstaked Balance"
 msgstr "언스테이크 된 잔고"
 
@@ -687,15 +704,15 @@ msgstr "컨트랙트 보기"
 msgid "Winners / prize period"
 msgstr "우승자 / 수상 기간"
 
-#: src/views/33Together/33together.tsx:169
+#: src/views/33Together/33together.tsx:180
 msgid "Withdraw"
 msgstr "출금"
 
-#: src/views/33Together/PoolWithdraw.jsx:155
+#: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdraw Early & pay"
 msgstr "초기 출금하고 지불하기"
 
-#: src/views/33Together/PoolWithdraw.jsx:156
+#: src/views/33Together/PoolWithdraw.jsx:163
 msgid "Withdraw sOHM"
 msgstr "sOHM 출금"
 
@@ -703,16 +720,16 @@ msgstr "sOHM 출금"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "상금이 지급된 후 출금할 수 있습니다."
 
-#: src/views/33Together/PoolWithdraw.jsx:163
+#: src/views/33Together/PoolWithdraw.jsx:170
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로 줄어듭니다."
 
-#: src/views/Stake/Stake.tsx:460
-#: src/views/Stake/Stake.tsx:476
+#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:436
 msgid "Wrapped Balance"
 msgstr "래핑된 잔고"
 
-#: src/views/Stake/Stake.tsx:468
+#: src/views/Stake/Stake.tsx:430
 msgid "Wrapped Balance in FiatDAO"
 msgstr ""
 
@@ -724,7 +741,7 @@ msgstr "OHM 래핑하기"
 msgid "Yield Source"
 msgstr "이자 출처"
 
-#: src/views/Zap/ZapStakeAction.jsx:285
+#: src/views/Zap/ZapStakeAction.jsx:291
 msgid "You Get"
 msgstr ""
 
@@ -736,7 +753,7 @@ msgstr ""
 msgid "You Give"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:206
+#: src/views/Zap/ZapStakeAction.jsx:212
 msgid "You Pay"
 msgstr ""
 
@@ -748,13 +765,13 @@ msgstr "당신이 얻게 될 양"
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "예치된 잔고를 언제든 출금할 수 있습니다. 잔고를 출금하면, 이후 상금에 대한 우승 기회가 사라집니다."
 
-#: src/views/Stake/Stake.tsx:139
-#: src/views/Stake/Stake.tsx:139
+#: src/views/Stake/Stake.tsx:132
+#: src/views/Stake/Stake.tsx:132
 msgid "You cannot stake more than your OHM balance."
 msgstr "OHM 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
 
-#: src/views/Stake/Stake.tsx:143
-#: src/views/Stake/Stake.tsx:143
+#: src/views/Stake/Stake.tsx:136
+#: src/views/Stake/Stake.tsx:136
 msgid "You cannot unstake more than your sOHM balance."
 msgstr "sOHM 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
 
@@ -770,7 +787,7 @@ msgstr "현재 본드를 갖고 있습니다. 새로 본딩하면 베스팅 기�
 msgid "Your Balance"
 msgstr "당신의 잔고"
 
-#: src/views/33Together/PoolWithdraw.jsx:191
+#: src/views/33Together/PoolWithdraw.jsx:198
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "당신의 풀 잔고(출금 가능한)"
 
@@ -806,23 +823,23 @@ msgstr ""
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.jsx:367
-#: src/views/Zap/ZapStakeAction.jsx:417
+#: src/views/Zap/ZapStakeAction.jsx:399
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Zap-Stake"
 msgstr ""
 
-#: src/views/33Together/PoolPrize.jsx:140
+#: src/views/33Together/PoolPrize.jsx:141
 msgid "day"
 msgstr "일"
 
 #. The action of bonding (verb)
-#: src/views/Bond/Bond.tsx:97
+#: src/views/Bond/Bond.tsx:106
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
 msgstr "본드"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:297
+#: src/views/Stake/Stake.tsx:271
 msgid "do_stake"
 msgstr "스테이크"
 
@@ -830,19 +847,19 @@ msgstr "스테이크"
 msgid "for bonding"
 msgstr "본딩을 위해"
 
-#: src/views/Stake/Stake.tsx:316
+#: src/views/Stake/Stake.tsx:290
 msgid "for staking"
 msgstr "스테이킹을 위해"
 
-#: src/views/Stake/Stake.tsx:323
+#: src/views/Stake/Stake.tsx:297
 msgid "for unstaking"
 msgstr "언스테이킹을 위해"
 
-#: src/views/33Together/PoolPrize.jsx:147
+#: src/views/33Together/PoolPrize.jsx:148
 msgid "hrs"
 msgstr "시간"
 
-#: src/views/33Together/PoolPrize.jsx:154
+#: src/views/33Together/PoolPrize.jsx:155
 msgid "min"
 msgstr "분"
 
@@ -854,10 +871,14 @@ msgstr "sOHM 풀 정보"
 msgid "sOHM Prize Pool"
 msgstr "sOHM 상금 풀"
 
-#: src/views/33Together/PoolPrize.jsx:160
+#: src/views/33Together/PoolPrize.jsx:161
 msgid "sec"
 msgstr "초"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:74
 msgid "to next rebase"
 msgstr "다음 리베이스 까지"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:84
+msgid "wsOHM Price"
+msgstr ""

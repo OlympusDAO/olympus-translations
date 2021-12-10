@@ -13,23 +13,31 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/views/33Together/PoolWithdraw.jsx:121
+msgid "(exit fee has been waived)"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
 msgstr "1 em {0}"
 
-#: src/views/33Together/33together.tsx:156
+#: src/views/33Together/33together.tsx:167
 msgid "3, 3 Together"
 msgstr "3, 3 Juntos"
 
 #: src/views/Zap/ZapInfo.jsx:81
-msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
-msgstr "Uma troca no Zap é uma série de smart contracts que colocam um ativo noutro protocolo para levar a cabo uma transação confiável."
+#~ msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
+#~ msgstr "Uma troca no Zap é uma série de smart contracts que colocam um ativo noutro protocolo para levar a cabo uma transação confiável."
+
+#: src/views/Zap/ZapInfo.jsx:81
+msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
+msgstr ""
 
 #: src/components/TopBar/OhmMenu.jsx:155
 msgid "ADD TOKEN TO WALLET"
 msgstr "ADICIONAR TOKEN À WALLET"
 
-#: src/views/Stake/Stake.tsx:217
+#: src/views/Stake/Stake.tsx:218
 msgid "APY"
 msgstr "APY"
 
@@ -54,13 +62,13 @@ msgid "Any asset"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:175
-#: src/views/Stake/Stake.tsx:380
-#: src/views/Stake/Stake.tsx:412
-#: src/views/Zap/ZapStakeAction.jsx:395
+#: src/views/Stake/Stake.tsx:354
+#: src/views/Stake/Stake.tsx:386
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Approve"
 msgstr "Aprovar"
 
-#: src/views/Zap/ZapStakeAction.jsx:388
+#: src/views/Zap/ZapStakeAction.jsx:420
 msgid "Approved"
 msgstr "Aprovado"
 
@@ -76,31 +84,35 @@ msgstr "Com staking automático para sOHM"
 msgid "Award Balance will grow at 1st rebase."
 msgstr "O Saldo de Recompensa vai crescer no primeiro rebase."
 
-#: src/views/33Together/PoolPrize.jsx:202
+#: src/views/33Together/PoolPrize.jsx:203
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
 msgstr "O período de Recompensa terminou, pode navegar para a UI do Pool Juntos para começar a distribuição"
 
-#: src/views/33Together/PoolPrize.jsx:181
+#: src/views/33Together/PoolPrize.jsx:182
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "O período de Recompensa terminou, pode navegar para a UI do Pool Juntos para terminar a distribuição."
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:57
+msgid "Backing per OHM"
+msgstr ""
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
 #~ msgid "Balance"
 #~ msgstr "Saldo"
 
-#: src/components/Sidebar/NavContent.jsx:150
+#: src/components/Sidebar/NavContent.jsx:152
 #: src/views/ChooseBond/ChooseBond.tsx:71
-#: src/views/ChooseBond/ChooseBond.tsx:117
+#: src/views/ChooseBond/ChooseBond.tsx:121
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
 msgstr "Obrigação"
 
-#: src/views/Bond/Bond.tsx:71
+#: src/views/Bond/Bond.tsx:80
 msgid "Bond Price"
 msgstr "Preço da Obrigação"
 
-#: src/components/Sidebar/NavContent.jsx:157
+#: src/components/Sidebar/NavContent.jsx:159
 msgid "Bond discounts"
 msgstr "Descontos das Obrigações"
 
@@ -108,8 +120,8 @@ msgstr "Descontos das Obrigações"
 msgid "Bond {0}"
 msgstr "Obrigação {0}"
 
-#: src/components/Sidebar/NavContent.jsx:135
-#: src/components/Sidebar/NavContent.jsx:244
+#: src/components/Sidebar/NavContent.jsx:136
+#: src/components/Sidebar/NavContent.jsx:246
 msgid "Bridge"
 msgstr ""
 
@@ -138,6 +150,10 @@ msgstr "Verifique em breve!"
 #: src/views/Bond/AdvancedSettings.jsx:63
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Escolha o endereço do beneficiário. Por defeito, é o endereço que tem actualmente ligado."
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:44
+msgid "Circulating Supply (total)"
+msgstr ""
 
 #: src/views/Bond/BondRedeem.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:133
@@ -174,12 +190,12 @@ msgstr "Recompensas Resgatáveis"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
-#: src/views/Stake/Stake.tsx:164
+#: src/views/Stake/Stake.tsx:157
 #: src/views/Zap/Zap.jsx:33
 msgid "Connect Wallet"
 msgstr "Ligar Wallet"
 
-#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:252
 msgid "Connect your wallet to stake OHM"
 msgstr "Ligue a sua wallet para fazer Staking de OHM"
 
@@ -187,7 +203,8 @@ msgstr "Ligue a sua wallet para fazer Staking de OHM"
 msgid "Connect your wallet to use Zap"
 msgstr "Ligue a sua wallet para usar o Zap"
 
-#: src/views/Stake/Stake.tsx:256
+#: src/views/Stake/Stake.tsx:236
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:70
 msgid "Current Index"
 msgstr "Índice Atual"
 
@@ -195,7 +212,7 @@ msgstr "Índice Atual"
 msgid "Current Prize"
 msgstr "Prémio Atual"
 
-#: src/components/Sidebar/NavContent.jsx:93
+#: src/components/Sidebar/NavContent.jsx:94
 msgid "Dashboard"
 msgstr "Painel de Ferramentas"
 
@@ -205,8 +222,8 @@ msgid "Debt Ratio"
 msgstr "Rácio da Dívida"
 
 #: src/views/33Together/33together.tsx:168
-msgid "Deposit"
-msgstr "Depositar"
+#~ msgid "Deposit"
+#~ msgstr "Depositar"
 
 #: src/views/33Together/PoolDeposit.jsx:164
 msgid "Deposit sOHM"
@@ -224,7 +241,7 @@ msgstr "Depositar {quantity} sOHM vai aumentar a sua probabilidade de ganhar par
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "Podem ser feitos depósitos assim que o prémio tenha sido atribuído."
 
-#: src/views/Zap/ZapStakeAction.jsx:445
+#: src/views/Zap/ZapStakeAction.jsx:477
 msgid "Dialing Zapper..."
 msgstr "A ligar o Zapper..."
 
@@ -241,12 +258,12 @@ msgstr "Documentação"
 msgid "Early Exit Fee"
 msgstr "Taxa de Saída Antecipada"
 
-#: src/views/33Together/PoolWithdraw.jsx:173
+#: src/views/33Together/PoolWithdraw.jsx:180
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "A retirada antecipada incorrerá numa taxa de equidade de {exitFee}."
 
-#: src/views/Zap/ZapStakeAction.jsx:365
-#: src/views/Zap/ZapStakeAction.jsx:417
+#: src/views/Zap/ZapStakeAction.jsx:397
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Enter Amount"
 msgstr ""
 
@@ -259,7 +276,7 @@ msgstr ""
 msgid "Enter an amount"
 msgstr "Insira uma quantia"
 
-#: src/views/Zap/ZapStakeAction.jsx:334
+#: src/views/Zap/ZapStakeAction.jsx:366
 msgid "Exchange Rate"
 msgstr "Taxa de Câmbio"
 
@@ -267,7 +284,7 @@ msgstr "Taxa de Câmbio"
 msgid "Exit Fee Decay Time"
 msgstr "Tempo de Decaimento da Taxa de Saída"
 
-#: src/views/Stake/ExternalStakePool.jsx:79
+#: src/views/Stake/ExternalStakePool.tsx:62
 msgid "Farm Pool"
 msgstr "Farm Pool"
 
@@ -275,11 +292,11 @@ msgstr "Farm Pool"
 msgid "First time bonding"
 msgstr "Primeira vez a comprar"
 
-#: src/views/Stake/Stake.tsx:313
+#: src/views/Stake/Stake.tsx:287
 msgid "First time staking"
 msgstr "Primeira vez a fazer staking de"
 
-#: src/views/Stake/Stake.tsx:320
+#: src/views/Stake/Stake.tsx:294
 msgid "First time unstaking"
 msgstr "Primeira vez fazer unstaking de"
 
@@ -304,49 +321,50 @@ msgstr "Em progresso"
 msgid "Less than a minute"
 msgstr "Menos de um minuto"
 
-#: src/views/Dashboard/Dashboard.jsx:44
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:16
 msgid "Market Cap"
 msgstr "Valor de Mercado"
 
-#: src/views/Bond/Bond.tsx:79
+#: src/views/Bond/Bond.tsx:88
 msgid "Market Price"
 msgstr "Preço de Mercado"
 
 #: src/views/33Together/PoolDeposit.jsx:147
-#: src/views/33Together/PoolWithdraw.jsx:140
+#: src/views/33Together/PoolWithdraw.jsx:147
 #: src/views/Bond/BondPurchase.jsx:170
 msgid "Max"
 msgstr "Máximo"
 
 #: src/views/Zap/ZapStakeAction.jsx:328
-msgid "Max Slippage"
-msgstr "Máximo de Slippage"
+#~ msgid "Max Slippage"
+#~ msgstr "Máximo de Slippage"
 
 #: src/views/Bond/BondPurchase.jsx:248
 msgid "Max You Can Buy"
 msgstr "Máximo Que Pode Comprar"
 
-#: src/views/Stake/Stake.tsx:204
+#: src/views/Stake/Stake.tsx:205
 msgid "Migrate sOHM!"
 msgstr "Migrar sOHM!"
 
-#: src/views/Zap/ZapStakeAction.jsx:349
+#: src/views/Zap/ZapStakeAction.jsx:381
 msgid "Minimum You Get"
 msgstr "Mínimo Que Receberá"
 
-#: src/views/Stake/Stake.tsx:487
+#: src/views/Stake/Stake.tsx:444
 msgid "Next Reward Amount"
 msgstr "Quantia da Próxima Recompensa"
 
-#: src/views/Stake/Stake.tsx:496
+#: src/views/Stake/Stake.tsx:446
 msgid "Next Reward Yield"
 msgstr "Rendimento da Próxima Recompensa"
 
 #: src/views/33Together/PoolPrize.jsx:131
-msgid "Next award"
-msgstr "Próximo prémio"
+#~ msgid "Next award"
+#~ msgstr "Próximo prémio"
 
 #: src/views/ChooseBond/ChooseBond.tsx:101
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:29
 msgid "OHM Price"
 msgstr "Preço de OHM"
 
@@ -369,14 +387,14 @@ msgstr "Recompensas Pendentes"
 #: src/slices/PendingTxnsSlice.ts:38
 #: src/slices/PendingTxnsSlice.ts:42
 #: src/slices/PendingTxnsSlice.ts:46
-#: src/views/Zap/ZapStakeAction.jsx:363
 #: src/views/Zap/ZapStakeAction.jsx:395
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Pending..."
 msgstr "Pendente..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:315
-#: src/views/Stake/Stake.tsx:322
+#: src/views/Stake/Stake.tsx:289
+#: src/views/Stake/Stake.tsx:296
 msgid "Please approve Olympus Dao to use your"
 msgstr "Por favor aprove que o Olympus Dao use o seu"
 
@@ -387,8 +405,8 @@ msgstr "Por favor insira um valor válido!"
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:51
-#: src/views/Stake/Stake.tsx:133
-#: src/views/Stake/Stake.tsx:133
+#: src/views/Stake/Stake.tsx:126
+#: src/views/Stake/Stake.tsx:126
 msgid "Please enter a value!"
 msgstr "Por favor insira um valor!"
 
@@ -405,8 +423,7 @@ msgstr "Dono da Pool"
 #~ msgstr "Disponibilizado pelo Zapper"
 
 #: src/views/ChooseBond/BondRow.jsx:38
-#: src/views/ChooseBond/ChooseBond.tsx:120
-#: src/views/Dashboard/Dashboard.jsx:31
+#: src/views/ChooseBond/ChooseBond.tsx:124
 msgid "Price"
 msgstr "Preço"
 
@@ -419,22 +436,22 @@ msgid "Prize is being awarded"
 msgstr "O Prémio está a ser atribuído"
 
 #: src/views/ChooseBond/BondRow.jsx:55
-#: src/views/ChooseBond/ChooseBond.tsx:126
+#: src/views/ChooseBond/ChooseBond.tsx:130
 msgid "Purchased"
 msgstr "Comprado"
 
 #: src/views/Bond/BondPurchase.jsx:261
 #: src/views/Bond/BondRedeem.jsx:120
 #: src/views/ChooseBond/BondRow.jsx:46
-#: src/views/ChooseBond/ChooseBond.tsx:123
+#: src/views/ChooseBond/ChooseBond.tsx:127
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.tsx:505
+#: src/views/Stake/Stake.tsx:451
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (Taxa de 5 Dias)"
 
-#: src/views/33Together/PoolWithdraw.jsx:181
+#: src/views/33Together/PoolWithdraw.jsx:188
 msgid "Read more about Fairness"
 msgstr "Ler mais sobre Equidade"
 
@@ -446,16 +463,16 @@ msgstr "Beneficiário"
 msgid "Recipient Address"
 msgstr "Endereço do Beneficiário"
 
-#: src/views/Bond/Bond.tsx:103
+#: src/views/Bond/Bond.tsx:112
 msgid "Redeem"
 msgstr "Resgatar"
 
-#: src/views/Zap/ZapStakeAction.jsx:433
+#: src/views/Zap/ZapStakeAction.jsx:465
 msgid "Select Zap Token"
 msgstr "Seleccione o Token para o Zap"
 
-#: src/views/Zap/ZapStakeAction.jsx:235
-#: src/views/Zap/ZapStakeAction.jsx:272
+#: src/views/Zap/ZapStakeAction.jsx:241
+#: src/views/Zap/ZapStakeAction.jsx:278
 msgid "Select a Token"
 msgstr "Seleccione um Token"
 
@@ -463,17 +480,21 @@ msgstr "Seleccione um Token"
 msgid "Select any asset"
 msgstr "Seleccione qualquer ativo"
 
-#: src/views/Zap/ZapStakeAction.jsx:451
+#: src/views/Zap/ZapStakeAction.jsx:483
 msgid "Ser, you have no assets..."
 msgstr "Ser, não tem ativos..."
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:412
 msgid "Single Staking"
 msgstr "Staking Único"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
 msgstr "Slippage"
+
+#: src/views/Zap/ZapStakeAction.jsx:341
+msgid "Slippage Tolerance"
+msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:185
 #: src/views/ChooseBond/BondRow.jsx:73
@@ -485,11 +506,11 @@ msgstr "Esgotado"
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Algo errado? Veja a UI do Pool Juntos abaixo."
 
-#: src/components/Sidebar/NavContent.jsx:108
+#: src/components/Sidebar/NavContent.jsx:109
 msgid "Stake"
 msgstr "Fazer Staking"
 
-#: src/views/Stake/Stake.tsx:368
+#: src/views/Stake/Stake.tsx:342
 msgid "Stake OHM"
 msgstr "Fazer Staking de OHM"
 
@@ -498,16 +519,16 @@ msgstr "Fazer Staking de OHM"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Fazer Staking no Crucible"
 
-#: src/views/Stake/ExternalStakePool.jsx:150
-#: src/views/Stake/ExternalStakePool.jsx:219
+#: src/views/Stake/ExternalStakePool.tsx:87
+#: src/views/Stake/ExternalStakePool.tsx:115
 msgid "Stake on Trader Joe"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:433
+#: src/views/Stake/Stake.tsx:404
 msgid "Staked Balance"
 msgstr "Saldo em Staking"
 
-#: src/views/Stake/Stake.tsx:451
+#: src/views/Stake/Stake.tsx:418
 msgid "Staked Balance in Fuse"
 msgstr "Saldo em Staking no Fuse"
 
@@ -524,8 +545,8 @@ msgid "Staking is the primary value accrual strategy of Olympus. When you stake,
 msgstr "O Staking é a principal estratégia de acumulação de rendimentos de Olympus. Quando faz staking, bloqueia o seu OHM e recebe um valor igual de sOHM."
 
 #: src/views/Dashboard/Dashboard.jsx:66
-msgid "Supply (circulating/total)"
-msgstr "Oferta (em circulação/total)"
+#~ msgid "Supply (circulating/total)"
+#~ msgstr "Oferta (em circulação/total)"
 
 #: src/views/Zap/ZapStakeHeader.jsx:50
 msgid "Swap for OHM"
@@ -543,6 +564,10 @@ msgstr "Trocar para sOHM"
 #: src/views/Stake/ExternalStakePool.jsx:176
 #~ msgid "TVD"
 #~ msgstr "TVD"
+
+#: src/views/33Together/PoolWithdraw.jsx:118
+msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
+msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:110
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -564,7 +589,7 @@ msgstr "Total de Depósitos"
 msgid "Total Sponsorship"
 msgstr "Total de Patrocínios"
 
-#: src/views/Stake/Stake.tsx:234
+#: src/views/Stake/Stake.tsx:227
 msgid "Total Value Deposited"
 msgstr "Valor Total Depositado"
 
@@ -576,7 +601,7 @@ msgstr "É possível que a transação reverta caso o preço mude mais do que a 
 msgid "Treasury Balance"
 msgstr "Saldo da Tesouraria"
 
-#: src/views/Stake/Stake.tsx:303
+#: src/views/Stake/Stake.tsx:277
 msgid "Unstake"
 msgstr "Unstaking"
 
@@ -584,11 +609,11 @@ msgstr "Unstaking"
 msgid "Unstake Legacy LP Token"
 msgstr "Unstaking do Token de Legacy LP"
 
-#: src/views/Stake/Stake.tsx:400
+#: src/views/Stake/Stake.tsx:374
 msgid "Unstake OHM"
 msgstr "Unstaking de OHM"
 
-#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:396
 msgid "Unstaked Balance"
 msgstr "Saldo fora de Staking"
 
@@ -614,15 +639,15 @@ msgstr "Ver Contrato"
 msgid "Winners / prize period"
 msgstr "Vencedores / período do prémio"
 
-#: src/views/33Together/33together.tsx:169
+#: src/views/33Together/33together.tsx:180
 msgid "Withdraw"
 msgstr "Retirar"
 
-#: src/views/33Together/PoolWithdraw.jsx:155
+#: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdraw Early & pay"
 msgstr "Retirar Antecipadamente e pagar"
 
-#: src/views/33Together/PoolWithdraw.jsx:156
+#: src/views/33Together/PoolWithdraw.jsx:163
 msgid "Withdraw sOHM"
 msgstr "Retirar sOHM"
 
@@ -630,16 +655,16 @@ msgstr "Retirar sOHM"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "Retiradas podem ser feitas assim que o prémio tenha sido atribuído."
 
-#: src/views/33Together/PoolWithdraw.jsx:163
+#: src/views/33Together/PoolWithdraw.jsx:170
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Retirar {quantity} sOHM reduz a sua probabilidade de ganhar para 1 in {newOdds}"
 
-#: src/views/Stake/Stake.tsx:460
-#: src/views/Stake/Stake.tsx:476
+#: src/views/Stake/Stake.tsx:424
+#: src/views/Stake/Stake.tsx:436
 msgid "Wrapped Balance"
 msgstr "Saldo Embrulhado"
 
-#: src/views/Stake/Stake.tsx:468
+#: src/views/Stake/Stake.tsx:430
 msgid "Wrapped Balance in FiatDAO"
 msgstr ""
 
@@ -651,7 +676,7 @@ msgstr "A Embrulhar OHM"
 msgid "Yield Source"
 msgstr "Fonte de Rendimento"
 
-#: src/views/Zap/ZapStakeAction.jsx:285
+#: src/views/Zap/ZapStakeAction.jsx:291
 msgid "You Get"
 msgstr "Vai Receber"
 
@@ -663,7 +688,7 @@ msgstr "Receberá sOHM"
 msgid "You Give"
 msgstr "Receberá"
 
-#: src/views/Zap/ZapStakeAction.jsx:206
+#: src/views/Zap/ZapStakeAction.jsx:212
 msgid "You Pay"
 msgstr "Pagará"
 
@@ -675,13 +700,13 @@ msgstr "Receberá"
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "Pode escolher retirar o fundo depositado em qualquer altura. Ao retirar o fundo estará a eliminar / reduzir as suas hipótses de ganhar o prémio nesta pool em futuros períodos de prémio"
 
-#: src/views/Stake/Stake.tsx:139
-#: src/views/Stake/Stake.tsx:139
+#: src/views/Stake/Stake.tsx:132
+#: src/views/Stake/Stake.tsx:132
 msgid "You cannot stake more than your OHM balance."
 msgstr "Não pode fazer staking de mais do que o seu saldo em OHM."
 
-#: src/views/Stake/Stake.tsx:143
-#: src/views/Stake/Stake.tsx:143
+#: src/views/Stake/Stake.tsx:136
+#: src/views/Stake/Stake.tsx:136
 msgid "You cannot unstake more than your sOHM balance."
 msgstr "Não pode fazer unstaking de mais do que o seu saldo em sOHM."
 
@@ -697,7 +722,7 @@ msgstr "Tem uma obrigação existente. Criar uma obrigação vai reiniciar o seu
 msgid "Your Balance"
 msgstr "O seu Saldo"
 
-#: src/views/33Together/PoolWithdraw.jsx:191
+#: src/views/33Together/PoolWithdraw.jsx:198
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "O seu Saldo em Pool (resgatável)"
 
@@ -729,23 +754,23 @@ msgstr "Um Zap é um swap"
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "Faça Zap com mais ativos e faça staking de <0>OHM</0>"
 
-#: src/views/Zap/ZapStakeAction.jsx:367
-#: src/views/Zap/ZapStakeAction.jsx:417
+#: src/views/Zap/ZapStakeAction.jsx:399
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Zap-Stake"
 msgstr "Zap-Stake"
 
-#: src/views/33Together/PoolPrize.jsx:140
+#: src/views/33Together/PoolPrize.jsx:141
 msgid "day"
 msgstr "dia"
 
 #. The action of bonding (verb)
-#: src/views/Bond/Bond.tsx:97
+#: src/views/Bond/Bond.tsx:106
 #: src/views/ChooseBond/BondRow.jsx:128
 msgid "do_bond"
 msgstr "Comprar Obrigação"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:297
+#: src/views/Stake/Stake.tsx:271
 msgid "do_stake"
 msgstr "Fazer Staking"
 
@@ -753,19 +778,19 @@ msgstr "Fazer Staking"
 msgid "for bonding"
 msgstr "para comprar obrigação"
 
-#: src/views/Stake/Stake.tsx:316
+#: src/views/Stake/Stake.tsx:290
 msgid "for staking"
 msgstr "para fazer staking"
 
-#: src/views/Stake/Stake.tsx:323
+#: src/views/Stake/Stake.tsx:297
 msgid "for unstaking"
 msgstr "para fazer unstaking"
 
-#: src/views/33Together/PoolPrize.jsx:147
+#: src/views/33Together/PoolPrize.jsx:148
 msgid "hrs"
 msgstr "horas"
 
-#: src/views/33Together/PoolPrize.jsx:154
+#: src/views/33Together/PoolPrize.jsx:155
 msgid "min"
 msgstr "minutos"
 
@@ -777,10 +802,14 @@ msgstr "Detalhes da Pool de sOHM"
 msgid "sOHM Prize Pool"
 msgstr "Pool de Prémio de sOHM"
 
-#: src/views/33Together/PoolPrize.jsx:160
+#: src/views/33Together/PoolPrize.jsx:161
 msgid "sec"
 msgstr "segundos"
 
 #: src/components/RebaseTimer/RebaseTimer.jsx:74
 msgid "to next rebase"
 msgstr "para o próximo rebase"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:84
+msgid "wsOHM Price"
+msgstr ""
