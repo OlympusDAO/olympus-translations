@@ -37,13 +37,17 @@ msgstr "3, 3 cùng nhau"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr ""
 
-#: src/components/TopBar/OhmMenu.jsx:180
+#: src/components/TopBar/OhmMenu.jsx:172
 msgid "ADD TOKEN TO WALLET"
 msgstr "THÊM DẤU HIỆU VÀO VÍ"
 
-#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:223
 msgid "APY"
 msgstr "APY"
+
+#: src/components/GiveProject/ProjectCard.tsx:539
+msgid "About"
+msgstr ""
 
 #: src/views/Zap/ZapCta.jsx:50
 msgid "All-in-One contract to save time"
@@ -58,6 +62,7 @@ msgid "All-in-one zap contracts"
 msgstr "Tất cả trong một hợp đồng zap"
 
 #: src/views/Bond/BondPurchase.jsx:158
+#: src/views/Give/RecipientModal.tsx:432
 msgid "Amount"
 msgstr "Số lượng"
 
@@ -65,14 +70,23 @@ msgstr "Số lượng"
 msgid "Any asset"
 msgstr "Tài sản"
 
+#: src/views/Give/WithdrawDepositModal.tsx:89
+msgid "Any remaining yield will still be redeemable by the recipient ({0})."
+msgstr ""
+
+#: src/views/Give/RedeemYieldModal.tsx:80
+msgid "Any sOHM directed towards you will continue to rebase and earn additional yield on your behalf."
+msgstr ""
+
 #: src/views/33Together/PoolDeposit.jsx:175
-#: src/views/Stake/Stake.tsx:416
-#: src/views/Stake/Stake.tsx:448
-#: src/views/Zap/ZapStakeAction.jsx:429
+#: src/views/Give/RecipientModal.tsx:525
+#: src/views/Stake/Stake.tsx:359
+#: src/views/Stake/Stake.tsx:391
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Approve"
 msgstr "Chấp thuận"
 
-#: src/views/Zap/ZapStakeAction.jsx:422
+#: src/views/Zap/ZapStakeAction.jsx:420
 msgid "Approved"
 msgstr "Chấp thuận"
 
@@ -96,7 +110,7 @@ msgstr "Thời gian trao thưởng đã kết thúc, bạn có thể điều hư
 msgid "Backing per OHM"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.jsx:152
+#: src/components/Sidebar/NavContent.jsx:204
 #: src/views/ChooseBond/ChooseBond.tsx:75
 #: src/views/ChooseBond/ChooseBond.tsx:125
 #: src/views/ChooseBond/ClaimBonds.jsx:75
@@ -107,7 +121,7 @@ msgstr "Dòng tiền"
 msgid "Bond Price"
 msgstr "Dòng tiền giá bán"
 
-#: src/components/Sidebar/NavContent.jsx:159
+#: src/components/Sidebar/NavContent.jsx:211
 msgid "Bond discounts"
 msgstr "Bhiết khấu dòng tiền"
 
@@ -115,17 +129,17 @@ msgstr "Bhiết khấu dòng tiền"
 msgid "Bond {0}"
 msgstr "Dòng tiền {0}"
 
-#: src/components/Sidebar/NavContent.jsx:136
-#: src/components/Sidebar/NavContent.jsx:253
+#: src/components/Sidebar/NavContent.jsx:188
+#: src/components/Sidebar/NavContent.jsx:305
 msgid "Bridge"
 msgstr "Cầu nối"
 
-#: src/components/TopBar/OhmMenu.jsx:262
+#: src/components/TopBar/OhmMenu.jsx:261
 msgid "Bridge Tokens"
 msgstr "Toeken cầu nối"
 
-#: src/components/TopBar/OhmMenu.jsx:130
-#: src/components/TopBar/OhmMenu.jsx:143
+#: src/components/TopBar/OhmMenu.jsx:131
+#: src/components/TopBar/OhmMenu.jsx:144
 msgid "Buy on {0}"
 msgstr "Mua vào {0}"
 
@@ -179,14 +193,28 @@ msgstr "Nhận phần thưởng"
 msgid "Claimable Rewards"
 msgstr "Phần thưởng"
 
+#: src/components/GiveProject/ProjectCard.tsx:127
+#: src/components/GiveProject/ProjectCard.tsx:172
+msgid "Completed"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:514
+msgid "Confirm sOHM"
+msgstr ""
+
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
-#: src/views/Stake/Stake.tsx:193
+#: src/views/Give/Give.tsx:16
+#: src/views/Stake/Stake.tsx:161
 #: src/views/Zap/Zap.jsx:38
 msgid "Connect Wallet"
 msgstr "Kết nối ví"
 
-#: src/views/Stake/Stake.tsx:312
+#: src/views/Give/Give.tsx:31
+msgid "Connect your wallet to give or redeem OHM"
+msgstr ""
+
+#: src/views/Stake/Stake.tsx:257
 msgid "Connect your wallet to stake OHM"
 msgstr "Kết nối ví của bạn để đặt cọc cho OHM"
 
@@ -194,7 +222,16 @@ msgstr "Kết nối ví của bạn để đặt cọc cho OHM"
 msgid "Connect your wallet to use Zap"
 msgstr "Kết nối với ví của bạn đến Zap"
 
-#: src/views/Stake/Stake.tsx:296
+#: src/views/Give/RecipientModal.tsx:508
+#: src/views/Give/RecipientModal.tsx:532
+msgid "Continue"
+msgstr ""
+
+#: src/components/EducationCard.tsx:253
+msgid "Current Deposit"
+msgstr ""
+
+#: src/views/Stake/Stake.tsx:241
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:70
 msgid "Current Index"
 msgstr "Chỉ số hiện tại"
@@ -203,7 +240,11 @@ msgstr "Chỉ số hiện tại"
 msgid "Current Prize"
 msgstr "Giải thưởng hiện tại"
 
-#: src/components/Sidebar/NavContent.jsx:94
+#: src/views/Give/CausesDashboard.tsx:107
+msgid "Custom Recipient"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:104
 msgid "Dashboard"
 msgstr "Bảng điều khiển"
 
@@ -212,13 +253,17 @@ msgstr "Bảng điều khiển"
 msgid "Debt Ratio"
 msgstr "Tỷ lệ nợ"
 
-#: src/views/33Together/33together.tsx:168
-#~ msgid "Deposit"
-#~ msgstr "Đặt cọc trước"
+#: src/views/Give/YieldRecipients.tsx:180
+msgid "Deposit"
+msgstr "Đặt cọc trước"
 
 #: src/views/33Together/PoolDeposit.jsx:164
 msgid "Deposit sOHM"
 msgstr "Đặt cọc OHM"
+
+#: src/views/Give/GiveInfo.jsx:12
+msgid "Deposit sOHM from wallet"
+msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -228,13 +273,25 @@ msgstr "Đặt cọc OHM để giành chiến thắng! Sau khi tạm ứng, bạ
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "Tiền đặt cọc {quantity} vào sOHM sẽ tăng tỷ lệ đạt được lên 1 trong {newOdds}"
 
+#: src/views/Give/DepositYield.tsx:43
+msgid "Deposits Dashboard"
+msgstr ""
+
 #: src/views/33Together/PoolDeposit.jsx:113
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "Tiền đặt cọc có thể được thực hiện sau khi giải thưởng đã được trao."
 
-#: src/views/Zap/ZapStakeAction.jsx:479
+#: src/views/Give/RecipientModal.tsx:398
+msgid "Details"
+msgstr ""
+
+#: src/views/Zap/ZapStakeAction.jsx:477
 msgid "Dialing Zapper..."
 msgstr "Quay lại Zapper"
+
+#: src/views/Give/DepositYield.tsx:46
+msgid "Direct yield from your deposited sOHM to other recipients. Your sOHM is deposited in a vault, but you can withdraw it or change the deposited amount at any time."
+msgstr ""
 
 #: src/components/TopBar/ConnectMenu.jsx:28
 #: src/components/TopBar/ConnectMenu.jsx:125
@@ -245,6 +302,22 @@ msgstr "Không kết nối"
 msgid "Docs"
 msgstr "Tài liệu"
 
+#: src/components/GiveProject/ProjectCard.tsx:274
+msgid "Donated"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:167
+msgid "Donated sOHM Generating Yield"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:513
+msgid "Donations"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:527
+msgid "Donors"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
 msgstr "Phí trước khi thoát ra"
@@ -253,12 +326,33 @@ msgstr "Phí trước khi thoát ra"
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "Rút tiền trước hạn sẽ phải chịu một khoản phí là {exitFee}."
 
+#: src/views/Give/YieldRecipients.tsx:209
+msgid "Edit"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:538
+msgid "Edit Give Amount"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:219
+msgid "Edit Yield"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:36
+msgid "Editing sOHM donation amount"
+msgstr ""
+
 #: src/views/Zap/ZapStakeAction.jsx:397
-#: src/views/Zap/ZapStakeAction.jsx:451
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Enter Amount"
 msgstr "Nhập số tiền"
 
+#: src/views/Give/RecipientModal.tsx:337
+msgid "Enter a wallet address in the form of 0x ..."
+msgstr ""
+
 #: src/views/33Together/PoolDeposit.jsx:134
+#: src/views/Give/RecipientModal.tsx:458
 msgid "Enter an amount"
 msgstr "Nhập số tiền"
 
@@ -274,15 +368,24 @@ msgstr "Thời gian thoát phí"
 msgid "Farm Pool"
 msgstr "Vùng Phục vụ đào tiền, cải thiện doanh thu khai thác"
 
+#: src/components/GiveProject/ProjectCard.tsx:140
+#: src/components/GiveProject/ProjectCard.tsx:186
+msgid "Finishes at"
+msgstr ""
+
 #: src/views/Bond/BondPurchase.jsx:149
 msgid "First time bonding"
 msgstr "Liên kết đầu tiên"
 
-#: src/views/Stake/Stake.tsx:349
+#: src/views/Give/RecipientModal.tsx:386
+msgid "First time giving <0>sOHM</0>?<1/>Please approve Olympus DAO to use your <2>sOHM</2> for giving."
+msgstr ""
+
+#: src/views/Stake/Stake.tsx:292
 msgid "First time staking"
 msgstr "Thời gian đầu giữ tiền trong ví"
 
-#: src/views/Stake/Stake.tsx:356
+#: src/views/Stake/Stake.tsx:299
 msgid "First time unstaking"
 msgstr "Thời gian đầu không giữ tiền"
 
@@ -294,18 +397,58 @@ msgstr "Diễn đàn"
 msgid "Fully Vested"
 msgstr "Trao đầy đủ"
 
+#: src/components/TopBar/OhmMenu.jsx:250
+msgid "Get Test Tokens"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:134
+#: src/views/Give/CausesDashboard.tsx:89
+msgid "Give"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:420
+#: src/components/GiveProject/ProjectCard.tsx:500
+#: src/views/Give/RecipientModal.tsx:221
+#: src/views/Give/YieldRecipients.tsx:162
+msgid "Give Yield"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:34
+msgid "Giving sOHM"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:294
+msgid "Goal"
+msgstr ""
+
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Governance"
 msgstr "Quản trị"
+
+#: src/views/Give/RedeemYield.tsx:152
+msgid "If other wallets have directed their sOHM rebases to you, you can transfer that yield into your wallet."
+msgstr ""
 
 #: src/components/TopBar/ConnectMenu.jsx:33
 msgid "In progress"
 msgstr "Trong tiến trình"
 
-#: src/components/RebaseTimer/RebaseTimer.jsx:33
-#: src/components/RebaseTimer/RebaseTimer.jsx:64
+#: src/views/Give/YieldRecipients.tsx:157
+msgid "It looks like you haven't donated any yield. Let's fix that!"
+msgstr ""
+
+#: src/views/Give/GiveInfo.jsx:30
+msgid "Learn More"
+msgstr ""
+
+#: src/components/RebaseTimer/RebaseTimer.jsx:30
+#: src/components/RebaseTimer/RebaseTimer.jsx:61
 msgid "Less than a minute"
 msgstr "Ít hơn một phút"
+
+#: src/views/Give/GiveInfo.jsx:15
+msgid "Lock sOHM in vault"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:16
 msgid "Market Cap"
@@ -318,6 +461,7 @@ msgstr "Giá thị trường"
 #: src/views/33Together/PoolDeposit.jsx:147
 #: src/views/33Together/PoolWithdraw.jsx:147
 #: src/views/Bond/BondPurchase.jsx:170
+#: src/views/Give/RecipientModal.tsx:472
 msgid "Max"
 msgstr "Tối đa"
 
@@ -329,21 +473,21 @@ msgstr "Tối đa"
 msgid "Max You Can Buy"
 msgstr "Mức tối đa bạn có thể mua"
 
-#: src/views/Stake/Stake.tsx:205
-#~ msgid "Migrate sOHM!"
-#~ msgstr "Di chuyển sOHM"
+#: src/views/Stake/Stake.tsx:210
+msgid "Migrate sOHM!"
+msgstr "Di chuyển sOHM"
 
 #: src/views/Zap/ZapStakeAction.jsx:381
 msgid "Minimum You Get"
 msgstr "Mức tối thiểu bạn có"
 
-#: src/views/Stake/Stake.tsx:513
-#: src/views/V1-Stake/V1-Stake.jsx:469
+#: src/views/Give/RedeemYield.tsx:184
+#: src/views/Stake/Stake.tsx:449
 msgid "Next Reward Amount"
 msgstr "Số tiền tiếp theo"
 
-#: src/views/Stake/Stake.tsx:515
-#: src/views/V1-Stake/V1-Stake.jsx:471
+#: src/views/Give/RedeemYield.tsx:193
+#: src/views/Stake/Stake.tsx:451
 msgid "Next Reward Yield"
 msgstr "Lợi nhuận tiếp theo"
 
@@ -360,6 +504,10 @@ msgstr "Giá bán OHM"
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
 msgstr "OlyZap giảm độ phức tạp, tiết kiệm thời gian và giúp bạn luôn ở đây trên Olympus"
 
+#: src/components/EducationCard.tsx:78
+msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
+msgstr ""
+
 #: src/views/404/NotFound.tsx:14
 msgid "Page not found"
 msgstr "Không tìm thấy trang"
@@ -372,29 +520,60 @@ msgstr "Đang chờ đợi"
 msgid "Pending Rewards"
 msgstr "Đang chờ thưởng"
 
-#: src/slices/PendingTxnsSlice.ts:38
-#: src/slices/PendingTxnsSlice.ts:42
-#: src/slices/PendingTxnsSlice.ts:46
+#: src/slices/PendingTxnsSlice.ts:47
+#: src/slices/PendingTxnsSlice.ts:51
+#: src/slices/PendingTxnsSlice.ts:55
 #: src/views/Zap/ZapStakeAction.jsx:395
-#: src/views/Zap/ZapStakeAction.jsx:429
+#: src/views/Zap/ZapStakeAction.jsx:427
 msgid "Pending..."
 msgstr "Đang chờ..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:351
-#: src/views/Stake/Stake.tsx:358
+#: src/views/Stake/Stake.tsx:294
+#: src/views/Stake/Stake.tsx:301
 msgid "Please approve Olympus Dao to use your"
 msgstr "Vui lòng chấp thuận cho Olympus Dao sử dụng"
+
+#: src/slices/RedeemThunk.ts:25
+msgid "Please conenect your wallet!"
+msgstr ""
+
+#: src/slices/GiveThunk.ts:51
+msgid "Please connect your wallet"
+msgstr ""
+
+#: src/slices/GiveThunk.ts:91
+#: src/slices/GiveThunk.ts:159
+msgid "Please connect your wallet!"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:192
+msgid "Please enter a different address: cannot direct to the same wallet"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:186
+msgid "Please enter a valid Ethereum address"
+msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:53
 msgid "Please enter a valid value!"
 msgstr "Vui lòng nhập một giá trị hợp lệ!"
 
+#: src/views/Give/RecipientModal.tsx:144
+msgid "Please enter a value"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:334
+#: src/components/GiveProject/ProjectCard.tsx:334
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:51
-#: src/views/Stake/Stake.tsx:145
-#: src/views/Stake/Stake.tsx:145
+#: src/views/Give/CausesDashboard.tsx:47
+#: src/views/Give/CausesDashboard.tsx:47
+#: src/views/Give/YieldRecipients.tsx:87
+#: src/views/Give/YieldRecipients.tsx:87
+#: src/views/Stake/Stake.tsx:130
+#: src/views/Stake/Stake.tsx:130
 msgid "Please enter a value!"
 msgstr "Vui lòng nhập một giá trị!"
 
@@ -431,8 +610,8 @@ msgstr "Đã mua"
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.tsx:520
-#: src/views/V1-Stake/V1-Stake.jsx:476
+#: src/views/Give/RedeemYield.tsx:202
+#: src/views/Stake/Stake.tsx:456
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (Giá 5 ngày)"
 
@@ -440,24 +619,60 @@ msgstr "ROI (Giá 5 ngày)"
 msgid "Read more about Fairness"
 msgstr "Vốn chủ sở hữu"
 
+#: src/components/EducationCard.tsx:172
+msgid "Receives yield from {quantity} sOHM"
+msgstr ""
+
+#: src/components/EducationCard.tsx:156
+#: src/components/EducationCard.tsx:230
 #: src/views/Bond/BondPurchase.jsx:289
+#: src/views/Give/RecipientModal.tsx:311
+#: src/views/Give/RecipientModal.tsx:330
+#: src/views/Give/YieldRecipients.tsx:177
 msgid "Recipient"
 msgstr "Người nhận"
 
 #: src/views/Bond/AdvancedSettings.jsx:57
+#: src/views/Give/RecipientModal.tsx:413
 msgid "Recipient Address"
 msgstr "Địa chỉ người nhận"
 
+#: src/views/Give/GiveInfo.jsx:18
+msgid "Recipient earns sOHM rebases"
+msgstr ""
+
 #: src/views/Bond/Bond.tsx:112
+#: src/views/Give/RedeemYield.tsx:220
+#: src/views/Give/RedeemYieldModal.tsx:84
 msgid "Redeem"
 msgstr "Mua lại"
 
-#: src/views/Zap/ZapStakeAction.jsx:467
+#: src/views/Give/RedeemYield.tsx:149
+msgid "Redeem Yield"
+msgstr ""
+
+#: src/views/Give/RedeemYieldModal.tsx:70
+msgid "Redeem Yield?"
+msgstr ""
+
+#: src/components/EducationCard.tsx:200
+msgid "Redeem {quantity} sOHM in yield"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:175
+msgid "Redeemable Amount"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:150
+msgid "Remaining"
+msgstr ""
+
+#: src/views/Zap/ZapStakeAction.jsx:465
 msgid "Select Zap Token"
 msgstr "Chọn Zap Token"
 
-#: src/views/Zap/ZapStakeAction.jsx:245
-#: src/views/Zap/ZapStakeAction.jsx:282
+#: src/views/Zap/ZapStakeAction.jsx:241
+#: src/views/Zap/ZapStakeAction.jsx:278
 msgid "Select a Token"
 msgstr "Chọn Token"
 
@@ -465,28 +680,28 @@ msgstr "Chọn Token"
 msgid "Select any asset"
 msgstr "Chọn vài tài sản"
 
-#: src/views/Zap/ZapStakeAction.jsx:485
+#: src/views/Zap/ZapStakeAction.jsx:483
 msgid "Ser, you have no assets..."
 msgstr "Bạn không có tài sản"
 
-#: src/views/Stake/Stake.tsx:475
+#: src/views/Stake/Stake.tsx:417
 msgid "Single Staking"
 msgstr "Đặt cọc đơn"
 
 #: src/views/Stake/Stake.tsx:487
 #: src/views/V1-Stake/V1-Stake.jsx:431
-msgid "Single Staking (v1)"
-msgstr ""
+#~ msgid "Single Staking (v1)"
+#~ msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:455
-msgid "Single Staking (v2)"
-msgstr ""
+#~ msgid "Single Staking (v2)"
+#~ msgstr ""
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
 msgstr "Trượt giá"
 
-#: src/views/Zap/ZapStakeAction.jsx:345
+#: src/views/Zap/ZapStakeAction.jsx:341
 msgid "Slippage Tolerance"
 msgstr ""
 
@@ -500,11 +715,11 @@ msgstr ""
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Có gì đó không đúng? Kiểm tra giao diện người dùng của Pool Together bên dưới."
 
-#: src/components/Sidebar/NavContent.jsx:109
+#: src/components/Sidebar/NavContent.jsx:119
 msgid "Stake"
 msgstr "Đặt cọc"
 
-#: src/views/Stake/Stake.tsx:404
+#: src/views/Stake/Stake.tsx:347
 msgid "Stake OHM"
 msgstr "Đặt cọc cho OHM"
 
@@ -513,24 +728,23 @@ msgstr "Đặt cọc cho OHM"
 msgid "Stake on Trader Joe"
 msgstr "Đặt cọc trên Trader Joe"
 
-#: src/views/Stake/Stake.tsx:467
-#: src/views/V1-Stake/V1-Stake.jsx:423
+#: src/views/Stake/Stake.tsx:409
 msgid "Staked Balance"
 msgstr "Số dư của tiền cọc"
 
-#: src/views/Stake/Stake.tsx:505
+#: src/views/Stake/Stake.tsx:423
 msgid "Staked Balance in Fuse"
 msgstr "Số dư cố định trong Fuse"
 
 #: src/views/V1-Stake/V1-Stake.jsx:437
-msgid "Staked Balance in Fuse (v1)"
-msgstr ""
+#~ msgid "Staked Balance in Fuse (v1)"
+#~ msgstr ""
 
 #: src/views/Zap/ZapInfo.jsx:129
 msgid "Staking"
 msgstr "Tiền cọc trong ví"
 
-#: src/slices/PendingTxnsSlice.ts:28
+#: src/slices/PendingTxnsSlice.ts:29
 msgid "Staking OHM"
 msgstr "Đang đặt cọc OHM"
 
@@ -554,8 +768,20 @@ msgstr "Hoán đổi lấy sOHM"
 msgid "Swap into sOHM"
 msgstr "Chuyển đổi thành sOHM"
 
+#: src/views/Give/YieldRecipients.tsx:181
+msgid "The amount of sOHM deposited"
+msgstr ""
+
 #: src/views/33Together/PoolWithdraw.jsx:118
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
+msgstr ""
+
+#: src/components/EducationCard.tsx:238
+msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
+msgstr ""
+
+#: src/components/EducationCard.tsx:141
+msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:110
@@ -578,9 +804,13 @@ msgstr "Tổng số tiền gửi"
 msgid "Total Sponsorship"
 msgstr "Tổng tài trợ"
 
-#: src/views/Stake/Stake.tsx:287
+#: src/views/Stake/Stake.tsx:232
 msgid "Total Value Deposited"
 msgstr "Tổng giá trị đã gửi"
+
+#: src/views/Give/RecipientModal.tsx:427
+msgid "Transaction"
+msgstr ""
 
 #: src/views/Bond/AdvancedSettings.jsx:51
 msgid "Transaction may revert if price changes by more than slippage %"
@@ -590,34 +820,50 @@ msgstr "Giao dịch có thể hoàn nguyên nếu giá thay đổi hơn % trư�
 msgid "Treasury Balance"
 msgstr "Số dư kho bạc"
 
-#: src/views/Stake/Stake.tsx:337
-#: src/views/Stake/Stake.tsx:436
+#: src/views/Stake/Stake.tsx:282
 msgid "Unstake"
 msgstr "Hoàn cọc"
 
-#: src/components/TopBar/OhmMenu.jsx:251
+#: src/components/TopBar/OhmMenu.jsx:243
 msgid "Unstake Legacy LP Token"
 msgstr "Rút mã thông báo LP Token"
 
-#: src/views/Stake/Stake.tsx:374
-#~ msgid "Unstake OHM"
-#~ msgstr "Hoàn cọc OHM"
+#: src/views/Stake/Stake.tsx:379
+msgid "Unstake OHM"
+msgstr "Hoàn cọc OHM"
 
-#: src/views/Stake/Stake.tsx:459
+#: src/views/Stake/Stake.tsx:401
 msgid "Unstaked Balance"
 msgstr "Số dư hoàn cọc"
 
 #: src/views/V1-Stake/V1-Stake.jsx:415
-msgid "Unstaked Balance (v1)"
-msgstr ""
+#~ msgid "Unstaked Balance (v1)"
+#~ msgstr ""
 
-#: src/slices/PendingTxnsSlice.ts:28
+#: src/slices/PendingTxnsSlice.ts:29
 msgid "Unstaking sOHM"
 msgstr "Đang hoàn cọc sOHM"
 
-#: src/slices/PendingTxnsSlice.ts:32
+#: src/slices/PendingTxnsSlice.ts:41
 msgid "Unwrapping sOHM"
 msgstr "Mở gói sOHM"
+
+#: src/components/EducationCard.tsx:273
+msgid "Updated Deposit"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:161
+msgid "Value cannot be more than your sOHM balance of"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:150
+msgid "Value must be positive"
+msgstr ""
+
+#: src/components/EducationCard.tsx:93
+#: src/components/EducationCard.tsx:133
+msgid "Vault"
+msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:281
 #: src/views/Bond/BondRedeem.jsx:138
@@ -629,13 +875,28 @@ msgstr "Thời hạn quyền lợi"
 msgid "View Contract"
 msgstr "Xem hợp đồng"
 
+#: src/components/GiveProject/ProjectCard.tsx:388
+msgid "View Details"
+msgstr ""
+
+#: src/components/EducationCard.tsx:30
+#: src/components/EducationCard.tsx:70
+msgid "Wallet"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
 msgstr "Người chiến thắng/ Phần thưởng"
 
 #: src/views/33Together/33together.tsx:180
+#: src/views/Give/WithdrawDepositModal.tsx:93
+#: src/views/Give/YieldRecipients.tsx:221
 msgid "Withdraw"
 msgstr "Rút"
+
+#: src/views/Give/WithdrawDepositModal.tsx:79
+msgid "Withdraw Deposit?"
+msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdraw Early & pay"
@@ -649,32 +910,37 @@ msgstr "Rút sOHM"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "Rút tiền có thể được thực hiện sau khi giải thưởng đã được trao"
 
+#: src/slices/PendingTxnsSlice.ts:37
+msgid "Withdrawing sOHM donation"
+msgstr ""
+
 #: src/views/33Together/PoolWithdraw.jsx:170
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Rút {quantity} sOHM giảm tỷ lệ chiến thắng của bạn xuống còn 1 trong {newOdds}"
 
-#: src/views/Stake/Stake.tsx:481
+#: src/views/Stake/Stake.tsx:429
+#: src/views/Stake/Stake.tsx:441
 msgid "Wrapped Balance"
 msgstr "Số dư được rút"
 
 #: src/views/Stake/Stake.tsx:493
 #: src/views/V1-Stake/V1-Stake.jsx:443
-msgid "Wrapped Balance (v1)"
-msgstr ""
+#~ msgid "Wrapped Balance (v1)"
+#~ msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:461
-msgid "Wrapped Balance (v2)"
-msgstr ""
+#~ msgid "Wrapped Balance (v2)"
+#~ msgstr ""
 
-#: src/views/Stake/Stake.tsx:499
+#: src/views/Stake/Stake.tsx:435
 msgid "Wrapped Balance in FiatDAO"
 msgstr "Số dư được rút trên FiatDAO"
 
 #: src/views/V1-Stake/V1-Stake.jsx:449
-msgid "Wrapped Balance in FiatDAO (v1)"
-msgstr ""
+#~ msgid "Wrapped Balance in FiatDAO (v1)"
+#~ msgstr ""
 
-#: src/slices/PendingTxnsSlice.ts:32
+#: src/slices/PendingTxnsSlice.ts:41
 msgid "Wrapping OHM"
 msgstr "Đang rút OHM"
 
@@ -682,7 +948,11 @@ msgstr "Đang rút OHM"
 msgid "Yield Source"
 msgstr "Nguồn lợi nhuận"
 
-#: src/views/Zap/ZapStakeAction.jsx:295
+#: src/components/EducationCard.tsx:184
+msgid "You"
+msgstr ""
+
+#: src/views/Zap/ZapStakeAction.jsx:291
 msgid "You Get"
 msgstr "Bạn nhận được"
 
@@ -694,7 +964,7 @@ msgstr "Bạn nhận được sOHM"
 msgid "You Give"
 msgstr "Bạn cho đi "
 
-#: src/views/Zap/ZapStakeAction.jsx:216
+#: src/views/Zap/ZapStakeAction.jsx:212
 msgid "You Pay"
 msgstr "Bạn thanh toán"
 
@@ -706,15 +976,15 @@ msgstr "Bạn sẽ nhận được"
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. Bằng cách rút tiền, bạn đang loại bỏ việc giảm cơ hội giành được giải thưởng trong nhóm này trong các kỳ giải thưởng trong tương lai"
 
-#: src/views/Stake/Stake.tsx:151
-#: src/views/Stake/Stake.tsx:151
+#: src/views/Stake/Stake.tsx:136
+#: src/views/Stake/Stake.tsx:136
 msgid "You cannot stake more than your OHM balance."
 msgstr "Bạn không thể cọc nhiều hơn số dư OHM của mình"
 
-#: src/views/Stake/Stake.tsx:136
-#: src/views/Stake/Stake.tsx:136
-#~ msgid "You cannot unstake more than your sOHM balance."
-#~ msgstr "Bạn không thể hoàn cọc nhiều hơn số dư trong sOHM"
+#: src/views/Stake/Stake.tsx:140
+#: src/views/Stake/Stake.tsx:140
+msgid "You cannot unstake more than your sOHM balance."
+msgstr "Bạn không thể hoàn cọc nhiều hơn số dư trong sOHM"
 
 #: src/views/33Together/PoolWithdraw.jsx:87
 msgid "You cannot withdraw more than your pool balance"
@@ -722,12 +992,28 @@ msgstr "Bạn không thể rút nhiều hơn số dư nhóm của mình"
 
 #: src/views/Stake/Stake.tsx:157
 #: src/views/Stake/Stake.tsx:157
-msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please check the box."
-msgstr ""
+#~ msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please check the box."
+#~ msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:56
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "Bạn có một trái phiếu hiện tại. Việc ràng buộc sẽ thiết lập lại thời gian yêu cầu của bạn và mất phần thưởng. Chúng tôi khuyên bạn nên yêu cầu phần thưởng trước hoặc sử dụng ví mới. Bạn vẫn muốn tiếp tục?"
+
+#: src/slices/RedeemThunk.ts:53
+msgid "You have no yield that can be redeemed."
+msgstr ""
+
+#: src/slices/GiveThunk.ts:136
+msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:375
+msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:156
+msgid "You must have a balance of sOHM (staked OHM) to continue"
+msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:222
 msgid "Your Balance"
@@ -741,6 +1027,10 @@ msgstr "Số dư gộp của bạn (có thể rút)"
 msgid "Your Staked Balance (Depositable)"
 msgstr "Số dư cố định của bạn (Có thể ký gửi"
 
+#: src/views/Give/RecipientModal.tsx:480
+msgid "Your Staked Balance (depositable)"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.jsx:61
 msgid "Your odds"
 msgstr "Tỷ lệ cược của bạn"
@@ -748,6 +1038,10 @@ msgstr "Tỷ lệ cược của bạn"
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
 msgstr "Tiền gửi của bạn"
+
+#: src/views/Give/RecipientModal.tsx:449
+msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
+msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
@@ -766,13 +1060,17 @@ msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "Zap với nhiều tài sản và đặt cọc <0>OHM</0"
 
 #: src/views/Zap/ZapStakeAction.jsx:399
-#: src/views/Zap/ZapStakeAction.jsx:451
+#: src/views/Zap/ZapStakeAction.jsx:449
 msgid "Zap-Stake"
 msgstr "Zap- đặt cọc"
 
 #: src/views/33Together/PoolPrize.jsx:141
 msgid "day"
 msgstr "ngày"
+
+#: src/views/Give/WithdrawDepositModal.tsx:85
+msgid "deposited"
+msgstr ""
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:106
@@ -781,7 +1079,7 @@ msgid "do_bond"
 msgstr "Mua"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:331
+#: src/views/Stake/Stake.tsx:276
 msgid "do_stake"
 msgstr "Cọc"
 
@@ -789,25 +1087,60 @@ msgstr "Cọc"
 msgid "for bonding"
 msgstr "Đang mua"
 
-#: src/views/Stake/Stake.tsx:352
+#: src/views/Stake/Stake.tsx:295
 msgid "for staking"
 msgstr "Đang cọc"
 
-#: src/views/Stake/Stake.tsx:359
+#: src/views/Stake/Stake.tsx:302
 msgid "for unstaking"
 msgstr "Đang hoàn cọc"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:84
-msgid "gOHM Price"
-msgstr ""
+#~ msgid "gOHM Price"
+#~ msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:148
 msgid "hrs"
 msgstr "hrs"
 
+#: src/views/Give/RedeemYield.tsx:157
+#: src/views/Give/RedeemYieldModal.tsx:75
+msgid "in deposits remains"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:140
+#: src/components/GiveProject/ProjectCard.tsx:186
+msgid "in your timezone"
+msgstr ""
+
 #: src/views/33Together/PoolPrize.jsx:155
 msgid "min"
 msgstr "Nhỏ nhất"
+
+#: src/components/GiveProject/ProjectCard.tsx:236
+msgid "of"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:242
+msgid "of goal"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:203
+msgid "remaining"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:269
+#: src/components/GiveProject/ProjectCard.tsx:289
+#: src/views/Give/RedeemYield.tsx:170
+#: src/views/Give/RedeemYield.tsx:179
+#: src/views/Give/RedeemYield.tsx:188
+msgid "sOHM"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:404
+#: src/views/Give/RecipientModal.tsx:446
+msgid "sOHM Allocation"
+msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
@@ -817,14 +1150,58 @@ msgstr "Chi tiết Nhóm Pool"
 msgid "sOHM Prize Pool"
 msgstr "Giải thướng sOHM"
 
+#: src/components/GiveProject/ProjectCard.tsx:236
+msgid "sOHM raised"
+msgstr ""
+
 #: src/views/33Together/PoolPrize.jsx:161
 msgid "sec"
 msgstr "số giây"
 
-#: src/components/RebaseTimer/RebaseTimer.jsx:77
+#: src/components/RebaseTimer/RebaseTimer.jsx:74
 msgid "to next rebase"
 msgstr "Cho đến khi thay đổi tiếp theo"
 
+#: src/views/Give/WithdrawDepositModal.tsx:83
+msgid "withdrawn"
+msgstr ""
+
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:84
-#~ msgid "wsOHM Price"
-#~ msgstr ""
+msgid "wsOHM Price"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:314
+msgid "{0} by {1}"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:483
+msgid "{0} sOHM"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:436
+msgid "{depositAmount} sOHM"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:366
+msgid "{details}"
+msgstr ""
+
+#: src/components/EducationCard.tsx:75
+#: src/components/EducationCard.tsx:138
+#: src/components/EducationCard.tsx:235
+msgid "{message}"
+msgstr ""
+
+#: src/components/EducationCard.tsx:261
+#: src/components/EducationCard.tsx:281
+msgid "{quantity} sOHM"
+msgstr ""
+
+#: src/components/EducationCard.tsx:38
+#: src/components/EducationCard.tsx:101
+msgid "{quantity} sOHM {verb}"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:366
+msgid "{shortDescription}"
+msgstr ""
