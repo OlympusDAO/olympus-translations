@@ -15,11 +15,11 @@ msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:121
 msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
-msgstr ""
+msgstr "(6天提前退出免费用。使用网络费用。)"
 
 #: src/views/33Together/PoolWithdraw.jsx:121
 #~ msgid "(exit fee has been waived)"
-#~ msgstr ""
+#~ msgstr "(免退出费用)"
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
@@ -35,7 +35,7 @@ msgstr "一起 3, 3"
 
 #: src/views/Zap/ZapInfo.jsx:81
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
-msgstr ""
+msgstr "zap 换币是一系列的智能合约，将一种资产部署到另一种协议以处理受信任的交易。"
 
 #: src/components/TopBar/OhmMenu.jsx:185
 msgid "ADD TOKEN TO WALLET"
@@ -48,15 +48,15 @@ msgstr "年收益率"
 
 #: src/components/GiveProject/ProjectCard.tsx:616
 #~ msgid "About"
-#~ msgstr ""
+#~ msgstr "关于"
 
 #: src/components/TopBar/Wallet/Token.tsx:195
 #~ msgid "Add to Wallet"
-#~ msgstr ""
+#~ msgstr "添加至钱包"
 
 #: src/views/V1-Stake/V1-Stake.jsx:298
 msgid "All your assets are migrated"
-msgstr ""
+msgstr "您的所有资产皆已迁移"
 
 #: src/views/Zap/ZapCta.jsx:50
 msgid "All-in-One contract to save time"
@@ -80,11 +80,11 @@ msgstr "任何资产"
 
 #: src/views/Give/WithdrawDepositModal.tsx:98
 #~ msgid "Any remaining yield will still be redeemable by the recipient ({0})."
-#~ msgstr ""
+#~ msgstr "接收者 ({0}) 仍可赎回任何剩余收益。"
 
 #: src/views/Give/RedeemYieldModal.tsx:88
 #~ msgid "Any sOHM directed towards you will continue to rebase and earn additional yield on your behalf."
-#~ msgstr ""
+#~ msgstr "任何导向您的 sOHM 都将继续进行变基并为你赚取额外收益。"
 
 #: src/components/Migration/MigrationModal.jsx:253
 #: src/components/Migration/MigrationModal.jsx:341
@@ -124,7 +124,7 @@ msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面完成
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:57
 msgid "Backing per OHM"
-msgstr ""
+msgstr "支持每个 OHM "
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
@@ -183,7 +183,7 @@ msgstr "选择接收者地址，预设值为您当前连接的地址"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:44
 msgid "Circulating Supply (total)"
-msgstr ""
+msgstr "流通中的供应量 (总量)"
 
 #: src/views/Bond/BondRedeem.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:133
@@ -216,7 +216,7 @@ msgstr "可索取的奖励"
 
 #: src/components/Migration/MigrationModal.jsx:198
 msgid "Click on the Migrate button to complete the upgrade to v2."
-msgstr ""
+msgstr "点击 Migrate 按钮完成升级至 v2。"
 
 #: src/views/Stake/ExternalStakePool.jsx:168
 #~ msgid "Coming Soon"
@@ -225,11 +225,11 @@ msgstr ""
 #: src/components/GiveProject/ProjectCard.tsx:164
 #: src/components/GiveProject/ProjectCard.tsx:211
 #~ msgid "Completed"
-#~ msgstr ""
+#~ msgstr "完成 "
 
 #: src/views/Give/RecipientModal.tsx:617
 #~ msgid "Confirm sOHM"
-#~ msgstr ""
+#~ msgstr "确认 sOHM"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
@@ -240,7 +240,7 @@ msgstr "连接钱包"
 
 #: src/views/Give/Give.tsx:31
 #~ msgid "Connect your wallet to give or redeem OHM"
-#~ msgstr ""
+#~ msgstr "连接您的钱包以赠予或赎回 OHM"
 
 #: src/views/Stake/Stake.tsx:336
 #: src/views/V1-Stake/V1-Stake.jsx:271
@@ -253,16 +253,16 @@ msgstr "连接您的钱包以使用 Zap"
 
 #: src/components/GiveProject/ProjectCard.tsx:278
 #~ msgid "Connect your wallet to view the fundraising progress"
-#~ msgstr ""
+#~ msgstr "连接钱包以查看筹款进度"
 
 #: src/views/Give/RecipientModal.tsx:600
 #: src/views/Give/RecipientModal.tsx:636
 #~ msgid "Continue"
-#~ msgstr ""
+#~ msgstr "继续"
 
 #: src/components/EducationCard.tsx:384
 #~ msgid "Current Deposit"
-#~ msgstr ""
+#~ msgstr "当前存入"
 
 #: src/views/Stake/Stake.tsx:320
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:70
@@ -276,7 +276,7 @@ msgstr "当前奖金"
 
 #: src/views/Give/CausesDashboard.tsx:154
 #~ msgid "Custom Recipient"
-#~ msgstr ""
+#~ msgstr "自订接收者"
 
 #: src/components/Sidebar/NavContent.jsx:94
 msgid "Dashboard"
@@ -294,7 +294,7 @@ msgstr "负债比率"
 #: src/views/ChooseBond/BondRow.jsx:28
 #: src/views/ChooseBond/BondRow.jsx:99
 #~ msgid "Deposit LP"
-#~ msgstr ""
+#~ msgstr "存入 LP"
 
 #: src/views/33Together/PoolDeposit.jsx:164
 msgid "Deposit sOHM"
@@ -302,7 +302,7 @@ msgstr "存入 sOHM"
 
 #: src/views/Give/GiveInfo.jsx:12
 #~ msgid "Deposit sOHM from wallet"
-#~ msgstr ""
+#~ msgstr "从钱包存入 sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -314,7 +314,7 @@ msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 
 #: src/views/Give/DepositYield.tsx:43
 #~ msgid "Deposits Dashboard"
-#~ msgstr ""
+#~ msgstr "存款仪表板"
 
 #: src/views/33Together/PoolDeposit.jsx:113
 msgid "Deposits can be made once the prize has been awarded."
@@ -322,7 +322,7 @@ msgstr "一旦颁发奖赏，就可以进行存款。"
 
 #: src/views/Give/RecipientModal.tsx:484
 #~ msgid "Details"
-#~ msgstr ""
+#~ msgstr "细节"
 
 #: src/views/Zap/ZapStakeAction.jsx:479
 msgid "Dialing Zapper..."
@@ -330,7 +330,7 @@ msgstr "正在拨号给 Zapper..."
 
 #: src/views/Give/DepositYield.tsx:58
 #~ msgid "Direct yield from your deposited sOHM to other recipients. Your sOHM is deposited in a vault, but you can withdraw it or change the deposited amount at any time."
-#~ msgstr ""
+#~ msgstr "从您存入的 sOHM 直接r将收益法发送给其他接收者。您的 sOHM 存放在保险库中，但您可以随时提取或更改存款金额。"
 
 #: src/components/TopBar/ConnectMenu.jsx:28
 #: src/components/TopBar/ConnectMenu.jsx:125
@@ -345,11 +345,11 @@ msgstr "文档"
 #: src/components/GiveProject/ProjectCard.tsx:568
 #: src/views/Give/YieldRecipients.tsx:176
 #~ msgid "Donate Yield"
-#~ msgstr ""
+#~ msgstr "捐赠收益"
 
 #: src/components/GiveProject/ProjectCard.tsx:274
 #~ msgid "Donated"
-#~ msgstr ""
+#~ msgstr "已捐赠 "
 
 #: src/views/Give/RedeemYield.tsx:211
 #~ msgid "Donated sOHM Generating Yield"
