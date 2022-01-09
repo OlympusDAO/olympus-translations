@@ -14,8 +14,12 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/views/33Together/PoolWithdraw.jsx:121
-msgid "(exit fee has been waived)"
-msgstr ""
+msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
+msgstr "(6天提前退出免费用。使用网络费用。)"
+
+#: src/views/33Together/PoolWithdraw.jsx:121
+#~ msgid "(exit fee has been waived)"
+#~ msgstr "(免退出费用)"
 
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
@@ -31,15 +35,28 @@ msgstr "一起 3, 3"
 
 #: src/views/Zap/ZapInfo.jsx:81
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
-msgstr ""
+msgstr "zap 换币是一系列的智能合约，将一种资产部署到另一种协议以处理受信任的交易。"
 
-#: src/components/TopBar/OhmMenu.jsx:155
+#: src/components/TopBar/OhmMenu.jsx:185
 msgid "ADD TOKEN TO WALLET"
 msgstr "将代币加入钱包"
 
-#: src/views/Stake/Stake.tsx:218
+#: src/views/Stake/Stake.tsx:302
+#: src/views/V1-Stake/V1-Stake.jsx:218
 msgid "APY"
 msgstr "年收益率"
+
+#: src/components/GiveProject/ProjectCard.tsx:616
+#~ msgid "About"
+#~ msgstr "关于"
+
+#: src/components/TopBar/Wallet/Token.tsx:195
+#~ msgid "Add to Wallet"
+#~ msgstr "添加至钱包"
+
+#: src/views/V1-Stake/V1-Stake.jsx:298
+msgid "All your assets are migrated"
+msgstr "您的所有资产皆已迁移"
 
 #: src/views/Zap/ZapCta.jsx:50
 msgid "All-in-One contract to save time"
@@ -61,14 +78,27 @@ msgstr "数量"
 msgid "Any asset"
 msgstr "任何资产"
 
+#: src/views/Give/WithdrawDepositModal.tsx:98
+#~ msgid "Any remaining yield will still be redeemable by the recipient ({0})."
+#~ msgstr "接收者 ({0}) 仍可赎回任何剩余收益。"
+
+#: src/views/Give/RedeemYieldModal.tsx:88
+#~ msgid "Any sOHM directed towards you will continue to rebase and earn additional yield on your behalf."
+#~ msgstr "任何导向您的 sOHM 都将继续进行变基并为你赚取额外收益。"
+
+#: src/components/Migration/MigrationModal.jsx:253
+#: src/components/Migration/MigrationModal.jsx:341
 #: src/views/33Together/PoolDeposit.jsx:175
-#: src/views/Stake/Stake.tsx:354
-#: src/views/Stake/Stake.tsx:386
-#: src/views/Zap/ZapStakeAction.jsx:427
+#: src/views/Stake/Stake.tsx:440
+#: src/views/Stake/Stake.tsx:472
+#: src/views/V1-Stake/V1-Stake.jsx:412
+#: src/views/Zap/ZapStakeAction.jsx:429
 msgid "Approve"
 msgstr "批准"
 
-#: src/views/Zap/ZapStakeAction.jsx:420
+#: src/components/Migration/MigrationModal.jsx:238
+#: src/components/Migration/MigrationModal.jsx:326
+#: src/views/Zap/ZapStakeAction.jsx:422
 msgid "Approved"
 msgstr "已被批准"
 
@@ -94,7 +124,7 @@ msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面完成
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:57
 msgid "Backing per OHM"
-msgstr ""
+msgstr "支持每个 OHM "
 
 #: src/views/Stake/ExternalStakePool.jsx:97
 #: src/views/Stake/ExternalStakePool.jsx:196
@@ -102,8 +132,8 @@ msgstr ""
 #~ msgstr "余额"
 
 #: src/components/Sidebar/NavContent.jsx:152
-#: src/views/ChooseBond/ChooseBond.tsx:71
-#: src/views/ChooseBond/ChooseBond.tsx:121
+#: src/views/ChooseBond/ChooseBond.tsx:75
+#: src/views/ChooseBond/ChooseBond.tsx:125
 #: src/views/ChooseBond/ClaimBonds.jsx:75
 msgid "Bond"
 msgstr "债券"
@@ -116,21 +146,21 @@ msgstr "债券价钱"
 msgid "Bond discounts"
 msgstr "债券折扣"
 
-#: src/views/ChooseBond/BondRow.jsx:73
+#: src/views/ChooseBond/BondRow.jsx:75
 msgid "Bond {0}"
 msgstr "债券 {0}"
 
 #: src/components/Sidebar/NavContent.jsx:136
-#: src/components/Sidebar/NavContent.jsx:246
+#: src/components/Sidebar/NavContent.jsx:253
 msgid "Bridge"
 msgstr "跨链桥"
 
-#: src/components/TopBar/OhmMenu.jsx:237
+#: src/components/TopBar/OhmMenu.jsx:267
 msgid "Bridge Tokens"
 msgstr "桥币"
 
-#: src/components/TopBar/OhmMenu.jsx:114
-#: src/components/TopBar/OhmMenu.jsx:127
+#: src/components/TopBar/OhmMenu.jsx:135
+#: src/components/TopBar/OhmMenu.jsx:148
 msgid "Buy on {0}"
 msgstr "从 {0} 购买"
 
@@ -153,7 +183,7 @@ msgstr "选择接收者地址，预设值为您当前连接的地址"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:44
 msgid "Circulating Supply (total)"
-msgstr ""
+msgstr "流通中的供应量 (总量)"
 
 #: src/views/Bond/BondRedeem.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:133
@@ -184,27 +214,59 @@ msgstr "可索取的"
 msgid "Claimable Rewards"
 msgstr "可索取的奖励"
 
+#: src/components/Migration/MigrationModal.jsx:198
+msgid "Click on the Migrate button to complete the upgrade to v2."
+msgstr "点击 Migrate 按钮完成升级至 v2。"
+
 #: src/views/Stake/ExternalStakePool.jsx:168
 #~ msgid "Coming Soon"
 #~ msgstr "即将推出"
 
+#: src/components/GiveProject/ProjectCard.tsx:164
+#: src/components/GiveProject/ProjectCard.tsx:211
+#~ msgid "Completed"
+#~ msgstr "完成 "
+
+#: src/views/Give/RecipientModal.tsx:617
+#~ msgid "Confirm sOHM"
+#~ msgstr "确认 sOHM"
+
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:20
-#: src/views/Stake/Stake.tsx:157
-#: src/views/Zap/Zap.jsx:33
+#: src/views/Stake/Stake.tsx:210
+#: src/views/Zap/Zap.jsx:38
 msgid "Connect Wallet"
 msgstr "连接钱包"
 
-#: src/views/Stake/Stake.tsx:252
+#: src/views/Give/Give.tsx:31
+#~ msgid "Connect your wallet to give or redeem OHM"
+#~ msgstr "连接您的钱包以赠予或赎回 OHM"
+
+#: src/views/Stake/Stake.tsx:336
+#: src/views/V1-Stake/V1-Stake.jsx:271
 msgid "Connect your wallet to stake OHM"
 msgstr "连接您的钱包以质押 OHM"
 
-#: src/views/Zap/Zap.jsx:37
+#: src/views/Zap/Zap.jsx:42
 msgid "Connect your wallet to use Zap"
 msgstr "连接您的钱包以使用 Zap"
 
-#: src/views/Stake/Stake.tsx:236
+#: src/components/GiveProject/ProjectCard.tsx:278
+#~ msgid "Connect your wallet to view the fundraising progress"
+#~ msgstr "连接钱包以查看筹款进度"
+
+#: src/views/Give/RecipientModal.tsx:600
+#: src/views/Give/RecipientModal.tsx:636
+#~ msgid "Continue"
+#~ msgstr "继续"
+
+#: src/components/EducationCard.tsx:384
+#~ msgid "Current Deposit"
+#~ msgstr "当前存入"
+
+#: src/views/Stake/Stake.tsx:320
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:70
+#: src/views/V1-Stake/V1-Stake.jsx:253
 msgid "Current Index"
 msgstr "当前指数"
 
@@ -212,22 +274,35 @@ msgstr "当前指数"
 msgid "Current Prize"
 msgstr "当前奖金"
 
+#: src/views/Give/CausesDashboard.tsx:154
+#~ msgid "Custom Recipient"
+#~ msgstr "自订接收者"
+
 #: src/components/Sidebar/NavContent.jsx:94
 msgid "Dashboard"
 msgstr "仪表盘"
 
-#: src/views/Bond/BondPurchase.jsx:270
+#: src/views/Bond/BondPurchase.jsx:272
 #: src/views/Bond/BondRedeem.jsx:129
 msgid "Debt Ratio"
 msgstr "负债比率"
 
-#: src/views/33Together/33together.tsx:168
+#: src/views/Give/YieldRecipients.tsx:192
 #~ msgid "Deposit"
 #~ msgstr "存入"
+
+#: src/views/ChooseBond/BondRow.jsx:28
+#: src/views/ChooseBond/BondRow.jsx:99
+#~ msgid "Deposit LP"
+#~ msgstr "存入 LP"
 
 #: src/views/33Together/PoolDeposit.jsx:164
 msgid "Deposit sOHM"
 msgstr "存入 sOHM"
+
+#: src/views/Give/GiveInfo.jsx:12
+#~ msgid "Deposit sOHM from wallet"
+#~ msgstr "从钱包存入 sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -237,13 +312,25 @@ msgstr "存入 sOHM 即可获胜！存入后，您将收到相对应数量的 33
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "存入 {quantity} sOHM 将在 {newOdds} 中将获胜几率增加到 1"
 
+#: src/views/Give/DepositYield.tsx:43
+#~ msgid "Deposits Dashboard"
+#~ msgstr "存款仪表板"
+
 #: src/views/33Together/PoolDeposit.jsx:113
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "一旦颁发奖赏，就可以进行存款。"
 
-#: src/views/Zap/ZapStakeAction.jsx:477
+#: src/views/Give/RecipientModal.tsx:484
+#~ msgid "Details"
+#~ msgstr "细节"
+
+#: src/views/Zap/ZapStakeAction.jsx:479
 msgid "Dialing Zapper..."
 msgstr "正在拨号给 Zapper..."
+
+#: src/views/Give/DepositYield.tsx:58
+#~ msgid "Direct yield from your deposited sOHM to other recipients. Your sOHM is deposited in a vault, but you can withdraw it or change the deposited amount at any time."
+#~ msgstr "从您存入的 sOHM 直接r将收益法发送给其他接收者。您的 sOHM 存放在保险库中，但您可以随时提取或更改存款金额。"
 
 #: src/components/TopBar/ConnectMenu.jsx:28
 #: src/components/TopBar/ConnectMenu.jsx:125
@@ -254,6 +341,28 @@ msgstr "断开"
 msgid "Docs"
 msgstr "文档"
 
+#: src/components/GiveProject/ProjectCard.tsx:471
+#: src/components/GiveProject/ProjectCard.tsx:568
+#: src/views/Give/YieldRecipients.tsx:176
+#~ msgid "Donate Yield"
+#~ msgstr "捐赠收益"
+
+#: src/components/GiveProject/ProjectCard.tsx:274
+#~ msgid "Donated"
+#~ msgstr "已捐赠 "
+
+#: src/views/Give/RedeemYield.tsx:211
+#~ msgid "Donated sOHM Generating Yield"
+#~ msgstr "捐赠 sOHM 产生的收益"
+
+#: src/components/GiveProject/ProjectCard.tsx:581
+#~ msgid "Donations"
+#~ msgstr "捐款"
+
+#: src/components/GiveProject/ProjectCard.tsx:595
+#~ msgid "Donors"
+#~ msgstr "捐赠者"
+
 #: src/views/33Together/PoolInfo.jsx:122
 msgid "Early Exit Fee"
 msgstr "提前退出费用"
@@ -262,10 +371,30 @@ msgstr "提前退出费用"
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "为了公平起见，提前提款将产生 {exitFee} 的费用。"
 
+#: src/views/Give/YieldRecipients.tsx:219
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#: src/views/Give/RecipientModal.tsx:653
+#~ msgid "Edit Give Amount"
+#~ msgstr "编辑赠予金额"
+
+#: src/views/Give/RecipientModal.tsx:261
+#~ msgid "Edit Yield"
+#~ msgstr "编辑收益"
+
+#: src/slices/PendingTxnsSlice.ts:36
+#~ msgid "Editing sOHM donation amount"
+#~ msgstr "编辑 sOHM 捐赠金额"
+
 #: src/views/Zap/ZapStakeAction.jsx:397
-#: src/views/Zap/ZapStakeAction.jsx:449
+#: src/views/Zap/ZapStakeAction.jsx:451
 msgid "Enter Amount"
 msgstr "输入金额"
+
+#: src/views/Give/RecipientModal.tsx:405
+#~ msgid "Enter a wallet address in the form of 0x ..."
+#~ msgstr "以0x...的形式输入钱包地址"
 
 #: src/views/Zap/ZapStakeAction.jsx:356
 #: src/views/Zap/ZapStakeAction.jsx:408
@@ -288,15 +417,29 @@ msgstr "免费离场时间"
 msgid "Farm Pool"
 msgstr "矿池"
 
+#: src/components/GiveProject/ProjectCard.tsx:177
+#: src/components/GiveProject/ProjectCard.tsx:225
+#~ msgid "Finishes at"
+#~ msgstr "完成于"
+
 #: src/views/Bond/BondPurchase.jsx:149
 msgid "First time bonding"
 msgstr "第一次买债券"
 
-#: src/views/Stake/Stake.tsx:287
+#: src/views/Give/RecipientModal.tsx:472
+#~ msgid "First time donating <0>sOHM</0>?<1/>Please approve Olympus DAO to use your <2>sOHM</2> for donating."
+#~ msgstr "第一次捐赠 <0>sOHM</0>？<1/>请批准 Olympus DAO 使用您的 <2>sOHM</2> 进行捐赠。"
+
+#: src/views/Give/RecipientModal.tsx:386
+#~ msgid "First time giving <0>sOHM</0>?<1/>Please approve Olympus DAO to use your <2>sOHM</2> for giving."
+#~ msgstr "第一次给予 <0>sOHM</0>？<1/>请批准 Olympus DAO 使用您的 <2>sOHM</2> 进行给予。"
+
+#: src/views/Stake/Stake.tsx:373
 msgid "First time staking"
 msgstr "第一次质押"
 
-#: src/views/Stake/Stake.tsx:294
+#: src/views/Stake/Stake.tsx:380
+#: src/views/V1-Stake/V1-Stake.jsx:313
 msgid "First time unstaking"
 msgstr "第一次取消质押"
 
@@ -308,18 +451,73 @@ msgstr "论坛"
 msgid "Fully Vested"
 msgstr "全数授予"
 
+#: src/components/CallToAction/CallToAction.jsx:48
+msgid "Get Started"
+msgstr "开始"
+
+#: src/components/TopBar/OhmMenu.jsx:250
+#~ msgid "Get Test Tokens"
+#~ msgstr "获取测试代币"
+
+#: src/components/GiveProject/GiveHeader.tsx:31
+#: src/components/Sidebar/NavContent.jsx:233
+#~ msgid "Give"
+#~ msgstr "授予"
+
+#: src/views/Give/RecipientModal.tsx:263
+#~ msgid "Give Yield"
+#~ msgstr "给予收益"
+
+#: src/slices/PendingTxnsSlice.ts:34
+#~ msgid "Giving sOHM"
+#~ msgstr "给予 sOHM"
+
+#: src/views/Give/RecipientModal.tsx:612
+#: src/views/Give/RecipientModal.tsx:648
+#~ msgid "Go Back"
+#~ msgstr "返回"
+
+#: src/views/V1-Stake/V1-Stake.jsx:369
+msgid "Go to Bonds"
+msgstr "前往债券"
+
+#: src/views/V1-Stake/V1-Stake.jsx:382
+msgid "Go to Stake V2"
+msgstr "前往质押 V2"
+
+#: src/components/GiveProject/ProjectCard.tsx:294
+#~ msgid "Goal"
+#~ msgstr "目标"
+
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Governance"
 msgstr "治理"
+
+#: src/views/Give/RedeemYield.tsx:192
+#~ msgid "If other wallets have directed their sOHM rebases to you, you can transfer that yield into your wallet."
+#~ msgstr "如果其他钱包将他们的 sOHM 分配给您，您可以将该收益转移至您的钱包中。"
 
 #: src/components/TopBar/ConnectMenu.jsx:33
 msgid "In progress"
 msgstr "进行中"
 
-#: src/components/RebaseTimer/RebaseTimer.jsx:30
-#: src/components/RebaseTimer/RebaseTimer.jsx:61
+#: src/views/Give/YieldRecipients.tsx:171
+#~ msgid "It looks like you haven't donated any yield. Let's fix that!"
+#~ msgstr "看起来您还没有捐赠任何收益。 让我们解决这个问题！"
+
+#: src/components/CallToAction/CallToAction.jsx:17
+#: src/components/Migration/MigrationModal.jsx:208
+msgid "Learn More"
+msgstr "了解更多"
+
+#: src/components/RebaseTimer/RebaseTimer.jsx:33
+#: src/components/RebaseTimer/RebaseTimer.jsx:64
 msgid "Less than a minute"
 msgstr "不到一分钟"
+
+#: src/views/Give/GiveInfo.jsx:15
+#~ msgid "Lock sOHM in vault"
+#~ msgstr "将 sOHM 锁定在保险库中"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:16
 msgid "Market Cap"
@@ -339,23 +537,44 @@ msgstr "最大限度"
 #~ msgid "Max Slippage"
 #~ msgstr "最大滑点"
 
-#: src/views/Bond/BondPurchase.jsx:248
+#: src/views/Bond/BondPurchase.jsx:250
 msgid "Max You Can Buy"
 msgstr "您可以购买的最大数量"
 
-#: src/views/Stake/Stake.tsx:205
-msgid "Migrate sOHM!"
-msgstr "迁移 sOHM！"
+#: src/components/Migration/MigrationModal.jsx:365
+#: src/views/V1-Stake/V1-Stake.jsx:356
+msgid "Migrate"
+msgstr "迁移"
+
+#: src/views/Stake/Stake.tsx:210
+#~ msgid "Migrate sOHM!"
+#~ msgstr "迁移 sOHM！"
+
+#: src/components/Migration/MigrationModal.jsx:234
+#: src/components/Migration/MigrationModal.jsx:322
+msgid "Migrated"
+msgstr "已迁移"
+
+#: src/components/Migration/MigrationModal.jsx:186
+msgid "Migration complete"
+msgstr "完成迁移"
 
 #: src/views/Zap/ZapStakeAction.jsx:381
 msgid "Minimum You Get"
 msgstr "你将取得的最低额度"
 
-#: src/views/Stake/Stake.tsx:444
+#: src/components/GiveProject/GiveHeader.tsx:43
+#: src/views/Give/DepositYield.tsx:55
+#~ msgid "My Donations"
+#~ msgstr "我的捐款"
+
+#: src/views/Stake/Stake.tsx:537
+#: src/views/V1-Stake/V1-Stake.jsx:474
 msgid "Next Reward Amount"
 msgstr "下一次奖励金额"
 
-#: src/views/Stake/Stake.tsx:446
+#: src/views/Stake/Stake.tsx:539
+#: src/views/V1-Stake/V1-Stake.jsx:476
 msgid "Next Reward Yield"
 msgstr "下一次奖励收获量"
 
@@ -363,7 +582,7 @@ msgstr "下一次奖励收获量"
 #~ msgid "Next award"
 #~ msgstr "下一个奖赏"
 
-#: src/views/ChooseBond/ChooseBond.tsx:101
+#: src/views/ChooseBond/ChooseBond.tsx:105
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:29
 msgid "OHM Price"
 msgstr "OHM 价格"
@@ -371,6 +590,15 @@ msgstr "OHM 价格"
 #: src/views/Zap/ZapInfo.jsx:106
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
 msgstr "OlyZap 降低了复杂性，节省了您的时间，并让您留在 Olympus 这里。"
+
+#: src/components/EducationCard.tsx:81
+#: src/components/EducationCard.tsx:119
+#~ msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
+#~ msgstr "Olympus Give 是一种将你从 sOHM 上获取的收益导向到另一个钱包的方法。第一步是存入您的 sOHM 并指定接收者。"
+
+#: src/views/V1-Stake/V1-Stake.jsx:296
+msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
+msgstr "一旦您当前的债券被索取，您就可以迁移您的资产以质押更多的 OHM"
 
 #: src/views/404/NotFound.tsx:14
 msgid "Page not found"
@@ -388,27 +616,60 @@ msgstr "待定中的奖励"
 #: src/slices/PendingTxnsSlice.ts:42
 #: src/slices/PendingTxnsSlice.ts:46
 #: src/views/Zap/ZapStakeAction.jsx:395
-#: src/views/Zap/ZapStakeAction.jsx:427
+#: src/views/Zap/ZapStakeAction.jsx:429
 msgid "Pending..."
 msgstr "待定中..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:289
-#: src/views/Stake/Stake.tsx:296
+#: src/views/Stake/Stake.tsx:375
+#: src/views/Stake/Stake.tsx:382
+#: src/views/V1-Stake/V1-Stake.jsx:315
 msgid "Please approve Olympus Dao to use your"
 msgstr "请批准 Olympus Dao 使用您的"
+
+#: src/slices/RedeemThunk.ts:25
+#~ msgid "Please conenect your wallet!"
+#~ msgstr "请连接您的钱包！"
+
+#: src/slices/GiveThunk.ts:60
+#: src/slices/GiveThunk.ts:101
+#~ msgid "Please connect your wallet"
+#~ msgstr "请连接您的钱包"
+
+#: src/slices/GiveThunk.ts:152
+#: src/slices/GiveThunk.ts:219
+#: src/slices/GiveThunk.ts:290
+#: src/slices/RedeemThunk.ts:74
+#~ msgid "Please connect your wallet!"
+#~ msgstr "请连接您的钱包！"
+
+#: src/views/Give/RecipientModal.tsx:234
+#~ msgid "Please enter a different address: cannot direct to the same wallet"
+#~ msgstr "请输入不同的地址：不能导向同一个钱包"
+
+#: src/views/Give/RecipientModal.tsx:228
+#~ msgid "Please enter a valid Ethereum address"
+#~ msgstr "请输入一个有效的以太坊地址"
 
 #: src/views/Bond/BondPurchase.jsx:53
 msgid "Please enter a valid value!"
 msgstr "请输入一个有效值！"
 
+#: src/views/Give/RecipientModal.tsx:186
+#~ msgid "Please enter a value"
+#~ msgstr "请输入一个值"
+
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:51
-#: src/views/Stake/Stake.tsx:126
-#: src/views/Stake/Stake.tsx:126
+#: src/views/Stake/Stake.tsx:151
+#: src/views/Stake/Stake.tsx:151
 msgid "Please enter a value!"
 msgstr "请输入一个值！"
+
+#: src/slices/RedeemThunk.ts:79
+#~ msgid "Please switch to testnet!"
+#~ msgstr "请切换到测试网！"
 
 #: src/views/33Together/PoolPrize.jsx:111
 msgid "Pool Award Balance is currently 0."
@@ -418,12 +679,20 @@ msgstr "目前矿池奖励余额为 0。"
 msgid "Pool owner"
 msgstr "矿池所有人"
 
+#: src/components/Migration/MigrationModal.jsx:283
+msgid "Post-migration"
+msgstr "迁移后"
+
 #: src/views/Zap/ZapStakeAction.jsx:187
 #~ msgid "Powered by Zapper"
 #~ msgstr "由 Zapper 技术支持"
 
+#: src/components/Migration/MigrationModal.jsx:272
+msgid "Pre-migration"
+msgstr "迁移前"
+
 #: src/views/ChooseBond/BondRow.jsx:38
-#: src/views/ChooseBond/ChooseBond.tsx:124
+#: src/views/ChooseBond/ChooseBond.tsx:128
 msgid "Price"
 msgstr "价钱"
 
@@ -436,18 +705,19 @@ msgid "Prize is being awarded"
 msgstr "正在颁发奖赏"
 
 #: src/views/ChooseBond/BondRow.jsx:55
-#: src/views/ChooseBond/ChooseBond.tsx:130
+#: src/views/ChooseBond/ChooseBond.tsx:134
 msgid "Purchased"
 msgstr "已被购买总额"
 
-#: src/views/Bond/BondPurchase.jsx:261
+#: src/views/Bond/BondPurchase.jsx:263
 #: src/views/Bond/BondRedeem.jsx:120
 #: src/views/ChooseBond/BondRow.jsx:46
-#: src/views/ChooseBond/ChooseBond.tsx:127
+#: src/views/ChooseBond/ChooseBond.tsx:131
 msgid "ROI"
 msgstr "投资回报率"
 
-#: src/views/Stake/Stake.tsx:451
+#: src/views/Stake/Stake.tsx:544
+#: src/views/V1-Stake/V1-Stake.jsx:481
 msgid "ROI (5-Day Rate)"
 msgstr "投资回报率（5天比率）"
 
@@ -455,7 +725,15 @@ msgstr "投资回报率（5天比率）"
 msgid "Read more about Fairness"
 msgstr "阅读更多有关公平性的信息"
 
-#: src/views/Bond/BondPurchase.jsx:287
+#: src/components/EducationCard.tsx:263
+#~ msgid "Receives yield from"
+#~ msgstr "获得收益自"
+
+#: src/components/EducationCard.tsx:172
+#~ msgid "Receives yield from {quantity} sOHM"
+#~ msgstr "从 {quantity} sOHM 获得收益 "
+
+#: src/views/Bond/BondPurchase.jsx:289
 msgid "Recipient"
 msgstr "接收者"
 
@@ -463,16 +741,40 @@ msgstr "接收者"
 msgid "Recipient Address"
 msgstr "接收者地址"
 
+#: src/views/Give/GiveInfo.jsx:18
+#~ msgid "Recipient earns sOHM rebases"
+#~ msgstr "接收者将获得 sOHM 变基"
+
 #: src/views/Bond/Bond.tsx:112
 msgid "Redeem"
 msgstr "赎回"
 
-#: src/views/Zap/ZapStakeAction.jsx:465
+#: src/views/Give/RedeemYield.tsx:189
+#~ msgid "Redeem Yield"
+#~ msgstr "赎回收益"
+
+#: src/views/Give/RedeemYieldModal.tsx:78
+#~ msgid "Redeem Yield?"
+#~ msgstr "赎回收益？"
+
+#: src/components/EducationCard.tsx:200
+#~ msgid "Redeem {quantity} sOHM in yield"
+#~ msgstr "赎回 {数量} sOHM 的收益"
+
+#: src/views/Give/RedeemYield.tsx:219
+#~ msgid "Redeemable Amount"
+#~ msgstr "可赎回金额"
+
+#: src/components/GiveProject/ProjectCard.tsx:187
+#~ msgid "Remaining"
+#~ msgstr "剩余"
+
+#: src/views/Zap/ZapStakeAction.jsx:467
 msgid "Select Zap Token"
 msgstr "选择 Zap 代币"
 
-#: src/views/Zap/ZapStakeAction.jsx:241
-#: src/views/Zap/ZapStakeAction.jsx:278
+#: src/views/Zap/ZapStakeAction.jsx:245
+#: src/views/Zap/ZapStakeAction.jsx:282
 msgid "Select a Token"
 msgstr "选择一种代币"
 
@@ -480,37 +782,52 @@ msgstr "选择一种代币"
 msgid "Select any asset"
 msgstr "选择任何资产"
 
-#: src/views/Zap/ZapStakeAction.jsx:483
+#: src/views/Zap/ZapStakeAction.jsx:485
 msgid "Ser, you have no assets..."
 msgstr "先生/女士，你没有资产..."
 
-#: src/views/Stake/Stake.tsx:412
+#: src/views/V1-Stake/V1-Stake.jsx:206
+msgid "Single Stake"
+msgstr "单一质押"
+
+#: src/views/Stake/Stake.tsx:499
+#: src/views/V1-Stake/V1-Stake.jsx:436
+#: src/views/V1-Stake/V1-Stake.jsx:460
 msgid "Single Staking"
 msgstr "单一质押"
+
+#: src/views/Stake/Stake.tsx:511
+msgid "Single Staking (v1)"
+msgstr "单一质押 (v1)"
+
+#: src/views/V1-Stake/V1-Stake.jsx:455
+#~ msgid "Single Staking (v2)"
+#~ msgstr "单一质押 (v2)"
 
 #: src/views/Bond/AdvancedSettings.jsx:37
 msgid "Slippage"
 msgstr "滑点"
 
-#: src/views/Zap/ZapStakeAction.jsx:341
+#: src/views/Zap/ZapStakeAction.jsx:345
 msgid "Slippage Tolerance"
-msgstr ""
+msgstr "滑点容限"
 
 #: src/views/Bond/BondPurchase.jsx:185
 #: src/views/ChooseBond/BondRow.jsx:73
 #: src/views/ChooseBond/BondRow.jsx:128
-msgid "Sold Out"
-msgstr "售罄"
+#~ msgid "Sold Out"
+#~ msgstr "售罄"
 
 #: src/views/33Together/PoolInfo.jsx:143
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "朋友，有些不对劲，请确认下方一起彩池的使用者介面。"
 
 #: src/components/Sidebar/NavContent.jsx:109
+#: src/views/V1-Stake/V1-Stake.jsx:287
 msgid "Stake"
 msgstr "质押"
 
-#: src/views/Stake/Stake.tsx:342
+#: src/views/Stake/Stake.tsx:428
 msgid "Stake OHM"
 msgstr "质押 OHM"
 
@@ -522,15 +839,21 @@ msgstr "质押 OHM"
 #: src/views/Stake/ExternalStakePool.tsx:87
 #: src/views/Stake/ExternalStakePool.tsx:115
 msgid "Stake on Trader Joe"
-msgstr ""
+msgstr "于Trader Joe 进行质押"
 
-#: src/views/Stake/Stake.tsx:404
+#: src/views/Stake/Stake.tsx:491
+#: src/views/V1-Stake/V1-Stake.jsx:428
 msgid "Staked Balance"
 msgstr "质押余额"
 
-#: src/views/Stake/Stake.tsx:418
+#: src/views/Stake/Stake.tsx:529
+#: src/views/V1-Stake/V1-Stake.jsx:442
 msgid "Staked Balance in Fuse"
 msgstr "于 Fuse 的质押余额"
+
+#: src/views/V1-Stake/V1-Stake.jsx:437
+#~ msgid "Staked Balance in Fuse (v1)"
+#~ msgstr "Fuse (v1)中的质押余额 "
 
 #: src/views/Zap/ZapInfo.jsx:129
 msgid "Staking"
@@ -565,9 +888,31 @@ msgstr "换取 OHM"
 #~ msgid "TVD"
 #~ msgstr "存入总价值"
 
+#: src/views/V1-Stake/V1-Stake.jsx:233
+msgid "TVL"
+msgstr "总锁仓价值"
+
+#: src/views/Give/YieldRecipients.tsx:193
+#~ msgid "The amount of sOHM deposited"
+#~ msgstr "已存入的 sOHM"
+
 #: src/views/33Together/PoolWithdraw.jsx:118
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
-msgstr ""
+msgstr "该矿池已被临时禁用以进行 V2 迁移。请提取您的 33T"
+
+#: src/components/EducationCard.tsx:331
+#: src/components/EducationCard.tsx:369
+#~ msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
+#~ msgstr "您指定的接收者或您选择的项目将收到与您的 sOHM 存款产生的变基奖励，直到您从保险库中提取您的 sOHM 本金。"
+
+#: src/views/Give/RecipientModal.tsx:396
+#~ msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
+#~ msgstr "指定的钱包地址将从您存入的金额中获得变基收益。 "
+
+#: src/components/EducationCard.tsx:188
+#: src/components/EducationCard.tsx:232
+#~ msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
+#~ msgstr "然后，您存入的 sOHM 会保存在保险库智能合约中，该合约会将您的变基收益发送给接收者。您可以随时提取或编辑您的 sOHM 本金金额。"
 
 #: src/views/33Together/PoolDeposit.jsx:110
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -576,6 +921,14 @@ msgstr "该奖池目前无法接受存款。"
 #: src/views/33Together/PoolWithdraw.jsx:103
 msgid "This Prize Pool is unable to accept withdrawals at this time."
 msgstr "该奖池目前无法接受提款。"
+
+#: src/components/Migration/MigrationModal.jsx:276
+msgid "This is the current balance of v1 assets in your wallet."
+msgstr "这是您钱包中 v1 资产的当前余额。"
+
+#: src/components/Migration/MigrationModal.jsx:287
+msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
+msgstr "这将与迁移完成后您钱包中的 gOHM 数量相等。"
 
 #: src/views/Bond/BondRedeem.jsx:113
 msgid "Time until fully vested"
@@ -589,33 +942,44 @@ msgstr "总存款"
 msgid "Total Sponsorship"
 msgstr "总赞助"
 
-#: src/views/Stake/Stake.tsx:227
+#: src/views/Stake/Stake.tsx:311
 msgid "Total Value Deposited"
 msgstr "存入总价值"
+
+#: src/views/Give/RecipientModal.tsx:513
+#~ msgid "Transaction"
+#~ msgstr "交易"
 
 #: src/views/Bond/AdvancedSettings.jsx:51
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "如果价格变化超过滑点 %，交易可能会回复"
 
-#: src/views/ChooseBond/ChooseBond.tsx:79
+#: src/views/ChooseBond/ChooseBond.tsx:83
 msgid "Treasury Balance"
 msgstr "金库余额"
 
-#: src/views/Stake/Stake.tsx:277
+#: src/views/Stake/Stake.tsx:361
+#: src/views/Stake/Stake.tsx:460
+#: src/views/V1-Stake/V1-Stake.jsx:288
 msgid "Unstake"
 msgstr "取消质押"
 
-#: src/components/TopBar/OhmMenu.jsx:226
+#: src/components/TopBar/OhmMenu.jsx:256
 msgid "Unstake Legacy LP Token"
 msgstr "取消质押旧的 LP 代币"
 
-#: src/views/Stake/Stake.tsx:374
+#: src/views/V1-Stake/V1-Stake.jsx:400
 msgid "Unstake OHM"
 msgstr "取消质押 OHM"
 
-#: src/views/Stake/Stake.tsx:396
+#: src/views/Stake/Stake.tsx:483
+#: src/views/V1-Stake/V1-Stake.jsx:420
 msgid "Unstaked Balance"
 msgstr "取消质押余额"
+
+#: src/views/V1-Stake/V1-Stake.jsx:415
+#~ msgid "Unstaked Balance (v1)"
+#~ msgstr "未质押余额 (v1)"
 
 #: src/slices/PendingTxnsSlice.ts:28
 msgid "Unstaking sOHM"
@@ -625,15 +989,44 @@ msgstr "正在取消质押 sOHM"
 msgid "Unwrapping sOHM"
 msgstr "去包装 sOHM"
 
-#: src/views/Bond/BondPurchase.jsx:279
+#: src/components/EducationCard.tsx:404
+#~ msgid "Updated Deposit"
+#~ msgstr "更新存款"
+
+#: src/views/Give/RecipientModal.tsx:203
+#~ msgid "Value cannot be more than your sOHM balance of"
+#~ msgstr "价值不能超过您的 sOHM 余额"
+
+#: src/views/Give/RecipientModal.tsx:192
+#~ msgid "Value must be positive"
+#~ msgstr "数值必须为正 "
+
+#: src/components/EducationCard.tsx:134
+#: src/components/EducationCard.tsx:179
+#: src/components/EducationCard.tsx:223
+#~ msgid "Vault"
+#~ msgstr "保险库"
+
+#: src/views/Bond/BondPurchase.jsx:281
 #: src/views/Bond/BondRedeem.jsx:138
 msgid "Vesting Term"
 msgstr "授予期限"
 
 #: src/views/ChooseBond/BondRow.jsx:28
-#: src/views/ChooseBond/BondRow.jsx:97
+#: src/views/ChooseBond/BondRow.jsx:99
 msgid "View Contract"
 msgstr "查看合约"
+
+#: src/components/GiveProject/ProjectCard.tsx:443
+#~ msgid "View Details"
+#~ msgstr "查看详情"
+
+#: src/components/EducationCard.tsx:33
+#: src/components/EducationCard.tsx:72
+#: src/components/EducationCard.tsx:110
+#: src/components/TopBar/Wallet/index.tsx:12
+#~ msgid "Wallet"
+#~ msgstr "钱包"
 
 #: src/views/33Together/PoolInfo.jsx:85
 msgid "Winners / prize period"
@@ -642,6 +1035,10 @@ msgstr "获奖者/获奖时间"
 #: src/views/33Together/33together.tsx:180
 msgid "Withdraw"
 msgstr "提取"
+
+#: src/views/Give/WithdrawDepositModal.tsx:88
+#~ msgid "Withdraw Deposit?"
+#~ msgstr "提取存款?"
 
 #: src/views/33Together/PoolWithdraw.jsx:162
 msgid "Withdraw Early & pay"
@@ -655,18 +1052,40 @@ msgstr "提取 sOHM"
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "中奖后可以进行提款"
 
+#: src/slices/PendingTxnsSlice.ts:37
+#~ msgid "Withdrawing sOHM donation"
+#~ msgstr "提取 sOHM 捐款"
+
 #: src/views/33Together/PoolWithdraw.jsx:170
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "提取 {quantity} sOHM 会将您获胜的几率从 {newOdds} 降低到 1"
 
-#: src/views/Stake/Stake.tsx:424
-#: src/views/Stake/Stake.tsx:436
+#: src/views/Stake/Stake.tsx:505
+#: src/views/V1-Stake/V1-Stake.jsx:448
+#: src/views/V1-Stake/V1-Stake.jsx:466
 msgid "Wrapped Balance"
 msgstr "包装的余额"
 
-#: src/views/Stake/Stake.tsx:430
+#: src/views/Stake/Stake.tsx:517
+msgid "Wrapped Balance (v1)"
+msgstr "打包代币余额 (v1)"
+
+#: src/views/V1-Stake/V1-Stake.jsx:461
+#~ msgid "Wrapped Balance (v2)"
+#~ msgstr "打包代币余额 (v2)"
+
+#: src/views/Stake/Stake.tsx:523
+#: src/views/V1-Stake/V1-Stake.jsx:454
 msgid "Wrapped Balance in FiatDAO"
-msgstr ""
+msgstr "于 FiatDAO 中的打包代币余额"
+
+#: src/views/V1-Stake/V1-Stake.jsx:449
+#~ msgid "Wrapped Balance in FiatDAO (v1)"
+#~ msgstr "于 FiatDAO (v1) 中的打包代币余额"
+
+#: src/views/Stake/Stake.tsx:519
+#~ msgid "Wrapped Balance in Fuse"
+#~ msgstr "于 Fuse 中的打包代币余额"
 
 #: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
@@ -676,7 +1095,11 @@ msgstr "包装 OHM"
 msgid "Yield Source"
 msgstr "收益来源"
 
-#: src/views/Zap/ZapStakeAction.jsx:291
+#: src/components/EducationCard.tsx:275
+#~ msgid "You"
+#~ msgstr "您"
+
+#: src/views/Zap/ZapStakeAction.jsx:295
 msgid "You Get"
 msgstr "你获得"
 
@@ -688,37 +1111,73 @@ msgstr "你获得 sOHM"
 msgid "You Give"
 msgstr "你提供"
 
-#: src/views/Zap/ZapStakeAction.jsx:212
+#: src/views/Zap/ZapStakeAction.jsx:216
 msgid "You Pay"
 msgstr "你支付"
 
-#: src/views/Bond/BondPurchase.jsx:235
+#: src/views/Bond/BondPurchase.jsx:237
 msgid "You Will Get"
 msgstr "你将会获得"
+
+#: src/components/Migration/MigrationModal.jsx:188
+msgid "You are now ready to migrate"
+msgstr "您现在已准备好迁移"
 
 #: src/views/33Together/PoolWithdraw.jsx:94
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "您可以随时提取存入的资金。由于提取资金，您将减少在未来的奖赏期间赢得该矿池中奖赏的机会 "
 
-#: src/views/Stake/Stake.tsx:132
-#: src/views/Stake/Stake.tsx:132
+#: src/views/Stake/Stake.tsx:157
+#: src/views/Stake/Stake.tsx:157
 msgid "You cannot stake more than your OHM balance."
 msgstr "您不能质押超过您的 OHM 余额。"
 
-#: src/views/Stake/Stake.tsx:136
-#: src/views/Stake/Stake.tsx:136
-msgid "You cannot unstake more than your sOHM balance."
-msgstr "您不能取消质押超过您的 sOHM 余额。"
+#: src/views/Stake/Stake.tsx:140
+#: src/views/Stake/Stake.tsx:140
+#~ msgid "You cannot unstake more than your sOHM balance."
+#~ msgstr "您不能取消质押超过您的 sOHM 余额。"
 
 #: src/views/33Together/PoolWithdraw.jsx:87
 msgid "You cannot withdraw more than your pool balance"
 msgstr "您的提款金额不能超过您的矿池余额"
 
+#: src/views/Stake/Stake.tsx:163
+#: src/views/Stake/Stake.tsx:163
+msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please check the box."
+msgstr "您没有足够的 sOHM 来完成此交易。要从 gOHM 取消质押，请点选此框格。"
+
 #: src/views/Bond/BondPurchase.jsx:56
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "您已经有一张债券，现在再购买债券将重置您的授予期限且失去奖励。我们建议您先领取奖励或使用新钱包。您还想要继续执行吗？"
 
-#: src/views/Bond/BondPurchase.jsx:220
+#: src/components/CallToAction/CallToAction.jsx:44
+#: src/components/Migration/MigrationModal.jsx:189
+msgid "You have assets ready to migrate to v2"
+msgstr "您有准备好迁移至 v2 的资产"
+
+#: src/slices/RedeemThunk.ts:53
+#: src/slices/RedeemThunk.ts:107
+#~ msgid "You have no yield that can be redeemed."
+#~ msgstr "你没有可以赎回的收益。"
+
+#: src/slices/GiveThunk.ts:197
+#: src/slices/GiveThunk.ts:264
+#~ msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
+#~ msgstr "您可能正在尝试给予比您的余额更高的价值！错误代码：32603。消息：ds-math-sub-underflow"
+
+#: src/views/Give/RecipientModal.tsx:461
+#~ msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
+#~ msgstr "您必须登录您的钱包才能使用此功能。点击 “连接钱包” 按钮并重试。"
+
+#: src/views/V1-Stake/V1-Stake.jsx:299
+msgid "You must complete the migration of your assets to stake additional OHM"
+msgstr "您必须完成资产迁移才能质押额外的 OHM"
+
+#: src/views/Give/RecipientModal.tsx:198
+#~ msgid "You must have a balance of sOHM (staked OHM) to continue"
+#~ msgstr "您必须拥有 sOHM（质押 OHM）余额才能继续"
+
+#: src/views/Bond/BondPurchase.jsx:222
 msgid "Your Balance"
 msgstr "你的余额"
 
@@ -730,6 +1189,14 @@ msgstr "您于矿池中的余额（可被提取的）"
 msgid "Your Staked Balance (Depositable)"
 msgstr "您的质押余额（可存入的）"
 
+#: src/views/Give/RecipientModal.tsx:566
+#~ msgid "Your Staked Balance (depositable)"
+#~ msgstr "您的质押余额（可存入的"
+
+#: src/views/Give/RecipientModal.tsx:490
+#~ msgid "Your Wallet Address"
+#~ msgstr "您的钱包地址"
+
 #: src/views/33Together/PoolInfo.jsx:61
 msgid "Your odds"
 msgstr "你的赔率"
@@ -737,6 +1204,10 @@ msgstr "你的赔率"
 #: src/views/33Together/PoolInfo.jsx:55
 msgid "Your pool deposits"
 msgstr "您的矿池存款"
+
+#: src/views/Give/RecipientModal.tsx:535
+#~ msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
+#~ msgstr "当您提交时，您的 sOHM 将被转移到保险库中。 您需要批准交易并支付汽油费。"
 
 #: src/views/33Together/PoolInfo.jsx:49
 msgid "Your total awards"
@@ -755,7 +1226,7 @@ msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "使用 Zap 换取更多资产并质押 <0>OHM</0>"
 
 #: src/views/Zap/ZapStakeAction.jsx:399
-#: src/views/Zap/ZapStakeAction.jsx:449
+#: src/views/Zap/ZapStakeAction.jsx:451
 msgid "Zap-Stake"
 msgstr "Zap 质押"
 
@@ -763,14 +1234,18 @@ msgstr "Zap 质押"
 msgid "day"
 msgstr "日"
 
+#: src/views/Give/WithdrawDepositModal.tsx:94
+#~ msgid "deposited"
+#~ msgstr "已存入"
+
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:106
-#: src/views/ChooseBond/BondRow.jsx:128
+#: src/views/ChooseBond/BondRow.jsx:132
 msgid "do_bond"
 msgstr "买债券"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:271
+#: src/views/Stake/Stake.tsx:355
 msgid "do_stake"
 msgstr "进行质押"
 
@@ -778,21 +1253,66 @@ msgstr "进行质押"
 msgid "for bonding"
 msgstr "用于买债券"
 
-#: src/views/Stake/Stake.tsx:290
+#: src/views/Stake/Stake.tsx:376
 msgid "for staking"
 msgstr "用于质押"
 
-#: src/views/Stake/Stake.tsx:297
+#: src/views/Stake/Stake.tsx:383
+#: src/views/V1-Stake/V1-Stake.jsx:316
 msgid "for unstaking"
 msgstr "用于取消质押"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:84
+msgid "gOHM Price"
+msgstr "gOHM 价格"
 
 #: src/views/33Together/PoolPrize.jsx:148
 msgid "hrs"
 msgstr "小时"
 
+#: src/views/Give/RedeemYield.tsx:199
+#: src/views/Give/RedeemYieldModal.tsx:83
+#~ msgid "in deposits remains"
+#~ msgstr "于存款中剩余"
+
+#: src/components/GiveProject/ProjectCard.tsx:177
+#: src/components/GiveProject/ProjectCard.tsx:225
+#~ msgid "in your timezone"
+#~ msgstr "在你的时区"
+
 #: src/views/33Together/PoolPrize.jsx:155
 msgid "min"
 msgstr "分钟"
+
+#: src/components/GiveProject/ProjectCard.tsx:236
+#~ msgid "of"
+#~ msgstr "的"
+
+#: src/components/GiveProject/ProjectCard.tsx:242
+#~ msgid "of goal"
+#~ msgstr "目标的"
+
+#: src/components/GiveProject/ProjectCard.tsx:242
+#~ msgid "remaining"
+#~ msgstr "剩余的"
+
+#: src/views/Give/RedeemYield.tsx:214
+#: src/views/Give/RedeemYield.tsx:226
+#: src/views/Give/RedeemYield.tsx:236
+#~ msgid "sOHM"
+#~ msgstr "sOHM"
+
+#: src/views/Give/RecipientModal.tsx:532
+#~ msgid "sOHM Allocation"
+#~ msgstr "sOHM 分配"
+
+#: src/components/GiveProject/ProjectCard.tsx:317
+#~ msgid "sOHM Donated"
+#~ msgstr "已捐赠的 sOHM"
+
+#: src/components/GiveProject/ProjectCard.tsx:334
+#~ msgid "sOHM Goal"
+#~ msgstr "sOHM 目标"
 
 #: src/views/33Together/PoolInfo.jsx:158
 msgid "sOHM Pool Details"
@@ -802,14 +1322,58 @@ msgstr "sOHM 矿池详情"
 msgid "sOHM Prize Pool"
 msgstr "sOHM 奖池"
 
+#: src/components/GiveProject/ProjectCard.tsx:236
+#~ msgid "sOHM raised"
+#~ msgstr "已募集的 sOHM"
+
 #: src/views/33Together/PoolPrize.jsx:161
 msgid "sec"
 msgstr "秒"
 
-#: src/components/RebaseTimer/RebaseTimer.jsx:74
+#: src/components/RebaseTimer/RebaseTimer.jsx:77
 msgid "to next rebase"
 msgstr "至下一次变基"
 
+#: src/views/Give/WithdrawDepositModal.tsx:92
+#~ msgid "withdrawn"
+#~ msgstr "提取"
+
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:84
-msgid "wsOHM Price"
-msgstr ""
+#~ msgid "wsOHM Price"
+#~ msgstr "wsOHM 价格"
+
+#: src/views/Give/RecipientModal.tsx:314
+#~ msgid "{0} by {1}"
+#~ msgstr "{1} 的 {0}"
+
+#: src/views/Give/RecipientModal.tsx:569
+#~ msgid "{0} sOHM"
+#~ msgstr "{0} sOHM"
+
+#: src/views/Give/RecipientModal.tsx:522
+#~ msgid "{depositAmount} sOHM"
+#~ msgstr "{存款金额} sOHM"
+
+#: src/components/GiveProject/ProjectCard.tsx:366
+#~ msgid "{details}"
+#~ msgstr "{细节}"
+
+#: src/components/EducationCard.tsx:75
+#: src/components/EducationCard.tsx:138
+#: src/components/EducationCard.tsx:235
+#~ msgid "{message}"
+#~ msgstr "{信息}"
+
+#: src/components/EducationCard.tsx:261
+#: src/components/EducationCard.tsx:281
+#~ msgid "{quantity} sOHM"
+#~ msgstr "{数量} sOHM"
+
+#: src/components/EducationCard.tsx:38
+#: src/components/EducationCard.tsx:101
+#~ msgid "{quantity} sOHM {verb}"
+#~ msgstr "{数量} sOHM {动词}"
+
+#: src/components/GiveProject/ProjectCard.tsx:366
+#~ msgid "{shortDescription}"
+#~ msgstr "{简短的介绍}"
