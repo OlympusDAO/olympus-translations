@@ -1064,28 +1064,28 @@ msgstr ""
 #: src/views/V1-Stake/V1-Stake.jsx:448
 #: src/views/V1-Stake/V1-Stake.jsx:466
 msgid "Wrapped Balance"
-msgstr "Gewrappte Bilanz"
+msgstr "Gewrapptes Guthaben"
 
 #: src/views/Stake/Stake.tsx:517
 msgid "Wrapped Balance (v1)"
-msgstr "Gewrappte Bilanz (v1)"
+msgstr "Gewrapptes Guthaben (v1)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:461
 #~ msgid "Wrapped Balance (v2)"
-#~ msgstr "Gewrappte Bilanz (v2)"
+#~ msgstr "Gewrapptes Guthaben (v2)"
 
 #: src/views/Stake/Stake.tsx:523
 #: src/views/V1-Stake/V1-Stake.jsx:454
 msgid "Wrapped Balance in FiatDAO"
-msgstr "Gewrappte Bilanz in FiatDAO"
+msgstr "Gewrapptes Guthaben in FiatDAO"
 
 #: src/views/V1-Stake/V1-Stake.jsx:449
 #~ msgid "Wrapped Balance in FiatDAO (v1)"
-#~ msgstr "Gewrappte Bilanz in FiatDAO (v1)"
+#~ msgstr "Gewrapptes Guthaben in FiatDAO (v1)"
 
 #: src/views/Stake/Stake.tsx:519
 #~ msgid "Wrapped Balance in Fuse"
-#~ msgstr ""
+#~ msgstr "Gewrapptes Guthaben in Fuse"
 
 #: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
