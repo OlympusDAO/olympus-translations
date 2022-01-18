@@ -13,13 +13,22 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/views/33Together/PoolWithdraw.jsx:120
+#: src/views/33Together/PoolWithdraw.tsx:134
 msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
 msgstr "(6일 조기 퇴장 수수료가 철회되었습니다. 네트워크 수수료가 적용됩니다.)"
 
 #: src/views/33Together/PoolWithdraw.jsx:121
 #~ msgid "(exit fee has been waived)"
 #~ msgstr "(퇴장 수수료가 철회되었습니다)"
+
+#: src/components/Migration/MigrationModal.tsx:295
+#: src/components/Migration/MigrationModalSingle.tsx:289
+msgid "(includes rebase rewards)"
+msgstr ""
+
+#: src/views/BondV2/BondV2.tsx:74
+msgid "--"
+msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:67
 #~ msgid "1 in {0}"
@@ -41,7 +50,7 @@ msgstr "3, 3 투게더"
 #~ msgid "A zap swap is a series of smart contracts that deploys one asset to another a protocol to handle a trusted transaction."
 #~ msgstr "Zap 스왑은 신뢰된 트랜젝션을 다루기 위해 하나의 자산을 다른 프로토콜에 배포하는 스마트 컨트랙트의 연속입니다."
 
-#: src/views/Zap/ZapInfo.jsx:81
+#: src/views/Zap/ZapInfo.jsx:82
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Zap 스왑은 신뢰된 트랜젝션을 다루기 위해 하나의 자산을 다른 프로토콜에 배포하는 스마트 컨트랙트의 연속입니다."
 
@@ -58,11 +67,11 @@ msgstr "APY"
 #~ msgid "APY over time"
 #~ msgstr "APY 추이"
 
-#: src/components/GiveProject/ProjectCard.tsx:615
+#: src/components/GiveProject/ProjectCard.tsx:550
 msgid "About"
 msgstr "알아보기"
 
-#: src/components/TopBar/Wallet/Token.tsx:223
+#: src/components/TopBar/Wallet/Token.tsx:212
 msgid "Add to Wallet"
 msgstr ""
 
@@ -70,25 +79,29 @@ msgstr ""
 msgid "All your assets are migrated"
 msgstr ""
 
-#: src/views/Zap/ZapCta.jsx:50
+#: src/views/Zap/ZapCta.jsx:49
 msgid "All-in-One contract to save time"
 msgstr "시간을 아끼기 위한 올인원 컨트랙트"
 
-#: src/views/Zap/ZapInfo.jsx:103
+#: src/views/Zap/ZapInfo.jsx:104
 msgid "All-in-one easy staking"
 msgstr "쉬운 올인원 스테이킹"
 
-#: src/views/Zap/ZapInfo.jsx:98
+#: src/views/Zap/ZapInfo.jsx:99
 msgid "All-in-one zap contracts"
 msgstr "올인원 zap 컨트랙트"
 
-#: src/views/Bond/BondPurchase.jsx:158
-#: src/views/BondV2/BondPurchase.tsx:142
+#: src/views/Bond/BondPurchase.tsx:168
+#: src/views/BondV2/BondPurchase.tsx:157
 #: src/views/Give/RecipientModal.tsx:518
 msgid "Amount"
 msgstr "양"
 
-#: src/views/Zap/ZapStakeHeader.jsx:26
+#: src/views/TreasuryDashboard/treasuryData.ts:186
+msgid "Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results."
+msgstr ""
+
+#: src/views/Zap/ZapStakeHeader.jsx:24
 msgid "Any asset"
 msgstr "어떤 자산이든"
 
@@ -100,9 +113,11 @@ msgstr "남아있는 이자는 예외없이 수령자에 의해 청구가 가능
 msgid "Any sOHM directed towards you will continue to rebase and earn additional yield on your behalf."
 msgstr "여러분에게 지정된 sOHM은 계속해서 리베이스를 받고 추가적으로 이자를 받게 됩니다."
 
-#: src/components/Migration/MigrationModal.tsx:259
-#: src/components/Migration/MigrationModal.tsx:347
-#: src/views/33Together/PoolDeposit.jsx:175
+#: src/components/Migration/MigrationModal.tsx:252
+#: src/components/Migration/MigrationModal.tsx:349
+#: src/components/Migration/MigrationModalSingle.tsx:246
+#: src/components/Migration/MigrationModalSingle.tsx:349
+#: src/views/33Together/PoolDeposit.tsx:194
 #: src/views/Give/RecipientModal.tsx:629
 #: src/views/Stake/Stake.tsx:436
 #: src/views/Stake/Stake.tsx:473
@@ -111,47 +126,48 @@ msgstr "여러분에게 지정된 sOHM은 계속해서 리베이스를 받고 �
 msgid "Approve"
 msgstr "기능 승인"
 
-#: src/components/Migration/MigrationModal.tsx:244
-#: src/components/Migration/MigrationModal.tsx:332
+#: src/components/Migration/MigrationModal.tsx:237
+#: src/components/Migration/MigrationModal.tsx:334
 #: src/views/Zap/ZapStakeAction.jsx:425
 msgid "Approved"
 msgstr "승인됨"
 
-#: src/views/Stake/ExternalStakePool.jsx:85
-#~ msgid "Asset"
-#~ msgstr "자산"
+#: src/views/Stake/ExternalStakePool.tsx:160
+msgid "Asset"
+msgstr "자산"
 
-#: src/views/Zap/ZapStakeHeader.jsx:63
+#: src/views/Zap/ZapStakeHeader.jsx:51
 msgid "Auto staked for sOHM"
 msgstr "sOHM을 위해 자동 스테이킹 되었습니다"
 
-#: src/views/33Together/PoolPrize.jsx:113
+#: src/views/33Together/PoolPrize.tsx:121
 msgid "Award Balance will grow at 1st rebase."
 msgstr "상금은 첫 번째 리베이스에 증가합니다"
 
-#: src/views/33Together/PoolPrize.jsx:202
+#: src/views/33Together/PoolPrize.tsx:211
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
 msgstr "어워드 기간이 끝났습니다. 이제 투게터 풀의 UI를 통해 배분을 시작할 수 있습니다."
 
-#: src/views/33Together/PoolPrize.jsx:181
+#: src/views/33Together/PoolPrize.tsx:190
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "어워드 기간이 끝났습니다. 이제 풀의 UI를 통해 배분을 마칠 수 있습니다."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:53
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:46
 msgid "Backing per OHM"
 msgstr "OHM 당 지지 자산"
 
-#: src/views/Stake/ExternalStakePool.tsx:95
+#: src/views/Stake/ExternalStakePool.tsx:64
+#: src/views/Stake/ExternalStakePool.tsx:166
 msgid "Balance"
 msgstr "잔고"
 
-#: src/components/Sidebar/NavContent.jsx:155
+#: src/components/Sidebar/NavContent.jsx:80
 #: src/views/BondV2/AccordionSection.tsx:46
-#: src/views/BondV2/ChooseBondV2.tsx:101
-#: src/views/BondV2/ChooseBondV2.tsx:141
+#: src/views/BondV2/ChooseBondV2.tsx:92
+#: src/views/BondV2/ChooseBondV2.tsx:137
 #: src/views/ChooseBond/ChooseBond.tsx:91
 #: src/views/ChooseBond/ChooseBond.tsx:130
-#: src/views/ChooseBond/ClaimBonds.jsx:121
+#: src/views/ChooseBond/ClaimBonds.tsx:107
 msgid "Bond"
 msgstr "본드"
 
@@ -164,13 +180,13 @@ msgstr "본드 가격"
 #~ msgid "Bond discounts"
 #~ msgstr "본드 할인"
 
-#: src/views/BondV2/BondRow.tsx:80
-#: src/views/ChooseBond/BondRow.jsx:76
+#: src/views/BondV2/BondRow.tsx:76
+#: src/views/ChooseBond/BondRow.tsx:91
 msgid "Bond {0}"
 msgstr "본드 {0}"
 
-#: src/components/Sidebar/NavContent.jsx:316
-#: src/components/Sidebar/NavContent.jsx:389
+#: src/components/Sidebar/NavContent.jsx:169
+#: src/components/Sidebar/NavContent.jsx:192
 msgid "Bridge"
 msgstr "브릿지"
 
@@ -178,7 +194,7 @@ msgstr "브릿지"
 #~ msgid "Bridge Tokens"
 #~ msgstr "브릿지 토큰"
 
-#: src/components/Sidebar/externalUrls.jsx:26
+#: src/components/Sidebar/externalUrls.jsx:20
 msgid "Bug Bounty"
 msgstr ""
 
@@ -204,28 +220,28 @@ msgstr ""
 msgid "Change Theme"
 msgstr "테마 변경"
 
-#: src/components/TopBar/LocaleSwitch.tsx:37
+#: src/components/TopBar/TopBar.tsx:62
 msgid "Change locale"
 msgstr "로컬 변경"
 
-#: src/views/33Together/PoolDeposit.jsx:116
-#: src/views/33Together/PoolWithdraw.jsx:108
+#: src/views/33Together/PoolDeposit.tsx:135
+#: src/views/33Together/PoolWithdraw.tsx:122
 msgid "Check back soon!"
 msgstr "잠시 후 다시 확인해보세요!"
 
-#: src/views/Bond/AdvancedSettings.jsx:63
-#: src/views/BondV2/AdvancedSettings.jsx:63
+#: src/views/Bond/AdvancedSettings.tsx:68
+#: src/views/BondV2/AdvancedSettings.jsx:49
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "수신자 주소를 지정하세요. 기본 값으로 설정하면 현재 연결되어 있는 당신의 주소가 사용됩니다."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:41
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:34
 msgid "Circulating Supply (total)"
 msgstr "유통량(총)"
 
-#: src/views/Bond/BondRedeem.jsx:72
+#: src/views/Bond/BondRedeem.tsx:75
 #: src/views/BondV2/BondRedeem.jsx:71
 #: src/views/BondV2/ClaimRow.tsx:133
-#: src/views/ChooseBond/ClaimRow.jsx:139
+#: src/views/ChooseBond/ClaimRow.tsx:140
 msgid "Claim"
 msgstr "청구"
 
@@ -238,25 +254,25 @@ msgstr "전부 청구"
 #~ msgid "Claim all and Stake"
 #~ msgstr "전부 청구하고 스테이크"
 
-#: src/views/Bond/BondRedeem.jsx:88
+#: src/views/Bond/BondRedeem.tsx:91
 #: src/views/BondV2/BondRedeem.jsx:87
 msgid "Claim and Autostake"
 msgstr "청구하고 자동스테이크"
 
-#: src/views/ChooseBond/ClaimRow.jsx:153
+#: src/views/ChooseBond/ClaimRow.tsx:154
 msgid "Claim and Stake"
 msgstr "청구하고 스테이크"
 
-#: src/views/ChooseBond/ClaimBonds.jsx:124
+#: src/views/ChooseBond/ClaimBonds.tsx:110
 msgid "Claimable"
 msgstr "청구 가능한"
 
-#: src/views/Bond/BondRedeem.jsx:97
+#: src/views/Bond/BondRedeem.tsx:100
 #: src/views/BondV2/BondRedeem.jsx:104
 msgid "Claimable Rewards"
 msgstr "청구 가능한 보상"
 
-#: src/components/Migration/MigrationModal.tsx:204
+#: src/components/Migration/MigrationModal.tsx:181
 msgid "Click on the Migrate button to complete the upgrade to v2."
 msgstr ""
 
@@ -264,8 +280,7 @@ msgstr ""
 #~ msgid "Coming Soon"
 #~ msgstr "Coming Soon"
 
-#: src/components/GiveProject/ProjectCard.tsx:163
-#: src/components/GiveProject/ProjectCard.tsx:210
+#: src/components/GiveProject/ProjectCard.tsx:160
 msgid "Completed"
 msgstr "완료됨"
 
@@ -295,7 +310,7 @@ msgstr "OHM 스테이크를 위해 지갑 연결"
 msgid "Connect your wallet to use Zap"
 msgstr "Zap을 사용하기 위해 지갑을 연결하세요"
 
-#: src/components/GiveProject/ProjectCard.tsx:277
+#: src/components/GiveProject/ProjectCard.tsx:227
 msgid "Connect your wallet to view the fundraising progress"
 msgstr ""
 
@@ -304,18 +319,22 @@ msgstr ""
 msgid "Continue"
 msgstr "계속하기"
 
-#: src/components/EducationCard.tsx:383
+#: src/views/TreasuryDashboard/treasuryData.ts:174
+msgid "Current"
+msgstr ""
+
+#: src/components/EducationCard.tsx:357
 msgid "Current Deposit"
 msgstr "현재 예치"
 
 #: src/views/Stake/Stake.tsx:315
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:65
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:58
 #: src/views/V1-Stake/V1-Stake.jsx:235
-#: src/views/Wrap/Wrap.jsx:289
+#: src/views/Wrap/Wrap.jsx:279
 msgid "Current Index"
 msgstr "현재 인덱스"
 
-#: src/views/33Together/PoolPrize.jsx:120
+#: src/views/33Together/PoolPrize.tsx:128
 msgid "Current Prize"
 msgstr "현재 상금"
 
@@ -323,12 +342,12 @@ msgstr "현재 상금"
 msgid "Custom Recipient"
 msgstr "맞춤 수령인"
 
-#: src/components/Sidebar/NavContent.jsx:139
+#: src/components/Sidebar/NavContent.jsx:79
 msgid "Dashboard"
 msgstr "대시보드"
 
-#: src/views/Bond/BondPurchase.jsx:240
-#: src/views/Bond/BondRedeem.jsx:107
+#: src/views/Bond/BondPurchase.tsx:259
+#: src/views/Bond/BondRedeem.tsx:119
 #: src/views/BondV2/BondRedeem.jsx:128
 msgid "Debt Ratio"
 msgstr "부채 비율"
@@ -337,12 +356,12 @@ msgstr "부채 비율"
 msgid "Deposit"
 msgstr "예치"
 
-#: src/views/ChooseBond/BondRow.jsx:29
-#: src/views/ChooseBond/BondRow.jsx:100
+#: src/views/ChooseBond/BondRow.tsx:34
+#: src/views/ChooseBond/BondRow.tsx:117
 msgid "Deposit LP"
 msgstr ""
 
-#: src/views/33Together/PoolDeposit.jsx:164
+#: src/views/33Together/PoolDeposit.tsx:183
 msgid "Deposit sOHM"
 msgstr "sOHM 예치"
 
@@ -350,11 +369,11 @@ msgstr "sOHM 예치"
 msgid "Deposit sOHM from wallet"
 msgstr "지갑에서 sOHM을 예치하세요"
 
-#: src/views/33Together/PoolDeposit.jsx:101
+#: src/views/33Together/PoolDeposit.tsx:120
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
 msgstr "우승하기 위해 sOHM을 예치하세요! 한 번 예치되고 나면, 상응하는 33T를 받게 되고 출금 전 까지 게임에 참여하게 됩니다."
 
-#: src/views/33Together/PoolDeposit.jsx:182
+#: src/views/33Together/PoolDeposit.tsx:201
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
 msgstr "{quantity} 만큼의 sOHM을 예치하면 {newOdds} 분의 1 만큼 우승 배당률이 상승합니다. "
 
@@ -362,7 +381,7 @@ msgstr "{quantity} 만큼의 sOHM을 예치하면 {newOdds} 분의 1 만큼 우�
 #~ msgid "Deposits Dashboard"
 #~ msgstr "예치금 대시보드"
 
-#: src/views/33Together/PoolDeposit.jsx:113
+#: src/views/33Together/PoolDeposit.tsx:132
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "상금이 한번 지급된 이후 예치가 가능합니다."
 
@@ -378,16 +397,16 @@ msgstr "Zapper를 부르는 중..."
 msgid "Direct yield from your deposited sOHM to other recipients. Your sOHM is deposited in a vault, but you can withdraw it or change the deposited amount at any time."
 msgstr "예치된 당신의 sOHM으로부터 다른 수령인이 이자를 받을 수 있도록 연결하세요. 당신의 sOHM은 금고에 예치되었지만 언제든지 그것을 출금하거나 예치된 수량을 변경할 수 있습니다."
 
-#: src/components/TopBar/Wallet/InitialWalletView.tsx:116
+#: src/components/TopBar/Wallet/InitialWalletView.tsx:105
 msgid "Disconnect"
 msgstr "연결 해제"
 
-#: src/components/Sidebar/externalUrls.jsx:21
+#: src/components/Sidebar/externalUrls.jsx:15
 msgid "Docs"
 msgstr "Docs"
 
-#: src/components/GiveProject/ProjectCard.tsx:470
-#: src/components/GiveProject/ProjectCard.tsx:567
+#: src/components/GiveProject/ProjectCard.tsx:405
+#: src/components/GiveProject/ProjectCard.tsx:502
 #: src/views/Give/YieldRecipients.tsx:176
 msgid "Donate Yield"
 msgstr ""
@@ -400,25 +419,29 @@ msgstr ""
 msgid "Donated sOHM Generating Yield"
 msgstr "이자를 생성하는 sOHM이 기부되었습니다."
 
-#: src/components/GiveProject/ProjectCard.tsx:580
+#: src/components/GiveProject/ProjectCard.tsx:515
 msgid "Donations"
 msgstr "기부"
 
-#: src/components/GiveProject/ProjectCard.tsx:594
+#: src/components/GiveProject/ProjectCard.tsx:529
 msgid "Donors"
 msgstr "기부자"
 
-#: src/views/BondV2/BondPurchase.tsx:242
-#: src/views/BondV2/BondRow.tsx:53
-#: src/views/BondV2/ChooseBondV2.tsx:150
+#: src/views/BondV2/BondPurchase.tsx:273
+#: src/views/BondV2/BondRow.tsx:52
+#: src/views/BondV2/ChooseBondV2.tsx:146
 msgid "Duration"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.jsx:87
+#: src/components/Migration/MigrationModalSingle.tsx:364
+msgid "Each asset type requires two transactions. First Approve, then Migrate each asset. Amounts less than than 10$ are ignored."
+msgstr ""
+
+#: src/views/33Together/PoolInfo.tsx:100
 msgid "Early Exit Fee"
 msgstr "초기 퇴장 수수료"
 
-#: src/views/33Together/PoolWithdraw.jsx:179
+#: src/views/33Together/PoolWithdraw.tsx:193
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "공정성을 위해 초기 출금은 {exitFee} 만큼의 수수료가 발생합니다."
 
@@ -452,7 +475,7 @@ msgstr "0x 로 시작하는 지갑 주소를 입력하세요"
 #~ msgid "Enter an Amount"
 #~ msgstr "수량을 입력하세요"
 
-#: src/views/33Together/PoolDeposit.jsx:134
+#: src/views/33Together/PoolDeposit.tsx:153
 #: src/views/Give/RecipientModal.tsx:544
 msgid "Enter an amount"
 msgstr "수량을 입력하세요"
@@ -461,11 +484,11 @@ msgstr "수량을 입력하세요"
 msgid "Exchange Rate"
 msgstr "교환 비율"
 
-#: src/views/33Together/PoolInfo.jsx:89
+#: src/views/33Together/PoolInfo.tsx:102
 msgid "Exit Fee Decay Time"
 msgstr "수수료 없이 퇴장하려면 걸리는 시간"
 
-#: src/views/Stake/ExternalStakePool.tsx:218
+#: src/views/Stake/ExternalStakePool.tsx:157
 msgid "Farm Pool"
 msgstr "파밍 풀"
 
@@ -473,13 +496,12 @@ msgstr "파밍 풀"
 #~ msgid "Feedback"
 #~ msgstr "피드백"
 
-#: src/components/GiveProject/ProjectCard.tsx:176
-#: src/components/GiveProject/ProjectCard.tsx:224
+#: src/components/GiveProject/ProjectCard.tsx:174
 msgid "Finishes at"
 msgstr "에 종료"
 
-#: src/views/Bond/BondPurchase.jsx:149
-#: src/views/BondV2/BondPurchase.tsx:133
+#: src/views/Bond/BondPurchase.tsx:159
+#: src/views/BondV2/BondPurchase.tsx:148
 msgid "First time bonding"
 msgstr "첫 본딩"
 
@@ -508,16 +530,16 @@ msgstr ""
 msgid "Fixed Term"
 msgstr ""
 
-#: src/components/Sidebar/externalUrls.jsx:11
+#: src/components/Sidebar/externalUrls.jsx:5
 msgid "Forum"
 msgstr "포럼"
 
-#: src/views/ChooseBond/ClaimBonds.jsx:130
+#: src/views/ChooseBond/ClaimBonds.tsx:116
 msgid "Fully Vested"
 msgstr "베스팅 완료"
 
-#: src/views/BondV2/BondRow.tsx:27
-#: src/views/BondV2/BondRow.tsx:104
+#: src/views/BondV2/BondRow.tsx:26
+#: src/views/BondV2/BondRow.tsx:98
 msgid "Get LP"
 msgstr ""
 
@@ -530,7 +552,7 @@ msgstr ""
 #~ msgstr "테스트 토큰 얻기"
 
 #: src/components/GiveProject/GiveHeader.tsx:32
-#: src/components/Sidebar/NavContent.jsx:281
+#: src/components/Sidebar/NavContent.jsx:163
 msgid "Give"
 msgstr "지급"
 
@@ -559,12 +581,16 @@ msgstr ""
 #~ msgid "Goal"
 #~ msgstr "목표"
 
-#: src/components/Sidebar/externalUrls.jsx:16
+#: src/components/Sidebar/externalUrls.jsx:10
 msgid "Governance"
 msgstr "거버넌스"
 
-#: src/components/Sidebar/NavContent.jsx:172
+#: src/components/Sidebar/NavContent.jsx:94
 msgid "Highest ROI"
+msgstr ""
+
+#: src/views/TreasuryDashboard/treasuryData.ts:184
+msgid "Holders, represents the total number of Ohmies (sOHM holders)"
 msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:193
@@ -580,7 +606,8 @@ msgid "It looks like you haven't donated any yield. Let's fix that!"
 msgstr "아직 어떤 이자도 기부하지 않으셨습니다. 그것을 먼저 해결하세요!"
 
 #: src/components/CallToAction/CallToAction.jsx:17
-#: src/components/Migration/MigrationModal.tsx:214
+#: src/components/Migration/MigrationModal.tsx:191
+#: src/components/Migration/MigrationModalSingle.tsx:178
 #: src/views/Give/GiveInfo.jsx:30
 msgid "Learn More"
 msgstr "더 알아보기"
@@ -594,23 +621,31 @@ msgstr "1분 미만"
 msgid "Lock sOHM in vault"
 msgstr "금고에 sOHM 잠그기"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:15
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:13
 msgid "Market Cap"
 msgstr "마켓캡(시가총액)"
 
 #: src/views/Bond/Bond.tsx:87
-#: src/views/BondV2/BondV2.tsx:77
+#: src/views/BondV2/BondV2.tsx:85
 msgid "Market Price"
 msgstr "시장 가격"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:206
-#~ msgid "Market Value of Treasury Assets"
-#~ msgstr "금고 자산의 시장 가치"
+#: src/views/TreasuryDashboard/treasuryData.ts:175
+msgid "Market SLP"
+msgstr ""
 
-#: src/views/33Together/PoolDeposit.jsx:147
-#: src/views/33Together/PoolWithdraw.jsx:146
-#: src/views/Bond/BondPurchase.jsx:170
-#: src/views/BondV2/BondPurchase.tsx:154
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:53
+msgid "Market Value of Treasury Assets"
+msgstr "금고 자산의 시장 가치"
+
+#: src/views/TreasuryDashboard/treasuryData.ts:181
+msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.tsx:166
+#: src/views/33Together/PoolWithdraw.tsx:160
+#: src/views/Bond/BondPurchase.tsx:180
+#: src/views/BondV2/BondPurchase.tsx:169
 #: src/views/Give/RecipientModal.tsx:558
 msgid "Max"
 msgstr "최대"
@@ -619,26 +654,43 @@ msgstr "최대"
 #~ msgid "Max Slippage"
 #~ msgstr "최대 슬리피지"
 
-#: src/views/Bond/BondPurchase.jsx:231
-#: src/views/BondV2/BondPurchase.tsx:224
+#: src/views/Bond/BondPurchase.tsx:241
+#: src/views/BondV2/BondPurchase.tsx:249
 msgid "Max You Can Buy"
 msgstr "구입 가능한 최대"
 
-#: src/components/Migration/MigrationModal.tsx:371
+#: src/views/BondV2/BondPurchase.tsx:67
+msgid "Max capacity is {maxBondable} {0} for {1} sOHM. Click Max to autocomplete."
+msgstr ""
+
+#: src/components/Migration/MigrationModalSingle.tsx:230
+#: src/components/Migration/MigrationModalSingle.tsx:333
 #: src/views/V1-Stake/V1-Stake.jsx:334
 msgid "Migrate"
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:376
+msgid "Migrate all to"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:210
 #~ msgid "Migrate sOHM!"
 #~ msgstr "sOHM 마이그레이트 하세요!"
 
-#: src/components/Migration/MigrationModal.tsx:240
-#: src/components/Migration/MigrationModal.tsx:328
+#: src/components/Migration/MigrationModal.tsx:233
+#: src/components/Migration/MigrationModal.tsx:330
+#: src/components/Migration/MigrationModalSingle.tsx:221
+#: src/components/Migration/MigrationModalSingle.tsx:324
 msgid "Migrated"
 msgstr ""
 
-#: src/components/Migration/MigrationModal.tsx:192
+#: src/components/Migration/MigrationModal.tsx:199
+#: src/components/Migration/MigrationModalSingle.tsx:186
+msgid "Migration Output"
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:170
+#: src/components/Migration/MigrationModalSingle.tsx:163
 msgid "Migration complete"
 msgstr ""
 
@@ -649,6 +701,10 @@ msgstr "당신이 최소 얻는"
 #: src/components/GiveProject/GiveHeader.tsx:44
 #: src/views/Give/DepositYield.tsx:56
 msgid "My Donations"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:163
+msgid "New"
 msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:219
@@ -675,24 +731,41 @@ msgstr "다음 보상 이자"
 #~ msgid "Note: The \"Approve\" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the \"Stake\" or \"Unstake\" transaction."
 #~ msgstr "알림: \"기능 승인\" 트랜젝션은 최초 스테이킹/언스테이킹시에만 필요로 합니다; 이후 스테이킹/언스테이킹시에는 \"스테이크\" 또는 \"언스테이크\" 트랜젝션만 수행하면 됩니다."
 
-#: src/views/BondV2/ChooseBondV2.tsx:127
+#: src/views/BondV2/ChooseBondV2.tsx:118
 #: src/views/ChooseBond/ChooseBond.tsx:117
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:27
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:20
 msgid "OHM Price"
 msgstr "OHM 가격"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:286
-#~ msgid "OHM Staked"
-#~ msgstr "스테이크된 OHM"
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:135
+msgid "OHM Staked"
+msgstr "스테이크된 OHM"
 
-#: src/views/Zap/ZapInfo.jsx:106
+#: src/views/TreasuryDashboard/treasuryData.ts:185
+msgid "OHM Staked, is the ratio of sOHM to OHM (staked vs unstaked)"
+msgstr ""
+
+#: src/views/Zap/ZapInfo.jsx:107
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
 msgstr "OlyZap은 복잡도를 줄여주고 당신의 시간을 아끼며 Olympus에 계속 남아있도록 합니다."
 
-#: src/components/EducationCard.tsx:80
-#: src/components/EducationCard.tsx:118
+#: src/components/EducationCard.tsx:70
+#: src/components/EducationCard.tsx:108
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 msgstr "Olympus Give는 당신의 sOHM에 쌓이는 이자를 다른 지갑에 보내는 것입니다. 첫 단계는 당신의 sOHM을 예치하고 수취인을 특정하는 것입니다."
+
+#: src/components/Sidebar/NavContent.jsx:178
+msgid "Olympus Pro"
+msgstr ""
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:53
+msgid "Olympus is currently migrating to improved contracts. Please note that during this time, frontend metrics may be inaccurate."
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:182
+#: src/components/Migration/MigrationModalSingle.tsx:169
+msgid "Olympus v2 introduces upgrades to on-chain governance and bonds to enhance decentralization and immutability."
+msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:274
 msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
@@ -706,7 +779,7 @@ msgstr "페이지를 찾을 수 없습니다"
 msgid "Payout"
 msgstr ""
 
-#: src/views/ChooseBond/ClaimBonds.jsx:127
+#: src/views/ChooseBond/ClaimBonds.tsx:113
 msgid "Pending"
 msgstr "계류중"
 
@@ -714,7 +787,7 @@ msgstr "계류중"
 msgid "Pending Payout"
 msgstr ""
 
-#: src/views/Bond/BondRedeem.jsx:95
+#: src/views/Bond/BondRedeem.tsx:98
 #: src/views/BondV2/BondRedeem.jsx:96
 msgid "Pending Rewards"
 msgstr "계류중인 보상"
@@ -727,8 +800,8 @@ msgstr "계류중인 보상"
 msgid "Pending..."
 msgstr "계류중..."
 
-#: src/views/Bond/BondPurchase.jsx:150
-#: src/views/BondV2/BondPurchase.tsx:134
+#: src/views/Bond/BondPurchase.tsx:160
+#: src/views/BondV2/BondPurchase.tsx:149
 #: src/views/Stake/Stake.tsx:367
 #: src/views/Stake/Stake.tsx:374
 #: src/views/V1-Stake/V1-Stake.jsx:293
@@ -736,8 +809,8 @@ msgid "Please approve Olympus Dao to use your"
 msgstr "OlympusDAO를 승인해 주세요"
 
 #: src/slices/RedeemThunk.ts:25
-msgid "Please conenect your wallet!"
-msgstr "지갑을 연결해 주세요!"
+#~ msgid "Please conenect your wallet!"
+#~ msgstr "지갑을 연결해 주세요!"
 
 #: src/slices/GiveThunk.ts:61
 #: src/slices/GiveThunk.ts:102
@@ -747,6 +820,7 @@ msgstr "지갑을 연결해 주세요."
 #: src/slices/GiveThunk.ts:153
 #: src/slices/GiveThunk.ts:229
 #: src/slices/GiveThunk.ts:300
+#: src/slices/RedeemThunk.ts:25
 #: src/slices/RedeemThunk.ts:74
 msgid "Please connect your wallet!"
 msgstr "지갑을 연결해 주세요!"
@@ -759,7 +833,7 @@ msgstr "다른 주소를 입력해 주세요: 똑같은 지갑 주소로 보낼 
 msgid "Please enter a valid Ethereum address"
 msgstr "정확한 이더리움 주소를 입력해 주세요"
 
-#: src/views/Bond/BondPurchase.jsx:53
+#: src/views/Bond/BondPurchase.tsx:63
 msgid "Please enter a valid value!"
 msgstr "유효한 값을 입력하세요"
 
@@ -767,12 +841,12 @@ msgstr "유효한 값을 입력하세요"
 msgid "Please enter a value"
 msgstr "값을 입력해 주세요"
 
-#: src/components/GiveProject/ProjectCard.tsx:373
-#: src/components/GiveProject/ProjectCard.tsx:373
-#: src/views/33Together/PoolDeposit.jsx:67
-#: src/views/33Together/PoolWithdraw.jsx:59
-#: src/views/Bond/BondPurchase.jsx:51
-#: src/views/BondV2/BondPurchase.tsx:62
+#: src/components/GiveProject/ProjectCard.tsx:313
+#: src/components/GiveProject/ProjectCard.tsx:313
+#: src/views/33Together/PoolDeposit.tsx:70
+#: src/views/33Together/PoolWithdraw.tsx:63
+#: src/views/Bond/BondPurchase.tsx:61
+#: src/views/BondV2/BondPurchase.tsx:63
 #: src/views/Give/CausesDashboard.tsx:72
 #: src/views/Give/CausesDashboard.tsx:72
 #: src/views/Give/YieldRecipients.tsx:65
@@ -786,15 +860,16 @@ msgstr "가치를 입력하세요!"
 msgid "Please switch to testnet!"
 msgstr ""
 
-#: src/views/33Together/PoolPrize.jsx:110
+#: src/views/33Together/PoolPrize.tsx:118
 msgid "Pool Award Balance is currently 0."
 msgstr "풀 어워드 잔고는 현재 0 입니다."
 
-#: src/views/33Together/PoolInfo.jsx:85
+#: src/views/33Together/PoolInfo.tsx:98
 msgid "Pool owner"
 msgstr "풀 소유"
 
-#: src/components/Migration/MigrationModal.tsx:289
+#: src/components/Migration/MigrationModal.tsx:285
+#: src/components/Migration/MigrationModalSingle.tsx:279
 msgid "Post-migration"
 msgstr ""
 
@@ -802,43 +877,48 @@ msgstr ""
 #~ msgid "Powered by Zapper"
 #~ msgstr "Zapper에 의해 작동합니다"
 
-#: src/components/Migration/MigrationModal.tsx:278
+#: src/components/Migration/MigrationModal.tsx:272
+#: src/components/Migration/MigrationModalSingle.tsx:266
 msgid "Pre-migration"
 msgstr ""
 
-#: src/views/BondV2/BondRow.tsx:37
-#: src/views/BondV2/ChooseBondV2.tsx:144
-#: src/views/ChooseBond/BondRow.jsx:39
+#: src/views/BondV2/BondRow.tsx:36
+#: src/views/BondV2/ChooseBondV2.tsx:140
+#: src/views/ChooseBond/BondRow.tsx:44
 #: src/views/ChooseBond/ChooseBond.tsx:133
+#: src/views/Wrap/Wrap.jsx:274
 #: src/views/Wrap/Wrap.jsx:284
-#: src/views/Wrap/Wrap.jsx:294
 msgid "Price"
 msgstr "가격"
 
-#: src/views/33Together/PoolInfo.jsx:40
+#: src/views/33Together/PoolInfo.tsx:49
 msgid "Prize Pool Info"
 msgstr "상금 풀 정보"
 
-#: src/views/33Together/PoolPrize.jsx:126
+#: src/views/33Together/PoolPrize.tsx:134
 msgid "Prize is being awarded"
 msgstr "상금이 지급중 입니다."
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
-#~ msgid "Protocol Owned Liquidity OHM-DAI"
-#~ msgstr "프로토콜 소유 유동성 OHM-DAI"
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:107
+msgid "Protocol Owned Liquidity OHM-DAI"
+msgstr "프로토콜 소유 유동성 OHM-DAI"
 
-#: src/views/ChooseBond/BondRow.jsx:56
+#: src/views/TreasuryDashboard/treasuryData.ts:183
+msgid "Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users."
+msgstr ""
+
+#: src/views/ChooseBond/BondRow.tsx:71
 #: src/views/ChooseBond/ChooseBond.tsx:139
 msgid "Purchased"
 msgstr "구입량"
 
-#: src/views/Bond/BondPurchase.jsx:236
-#: src/views/Bond/BondRedeem.jsx:103
-#: src/views/BondV2/BondPurchase.tsx:233
+#: src/views/Bond/BondPurchase.tsx:253
+#: src/views/Bond/BondRedeem.tsx:113
+#: src/views/BondV2/BondPurchase.tsx:264
 #: src/views/BondV2/BondRedeem.jsx:119
-#: src/views/BondV2/BondRow.tsx:45
-#: src/views/BondV2/ChooseBondV2.tsx:147
-#: src/views/ChooseBond/BondRow.jsx:47
+#: src/views/BondV2/BondRow.tsx:44
+#: src/views/BondV2/ChooseBondV2.tsx:143
+#: src/views/ChooseBond/BondRow.tsx:58
 #: src/views/ChooseBond/ChooseBond.tsx:136
 msgid "ROI"
 msgstr "ROI(수익률)"
@@ -849,11 +929,11 @@ msgstr "ROI(수익률)"
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5일 기준 수익)"
 
-#: src/views/33Together/PoolWithdraw.jsx:187
+#: src/views/33Together/PoolWithdraw.tsx:201
 msgid "Read more about Fairness"
 msgstr "공정성에 대해 더 읽어보세요"
 
-#: src/components/EducationCard.tsx:262
+#: src/components/EducationCard.tsx:244
 msgid "Receives yield from"
 msgstr ""
 
@@ -861,19 +941,19 @@ msgstr ""
 #~ msgid "Receives yield from {quantity} sOHM"
 #~ msgstr "{quantity} sOHM으로부터 이자를 받습니다"
 
-#: src/components/EducationCard.tsx:246
-#: src/components/EducationCard.tsx:321
-#: src/components/EducationCard.tsx:359
-#: src/views/Bond/BondPurchase.jsx:243
-#: src/views/BondV2/BondPurchase.tsx:250
+#: src/components/EducationCard.tsx:236
+#: src/components/EducationCard.tsx:295
+#: src/components/EducationCard.tsx:333
+#: src/views/Bond/BondPurchase.tsx:262
+#: src/views/BondV2/BondPurchase.tsx:281
 #: src/views/Give/RecipientModal.tsx:376
 #: src/views/Give/RecipientModal.tsx:392
 #: src/views/Give/YieldRecipients.tsx:189
 msgid "Recipient"
 msgstr "수취인"
 
-#: src/views/Bond/AdvancedSettings.jsx:57
-#: src/views/BondV2/AdvancedSettings.jsx:57
+#: src/views/Bond/AdvancedSettings.tsx:57
+#: src/views/BondV2/AdvancedSettings.jsx:44
 #: src/views/Give/RecipientModal.tsx:499
 msgid "Recipient Address"
 msgstr "수취인 주소"
@@ -882,7 +962,7 @@ msgstr "수취인 주소"
 msgid "Recipient earns sOHM rebases"
 msgstr "sOHM 리베이스를 받는 수취인"
 
-#: src/components/EducationCard.tsx:290
+#: src/components/EducationCard.tsx:264
 #: src/components/GiveProject/GiveHeader.tsx:57
 #: src/views/Bond/Bond.tsx:111
 #: src/views/Give/RedeemYield.tsx:241
@@ -907,16 +987,32 @@ msgid "Redeemable Amount"
 msgstr "청구 가능한 양"
 
 #: src/components/GiveProject/ProjectCard.tsx:186
-msgid "Remaining"
-msgstr "남아있는"
+#~ msgid "Remaining"
+#~ msgstr "남아있는"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:230
-#~ msgid "Risk Free Value of Treasury Assets"
-#~ msgstr "금고 자산의 무위험 가치"
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:81
+msgid "Risk Free Value of Treasury Assets"
+msgstr "금고 자산의 무위험 가치"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:326
-#~ msgid "Runway Available"
-#~ msgstr "가능한 런웨이"
+#: src/views/TreasuryDashboard/treasuryData.ts:182
+msgid "Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM."
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:162
+msgid "Runway Available"
+msgstr "가능한 런웨이"
+
+#: src/views/TreasuryDashboard/treasuryData.ts:187
+msgid "Runway, is the number of days sOHM emissions can be sustained at a given rate. Lower APY = longer runway"
+msgstr ""
+
+#: src/views/TreasuryDashboard/treasuryData.ts:175
+msgid "SLP Treasury"
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:385
+msgid "Save on gas fees by migrating all your assets to the new gOHM or sOHM in one transaction. Each asset asset above must be approved before all can be migrated."
+msgstr ""
 
 #: src/views/Zap/ZapStakeAction.jsx:470
 msgid "Select Zap Token"
@@ -927,7 +1023,7 @@ msgstr "Zap 토큰을 선택하세요"
 msgid "Select a Token"
 msgstr "토큰을 선택하세요"
 
-#: src/views/Zap/ZapStakeHeader.jsx:26
+#: src/views/Zap/ZapStakeHeader.jsx:24
 msgid "Select any asset"
 msgstr "어떤 자산이든 선택하세요"
 
@@ -953,8 +1049,8 @@ msgstr ""
 #~ msgid "Single Staking (v2)"
 #~ msgstr "싱글 스테이킹 (v2)"
 
-#: src/views/Bond/AdvancedSettings.jsx:37
-#: src/views/BondV2/AdvancedSettings.jsx:37
+#: src/views/Bond/AdvancedSettings.tsx:39
+#: src/views/BondV2/AdvancedSettings.jsx:26
 msgid "Slippage"
 msgstr "슬리피지"
 
@@ -962,17 +1058,17 @@ msgstr "슬리피지"
 msgid "Slippage Tolerance"
 msgstr "슬리피지 오차"
 
-#: src/views/Bond/BondPurchase.jsx:185
-#: src/views/ChooseBond/BondRow.jsx:73
-#: src/views/ChooseBond/BondRow.jsx:128
-#~ msgid "Sold Out"
-#~ msgstr "매진"
+#: src/views/BondV2/BondPurchase.tsx:184
+#: src/views/BondV2/BondRow.tsx:76
+#: src/views/BondV2/BondRow.tsx:118
+msgid "Sold Out"
+msgstr "매진"
 
-#: src/views/33Together/PoolInfo.jsx:98
+#: src/views/33Together/PoolInfo.tsx:111
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "무언가 맞지 않나요? 아래 풀 투게더의 UI를 통해서 다시 확인해보세요"
 
-#: src/components/Sidebar/NavContent.jsx:246
+#: src/components/Sidebar/NavContent.jsx:157
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Stake"
 msgstr "스테이크"
@@ -986,8 +1082,8 @@ msgstr "스테이크"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible에 스테이크"
 
-#: src/views/Stake/ExternalStakePool.tsx:112
-#: src/views/Stake/ExternalStakePool.tsx:159
+#: src/views/Stake/ExternalStakePool.tsx:78
+#: src/views/Stake/ExternalStakePool.tsx:111
 msgid "Stake on"
 msgstr ""
 
@@ -1014,7 +1110,7 @@ msgstr ""
 #~ msgid "Staked Balance in Fuse (v1)"
 #~ msgstr "Fuse (v1)에 스테이킹된 잔고"
 
-#: src/views/Zap/ZapInfo.jsx:129
+#: src/views/Zap/ZapInfo.jsx:126
 msgid "Staking"
 msgstr "스테이킹"
 
@@ -1022,7 +1118,7 @@ msgstr "스테이킹"
 msgid "Staking OHM"
 msgstr "스테이킹 중인 OHM"
 
-#: src/views/Zap/ZapInfo.jsx:132
+#: src/views/Zap/ZapInfo.jsx:129
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal amount of sOHM."
 msgstr "스테이킹은 가치를 축적하는 올림푸스의 주요한 전략입니다. 당신이 스테이크 하면, OHM을 잠그고 동일한 양의 sOHM을 받게 됩니다."
 
@@ -1030,15 +1126,15 @@ msgstr "스테이킹은 가치를 축적하는 올림푸스의 주요한 전략�
 #~ msgid "Supply (circulating/total)"
 #~ msgstr "공급량 (순환/총)"
 
-#: src/views/Zap/ZapStakeHeader.jsx:50
+#: src/views/Zap/ZapStakeHeader.jsx:43
 msgid "Swap for OHM"
 msgstr "OHM으로 스왑"
 
-#: src/views/Zap/ZapStakeHeader.jsx:40
+#: src/views/Zap/ZapStakeHeader.jsx:33
 msgid "Swap for sOHM"
 msgstr "sOHM으로 변환"
 
-#: src/views/Zap/ZapCta.jsx:58
+#: src/views/Zap/ZapCta.jsx:57
 msgid "Swap into sOHM"
 msgstr "sOHM으로 변환"
 
@@ -1047,7 +1143,8 @@ msgstr "sOHM으로 변환"
 #~ msgid "TVD"
 #~ msgstr "TVD"
 
-#: src/views/Stake/ExternalStakePool.tsx:86
+#: src/views/Stake/ExternalStakePool.tsx:57
+#: src/views/Stake/ExternalStakePool.tsx:163
 #: src/views/V1-Stake/V1-Stake.jsx:229
 msgid "TVL"
 msgstr ""
@@ -1056,16 +1153,20 @@ msgstr ""
 msgid "The amount of sOHM deposited"
 msgstr "예치된 sOHM 수량"
 
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
-#~ msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-#~ msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sOHM이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 OHM을 스테이킹 했을 경우 현재 얼만큼의 sOHM이 되었는지를 보여줍니다."
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:62
+msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
+msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sOHM이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 OHM을 스테이킹 했을 경우 현재 얼만큼의 sOHM이 되었는지를 보여줍니다."
 
-#: src/views/33Together/PoolWithdraw.jsx:117
+#: src/views/33Together/PoolWithdraw.tsx:131
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "현재 V2 마이그레이션으로 인해 일시적으로 풀 사용이 불가능합니다. 여러분의 33T를 출금해주세요"
 
-#: src/components/EducationCard.tsx:330
-#: src/components/EducationCard.tsx:368
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:79
+msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
+msgstr ""
+
+#: src/components/EducationCard.tsx:304
+#: src/components/EducationCard.tsx:342
 msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
 msgstr "당신이 특정한 수취인, 혹은 선택한 프로젝트는 당신이 금고에서 sOHM을 출금하기 전까지 당신이 예치한 sOHM에 따라 리베이스를 받게 됩니다."
 
@@ -1073,37 +1174,43 @@ msgstr "당신이 특정한 수취인, 혹은 선택한 프로젝트는 당신�
 msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
 msgstr ""
 
-#: src/components/EducationCard.tsx:187
-#: src/components/EducationCard.tsx:231
+#: src/components/EducationCard.tsx:177
+#: src/components/EducationCard.tsx:221
 msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
 msgstr "그러면 당신이 예치한 sOHM은 금고 스마트 컨트랙트에 머물게 되고 당신의 리베이스를 수취인에게 보내게 됩니다. 당신은 언제든지 sOHM을 출금하거나 조절할 수 있습니다."
 
-#: src/views/33Together/PoolDeposit.jsx:110
+#: src/views/33Together/PoolDeposit.tsx:129
 msgid "This Prize Pool is unable to accept deposits at this time."
 msgstr "이 상금 풀은 현재 예치할 수 없습니다."
 
-#: src/views/33Together/PoolWithdraw.jsx:102
+#: src/views/33Together/PoolWithdraw.tsx:116
 msgid "This Prize Pool is unable to accept withdrawals at this time."
 msgstr "이 상금 풀은 현재 출금할 수 없습니다."
 
-#: src/components/Migration/MigrationModal.tsx:281
+#: src/components/Migration/MigrationModal.tsx:275
+#: src/components/Migration/MigrationModalSingle.tsx:269
 msgid "This is the current balance of v1 assets in your wallet."
 msgstr ""
 
-#: src/components/Migration/MigrationModal.tsx:292
+#: src/components/Migration/MigrationModal.tsx:288
+#: src/components/Migration/MigrationModalSingle.tsx:282
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr ""
 
-#: src/views/Bond/BondRedeem.jsx:101
+#: src/views/Bond/BondRedeem.tsx:104
 #: src/views/BondV2/BondRedeem.jsx:112
 msgid "Time until fully vested"
 msgstr "완전한 베스팅 까지 걸리는 시간"
 
-#: src/views/33Together/PoolInfo.jsx:75
+#: src/components/Chart/ExpandedChart.jsx:48
+msgid "Today"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.tsx:88
 msgid "Total Deposits"
 msgstr "총 예치"
 
-#: src/views/33Together/PoolInfo.jsx:80
+#: src/views/33Together/PoolInfo.tsx:93
 msgid "Total Sponsorship"
 msgstr "총 스폰서십"
 
@@ -1113,24 +1220,30 @@ msgid "Total Staked Balance"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:309
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:21
+#: src/views/TreasuryDashboard/treasuryData.ts:169
 msgid "Total Value Deposited"
 msgstr "예치된 총 가치"
+
+#: src/views/TreasuryDashboard/treasuryData.ts:180
+msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
+msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:513
 msgid "Transaction"
 msgstr "트랜젝션"
 
-#: src/views/Bond/AdvancedSettings.jsx:51
-#: src/views/BondV2/AdvancedSettings.jsx:51
+#: src/views/Bond/AdvancedSettings.tsx:51
+#: src/views/BondV2/AdvancedSettings.jsx:39
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "만약 가격이 슬리피지% 보다 높게 변할 경우 트랜젝션이 환원될 수 있습니다."
 
-#: src/views/BondV2/ChooseBondV2.tsx:122
+#: src/views/BondV2/ChooseBondV2.tsx:113
 #: src/views/ChooseBond/ChooseBond.tsx:112
 msgid "Treasury Balance"
 msgstr "금고 잔고"
 
-#: src/components/Announcement/Announcement.jsx:33
+#: src/components/Announcement/Announcement.jsx:30
 msgid "Treasury stats may be inaccurate during the migration. Please check discord if you have any questions."
 msgstr ""
 
@@ -1172,7 +1285,7 @@ msgstr "sOHM 언스테이킹"
 msgid "Unwrapping sOHM"
 msgstr "sOHM 래핑하기"
 
-#: src/components/EducationCard.tsx:403
+#: src/components/EducationCard.tsx:377
 msgid "Updated Deposit"
 msgstr "업데이트된 예치"
 
@@ -1184,14 +1297,14 @@ msgstr "가치가 당신의 sOHM 잔고보다 높을 수 없습니다"
 msgid "Value must be positive"
 msgstr "가치는 0 이상이어야 합니다"
 
-#: src/components/EducationCard.tsx:133
-#: src/components/EducationCard.tsx:178
-#: src/components/EducationCard.tsx:222
+#: src/components/EducationCard.tsx:123
+#: src/components/EducationCard.tsx:168
+#: src/components/EducationCard.tsx:212
 msgid "Vault"
 msgstr "금고"
 
-#: src/views/Bond/BondPurchase.jsx:241
-#: src/views/Bond/BondRedeem.jsx:108
+#: src/views/Bond/BondPurchase.tsx:260
+#: src/views/Bond/BondRedeem.tsx:120
 #: src/views/BondV2/BondRedeem.jsx:137
 msgid "Vesting Term"
 msgstr "베스팅 기간"
@@ -1201,18 +1314,18 @@ msgstr "베스팅 기간"
 #~ msgid "View Contract"
 #~ msgstr "컨트랙트 보기"
 
-#: src/components/GiveProject/ProjectCard.tsx:442
+#: src/components/GiveProject/ProjectCard.tsx:382
 msgid "View Details"
 msgstr "세부사항 보기"
 
-#: src/components/EducationCard.tsx:32
-#: src/components/EducationCard.tsx:71
-#: src/components/EducationCard.tsx:109
+#: src/components/EducationCard.tsx:22
+#: src/components/EducationCard.tsx:61
+#: src/components/EducationCard.tsx:99
 #: src/components/TopBar/Wallet/index.tsx:12
 msgid "Wallet"
 msgstr "지갑"
 
-#: src/views/33Together/PoolInfo.jsx:73
+#: src/views/33Together/PoolInfo.tsx:83
 msgid "Winners / prize period"
 msgstr "우승자 / 수상 기간"
 
@@ -1226,15 +1339,15 @@ msgstr "출금"
 msgid "Withdraw Deposit?"
 msgstr "예치자산을 출금하시겠습니까?"
 
-#: src/views/33Together/PoolWithdraw.jsx:161
+#: src/views/33Together/PoolWithdraw.tsx:175
 msgid "Withdraw Early & pay"
 msgstr "초기 출금하고 지불하기"
 
-#: src/views/33Together/PoolWithdraw.jsx:162
+#: src/views/33Together/PoolWithdraw.tsx:176
 msgid "Withdraw sOHM"
 msgstr "sOHM 출금"
 
-#: src/views/33Together/PoolWithdraw.jsx:105
+#: src/views/33Together/PoolWithdraw.tsx:119
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "상금이 지급된 후 출금할 수 있습니다."
 
@@ -1242,11 +1355,12 @@ msgstr "상금이 지급된 후 출금할 수 있습니다."
 msgid "Withdrawing sOHM donation"
 msgstr "sOHM 기부를 출금하기"
 
-#: src/views/33Together/PoolWithdraw.jsx:169
+#: src/views/33Together/PoolWithdraw.tsx:183
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로 줄어듭니다."
 
-#: src/components/Sidebar/NavContent.jsx:376
+#: src/components/Sidebar/NavContent.jsx:165
+#: src/components/Sidebar/NavContent.jsx:188
 msgid "Wrap"
 msgstr ""
 
@@ -1281,11 +1395,11 @@ msgstr ""
 msgid "Wrapping OHM"
 msgstr "OHM 래핑하기"
 
-#: src/views/33Together/PoolInfo.jsx:84
+#: src/views/33Together/PoolInfo.tsx:97
 msgid "Yield Source"
 msgstr "이자 출처"
 
-#: src/components/EducationCard.tsx:274
+#: src/components/EducationCard.tsx:256
 msgid "You"
 msgstr "당신"
 
@@ -1293,11 +1407,11 @@ msgstr "당신"
 msgid "You Get"
 msgstr "당신이 받습니다"
 
-#: src/views/Zap/ZapInfo.jsx:124
+#: src/views/Zap/ZapInfo.jsx:121
 msgid "You Get sOHM"
 msgstr "당신이 받는 sOHM"
 
-#: src/views/Zap/ZapInfo.jsx:73
+#: src/views/Zap/ZapInfo.jsx:74
 msgid "You Give"
 msgstr "당신이 줍니다"
 
@@ -1305,16 +1419,16 @@ msgstr "당신이 줍니다"
 msgid "You Pay"
 msgstr "당신이 지불합니다"
 
-#: src/views/Bond/BondPurchase.jsx:226
-#: src/views/BondV2/BondPurchase.tsx:208
+#: src/views/Bond/BondPurchase.tsx:236
+#: src/views/BondV2/BondPurchase.tsx:233
 msgid "You Will Get"
 msgstr "당신이 얻게 될 양"
 
-#: src/components/Migration/MigrationModal.tsx:194
+#: src/components/Migration/MigrationModal.tsx:172
 msgid "You are now ready to migrate"
 msgstr ""
 
-#: src/views/33Together/PoolWithdraw.jsx:93
+#: src/views/33Together/PoolWithdraw.tsx:107
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "예치된 잔고를 언제든 출금할 수 있습니다. 잔고를 출금하면, 이후 상금에 대한 우승 기회가 사라집니다."
 
@@ -1328,7 +1442,7 @@ msgstr "OHM 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
 #~ msgid "You cannot unstake more than your sOHM balance."
 #~ msgstr "sOHM 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
 
-#: src/views/33Together/PoolWithdraw.jsx:86
+#: src/views/33Together/PoolWithdraw.tsx:100
 msgid "You cannot withdraw more than your pool balance"
 msgstr "풀 잔고 보다 더 많은 양을 출금할 수 없습니다."
 
@@ -1342,12 +1456,13 @@ msgstr "풀 잔고 보다 더 많은 양을 출금할 수 없습니다."
 msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
 msgstr ""
 
-#: src/views/Bond/BondPurchase.jsx:56
+#: src/views/Bond/BondPurchase.tsx:66
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "현재 본드를 갖고 있습니다. 새로 본딩하면 베스팅 기간과 보상이 몰수됩니다. 보상을 청구하거나 새 지갑을 사용하길 권장합니다. 그래도 진행하시겠습니까?"
 
 #: src/components/CallToAction/CallToAction.jsx:44
-#: src/components/Migration/MigrationModal.tsx:195
+#: src/components/Migration/MigrationModal.tsx:173
+#: src/components/Migration/MigrationModalSingle.tsx:163
 msgid "You have assets ready to migrate to v2"
 msgstr ""
 
@@ -1373,12 +1488,12 @@ msgstr ""
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "당신은 계속하기 위해 sOHM(스테이크된 OHM) 잔고가 필요합니다."
 
-#: src/views/Bond/BondPurchase.jsx:221
-#: src/views/BondV2/BondPurchase.tsx:198
+#: src/views/Bond/BondPurchase.tsx:231
+#: src/views/BondV2/BondPurchase.tsx:223
 msgid "Your Balance"
 msgstr "당신의 잔고"
 
-#: src/views/33Together/PoolWithdraw.jsx:197
+#: src/views/33Together/PoolWithdraw.tsx:211
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "당신의 풀 잔고(출금 가능한)"
 
@@ -1386,7 +1501,7 @@ msgstr "당신의 풀 잔고(출금 가능한)"
 #~ msgid "Your Staked Balance"
 #~ msgstr "당신의 스테이크된 잔고"
 
-#: src/views/33Together/PoolDeposit.jsx:192
+#: src/views/33Together/PoolDeposit.tsx:211
 msgid "Your Staked Balance (Depositable)"
 msgstr "당신의 스테이크된 잔고(예치 가능한)"
 
@@ -1398,11 +1513,11 @@ msgstr "당신의 스테이크된 잔고 (예치 가능한)"
 msgid "Your Wallet Address"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.jsx:58
+#: src/views/33Together/PoolInfo.tsx:67
 msgid "Your odds"
 msgstr "당신의 배당율"
 
-#: src/views/33Together/PoolInfo.jsx:53
+#: src/views/33Together/PoolInfo.tsx:62
 msgid "Your pool deposits"
 msgstr "당신의 풀 예치"
 
@@ -1410,19 +1525,19 @@ msgstr "당신의 풀 예치"
 msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
 msgstr "당신의 sOHM은 당신이 제출하면 금고로 전송됩니다. 당신은 트랜젝션을 승인해야 하고 가스 수수료를 지급해야 합니다."
 
-#: src/views/33Together/PoolInfo.jsx:48
+#: src/views/33Together/PoolInfo.tsx:57
 msgid "Your total awards"
 msgstr "당신의 총 어워드"
 
-#: src/views/33Together/PoolInfo.jsx:63
+#: src/views/33Together/PoolInfo.tsx:72
 msgid "Your wallet balance"
 msgstr "당신의 지갑 잔고"
 
-#: src/views/Zap/ZapInfo.jsx:78
+#: src/views/Zap/ZapInfo.jsx:79
 msgid "Zap is a swap"
 msgstr "Zap는 스왑입니다"
 
-#: src/views/Zap/ZapCta.jsx:40
+#: src/views/Zap/ZapCta.jsx:39
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "더 많은 자산으로 Zap에 스테이크 합니다 <0>OHM</0>"
 
@@ -1431,7 +1546,7 @@ msgstr "더 많은 자산으로 Zap에 스테이크 합니다 <0>OHM</0>"
 msgid "Zap-Stake"
 msgstr "Zap-스테이크"
 
-#: src/views/33Together/PoolPrize.jsx:140
+#: src/views/33Together/PoolPrize.tsx:148
 msgid "day"
 msgstr "일"
 
@@ -1441,8 +1556,8 @@ msgstr "예치된"
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:105
-#: src/views/BondV2/BondRow.tsx:126
-#: src/views/ChooseBond/BondRow.jsx:133
+#: src/views/BondV2/BondRow.tsx:118
+#: src/views/ChooseBond/BondRow.tsx:156
 msgid "do_bond"
 msgstr "본드"
 
@@ -1451,8 +1566,8 @@ msgstr "본드"
 msgid "do_stake"
 msgstr "스테이크"
 
-#: src/views/Bond/BondPurchase.jsx:151
-#: src/views/BondV2/BondPurchase.tsx:135
+#: src/views/Bond/BondPurchase.tsx:161
+#: src/views/BondV2/BondPurchase.tsx:150
 msgid "for bonding"
 msgstr "본딩을 위해"
 
@@ -1466,8 +1581,8 @@ msgid "for unstaking"
 msgstr "언스테이킹을 위해"
 
 #: src/views/BondV2/ClaimBonds.tsx:112
-msgid "gOHM"
-msgstr ""
+#~ msgid "gOHM"
+#~ msgstr ""
 
 #: src/views/Stake/Stake.tsx:518
 msgid "gOHM (Arbitrum)"
@@ -1485,9 +1600,13 @@ msgstr ""
 msgid "gOHM (Polygon)"
 msgstr ""
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:77
+msgid "gOHM = sOHM * index"
+msgstr ""
+
 #: src/views/Stake/Stake.tsx:511
 #: src/views/V1-Stake/V1-Stake.jsx:450
-#: src/views/Wrap/Wrap.jsx:380
+#: src/views/Wrap/Wrap.jsx:370
 #: src/views/Wrap/WrapCrossChain.tsx:284
 msgid "gOHM Balance"
 msgstr ""
@@ -1497,11 +1616,11 @@ msgstr ""
 msgid "gOHM Balance in Fuse"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.js:79
+#: src/views/TreasuryDashboard/components/Metric/Metric.js:72
 msgid "gOHM Price"
 msgstr "gOHM 가격"
 
-#: src/views/33Together/PoolPrize.jsx:147
+#: src/views/33Together/PoolPrize.tsx:155
 msgid "hrs"
 msgstr "시간"
 
@@ -1510,12 +1629,11 @@ msgstr "시간"
 msgid "in deposits remains"
 msgstr "남아있는 예치"
 
-#: src/components/GiveProject/ProjectCard.tsx:176
-#: src/components/GiveProject/ProjectCard.tsx:224
+#: src/components/GiveProject/ProjectCard.tsx:174
 msgid "in your timezone"
 msgstr "당신의 시간대에서"
 
-#: src/views/33Together/PoolPrize.jsx:154
+#: src/views/33Together/PoolPrize.tsx:162
 msgid "min"
 msgstr "분"
 
@@ -1527,11 +1645,10 @@ msgstr "분"
 #~ msgid "of goal"
 #~ msgstr "목표"
 
-#: src/components/GiveProject/ProjectCard.tsx:241
+#: src/components/GiveProject/ProjectCard.tsx:191
 msgid "remaining"
 msgstr "남아있는"
 
-#: src/views/BondV2/ClaimBonds.tsx:111
 #: src/views/Give/RedeemYield.tsx:210
 #: src/views/Give/RedeemYield.tsx:215
 #: src/views/Give/RedeemYield.tsx:220
@@ -1546,7 +1663,7 @@ msgstr "할당된 sOHM"
 #: src/views/Stake/Stake.tsx:558
 #: src/views/V1-Stake/V1-Stake.jsx:414
 #: src/views/V1-Stake/V1-Stake.jsx:444
-#: src/views/Wrap/Wrap.jsx:375
+#: src/views/Wrap/Wrap.jsx:365
 msgid "sOHM Balance"
 msgstr ""
 
@@ -1554,19 +1671,19 @@ msgstr ""
 msgid "sOHM Balance in Fuse (v1)"
 msgstr ""
 
-#: src/components/GiveProject/ProjectCard.tsx:316
+#: src/components/GiveProject/ProjectCard.tsx:261
 msgid "sOHM Donated"
 msgstr ""
 
-#: src/components/GiveProject/ProjectCard.tsx:333
+#: src/components/GiveProject/ProjectCard.tsx:273
 msgid "sOHM Goal"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.jsx:113
+#: src/views/33Together/PoolInfo.tsx:126
 msgid "sOHM Pool Details"
 msgstr "sOHM 풀 정보"
 
-#: src/views/33Together/PoolInfo.jsx:105
+#: src/views/33Together/PoolInfo.tsx:118
 msgid "sOHM Prize Pool"
 msgstr "sOHM 상금 풀"
 
@@ -1574,7 +1691,7 @@ msgstr "sOHM 상금 풀"
 #~ msgid "sOHM raised"
 #~ msgstr "모아진 sOHM"
 
-#: src/views/33Together/PoolPrize.jsx:160
+#: src/views/33Together/PoolPrize.tsx:168
 msgid "sec"
 msgstr "초"
 
@@ -1582,7 +1699,7 @@ msgstr "초"
 msgid "to next rebase"
 msgstr "다음 리베이스 까지"
 
-#: src/views/BondV2/ChooseBondV2.tsx:108
+#: src/views/BondV2/ChooseBondV2.tsx:99
 msgid "v1 Bonds"
 msgstr ""
 
