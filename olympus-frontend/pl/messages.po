@@ -20,11 +20,11 @@ msgstr "(Opłata za wyjście przed upływem 6 dni została anulowana. Opłaty si
 #: src/components/Migration/MigrationModal.tsx:295
 #: src/components/Migration/MigrationModalSingle.tsx:289
 msgid "(includes rebase rewards)"
-msgstr ""
+msgstr "(zawiera nagrody rebase)"
 
 #: src/views/BondV2/BondV2.tsx:74
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: src/views/33Together/PoolInfo.jsx:67
 #~ msgid "1 in {0}"
@@ -79,7 +79,7 @@ msgstr "Ilość"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results."
-msgstr ""
+msgstr "Annual Percentage Yield, czyli RRSO to znormalizowana reprezentacja stopy procentowej w oparciu o okres kapitalizacji w ciągu jednego roku. Należy zauważyć, że podane RRSO przedstawia przybliżoną wartość, a nie opartą na tak dokładnych przyszłych wynikach."
 
 #: src/views/Zap/ZapStakeHeader.jsx:24
 msgid "Any asset"
@@ -114,7 +114,7 @@ msgstr "Zatwierdzone"
 
 #: src/views/Stake/ExternalStakePool.tsx:160
 msgid "Asset"
-msgstr ""
+msgstr "Aktywo"
 
 #: src/views/Zap/ZapStakeHeader.jsx:51
 msgid "Auto staked for sOHM"
@@ -284,7 +284,7 @@ msgstr "Kontynuuj"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:174
 msgid "Current"
-msgstr ""
+msgstr "Obecny"
 
 #: src/components/EducationCard.tsx:357
 msgid "Current Deposit"
@@ -390,7 +390,7 @@ msgstr "Czas trwania"
 
 #: src/components/Migration/MigrationModalSingle.tsx:364
 msgid "Each asset type requires two transactions. First Approve, then Migrate each asset. Amounts less than than 10$ are ignored."
-msgstr ""
+msgstr "Każdy typ aktywów wymaga dwóch transakcji. Najpierw zatwierdzającej (Approve), a następnie przenoszącej każdy zasób (Migrate). Kwoty mniejsze niż 10 $ są ignorowane."
 
 #: src/views/33Together/PoolInfo.tsx:100
 msgid "Early Exit Fee"
@@ -525,7 +525,7 @@ msgstr "Najwyższy ROI"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:184
 msgid "Holders, represents the total number of Ohmies (sOHM holders)"
-msgstr ""
+msgstr "Holders, reprezentuje całkowitą liczbę ZiOHMeczków (posiadaczy sOHM)"
 
 #: src/views/Give/RedeemYield.tsx:193
 msgid "If other wallets have directed their sOHM rebases to you, you can transfer that yield into your wallet."
@@ -566,15 +566,15 @@ msgstr "Cena rynkowa"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "Market SLP"
-msgstr ""
+msgstr "Market SLP"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:53
 msgid "Market Value of Treasury Assets"
-msgstr ""
+msgstr "Wartość Rynkowa Aktywów Skarbca"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:181
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
-msgstr ""
+msgstr "artość Rynkowa Aktywów Skarbca, to łączna wartość (wyrażona w dolarach) wszystkich aktywów przechowywanych w skarbcu."
 
 #: src/views/33Together/PoolDeposit.tsx:166
 #: src/views/33Together/PoolWithdraw.tsx:160
@@ -591,7 +591,7 @@ msgstr "Maksymalna ilość, którą możesz kupić"
 
 #: src/views/BondV2/BondPurchase.tsx:67
 msgid "Max capacity is {maxBondable} {0} for {1} sOHM. Click Max to autocomplete."
-msgstr ""
+msgstr "Maksymalna pojemność to {maxBondable} {0} dla {1} sOHM. Kliknij Max by wypełnić automatycznie"
 
 #: src/components/Migration/MigrationModalSingle.tsx:230
 #: src/components/Migration/MigrationModalSingle.tsx:333
@@ -601,7 +601,7 @@ msgstr "Migruj"
 
 #: src/components/Migration/MigrationModal.tsx:376
 msgid "Migrate all to"
-msgstr ""
+msgstr "Przenieś wszystkie do"
 
 #: src/components/Migration/MigrationModal.tsx:233
 #: src/components/Migration/MigrationModal.tsx:330
@@ -613,7 +613,7 @@ msgstr "Przeniesione"
 #: src/components/Migration/MigrationModal.tsx:199
 #: src/components/Migration/MigrationModalSingle.tsx:186
 msgid "Migration Output"
-msgstr ""
+msgstr "Output Migracji"
 
 #: src/components/Migration/MigrationModal.tsx:170
 #: src/components/Migration/MigrationModalSingle.tsx:163
@@ -631,7 +631,7 @@ msgstr "Moje Darowizny"
 
 #: src/components/Sidebar/NavContent.jsx:163
 msgid "New"
-msgstr ""
+msgstr "Nowy"
 
 #: src/views/Give/RedeemYield.tsx:219
 #: src/views/Stake/Stake.tsx:592
@@ -653,11 +653,11 @@ msgstr "Cena OHM"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:135
 msgid "OHM Staked"
-msgstr ""
+msgstr "Zsatakowane OHM"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:185
 msgid "OHM Staked, is the ratio of sOHM to OHM (staked vs unstaked)"
-msgstr ""
+msgstr "Zsatakowane OHM, to stosunek sOHM do OHM (stakowane vs odstakowane)"
 
 #: src/views/Zap/ZapInfo.jsx:107
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
@@ -666,20 +666,20 @@ msgstr "OlyZap redukuje złożoność, oszczędza Twój czas i trzyma Cię tutaj
 #: src/components/EducationCard.tsx:70
 #: src/components/EducationCard.tsx:108
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
-msgstr ""
+msgstr "Olympus Give to sposób na skierowanie zysku nagromadzonego w sOHM do innego portfela. Pierwszym krokiem jest zdeponowanie sOHM i określenie odbiorcy."
 
 #: src/components/Sidebar/NavContent.jsx:178
 msgid "Olympus Pro"
-msgstr ""
+msgstr "Olympus Pro"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.tsx:53
 msgid "Olympus is currently migrating to improved contracts. Please note that during this time, frontend metrics may be inaccurate."
-msgstr ""
+msgstr "Olympus obecnie migruje do ulepszonych kontraktów. Pamiętaj, że w tym czasie metryki frontend mogą być niedokładne."
 
 #: src/components/Migration/MigrationModal.tsx:182
 #: src/components/Migration/MigrationModalSingle.tsx:169
 msgid "Olympus v2 introduces upgrades to on-chain governance and bonds to enhance decentralization and immutability."
-msgstr ""
+msgstr "Olympus v2 wprowadza aktualizacje do zarządzania (on-chain) w łańcuchu i obligacji w celu zwiększenia decentralizacji i niezmienności."
 
 #: src/views/V1-Stake/V1-Stake.jsx:274
 msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
@@ -811,11 +811,11 @@ msgstr "Nagroda zostaje przyznawana"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:107
 msgid "Protocol Owned Liquidity OHM-DAI"
-msgstr ""
+msgstr "Płynność OHM-DAI Posiadana przez Protokół"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:183
 msgid "Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users."
-msgstr ""
+msgstr "Płynność Posiadana przez Protokół, to ilość LP, którą skarbiec posiada i kontroluje. Im więcej POL tym lepiej dla protokołu i jego użytkowników."
 
 #: src/views/ChooseBond/BondRow.tsx:71
 #: src/views/ChooseBond/ChooseBond.tsx:139
@@ -894,27 +894,27 @@ msgstr "Ilość do odebrania"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:81
 msgid "Risk Free Value of Treasury Assets"
-msgstr ""
+msgstr "Wartość Wolna od Ryzyka Aktywów Skarbowych"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:182
 msgid "Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM."
-msgstr ""
+msgstr "Wartość Wolna od Ryzyka, to kwota środków, które Skarbiec gwarantuje, do wykorzystania na wsparcie OHM."
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:162
 msgid "Runway Available"
-msgstr ""
+msgstr "Runway Dostępny"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:187
 msgid "Runway, is the number of days sOHM emissions can be sustained at a given rate. Lower APY = longer runway"
-msgstr ""
+msgstr "Runway, to liczba dni, przez które emisje sOHM mogą być utrzymane w określonym tempie. Niższe RRSO (APY) = dłuższy Runway"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "SLP Treasury"
-msgstr ""
+msgstr "Skarbiec SLP"
 
 #: src/components/Migration/MigrationModal.tsx:385
-msgid "Save on gas fees by migrating all your assets to the new gOHM or sOHM in one transaction. Each asset asset above must be approved before all can be migrated."
-msgstr ""
+msgid "Save on gas fees by migrating all your assets to the new gOHM or sOHM in one transaction. Each asset above must be approved before all can be migrated."
+msgstr "Oszczędzaj na opłatach za gaz, przenosząc wszystkie swoje aktywa do nowego GOHM lub sOHM w jednej transakcji. Każdy zasób powyżej musi zostać zatwierdzony przed migracją wszystkich."
 
 #: src/views/Zap/ZapStakeAction.jsx:470
 msgid "Select Zap Token"
@@ -964,7 +964,7 @@ msgstr "Tolerancja Poślizgu"
 #: src/views/BondV2/BondRow.tsx:76
 #: src/views/BondV2/BondRow.tsx:118
 msgid "Sold Out"
-msgstr ""
+msgstr "Wyprzedano"
 
 #: src/views/33Together/PoolInfo.tsx:111
 msgid "Something not right, fren? Check Pool Together's UI below."
@@ -1043,7 +1043,7 @@ msgstr "Ilość zdeponowanych SOHM"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:62
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-msgstr ""
+msgstr "Bieżący indeks śledzi ilość sOHM zgromadzoną od początku stakowania. Zasadniczo, przedstawia to ile ktoś miałby sOHM, gdyby zastakował i trzymyał 1 OHM od pierwszego dnia."
 
 #: src/views/33Together/PoolWithdraw.tsx:131
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
@@ -1051,7 +1051,7 @@ msgstr "Pula została tymczasowo wyłączona w związku z migracją na V2. Prosz
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:79
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
-msgstr ""
+msgstr "Cena gOHM jest równa cenie OHM pomnożonej przez aktualny indeks"
 
 #: src/components/EducationCard.tsx:304
 #: src/components/EducationCard.tsx:342
@@ -1092,7 +1092,7 @@ msgstr "Czas do pełnego nabycia"
 
 #: src/components/Chart/ExpandedChart.jsx:48
 msgid "Today"
-msgstr ""
+msgstr "Dziś"
 
 #: src/views/33Together/PoolInfo.tsx:88
 msgid "Total Deposits"
@@ -1115,7 +1115,7 @@ msgstr "Całkowita Zdeponowana Wartość"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:180
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
-msgstr ""
+msgstr "Total Value Deposited czyli Całkowita Wartość Zdeponowana, to kwota w dolarach wszystkich zastakowanych OHM w protokole. Ta metryka jest często używana jako wskaźnik wzrostu lub kondycji w projektach DeFi."
 
 #: src/views/Give/RecipientModal.tsx:513
 msgid "Transaction"
@@ -1477,7 +1477,7 @@ msgstr "gOHM (Polygon)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:77
 msgid "gOHM = sOHM * index"
-msgstr ""
+msgstr "gOHM = sOHM * indeks"
 
 #: src/views/Stake/Stake.tsx:511
 #: src/views/V1-Stake/V1-Stake.jsx:450
