@@ -142,7 +142,7 @@ msgstr "Die Zuteilungsperiode ist beendet, Sie können die Verteilung auf der Se
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:46
 msgid "Backing per OHM"
-msgstr "Sicherheiten pro OHM"
+msgstr "Deckung je OHM"
 
 #: src/views/Stake/ExternalStakePool.tsx:64
 #: src/views/Stake/ExternalStakePool.tsx:166
@@ -157,7 +157,7 @@ msgstr "Guthaben"
 #: src/views/ChooseBond/ChooseBond.tsx:130
 #: src/views/ChooseBond/ClaimBonds.tsx:107
 msgid "Bond"
-msgstr "Anleihe"
+msgstr "Bonds (Anleihen)"
 
 #: src/views/Bond/Bond.tsx:79
 #: src/views/BondV2/BondV2.tsx:69
@@ -176,7 +176,7 @@ msgstr "Anleihe {0}"
 #: src/components/Sidebar/NavContent.jsx:169
 #: src/components/Sidebar/NavContent.jsx:192
 msgid "Bridge"
-msgstr "Brücke"
+msgstr "Bridge"
 
 #: src/components/TopBar/OhmMenu.jsx:267
 #~ msgid "Bridge Tokens"
@@ -184,7 +184,7 @@ msgstr "Brücke"
 
 #: src/components/Sidebar/externalUrls.jsx:20
 msgid "Bug Bounty"
-msgstr "Preisgeld für Sicherheitslücken"
+msgstr "Bug Bounty"
 
 #: src/components/TopBar/OhmMenu.jsx:135
 #: src/components/TopBar/OhmMenu.jsx:148
@@ -193,11 +193,11 @@ msgstr "Preisgeld für Sicherheitslücken"
 
 #: src/components/TopBar/ThemeSwitch.jsx:12
 msgid "Change Theme"
-msgstr "Theme wechseln"
+msgstr "Darstellung änden"
 
 #: src/components/TopBar/TopBar.tsx:62
 msgid "Change locale"
-msgstr "Region wechseln"
+msgstr "Sprache ändern"
 
 #: src/views/33Together/PoolDeposit.tsx:135
 #: src/views/33Together/PoolWithdraw.tsx:122
@@ -211,7 +211,7 @@ msgstr "Empfängeradresse auswählen. Voreingestellt ist die derzeit verbundene 
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:34
 msgid "Circulating Supply (total)"
-msgstr "Im Umlauf befindliche Menge (gesamt)"
+msgstr "OHM-Bestand (im Umlauf / gesamt)"
 
 #: src/views/Bond/BondRedeem.tsx:75
 #: src/views/BondV2/BondRedeem.jsx:71
@@ -319,7 +319,7 @@ msgstr "Sonstiger Empfänger"
 
 #: src/components/Sidebar/NavContent.jsx:79
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Kennzahlen"
 
 #: src/views/Bond/BondPurchase.tsx:259
 #: src/views/Bond/BondRedeem.tsx:119
@@ -378,7 +378,7 @@ msgstr "Trennen"
 
 #: src/components/Sidebar/externalUrls.jsx:15
 msgid "Docs"
-msgstr "Docs"
+msgstr "Dokumentation"
 
 #: src/components/GiveProject/ProjectCard.tsx:405
 #: src/components/GiveProject/ProjectCard.tsx:502
@@ -499,7 +499,7 @@ msgstr "Festes Ablaufdatum"
 
 #: src/views/BondV2/BondHeader.jsx:65
 msgid "Fixed Term"
-msgstr "Feste Bedingungen"
+msgstr "Sperrfrist"
 
 #: src/components/Sidebar/externalUrls.jsx:5
 msgid "Forum"
@@ -554,7 +554,7 @@ msgstr "Zu Staken V2 gehen"
 
 #: src/components/Sidebar/externalUrls.jsx:10
 msgid "Governance"
-msgstr "Beteiligung"
+msgstr "DAO Verwaltung"
 
 #: src/components/Sidebar/NavContent.jsx:94
 msgid "Highest ROI"
@@ -607,11 +607,11 @@ msgstr "SLP-Markt"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:53
 msgid "Market Value of Treasury Assets"
-msgstr "Marktwert der Vermögensbestände"
+msgstr "Marktwert des Olympus-Vermögens"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:181
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
-msgstr "Der Marktwert der Vermögensbestände ist die Summe (in US-Dollar) der Werte aller Assets im Vermögen."
+msgstr "Die Summe (in US-Dollar) des derzeitigen Wertes aller Assets im Vermögen."
 
 #: src/views/33Together/PoolDeposit.tsx:166
 #: src/views/33Together/PoolWithdraw.tsx:160
@@ -702,11 +702,11 @@ msgstr "OHM-Preis"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:135
 msgid "OHM Staked"
-msgstr "OHM gestaked"
+msgstr "Staking-Anteil OHM"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:185
 msgid "OHM Staked, is the ratio of sOHM to OHM (staked vs unstaked)"
-msgstr "OHM gestaked ist das Verhältnis von sOHM zu OHM (gestaked vs. ungestaked)"
+msgstr "Der Staking-Anteil ist das Verhältnis von sOHM (gestaked) zur Gesamtmenge an OHM."
 
 #: src/views/Zap/ZapInfo.jsx:107
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
@@ -719,7 +719,7 @@ msgstr "Olympus Give spendet die Erträge, die Ihr sOHM erzeugt, einer anderen W
 
 #: src/components/Sidebar/NavContent.jsx:178
 msgid "Olympus Pro"
-msgstr "Plympus Pro"
+msgstr "Olympus Pro"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.tsx:53
 msgid "Olympus is currently migrating to improved contracts. Please note that during this time, frontend metrics may be inaccurate."
@@ -864,11 +864,11 @@ msgstr "Preis wird ausgeschüttet"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:107
 msgid "Protocol Owned Liquidity OHM-DAI"
-msgstr "Protokoll-eigene Liquidität OHM-DAI"
+msgstr "Protokoll-eigene Liquidität (POL) OHM-DAI"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:183
 msgid "Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users."
-msgstr "Protokoll-eigene Liquidität (POL) ist die Menge an LP-Token, die das Olympus-Vermögen besitzt und kontrolliert. Je mehr POL, desto besser für das Protokoll und dessen Teilnehmer."
+msgstr "POL (Protocol Owned Liquidity) ist die Menge an Liquidity-Provider-Token, die das Olympus-Vermögen besitzt und kontrolliert. Je mehr POL, desto besser für das Protokoll und dessen Teilnehmer."
 
 #: src/views/ChooseBond/BondRow.tsx:71
 #: src/views/ChooseBond/ChooseBond.tsx:139
@@ -955,11 +955,11 @@ msgstr "Einlösbare Menge"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:81
 msgid "Risk Free Value of Treasury Assets"
-msgstr "Risiko-freier Wert der Assets im Olympus-Vermögen"
+msgstr "Risiko-freier Wert (RFV) des Olympus-Vermögens"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:182
 msgid "Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM."
-msgstr "Der Risiko-freie Wert (RFV) entspricht dem garantierten Kapital, also der Menge an Mitteln, mit denen das Olympus-Vermögen OHM stützt."
+msgstr "Der RFV (Risk Free Value) entspricht dem garantierten Kapital, also der Menge an Mitteln, mit denen das Olympus-Vermögen OHM stützt."
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:162
 msgid "Runway Available"
@@ -967,7 +967,7 @@ msgstr "Verfügbarer Runway"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:187
 msgid "Runway, is the number of days sOHM emissions can be sustained at a given rate. Lower APY = longer runway"
-msgstr "Runway bezeichnet die Dauer in Tagen, über die die Ausschüttung von sOHM bei der aktuellen Verzinsung aufrechterhalten werden kann. Geringere APY = längerer Runway."
+msgstr "Runway bezeichnet die Dauer in Tagen, für die eine Ausschüttung von sOHM bei der aktuellen Verzinsung aufrechterhalten werden kann. Geringere Ertragsrate (APY) = längerer Runway."
 
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "SLP Treasury"
@@ -1118,7 +1118,7 @@ msgstr "Die Gesamtmenge an hinterlegtem OHM"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:62
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-msgstr "Der aktuelle Index gibt die Menge an OHM an, die seit Beginn des Stakens ansammelt wurde. Einfach ausgedrückt wäre das die Menge an sOHM, über die man verfügen würde, hätte man ein OHM vom ersten Tag an gestaked."
+msgstr "Der Aktuelle Index zeigt den Zuwachs an OHM seit Beginn des Stakens. Er entspricht derjenigen Menge an sOHM, über die man verfügen würde, hätte man ein OHM vom ersten Tag an gestaked."
 
 #: src/views/33Together/PoolWithdraw.tsx:131
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
@@ -1126,7 +1126,7 @@ msgstr "Der Pool wurde vorübergehend deaktiviert für die V2 Migration. Bitte h
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:79
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
-msgstr "Der Preis von gOHM entspricht dem Preis von OHM, multipliziert mit dem aktuellen Index."
+msgstr "Der gOHM-Preis entspricht dem OHM-Preis multipliziert mit dem Aktuellen Index."
 
 #: src/components/EducationCard.tsx:304
 #: src/components/EducationCard.tsx:342
@@ -1163,7 +1163,7 @@ msgstr "Dies ist die entsprechende Menge an gOHM, das Sie nach der vollständige
 #: src/views/Bond/BondRedeem.tsx:104
 #: src/views/BondV2/BondRedeem.jsx:112
 msgid "Time until fully vested"
-msgstr "Zeit bis "
+msgstr "Zeit bis zum Ende der Sperrfrist"
 
 #: src/components/Chart/ExpandedChart.jsx:48
 msgid "Today"
@@ -1186,11 +1186,11 @@ msgstr "Gesamtguthaben gestaked"
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:21
 #: src/views/TreasuryDashboard/treasuryData.ts:169
 msgid "Total Value Deposited"
-msgstr "Hinterlegter Gesamtwert (TVL)"
+msgstr "Angelegtes Gesamtvermögen (TVL)"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:180
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
-msgstr "Der Hinterlegte Gesamtwert (TVL) ist die Gesamtmenge an OHM (in US-Dollar), die im Protokoll gestaked ist. Dieser Wert dient oft als Anhaltspunkt für die Gesundheit von DeFi-Projekten."
+msgstr "TVL (Total Value Locked) ist die Gesamtmenge an OHM (in US-Dollar), die im Protokoll gestaked ist. Dieser Wert dient oft als Anhaltspunkt für die Gesundheit von DeFi-Projekten."
 
 #: src/views/Give/RecipientModal.tsx:513
 msgid "Transaction"
