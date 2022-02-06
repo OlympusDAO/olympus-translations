@@ -342,7 +342,7 @@ msgstr "Nạp sOHM để giành chiến thắng! Sau khi nạp, bạn sẽ nhậ
 
 #: src/views/33Together/PoolDeposit.tsx:163
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "{quantity (số lượng)} sOHM được nạp vào sẽ tăng tỷ lệ nhận thưởng lên 1 trong {newOdds (tỷ lệ mới)}"
+msgstr "{quantity} sOHM được nạp vào sẽ tăng tỷ lệ nhận thưởng lên 1 trong {newOdds}"
 
 #: src/views/Give/DepositYield.tsx:43
 #~ msgid "Deposits Dashboard"
@@ -410,7 +410,7 @@ msgstr "Phí Thoát Sớm"
 
 #: src/views/33Together/PoolWithdraw.tsx:163
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr "Rút tiền trước hạn sẽ phải chịu một khoản phí là {exitFee (phí thoát)}."
+msgstr "Rút tiền trước hạn sẽ phải chịu một khoản phí là {exitFee}."
 
 #: src/views/Give/YieldRecipients.tsx:217
 msgid "Edit"
