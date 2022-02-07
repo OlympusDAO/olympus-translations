@@ -50,7 +50,7 @@ msgstr ""
 #~ msgid "ADD TOKEN TO WALLET"
 #~ msgstr "THÊM DẤU HIỆU VÀO VÍ"
 
-#: src/views/Stake/Stake.tsx:599
+#: src/views/Stake/Stake.tsx:321
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "APY"
@@ -102,8 +102,8 @@ msgid "Any sOHM directed towards you will continue to rebase and earn additional
 msgstr ""
 
 #: src/slices/StakeThunk.ts:94
-msgid "Approval completed"
-msgstr ""
+#~ msgid "Approval completed"
+#~ msgstr ""
 
 #: src/components/Migration/MigrationModal.tsx:241
 #: src/components/Migration/MigrationModal.tsx:338
@@ -111,20 +111,20 @@ msgstr ""
 #: src/components/Migration/MigrationModalSingle.tsx:337
 #: src/views/33Together/PoolDeposit.tsx:137
 #: src/views/Give/RecipientModal.tsx:629
-#: src/views/Stake/Stake.tsx:413
-#: src/views/Stake/Stake.tsx:469
+#: src/views/Stake/Stake.tsx:277
+#: src/views/Stake/Stake.tsx:281
 #: src/views/V1-Stake/V1-Stake.jsx:362
 #: src/views/Zap/ZapStakeAction.tsx:433
 msgid "Approve"
 msgstr "Chấp thuận"
 
 #: src/slices/StakeThunk.ts:135
-msgid "Approve Staking"
-msgstr ""
+#~ msgid "Approve Staking"
+#~ msgstr ""
 
 #: src/slices/StakeThunk.ts:135
-msgid "Approve Unstaking"
-msgstr ""
+#~ msgid "Approve Unstaking"
+#~ msgstr ""
 
 #: src/components/Migration/MigrationModal.tsx:226
 #: src/components/Migration/MigrationModal.tsx:323
@@ -270,7 +270,6 @@ msgstr "Xác nhận sOHM"
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/TopBar/Wallet/index.tsx:12
 #: src/views/Give/RecipientModal.tsx:594
-#: src/views/Stake/Stake.tsx:329
 msgid "Connect Wallet"
 msgstr "Kết nối ví"
 
@@ -278,7 +277,7 @@ msgstr "Kết nối ví"
 msgid "Connect your wallet to give or redeem OHM"
 msgstr "Kết nối ví để gửi hoặc nhận OHM"
 
-#: src/views/Stake/Stake.tsx:334
+#: src/views/Stake/Stake.tsx:346
 #: src/views/V1-Stake/V1-Stake.jsx:221
 msgid "Connect your wallet to stake OHM"
 msgstr "Kết nối ví của bạn để stake OHM"
@@ -304,7 +303,7 @@ msgstr "Hiện tại"
 msgid "Current Deposit"
 msgstr "Tiền nạp hiện tại"
 
-#: src/views/Stake/Stake.tsx:611
+#: src/views/Stake/Stake.tsx:333
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
@@ -449,6 +448,7 @@ msgstr "Nhập địa chỉ ví theo mẫu 0x ..."
 
 #: src/views/33Together/PoolDeposit.tsx:149
 #: src/views/Give/RecipientModal.tsx:544
+#: src/views/Stake/Stake.tsx:417
 #: src/views/Wrap/Wrap.tsx:130
 #: src/views/Wrap/WrapCrossChain.tsx:111
 msgid "Enter an amount"
@@ -483,11 +483,11 @@ msgstr "Quyên góp lần đầu tiên <0>sOHM</0>?<1/>Vui lòng cho phép Olymp
 #~ msgid "First time giving <0>sOHM</0>?<1/>Please approve Olympus DAO to use your <2>sOHM</2> for giving."
 #~ msgstr "Gửi tiền lần đầu tiên <0>sOHM</0>?<1/>Vui lòng chấp thuận cho Olympus DAO sử dụng <2>sOHM</2> của bạn để gửi"
 
-#: src/views/Stake/Stake.tsx:360
+#: src/views/Stake/Stake.tsx:384
 msgid "First time staking"
 msgstr "Staking lần đầu tiên"
 
-#: src/views/Stake/Stake.tsx:369
+#: src/views/Stake/Stake.tsx:391
 #: src/views/V1-Stake/V1-Stake.jsx:263
 msgid "First time unstaking"
 msgstr "Bỏ stake lần đầu tiên"
@@ -621,6 +621,7 @@ msgstr "Giá Thị trường của các Tài sản trong Kho bạc, thể hiện
 #: src/views/Bond/BondPurchase.tsx:181
 #: src/views/BondV2/BondPurchase.tsx:144
 #: src/views/Give/RecipientModal.tsx:558
+#: src/views/Stake/Stake.tsx:421
 #: src/views/Wrap/Wrap.tsx:134
 #: src/views/Wrap/WrapCrossChain.tsx:115
 msgid "Max"
@@ -684,13 +685,13 @@ msgid "New"
 msgstr "Mới"
 
 #: src/views/Give/RedeemYield.tsx:206
-#: src/views/Stake/Stake.tsx:732
+#: src/views/Stake/Stake.tsx:552
 #: src/views/V1-Stake/V1-Stake.jsx:431
 msgid "Next Reward Amount"
 msgstr "Số tiền thưởng tiếp theo"
 
 #: src/views/Give/RedeemYield.tsx:211
-#: src/views/Stake/Stake.tsx:737
+#: src/views/Stake/Stake.tsx:557
 #: src/views/V1-Stake/V1-Stake.jsx:436
 msgid "Next Reward Yield"
 msgstr "Lợi tức tiếp theo"
@@ -773,8 +774,8 @@ msgstr "Đang chờ..."
 
 #: src/views/Bond/BondPurchase.tsx:161
 #: src/views/BondV2/BondPurchase.tsx:136
-#: src/views/Stake/Stake.tsx:362
-#: src/views/Stake/Stake.tsx:371
+#: src/views/Stake/Stake.tsx:386
+#: src/views/Stake/Stake.tsx:393
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Please approve Olympus Dao to use your"
 msgstr "Vui lòng cho phép Olympus Dao sử dụng"
@@ -793,8 +794,6 @@ msgstr "Vui lòng kết nối ví"
 #: src/slices/GiveThunk.ts:299
 #: src/slices/RedeemThunk.ts:25
 #: src/slices/RedeemThunk.ts:74
-#: src/slices/StakeThunk.ts:71
-#: src/slices/StakeThunk.ts:183
 msgid "Please connect your wallet!"
 msgstr "Vui lòng kết nối ví!"
 
@@ -824,8 +823,8 @@ msgstr ""
 #: src/views/Give/CausesDashboard.tsx:74
 #: src/views/Give/YieldRecipients.tsx:63
 #: src/views/Give/YieldRecipients.tsx:63
-#: src/views/Stake/Stake.tsx:204
-#: src/views/Stake/Stake.tsx:204
+#: src/views/Stake/Stake.tsx:172
+#: src/views/Stake/Stake.tsx:172
 msgid "Please enter a value!"
 msgstr "Vui lòng nhập một giá trị!"
 
@@ -893,7 +892,7 @@ msgid "ROI"
 msgstr "ROI"
 
 #: src/views/Give/RedeemYield.tsx:216
-#: src/views/Stake/Stake.tsx:742
+#: src/views/Stake/Stake.tsx:562
 #: src/views/V1-Stake/V1-Stake.jsx:441
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (Giá 5 ngày)"
@@ -1003,7 +1002,7 @@ msgstr "Bạn không có tài sản"
 msgid "Single Stake"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:593
+#: src/views/Stake/Stake.tsx:315
 msgid "Single Stake (3, 3)"
 msgstr ""
 
@@ -1058,13 +1057,13 @@ msgstr ""
 #~ msgid "Stake on Trader Joe"
 #~ msgstr "Đặt cọc trên Trader Joe"
 
-#: src/views/Stake/Stake.tsx:311
-#~ msgid "Stake to"
-#~ msgstr ""
+#: src/views/Stake/Stake.tsx:294
+msgid "Stake to"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:413
-msgid "Stake to {getTokenToUnstake}"
-msgstr ""
+#~ msgid "Stake to {getTokenToUnstake}"
+#~ msgstr ""
 
 #: src/views/Stake/Stake.tsx:491
 #: src/views/V1-Stake/V1-Stake.jsx:428
@@ -1143,12 +1142,12 @@ msgid "The specified wallet address will receive the rebase yield from the amoun
 msgstr ""
 
 #: src/slices/StakeThunk.ts:190
-msgid "The supplied action {action} is not one of the supported actions: {0}"
-msgstr ""
+#~ msgid "The supplied action {action} is not one of the supported actions: {0}"
+#~ msgstr ""
 
 #: src/slices/StakeThunk.ts:77
-msgid "The supplied token {token} is not one of the supported tokens: {0}"
-msgstr ""
+#~ msgid "The supplied token {token} is not one of the supported tokens: {0}"
+#~ msgstr ""
 
 #: src/components/EducationCard.tsx:177
 #: src/components/EducationCard.tsx:221
@@ -1190,12 +1189,12 @@ msgstr "Tổng số tiền gửi"
 msgid "Total Sponsorship"
 msgstr "Tổng tài trợ"
 
-#: src/views/Stake/Stake.tsx:629
+#: src/views/Stake/Stake.tsx:449
 #: src/views/V1-Stake/V1-Stake.jsx:378
 msgid "Total Staked Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:605
+#: src/views/Stake/Stake.tsx:327
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
@@ -1222,7 +1221,7 @@ msgstr "Số dư kho bạc"
 #~ msgid "Treasury stats may be inaccurate during the migration. Please check discord if you have any questions."
 #~ msgstr ""
 
-#: src/views/Stake/Stake.tsx:511
+#: src/views/Stake/Stake.tsx:371
 #: src/views/V1-Stake/V1-Stake.jsx:238
 msgid "Unstake"
 msgstr "Hoàn cọc"
@@ -1235,15 +1234,15 @@ msgstr "Hoàn cọc"
 msgid "Unstake OHM"
 msgstr "Hoàn cọc OHM"
 
-#: src/views/Stake/Stake.tsx:323
-#~ msgid "Unstake from"
-#~ msgstr ""
-
-#: src/views/Stake/Stake.tsx:469
-msgid "Unstake from {getTokenToUnstake}"
+#: src/views/Stake/Stake.tsx:306
+msgid "Unstake from"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:621
+#: src/views/Stake/Stake.tsx:469
+#~ msgid "Unstake from {getTokenToUnstake}"
+#~ msgstr ""
+
+#: src/views/Stake/Stake.tsx:441
 #: src/views/V1-Stake/V1-Stake.jsx:370
 msgid "Unstaked Balance"
 msgstr "Số dư hoàn cọc"
@@ -1416,8 +1415,8 @@ msgstr ""
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
 msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. Bằng cách rút tiền, bạn đang loại bỏ việc giảm cơ hội giành được giải thưởng trong nhóm này trong các kỳ giải thưởng trong tương lai"
 
-#: src/views/Stake/Stake.tsx:210
-#: src/views/Stake/Stake.tsx:210
+#: src/views/Stake/Stake.tsx:178
+#: src/views/Stake/Stake.tsx:178
 msgid "You cannot stake more than your OHM balance."
 msgstr "Bạn không thể cọc nhiều hơn số dư OHM của mình"
 
@@ -1435,15 +1434,15 @@ msgstr "Bạn không thể rút nhiều hơn số dư nhóm của mình"
 #~ msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please check the box."
 #~ msgstr ""
 
-#: src/views/Stake/Stake.tsx:193
-#: src/views/Stake/Stake.tsx:193
-#~ msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
-#~ msgstr ""
+#: src/views/Stake/Stake.tsx:184
+#: src/views/Stake/Stake.tsx:184
+msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:220
 #: src/views/Stake/Stake.tsx:220
-msgid "You do not have enough sOHM to complete this transaction. To unstake from gOHM, please toggle the sohm-gohm switch."
-msgstr ""
+#~ msgid "You do not have enough sOHM to complete this transaction. To unstake from gOHM, please toggle the sohm-gohm switch."
+#~ msgstr ""
 
 #: src/views/Bond/BondPurchase.tsx:67
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
@@ -1466,8 +1465,8 @@ msgid "You may be trying to give more than your balance! Error code: 32603. Mess
 msgstr ""
 
 #: src/slices/StakeThunk.ts:253
-msgid "You may be trying to stake more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
-msgstr ""
+#~ msgid "You may be trying to stake more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
+#~ msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:461
 msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
@@ -1551,7 +1550,7 @@ msgid "do_bond"
 msgstr "Mua"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:506
+#: src/views/Stake/Stake.tsx:366
 msgid "do_stake"
 msgstr "Cọc"
 
@@ -1560,11 +1559,11 @@ msgstr "Cọc"
 msgid "for bonding"
 msgstr "Đang mua"
 
-#: src/views/Stake/Stake.tsx:362
+#: src/views/Stake/Stake.tsx:387
 msgid "for staking"
 msgstr "Đang cọc"
 
-#: src/views/Stake/Stake.tsx:371
+#: src/views/Stake/Stake.tsx:394
 #: src/views/V1-Stake/V1-Stake.jsx:266
 msgid "for unstaking"
 msgstr "Đang hoàn cọc"
@@ -1573,23 +1572,23 @@ msgstr "Đang hoàn cọc"
 #~ msgid "gOHM"
 #~ msgstr ""
 
-#: src/views/Stake/Stake.tsx:650
+#: src/views/Stake/Stake.tsx:470
 msgid "gOHM (Arbitrum)"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:658
+#: src/views/Stake/Stake.tsx:478
 msgid "gOHM (Avalanche)"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:674
+#: src/views/Stake/Stake.tsx:494
 msgid "gOHM (Fantom)"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:666
+#: src/views/Stake/Stake.tsx:486
 msgid "gOHM (Polygon)"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:682
+#: src/views/Stake/Stake.tsx:502
 msgid "gOHM (Tokemak)"
 msgstr ""
 
@@ -1597,14 +1596,14 @@ msgstr ""
 msgid "gOHM = sOHM * index"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:643
+#: src/views/Stake/Stake.tsx:463
 #: src/views/V1-Stake/V1-Stake.jsx:422
 #: src/views/Wrap/Wrap.tsx:286
 #: src/views/Wrap/WrapCrossChain.tsx:214
 msgid "gOHM Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:690
+#: src/views/Stake/Stake.tsx:510
 #: src/views/V1-Stake/V1-Stake.jsx:393
 msgid "gOHM Balance in Fuse"
 msgstr ""
@@ -1652,15 +1651,15 @@ msgstr ""
 msgid "sOHM Allocation"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:637
-#: src/views/Stake/Stake.tsx:698
+#: src/views/Stake/Stake.tsx:457
+#: src/views/Stake/Stake.tsx:518
 #: src/views/V1-Stake/V1-Stake.jsx:386
 #: src/views/V1-Stake/V1-Stake.jsx:416
 #: src/views/Wrap/Wrap.tsx:281
 msgid "sOHM Balance"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:722
+#: src/views/Stake/Stake.tsx:542
 msgid "sOHM Balance in Fuse (v1)"
 msgstr ""
 
@@ -1704,7 +1703,7 @@ msgstr ""
 msgid "withdrawn"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:706
+#: src/views/Stake/Stake.tsx:526
 #: src/views/V1-Stake/V1-Stake.jsx:401
 #: src/views/Wrap/WrapCrossChain.tsx:209
 msgid "wsOHM Balance"
@@ -1714,7 +1713,7 @@ msgstr ""
 msgid "wsOHM Balance in FiatDAO"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:714
+#: src/views/Stake/Stake.tsx:534
 msgid "wsOHM Balance in FiatDAO (v1)"
 msgstr ""
 
