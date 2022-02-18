@@ -72,7 +72,7 @@ msgstr "Añadir a la Cartera"
 
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
-msgstr ""
+msgstr "Ajusta Slippage"
 
 #: src/views/V1-Stake/V1-Stake.jsx:248
 msgid "All your assets are migrated"
@@ -148,7 +148,7 @@ msgstr "Activo"
 
 #: src/views/Zap/ZapStakeHeader.tsx:56
 msgid "Auto staked"
-msgstr ""
+msgstr "Auto participación"
 
 #: src/views/Zap/ZapStakeHeader.tsx:58
 #~ msgid "Auto staked for sOHM"
@@ -231,7 +231,7 @@ msgstr "Búsqueda de Bugs"
 
 #: src/views/Give/Give.tsx:105
 msgid "Causes"
-msgstr ""
+msgstr "Causas"
 
 #: src/components/TopBar/ThemeSwitch.tsx:12
 msgid "Change Theme"
@@ -304,11 +304,11 @@ msgstr "Completado"
 
 #: src/views/Give/RecipientModal.tsx:553
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: src/views/Give/ManageDonationModal.tsx:596
 msgid "Confirm New sOHM"
-msgstr ""
+msgstr "Confirm Nuevos sOHM"
 
 #: src/views/Give/RecipientModal.tsx:617
 #~ msgid "Confirm sOHM"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: src/views/Give/RedeemYieldModal.tsx:95
 msgid "Confirm {0} sOHM"
-msgstr ""
+msgstr "Confirmar {0} sOHM"
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/TopBar/Wallet/index.tsx:12
@@ -327,7 +327,7 @@ msgstr "Conectar Cartera"
 
 #: src/components/GiveProject/ProjectCard.tsx:712
 msgid "Connect wallet"
-msgstr ""
+msgstr "Conectar cartera"
 
 #: src/views/Give/Give.tsx:27
 #~ msgid "Connect your wallet to give or redeem OHM"
@@ -373,7 +373,7 @@ msgstr "Recompensa Actual"
 
 #: src/views/Give/ManageDonationModal.tsx:489
 msgid "Current sOHM deposit"
-msgstr ""
+msgstr "sOHM en depósito"
 
 #: src/views/Give/CausesDashboard.tsx:135
 msgid "Custom Recipient"
@@ -381,11 +381,11 @@ msgstr "Destinatario Perzonalizado"
 
 #: src/views/Give/YieldRecipients.tsx:76
 msgid "DATE"
-msgstr ""
+msgstr "FECHA"
 
 #: src/views/Give/YieldRecipients.tsx:88
 msgid "DEPOSITED"
-msgstr ""
+msgstr "EN DEPÓSITO"
 
 #: src/components/Sidebar/NavContent.tsx:97
 msgid "Dashboard"
@@ -419,7 +419,7 @@ msgstr "Deposite sOHM para ganar! Una vez depositado, usted recibirá una cantid
 
 #: src/views/Give/RedeemYield.tsx:193
 msgid "Deposited sOHM"
-msgstr ""
+msgstr "sOHM en depósito"
 
 #: src/views/33Together/PoolDeposit.tsx:163
 msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
@@ -457,7 +457,7 @@ msgstr "Desconectar"
 #: src/views/ChooseBond/BondRow.tsx:60
 #: src/views/ChooseBond/ChooseBond.tsx:129
 msgid "Discount"
-msgstr ""
+msgstr "Descuento"
 
 #: src/components/Sidebar/externalUrls.tsx:22
 msgid "Docs"
@@ -470,7 +470,7 @@ msgstr "Donar Interés"
 
 #: src/views/Give/YieldRecipients.tsx:60
 msgid "Donate to a cause"
-msgstr ""
+msgstr "Donar a una causa"
 
 #: src/components/GiveProject/ProjectCard.tsx:274
 #~ msgid "Donated"
@@ -512,7 +512,7 @@ msgstr "La retirada anticipada incurrirá en una tasa legítima de {exitFee}."
 
 #: src/components/GiveProject/ProjectCard.tsx:758
 msgid "Edit Donation"
-msgstr ""
+msgstr "Editar Donación"
 
 #: src/views/Give/RecipientModal.tsx:653
 #~ msgid "Edit Give Amount"
@@ -568,7 +568,7 @@ msgstr "Reserva de Farm"
 
 #: src/components/GiveProject/ProjectCard.tsx:211
 msgid "Finishes at {0} in your timezone"
-msgstr ""
+msgstr "Termina a las {0} en su zona horaria"
 
 #: src/views/Bond/BondPurchase.tsx:160
 #: src/views/BondV2/BondPurchase.tsx:135
@@ -657,11 +657,11 @@ msgstr "Gobernanza"
 
 #: src/components/Sidebar/externalUrls.tsx:32
 msgid "Grants"
-msgstr ""
+msgstr "Recompensas"
 
 #: src/components/Sidebar/NavContent.tsx:108
 msgid "Highest Discount"
-msgstr ""
+msgstr "Descuento Mayor"
 
 #: src/components/Sidebar/NavContent.tsx:108
 #~ msgid "Highest ROI"
@@ -677,7 +677,7 @@ msgstr "Poseedores, representa el número total de Ohmies (Poseedores de sOHM)"
 
 #: src/views/Zap/SlippageModal.tsx:70
 msgid "Important: Recommended slippage is 1-3% to avoid a failed transaction."
-msgstr ""
+msgstr "Importante: Slippage recomendado de 1-3% para evitar una transacción fallida."
 
 #: src/components/TopBar/ConnectMenu.jsx:33
 #~ msgid "In progress"
@@ -685,7 +685,7 @@ msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:426
 msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
-msgstr ""
+msgstr "Es su primera vez donando sOHM? Por favor apruebe OlympusDAO para usar sOHM en donaciones."
 
 #: src/views/Give/YieldRecipients.tsx:169
 #~ msgid "It looks like you haven't donated any yield. Let's fix that!"
@@ -713,7 +713,7 @@ msgstr "Asegura sOHM en la caja fuerte"
 
 #: src/views/Give/YieldRecipients.tsx:56
 msgid "Looks like you haven’t made any donations yet"
-msgstr ""
+msgstr "Parece que usted aún no ha hecho ninguna donación"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:26
 msgid "Market Cap"
@@ -794,7 +794,7 @@ msgstr "Migración completada"
 #: src/views/Zap/ZapStakeAction.tsx:451
 #: src/views/Zap/ZapStakeAction.tsx:516
 msgid "Minimum Output Amount: 0.5"
-msgstr ""
+msgstr "Cantidad mínima en Output: 0.5"
 
 #: src/views/Zap/ZapStakeAction.tsx:422
 msgid "Minimum You Get"
@@ -815,11 +815,11 @@ msgstr "Nuevo"
 
 #: src/views/Give/ManageDonationModal.tsx:505
 msgid "New sOHM Amount"
-msgstr ""
+msgstr "Nueva Cantidad sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:496
 msgid "New sOHM deposit"
-msgstr ""
+msgstr "Nuevo depósito de sOHM"
 
 #: src/views/Give/RedeemYield.tsx:203
 #: src/views/Stake/Stake.tsx:552
@@ -1030,7 +1030,7 @@ msgstr "Comprado"
 
 #: src/views/Give/YieldRecipients.tsx:82
 msgid "RECIPIENT"
-msgstr ""
+msgstr "DESTINATARIO"
 
 #: src/views/Bond/BondPurchase.tsx:254
 #: src/views/Bond/BondRedeem.tsx:113
@@ -1075,7 +1075,7 @@ msgstr "Dirección del Destinatario"
 
 #: src/views/Give/RecipientModal.tsx:540
 msgid "Recipient address"
-msgstr ""
+msgstr "Dirección del destinatario"
 
 #: src/views/Give/GiveInfo.tsx:23
 msgid "Recipient earns sOHM rebases"
@@ -1137,7 +1137,7 @@ msgstr "Ahorre en tasas de gas migrando todos sus activos a el nuevo gOHM o sOHM
 #: src/views/Zap/ZapStakeAction.tsx:309
 #: src/views/Zap/ZapStakeAction.tsx:337
 msgid "Select Token"
-msgstr ""
+msgstr "Seleccione Token"
 
 #: src/views/Zap/ZapStakeAction.tsx:471
 #~ msgid "Select Zap Token"
@@ -1361,7 +1361,7 @@ msgstr "Hoy"
 
 #: src/components/GiveProject/ProjectCard.tsx:335
 msgid "Total Active sOHM"
-msgstr ""
+msgstr "Total de sOHM Activos"
 
 #: src/views/33Together/PoolInfo.tsx:80
 msgid "Total Deposits"
@@ -1453,7 +1453,7 @@ msgstr "El valor no puede ser superior a su balance de sOHM de"
 
 #: src/views/Give/RecipientModal.tsx:181
 msgid "Value cannot be more than your sOHM balance of {0}"
-msgstr ""
+msgstr "El valor no puede ser superior a su balance de sOHM de {0}"
 
 #: src/views/Give/ManageDonationModal.tsx:280
 #: src/views/Give/RecipientModal.tsx:170
@@ -1566,11 +1566,11 @@ msgstr "Empaquetando OHM"
 
 #: src/views/Give/YieldRecipients.tsx:94
 msgid "YIELD SENT"
-msgstr ""
+msgstr "INTERÉS ENVIADO"
 
 #: src/views/33Together/PoolInfo.tsx:89
 msgid "Yield Source"
-msgstr "Yield Source"
+msgstr "Origen del interés"
 
 #: src/components/EducationCard.tsx:178
 msgid "You"
@@ -1578,7 +1578,7 @@ msgstr "Usted"
 
 #: src/views/Zap/ZapInfo.tsx:137
 msgid "You Choose"
-msgstr ""
+msgstr "Usted Elige"
 
 #: src/views/Zap/ZapStakeAction.tsx:322
 msgid "You Get"
@@ -1684,7 +1684,7 @@ msgstr "Su Balance"
 
 #: src/components/GiveProject/ProjectCard.tsx:726
 msgid "Your Donations"
-msgstr ""
+msgstr "Tus Donaciones"
 
 #: src/views/33Together/PoolWithdraw.tsx:181
 msgid "Your Pooled Balance (withdrawable)"
@@ -1707,11 +1707,11 @@ msgstr "Balance de su Participación (Depositable)"
 
 #: src/views/Give/RecipientModal.tsx:484
 msgid "Your current Staked Balance is"
-msgstr ""
+msgstr "Su Balance de Participasiones actual es"
 
 #: src/views/Give/ManageDonationModal.tsx:542
 msgid "Your current deposit is"
-msgstr ""
+msgstr "Su depósito actual es"
 
 #: src/views/33Together/PoolInfo.tsx:59
 msgid "Your odds"
@@ -1736,7 +1736,7 @@ msgstr "Balance de su cartera"
 
 #: src/components/Sidebar/NavContent.tsx:137
 msgid "Zap"
-msgstr ""
+msgstr "Zap"
 
 #: src/views/Zap/ZapInfo.tsx:93
 msgid "Zap is a swap"
@@ -1898,15 +1898,15 @@ msgstr "Fondo de Recompensa del sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:290
 msgid "sOHM Yield"
-msgstr ""
+msgstr "Interés sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:302
 msgid "sOHM Yield Goal"
-msgstr ""
+msgstr "Interés sOHM objetivo"
 
 #: src/views/Give/RecipientModal.tsx:533
 msgid "sOHM deposit"
-msgstr ""
+msgstr "Depósito sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:236
 #~ msgid "sOHM raised"
