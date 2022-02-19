@@ -1384,7 +1384,7 @@ msgstr "Số dư hoàn cọc"
 
 #: src/views/V1-Stake/V1-Stake.jsx:415
 #~ msgid "Unstaked Balance (v1)"
-#~ msgstr ""
+#~ msgstr "Số dư hoàn cọc (v1)"
 
 #: src/slices/PendingTxnsSlice.ts:30
 msgid "Unstaking sOHM"
@@ -1396,20 +1396,20 @@ msgstr "Mở gói sOHM"
 
 #: src/components/EducationCard.tsx:275
 msgid "Updated Deposit"
-msgstr ""
+msgstr "Số tiền nạp mới"
 
 #: src/views/Give/ManageDonationModal.tsx:291
 msgid "Value cannot be more than your sOHM balance of"
-msgstr ""
+msgstr "Giá trị không được vượt quá số dư sOHM"
 
 #: src/views/Give/RecipientModal.tsx:181
 msgid "Value cannot be more than your sOHM balance of {0}"
-msgstr ""
+msgstr "Giá trị không được vượt quá số dư sOHM {0}"
 
 #: src/views/Give/ManageDonationModal.tsx:280
 #: src/views/Give/RecipientModal.tsx:170
 msgid "Value must be positive"
-msgstr ""
+msgstr "Giá trị "
 
 #: src/components/EducationCard.tsx:87
 #: src/components/EducationCard.tsx:125
@@ -1419,12 +1419,12 @@ msgstr ""
 #: src/views/Bond/BondPurchase.tsx:261
 #: src/views/Bond/BondRedeem.tsx:120
 msgid "Vesting Term"
-msgstr "Thời hạn quyền lợi"
+msgstr "Thời hạn Vesting"
 
 #: src/views/BondV2/BondRow.tsx:39
 #: src/views/BondV2/BondRow.tsx:121
 msgid "View Asset"
-msgstr ""
+msgstr "Xem Tài sản"
 
 #: src/views/ChooseBond/BondRow.jsx:28
 #: src/views/ChooseBond/BondRow.jsx:99
@@ -1434,13 +1434,13 @@ msgstr ""
 #: src/components/GiveProject/ProjectCard.tsx:575
 #: src/components/GiveProject/ProjectCard.tsx:623
 msgid "View Details"
-msgstr ""
+msgstr "Xem các Chi tiết"
 
 #: src/components/EducationCard.tsx:25
 #: src/components/EducationCard.tsx:63
 #: src/components/TopBar/Wallet/index.tsx:12
 msgid "Wallet"
-msgstr ""
+msgstr "Ví"
 
 #: src/views/33Together/PoolInfo.tsx:75
 msgid "Winners / prize period"
@@ -1454,7 +1454,7 @@ msgstr "Rút"
 
 #: src/views/Give/WithdrawDepositModal.tsx:91
 msgid "Withdraw Deposit?"
-msgstr ""
+msgstr "Rút khoản nạp"
 
 #: src/views/33Together/PoolWithdraw.tsx:144
 msgid "Withdraw Early & pay"
@@ -1470,7 +1470,7 @@ msgstr "Rút tiền có thể được thực hiện sau khi giải thưởng đ
 
 #: src/slices/PendingTxnsSlice.ts:38
 msgid "Withdrawing sOHM donation"
-msgstr ""
+msgstr "Đang rút sOHM quyên góp"
 
 #: src/views/33Together/PoolWithdraw.tsx:153
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
@@ -1479,18 +1479,18 @@ msgstr "Rút {quantity} sOHM giảm tỷ lệ chiến thắng của bạn xuốn
 #: src/components/Sidebar/NavContent.tsx:142
 #: src/components/Sidebar/NavContent.tsx:159
 msgid "Wrap"
-msgstr ""
+msgstr "Gói (Wrap)"
 
 #: src/views/Wrap/Wrap.tsx:168
 #: src/views/Wrap/WrapCrossChain.tsx:147
 msgid "Wrap / Unwrap"
-msgstr ""
+msgstr "Wrap / Unwrap"
 
 #: src/views/Stake/Stake.tsx:505
 #: src/views/V1-Stake/V1-Stake.jsx:448
 #: src/views/V1-Stake/V1-Stake.jsx:466
 #~ msgid "Wrapped Balance"
-#~ msgstr "Số dư được rút"
+#~ msgstr "Số dư được gói"
 
 #: src/views/Stake/Stake.tsx:517
 #~ msgid "Wrapped Balance (v1)"
@@ -1659,7 +1659,7 @@ msgstr ""
 
 #: src/views/Give/ManageDonationModal.tsx:542
 msgid "Your current deposit is"
-msgstr "Số tiền nạp hiện tại"
+msgstr ""
 
 #: src/views/33Together/PoolInfo.tsx:59
 msgid "Your odds"
@@ -1684,20 +1684,20 @@ msgstr "Số dư ví của bạn"
 
 #: src/components/Sidebar/NavContent.tsx:137
 msgid "Zap"
-msgstr "Zap"
+msgstr ""
 
 #: src/views/Zap/ZapInfo.tsx:93
 msgid "Zap is a swap"
-msgstr "Zap là 1 app hoán đổi"
+msgstr "Zap là 1 hoán đổi"
 
 #: src/views/Zap/ZapCta.tsx:41
 msgid "Zap with more assets and stake <0>OHM</0>"
-msgstr "Zap với nhiều tài sản và stake <0>OHM</0"
+msgstr "Zap với nhiều tài sản và đặt cọc <0>OHM</0"
 
 #: src/views/Zap/ZapStakeAction.tsx:449
 #: src/views/Zap/ZapStakeAction.tsx:514
 msgid "Zap-Stake"
-msgstr "Zap-Stake"
+msgstr "Zap- đặt cọc"
 
 #: src/views/33Together/PoolPrize.tsx:149
 msgid "day"
@@ -1705,7 +1705,7 @@ msgstr "ngày"
 
 #: src/views/Give/WithdrawDepositModal.tsx:97
 msgid "deposited"
-msgstr "đã nạp"
+msgstr ""
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:127
@@ -1722,64 +1722,64 @@ msgstr "Cọc"
 #: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:137
 msgid "for bonding"
-msgstr "dành cho bonding"
+msgstr "Đang mua"
 
 #: src/views/Stake/Stake.tsx:387
 msgid "for staking"
-msgstr "dành cho staking"
+msgstr "Đang cọc"
 
 #: src/views/Stake/Stake.tsx:394
 #: src/views/V1-Stake/V1-Stake.jsx:266
 msgid "for unstaking"
-msgstr "dành cho hoàn cọc"
+msgstr "Đang hoàn cọc"
 
 #: src/views/BondV2/ClaimBonds.tsx:112
 #~ msgid "gOHM"
-#~ msgstr "gOHM"
+#~ msgstr ""
 
 #: src/views/Stake/Stake.tsx:470
 msgid "gOHM (Arbitrum)"
-msgstr "gOHM (Arbitrum)"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:478
 msgid "gOHM (Avalanche)"
-msgstr "gOHM (Avalanche)"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:494
 msgid "gOHM (Fantom)"
-msgstr "gOHM (Fantom)"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:486
 msgid "gOHM (Polygon)"
-msgstr "gOHM (Polygon)"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:502
 msgid "gOHM (Tokemak)"
-msgstr "gOHM (Tokemak)"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
 msgid "gOHM = sOHM * index"
-msgstr "gOHM = sOHM * chỉ số"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:463
 #: src/views/V1-Stake/V1-Stake.jsx:422
 #: src/views/Wrap/Wrap.tsx:286
 #: src/views/Wrap/WrapCrossChain.tsx:214
 msgid "gOHM Balance"
-msgstr "Số dư gOHM"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:510
 #: src/views/V1-Stake/V1-Stake.jsx:393
 msgid "gOHM Balance in Fuse"
-msgstr "Số dư gOHM trong Fuse"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
 msgid "gOHM Price"
-msgstr "Giá gOHM"
+msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:156
 msgid "hrs"
-msgstr "giờ"
+msgstr "hrs"
 
 #: src/views/Give/RedeemYield.tsx:187
 #: src/views/Give/RedeemYieldModal.tsx:84
@@ -1788,7 +1788,7 @@ msgstr "giờ"
 
 #: src/components/GiveProject/ProjectCard.tsx:175
 #~ msgid "in your timezone"
-#~ msgstr "trong múi giờ của bạn"
+#~ msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:163
 msgid "min"
@@ -1796,25 +1796,25 @@ msgstr "Nhỏ nhất"
 
 #: src/components/GiveProject/ProjectCard.tsx:236
 #~ msgid "of"
-#~ msgstr "của"
+#~ msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:242
 #~ msgid "of goal"
-#~ msgstr "của mục tiêu"
+#~ msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:192
 #~ msgid "remaining"
-#~ msgstr "còn lại"
+#~ msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:194
 #: src/views/Give/RedeemYield.tsx:199
 #: src/views/Give/RedeemYield.tsx:204
 msgid "sOHM"
-msgstr "sOHM"
+msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:450
 msgid "sOHM Allocation"
-msgstr "Số sOHM Phân bổ"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:457
 #: src/views/Stake/Stake.tsx:518
@@ -1822,19 +1822,19 @@ msgstr "Số sOHM Phân bổ"
 #: src/views/V1-Stake/V1-Stake.jsx:416
 #: src/views/Wrap/Wrap.tsx:281
 msgid "sOHM Balance"
-msgstr "Số dư sOHM"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:542
 msgid "sOHM Balance in Fuse (v1)"
-msgstr "Số dư sOHM trong Fuse (v1)"
+msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:262
 #~ msgid "sOHM Donated"
-#~ msgstr "sOHM được quyên góp"
+#~ msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:274
 #~ msgid "sOHM Goal"
-#~ msgstr "Mục tiêu sOHM"
+#~ msgstr ""
 
 #: src/views/33Together/PoolInfo.tsx:112
 msgid "sOHM Pool Details"
@@ -1846,23 +1846,23 @@ msgstr "Giải thướng sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:290
 msgid "sOHM Yield"
-msgstr "Lợi tức sOHM"
+msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:302
 msgid "sOHM Yield Goal"
-msgstr "Mục tiêu Lợi tức sOHM"
+msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:533
 msgid "sOHM deposit"
-msgstr "Số sOHM đã nạp"
+msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:236
 #~ msgid "sOHM raised"
-#~ msgstr "Số sOHM kêu gọi được"
+#~ msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:169
 msgid "sec"
-msgstr "giây"
+msgstr "số giây"
 
 #: src/components/RebaseTimer/RebaseTimer.tsx:71
 msgid "to next rebase"
@@ -1870,33 +1870,33 @@ msgstr "Cho đến khi thay đổi tiếp theo"
 
 #: src/views/BondV2/ChooseBondV2.tsx:99
 #~ msgid "v1 Bonds"
-#~ msgstr "bond v1"
+#~ msgstr ""
 
 #: src/views/ChooseBond/ChooseBond.tsx:87
 msgid "v2 bonds"
-msgstr "bond v2"
+msgstr ""
 
 #: src/views/Give/WithdrawDepositModal.tsx:95
 msgid "withdrawn"
-msgstr "rút tiền"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:526
 #: src/views/V1-Stake/V1-Stake.jsx:401
 #: src/views/Wrap/WrapCrossChain.tsx:209
 msgid "wsOHM Balance"
-msgstr "Số dư wsOHM"
+msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:409
 msgid "wsOHM Balance in FiatDAO"
-msgstr "Số dư wsOHM trong FiatDAO"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:534
 msgid "wsOHM Balance in FiatDAO (v1)"
-msgstr "Số dư wsOHM trong FiatDAO (v1)"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.js:84
 #~ msgid "wsOHM Price"
-#~ msgstr "Giá wsOHM"
+#~ msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:314
 #~ msgid "{0} by {1}"
