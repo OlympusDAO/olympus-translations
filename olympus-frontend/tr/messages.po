@@ -26,10 +26,6 @@ msgstr ""
 msgid "--"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.jsx:67
-#~ msgid "1 in {0}"
-#~ msgstr "{0}de 1"
-
 #: src/views/33Together/33together.tsx:156
 msgid "3, 3 Together"
 msgstr "3, 3 Together"
@@ -38,18 +34,10 @@ msgstr "3, 3 Together"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr ""
 
-#: src/components/TopBar/OhmMenu.jsx:147
-#~ msgid "ADD TOKEN TO WALLET"
-#~ msgstr "Token'ları Cüzdanınıza Ekleyin"
-
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:129
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "YFG"
-
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:306
-#~ msgid "APY over time"
-#~ msgstr "Zaman içinde YFG"
 
 #: src/components/GiveProject/ProjectCard.tsx:773
 msgid "About"
@@ -92,14 +80,6 @@ msgstr ""
 msgid "Any asset"
 msgstr ""
 
-#: src/views/Give/WithdrawDepositModal.tsx:99
-#~ msgid "Any remaining yield will still be redeemable by the recipient ({0})."
-#~ msgstr ""
-
-#: src/views/Give/RedeemYieldModal.tsx:89
-#~ msgid "Any sOHM directed towards you will continue to rebase and earn additional yield on your behalf."
-#~ msgstr ""
-
 #: src/components/Migration/MigrationModal.tsx:214
 #: src/components/Migration/MigrationModal.tsx:311
 #: src/components/Migration/MigrationModalSingle.tsx:200
@@ -124,10 +104,6 @@ msgstr "Varlık"
 #: src/views/Zap/ZapStakeHeader.tsx:56
 msgid "Auto staked"
 msgstr ""
-
-#: src/views/Zap/ZapStakeHeader.tsx:58
-#~ msgid "Auto staked for sOHM"
-#~ msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:122
 msgid "Award Balance will grow at 1st rebase."
@@ -165,10 +141,6 @@ msgstr "Bono"
 msgid "Bond Price"
 msgstr "Bono fiyatı"
 
-#: src/components/Sidebar/NavContent.jsx:126
-#~ msgid "Bond discounts"
-#~ msgstr "Bono indirimleri"
-
 #: src/views/BondV2/BondRow.tsx:89
 #: src/views/ChooseBond/BondRow.tsx:93
 msgid "Bond {0}"
@@ -182,11 +154,6 @@ msgstr ""
 #: src/components/Sidebar/externalUrls.tsx:27
 msgid "Bug Bounty"
 msgstr ""
-
-#: src/components/TopBar/OhmMenu.jsx:104
-#: src/components/TopBar/OhmMenu.jsx:117
-#~ msgid "Buy on"
-#~ msgstr "Buy on"
 
 #: src/views/Give/Give.tsx:99
 msgid "Causes"
@@ -224,10 +191,6 @@ msgstr "Çek"
 msgid "Claim all"
 msgstr "Hepsini çek"
 
-#: src/views/ChooseBond/ClaimBonds.jsx:135
-#~ msgid "Claim all and Stake"
-#~ msgstr "Hepsini çek ve yatır"
-
 #: src/views/Bond/BondRedeem.tsx:91
 msgid "Claim and Autostake"
 msgstr "Çek ve Otomatik yatır"
@@ -248,10 +211,6 @@ msgstr "Mevcut Çekilebilir Bakiye"
 msgid "Click on the Migrate button to complete the upgrade to v2."
 msgstr ""
 
-#: src/views/Stake/ExternalStakePool.jsx:164
-#~ msgid "Coming Soon"
-#~ msgstr "Yakında"
-
 #: src/components/GiveProject/ProjectCard.tsx:192
 msgid "Completed"
 msgstr ""
@@ -264,10 +223,6 @@ msgstr ""
 msgid "Confirm New sOHM"
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:617
-#~ msgid "Confirm sOHM"
-#~ msgstr ""
-
 #: src/views/Give/RedeemYieldModal.tsx:90
 msgid "Confirm {0} sOHM"
 msgstr ""
@@ -279,10 +234,6 @@ msgstr ""
 #: src/views/Give/RecipientModal.tsx:391
 msgid "Connect Wallet"
 msgstr "Cüzdanınızı bağlayın"
-
-#: src/views/Give/Give.tsx:27
-#~ msgid "Connect your wallet to give or redeem OHM"
-#~ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/StakeActionArea.tsx:23
 #: src/views/V1-Stake/V1-Stake.jsx:221
@@ -347,10 +298,6 @@ msgstr "Gösterge Panosu"
 msgid "Debt Ratio"
 msgstr "Borç oranı"
 
-#: src/views/Give/YieldRecipients.tsx:190
-#~ msgid "Deposit"
-#~ msgstr "Yatır"
-
 #: src/views/ChooseBond/BondRow.tsx:36
 #: src/views/ChooseBond/BondRow.tsx:119
 msgid "Deposit LP"
@@ -380,17 +327,9 @@ msgstr "{quantity} sOHM yatırarak kazanma şansınız {newOdds}de 1 olacak."
 msgid "Deposits can be made once the prize has been awarded."
 msgstr "Para ancak ödül dağıtıldıktan sonra yatırılabilir."
 
-#: src/views/Give/RecipientModal.tsx:484
-#~ msgid "Details"
-#~ msgstr ""
-
 #: src/views/Zap/SelectTokenModal.tsx:66
 msgid "Dialing Zapper..."
 msgstr ""
-
-#: src/views/Give/DepositYield.tsx:60
-#~ msgid "Direct yield from your deposited sOHM to other recipients. Your sOHM is deposited in a vault, but you can withdraw it or change the deposited amount at any time."
-#~ msgstr ""
 
 #: src/components/TopBar/Wallet/InitialWalletView.tsx:106
 msgid "Disconnect"
@@ -419,14 +358,6 @@ msgstr ""
 msgid "Donate to a cause"
 msgstr ""
 
-#: src/views/Give/RedeemYield.tsx:196
-#~ msgid "Donated sOHM Generating Yield"
-#~ msgstr ""
-
-#: src/components/GiveProject/ProjectCard.tsx:516
-#~ msgid "Donations"
-#~ msgstr ""
-
 #: src/components/GiveProject/ProjectCard.tsx:321
 msgid "Donors"
 msgstr ""
@@ -449,21 +380,9 @@ msgstr "Erken çekiş ücreti"
 msgid "Early withdraw will incur a fairness fee of {exitFee}."
 msgstr "Paranızı erken çektiğiniz takdirde {exitFee}'lik bir ücret kesilecektir."
 
-#: src/views/Give/YieldRecipients.tsx:217
-#~ msgid "Edit"
-#~ msgstr ""
-
 #: src/components/GiveProject/ProjectCard.tsx:750
 msgid "Edit Donation"
 msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:653
-#~ msgid "Edit Give Amount"
-#~ msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:261
-#~ msgid "Edit Yield"
-#~ msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:37
 msgid "Editing sOHM donation amount"
@@ -502,14 +421,6 @@ msgstr "Erken çekiş ücreti süresi"
 msgid "Farm Pool"
 msgstr "Farm Havuzu"
 
-#: src/components/Sidebar/externalUrls.jsx:25
-#~ msgid "Feedback"
-#~ msgstr "Geri bildirim"
-
-#: src/components/GiveProject/ProjectCard.tsx:175
-#~ msgid "Finishes at"
-#~ msgstr ""
-
 #: src/components/GiveProject/ProjectCard.tsx:209
 msgid "Finishes at {0} in your timezone"
 msgstr ""
@@ -518,10 +429,6 @@ msgstr ""
 #: src/views/BondV2/BondPurchase.tsx:135
 msgid "First time bonding"
 msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:472
-#~ msgid "First time donating <0>sOHM</0>?<1/>Please approve Olympus DAO to use your <2>sOHM</2> for donating."
-#~ msgstr ""
 
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:63
 msgid "First time staking"
@@ -562,18 +469,9 @@ msgstr ""
 msgid "Give"
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:263
-#~ msgid "Give Yield"
-#~ msgstr ""
-
 #: src/slices/PendingTxnsSlice.ts:35
 msgid "Giving sOHM"
 msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:612
-#: src/views/Give/RecipientModal.tsx:648
-#~ msgid "Go Back"
-#~ msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:319
 msgid "Go to Bonds"
@@ -595,33 +493,17 @@ msgstr ""
 msgid "Highest Discount"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:108
-#~ msgid "Highest ROI"
-#~ msgstr ""
-
 #: src/views/TreasuryDashboard/treasuryData.ts:201
 msgid "Holders, represents the total number of Ohmies (sOHM holders)"
 msgstr ""
-
-#: src/views/Give/RedeemYield.tsx:180
-#~ msgid "If other wallets have directed their sOHM rebases to you, you can transfer that yield into your wallet."
-#~ msgstr ""
 
 #: src/views/Zap/SlippageModal.tsx:70
 msgid "Important: Recommended slippage is 1-3% to avoid a failed transaction."
 msgstr ""
 
-#: src/components/TopBar/ConnectMenu.jsx:32
-#~ msgid "In progress"
-#~ msgstr "İşleniyor"
-
 #: src/views/Give/RecipientModal.tsx:407
 msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
 msgstr ""
-
-#: src/views/Give/YieldRecipients.tsx:169
-#~ msgid "It looks like you haven't donated any yield. Let's fix that!"
-#~ msgstr ""
 
 #: src/components/CallToAction/CallToAction.tsx:17
 #: src/components/Migration/MigrationModal.tsx:152
@@ -629,15 +511,6 @@ msgstr ""
 #: src/views/Give/GiveInfo.tsx:32
 msgid "Learn More"
 msgstr ""
-
-#: src/components/RebaseTimer/RebaseTimer.jsx:29
-#: src/components/RebaseTimer/RebaseTimer.jsx:60
-#~ msgid "Less than a minute"
-#~ msgstr "Bir dakikadan az süre"
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Liquid Backing per OHM"
-#~ msgstr ""
 
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
@@ -699,10 +572,6 @@ msgstr ""
 msgid "Migrate all to"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:179
-#~ msgid "Migrate sOHM!"
-#~ msgstr "sOHM'unuzu taşıyın!"
-
 #: src/components/Migration/MigrationModal.tsx:194
 #: src/components/Migration/MigrationModal.tsx:292
 #: src/components/Migration/MigrationModalSingle.tsx:175
@@ -762,10 +631,6 @@ msgstr "Sıradaki Faiz Miktarı"
 #: src/views/V1-Stake/V1-Stake.jsx:436
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
-
-#: src/views/33Together/PoolPrize.jsx:131
-#~ msgid "Next award"
-#~ msgstr "Sıradaki Çekiliş"
 
 #: src/views/BondV2/ChooseBondV2.tsx:91
 #: src/views/ChooseBond/ChooseBond.tsx:110
@@ -965,16 +830,6 @@ msgstr "Satın alınan Miktar"
 msgid "RECIPIENT"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
-#: src/views/BondV2/BondPurchase.tsx:221
-#: src/views/BondV2/BondRow.tsx:57
-#: src/views/BondV2/ChooseBondV2.tsx:116
-#: src/views/ChooseBond/BondRow.tsx:60
-#: src/views/ChooseBond/ChooseBond.tsx:129
-#~ msgid "ROI"
-#~ msgstr "Getiri"
-
 #: src/views/Give/RedeemYield.tsx:207
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeFiveDayYield.tsx:9
 #: src/views/V1-Stake/V1-Stake.jsx:441
@@ -1022,10 +877,6 @@ msgstr "Çek"
 msgid "Redeem Yield"
 msgstr ""
 
-#: src/views/Give/RedeemYieldModal.tsx:79
-#~ msgid "Redeem Yield?"
-#~ msgstr ""
-
 #: src/views/Give/RedeemYield.tsx:192
 msgid "Redeemable Amount"
 msgstr ""
@@ -1063,15 +914,6 @@ msgstr ""
 #: src/views/Zap/ZapStakeAction.tsx:337
 msgid "Select Token"
 msgstr ""
-
-#: src/views/Zap/ZapStakeAction.tsx:471
-#~ msgid "Select Zap Token"
-#~ msgstr ""
-
-#: src/views/Zap/ZapStakeAction.tsx:249
-#: src/views/Zap/ZapStakeAction.tsx:286
-#~ msgid "Select a Token"
-#~ msgstr ""
 
 #: src/views/Zap/ZapStakeHeader.tsx:29
 msgid "Select any asset"
@@ -1112,23 +954,10 @@ msgstr "Detaylar için Pool Together arayüzüne gözatabilirsiniz."
 msgid "Stake"
 msgstr "Yatır"
 
-#: src/views/Stake/Stake.jsx:322
-#~ msgid "Stake OHM"
-#~ msgstr "OHM yatır"
-
-#: src/views/Stake/ExternalStakePool.jsx:140
-#: src/views/Stake/ExternalStakePool.jsx:205
-#~ msgid "Stake in Crucible"
-#~ msgstr "Crucible'da yatır"
-
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:114
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:154
 msgid "Stake on"
 msgstr ""
-
-#: src/views/Stake/Stake.tsx:181
-#~ msgid "Stake to"
-#~ msgstr ""
 
 #: src/views/Zap/ZapInfo.tsx:142
 msgid "Staking"
@@ -1137,10 +966,6 @@ msgstr ""
 #: src/slices/PendingTxnsSlice.ts:30
 msgid "Staking OHM"
 msgstr "OHM yatırılıyor"
-
-#: src/views/Zap/ZapInfo.tsx:135
-#~ msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal amount of sOHM."
-#~ msgstr ""
 
 #: src/views/Zap/ZapInfo.tsx:145
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal value of sOHM or gOHM."
@@ -1154,10 +979,6 @@ msgstr ""
 msgid "Successfully unstaked"
 msgstr ""
 
-#: src/views/Dashboard/Dashboard.jsx:66
-#~ msgid "Supply (circulating/total)"
-#~ msgstr "Arz (Dolaşımdaki/Toplam)"
-
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
 msgstr ""
@@ -1170,27 +991,14 @@ msgstr ""
 msgid "Swap into sOHM"
 msgstr ""
 
-#: src/views/Stake/ExternalStakePool.jsx:90
-#: src/views/Stake/ExternalStakePool.jsx:172
-#~ msgid "TVD"
-#~ msgstr "Toplam yatırılan Miktar"
-
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:58
 #: src/views/V1-Stake/V1-Stake.jsx:201
 msgid "TVL"
 msgstr ""
 
-#: src/views/Give/YieldRecipients.tsx:191
-#~ msgid "The amount of sOHM deposited"
-#~ msgstr ""
-
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr ""
-
-#: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
-#~ msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-#~ msgstr "Güncel Katsayı yatırımın başlangıcından itibaren ne kadar sOHM kazanıldığını gösterir."
 
 #: src/views/BondV2/BondPurchase.tsx:223
 msgid "The duration of the Bond whereby the bond can be claimed in it’s entirety.  Bonds are no longer vested linearly and are locked for entire duration."
@@ -1278,10 +1086,6 @@ msgstr "Yatırılmış Toplam Değer"
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:513
-#~ msgid "Transaction"
-#~ msgstr ""
-
 #: src/views/BondV2/AdvancedSettings.tsx:41
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
@@ -1296,17 +1100,9 @@ msgstr "Hazine Bakiyesi"
 msgid "Unstake"
 msgstr "Çek"
 
-#: src/components/TopBar/OhmMenu.jsx:186
-#~ msgid "Unstake Legacy LP Token"
-#~ msgstr "Eski LP Token'larınızı çekmek"
-
 #: src/views/V1-Stake/V1-Stake.jsx:350
 msgid "Unstake OHM"
 msgstr "OHM çek"
-
-#: src/views/Stake/Stake.tsx:193
-#~ msgid "Unstake from"
-#~ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:67
 #: src/views/V1-Stake/V1-Stake.jsx:370
@@ -1353,11 +1149,6 @@ msgstr "Tamamlanma Süresi"
 msgid "View Asset"
 msgstr ""
 
-#: src/views/ChooseBond/BondRow.jsx:26
-#: src/views/ChooseBond/BondRow.jsx:92
-#~ msgid "View Contract"
-#~ msgstr "Sözleşmeyi görüntüle"
-
 #: src/components/GiveProject/ProjectCard.tsx:572
 #: src/components/GiveProject/ProjectCard.tsx:618
 msgid "View Details"
@@ -1377,10 +1168,6 @@ msgstr "Kazanan kullanıcı sayısı"
 #: src/views/Give/ManageDonationModal.tsx:596
 msgid "Withdraw"
 msgstr "Çek"
-
-#: src/views/Give/WithdrawDepositModal.tsx:89
-#~ msgid "Withdraw Deposit?"
-#~ msgstr ""
 
 #: src/views/33Together/PoolWithdraw.tsx:144
 msgid "Withdraw Early & pay"
@@ -1436,10 +1223,6 @@ msgstr ""
 msgid "You Get"
 msgstr ""
 
-#: src/views/Zap/ZapInfo.tsx:127
-#~ msgid "You Get sOHM"
-#~ msgstr ""
-
 #: src/views/Zap/ZapInfo.tsx:88
 msgid "You Give"
 msgstr ""
@@ -1465,28 +1248,13 @@ msgstr ""
 msgid "You cannot stake more than your OHM balance"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:99
-#: src/views/Stake/Stake.tsx:99
-#~ msgid "You cannot stake more than your OHM balance."
-#~ msgstr "OHM bakiyenizden daha fazla olan bir değeri yatıramazsınız."
-
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
 msgid "You cannot unstake more than your"
 msgstr ""
 
-#: src/views/Stake/Stake.jsx:119
-#: src/views/Stake/Stake.jsx:119
-#~ msgid "You cannot unstake more than your sOHM balance."
-#~ msgstr "sOHM bakiyenizden daha fazla olan bir değeri çekemezsiniz."
-
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
 msgstr "Havuz bakiyenizden daha büyük bir değeri çekemezsiniz."
-
-#: src/views/Stake/Stake.tsx:105
-#: src/views/Stake/Stake.tsx:105
-#~ msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
-#~ msgstr ""
 
 #: src/views/Bond/BondPurchase.tsx:67
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
@@ -1534,21 +1302,9 @@ msgstr ""
 msgid "Your Pooled Balance (withdrawable)"
 msgstr "Havuza Yatırılmış Çekilebilir bakiyeniz"
 
-#: src/views/Stake/Stake.jsx:382
-#~ msgid "Your Staked Balance"
-#~ msgstr "Yatırılmış Bakiyeniz"
-
 #: src/views/33Together/PoolDeposit.tsx:173
 msgid "Your Staked Balance (Depositable)"
 msgstr "Kullanılaiblir Yatırılmış bakiyeniz"
-
-#: src/views/Give/RecipientModal.tsx:566
-#~ msgid "Your Staked Balance (depositable)"
-#~ msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:490
-#~ msgid "Your Wallet Address"
-#~ msgstr ""
 
 #: src/views/Give/RecipientModal.tsx:443
 msgid "Your current Staked Balance is {0} sOHM"
@@ -1603,10 +1359,6 @@ msgstr ""
 #: src/views/33Together/PoolPrize.tsx:149
 msgid "day"
 msgstr "gün"
-
-#: src/views/Give/WithdrawDepositModal.tsx:95
-#~ msgid "deposited"
-#~ msgstr ""
 
 #. The action of bonding (verb)
 #: src/views/Bond/Bond.tsx:127
@@ -1684,22 +1436,9 @@ msgstr ""
 msgid "hrs"
 msgstr "saat"
 
-#: src/views/Give/RedeemYield.tsx:187
-#: src/views/Give/RedeemYieldModal.tsx:84
-#~ msgid "in deposits remains"
-#~ msgstr ""
-
-#: src/components/GiveProject/ProjectCard.tsx:175
-#~ msgid "in your timezone"
-#~ msgstr ""
-
 #: src/views/33Together/PoolPrize.tsx:163
 msgid "min"
 msgstr "dk."
-
-#: src/components/GiveProject/ProjectCard.tsx:192
-#~ msgid "remaining"
-#~ msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:188
 #: src/views/Give/RedeemYield.tsx:193
@@ -1721,14 +1460,6 @@ msgstr ""
 #: src/views/Wrap/Wrap.tsx:281
 msgid "sOHM Balance"
 msgstr ""
-
-#: src/components/GiveProject/ProjectCard.tsx:262
-#~ msgid "sOHM Donated"
-#~ msgstr ""
-
-#: src/components/GiveProject/ProjectCard.tsx:274
-#~ msgid "sOHM Goal"
-#~ msgstr ""
 
 #: src/views/33Together/PoolInfo.tsx:112
 msgid "sOHM Pool Details"
@@ -1762,10 +1493,6 @@ msgstr "içerisinde sonraki faiz"
 msgid "v2 bonds"
 msgstr ""
 
-#: src/views/Give/WithdrawDepositModal.tsx:93
-#~ msgid "withdrawn"
-#~ msgstr ""
-
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:164
 msgid "wsOHM"
 msgstr ""
@@ -1786,11 +1513,3 @@ msgstr ""
 #: src/views/V1-Stake/V1-Stake.jsx:409
 msgid "wsOHM Balance in FiatDAO"
 msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:569
-#~ msgid "{0} sOHM"
-#~ msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:522
-#~ msgid "{depositAmount} sOHM"
-#~ msgstr ""
