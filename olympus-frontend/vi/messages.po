@@ -723,12 +723,12 @@ msgstr "Vui lòng nhập một địa chỉ khác: không thể chuyển thẳng
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:23
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:25
 msgid "Please enter a number"
-msgstr ""
+msgstr "Vui lòng nhập một số"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:27
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:29
 msgid "Please enter a number greater than 0"
-msgstr ""
+msgstr "Vui lòng nhập một số lớn hơn 0"
 
 #: src/views/Give/RecipientModal.tsx:195
 msgid "Please enter a valid Ethereum address"
@@ -973,11 +973,11 @@ msgstr "Đặt cọc là chiến lược tích lũy giá trị chính của Olym
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:58
 msgid "Successfully staked OHM"
-msgstr ""
+msgstr "Đặt cọc OHM thành công"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:61
 msgid "Successfully unstaked"
-msgstr ""
+msgstr "Hoàn cọc OHM thành công"
 
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
@@ -1026,7 +1026,7 @@ msgstr "Địa chỉ ví được chỉ định sẽ nhận được lợi suấ
 
 #: src/views/BondV2/BondPurchase.tsx:201
 msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr ""
+msgstr "Tổng số tài sản thanh toán bạn sẽ nhận được từ việc mua trái phiếu này. (lượng sOHM sẽ cao hơn do tái cơ sở)"
 
 #: src/components/EducationCard.tsx:134
 msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
@@ -1246,11 +1246,11 @@ msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. 
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "You cannot stake more than your OHM balance"
-msgstr ""
+msgstr "Bạn không thể đặt cọc nhiều hơn số dư OHM của mình"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
 msgid "You cannot unstake more than your"
-msgstr ""
+msgstr "Bạn không thể hoàn cọc nhiều hơn"
 
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
@@ -1308,11 +1308,11 @@ msgstr "Số dư đặt cọc của bạn (Có thể nạp)"
 
 #: src/views/Give/RecipientModal.tsx:443
 msgid "Your current Staked Balance is {0} sOHM"
-msgstr ""
+msgstr "Số dư Đặt cọc hiện tại của bạn là {0} sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:548
 msgid "Your current deposit is {0} sOHM"
-msgstr ""
+msgstr "Khoản tiền gửi hiện tại của bạn là {0} sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:59
 msgid "Your odds"
@@ -1325,7 +1325,7 @@ msgstr "Tiền nạp của bạn trong bể"
 #: src/views/Give/ManageDonationModal.tsx:537
 #: src/views/Give/RecipientModal.tsx:432
 msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
-msgstr ""
+msgstr "SOHM của bạn sẽ được chuyển vào kho khi bạn gửi. Bạn sẽ cần phải phê duyệt giao dịch và thanh toán phí gas."
 
 #: src/views/33Together/PoolInfo.tsx:49
 msgid "Your total awards"
@@ -1354,7 +1354,7 @@ msgstr "Zap-đặt cọc"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
 msgid "balance"
-msgstr ""
+msgstr "số dư"
 
 #: src/views/33Together/PoolPrize.tsx:149
 msgid "day"
