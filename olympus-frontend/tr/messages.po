@@ -34,7 +34,7 @@ msgstr "3, 3 Together"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:129
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "YFG"
@@ -118,18 +118,18 @@ msgid "Award period has finished, you can navigate to Pool Together's UI to comp
 msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'ın arayüzüne girebilirsiniz."
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-msgid "Backing per OHM"
-msgstr "OHM başına ciro"
+#~ msgid "Backing per OHM"
+#~ msgstr "OHM başına ciro"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
 msgid "Balance"
 msgstr "Bakiye"
 
-#: src/components/Sidebar/NavContent.tsx:98
+#: src/components/Sidebar/NavContent.tsx:79
 #: src/views/BondV2/AccordionSection.tsx:46
-#: src/views/BondV2/ChooseBondV2.tsx:83
-#: src/views/BondV2/ChooseBondV2.tsx:110
+#: src/views/BondV2/ChooseBondV2.tsx:74
+#: src/views/BondV2/ChooseBondV2.tsx:101
 #: src/views/ChooseBond/ChooseBond.tsx:102
 #: src/views/ChooseBond/ChooseBond.tsx:123
 #: src/views/ChooseBond/ClaimBonds.tsx:28
@@ -146,8 +146,8 @@ msgstr "Bono fiyatı"
 msgid "Bond {0}"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:146
-#: src/components/Sidebar/NavContent.tsx:163
+#: src/components/Sidebar/NavContent.tsx:127
+#: src/components/Sidebar/NavContent.tsx:144
 msgid "Bridge"
 msgstr ""
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "Current Deposit"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -289,7 +289,7 @@ msgstr ""
 msgid "DEPOSITED"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:97
+#: src/components/Sidebar/NavContent.tsx:78
 msgid "Dashboard"
 msgstr "Gösterge Panosu"
 
@@ -339,7 +339,7 @@ msgstr "Bağlantıyı Kes"
 #: src/views/Bond/BondRedeem.tsx:113
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
-#: src/views/BondV2/ChooseBondV2.tsx:116
+#: src/views/BondV2/ChooseBondV2.tsx:107
 #: src/views/ChooseBond/BondRow.tsx:60
 #: src/views/ChooseBond/ChooseBond.tsx:129
 msgid "Discount"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: src/views/BondV2/BondPurchase.tsx:220
 #: src/views/BondV2/BondRow.tsx:65
-#: src/views/BondV2/ChooseBondV2.tsx:119
+#: src/views/BondV2/ChooseBondV2.tsx:110
 msgid "Duration"
 msgstr ""
 
@@ -465,7 +465,7 @@ msgid "Get Started"
 msgstr ""
 
 #: src/components/GiveProject/GiveHeader.tsx:31
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/components/Sidebar/NavContent.tsx:121
 msgid "Give"
 msgstr ""
 
@@ -489,7 +489,7 @@ msgstr "Yönetim"
 msgid "Grants"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:108
+#: src/components/Sidebar/NavContent.tsx:89
 msgid "Highest Discount"
 msgstr ""
 
@@ -607,7 +607,7 @@ msgstr ""
 msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/components/Sidebar/NavContent.tsx:121
 msgid "New"
 msgstr ""
 
@@ -621,7 +621,7 @@ msgid "New sOHM deposit"
 msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:197
-#: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeNextRebaseAmount.tsx:19
+#: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeNextRebaseAmount.tsx:48
 #: src/views/V1-Stake/V1-Stake.jsx:431
 msgid "Next Reward Amount"
 msgstr "Sıradaki Faiz Miktarı"
@@ -632,7 +632,7 @@ msgstr "Sıradaki Faiz Miktarı"
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
 
-#: src/views/BondV2/ChooseBondV2.tsx:91
+#: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
 msgid "OHM Price"
@@ -654,7 +654,7 @@ msgstr ""
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:151
+#: src/components/Sidebar/NavContent.tsx:132
 msgid "Olympus Pro"
 msgstr ""
 
@@ -796,7 +796,7 @@ msgid "Pre-migration"
 msgstr ""
 
 #: src/views/BondV2/BondRow.tsx:49
-#: src/views/BondV2/ChooseBondV2.tsx:113
+#: src/views/BondV2/ChooseBondV2.tsx:104
 #: src/views/ChooseBond/BondRow.tsx:46
 #: src/views/ChooseBond/ChooseBond.tsx:126
 #: src/views/Wrap/Wrap.tsx:188
@@ -949,7 +949,7 @@ msgstr ""
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Detaylar için Pool Together arayüzüne gözatabilirsiniz."
 
-#: src/components/Sidebar/NavContent.tsx:134
+#: src/components/Sidebar/NavContent.tsx:115
 #: src/views/V1-Stake/V1-Stake.jsx:237
 msgid "Stake"
 msgstr "Yatır"
@@ -996,7 +996,7 @@ msgstr ""
 msgid "TVL"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr ""
 
@@ -1012,7 +1012,7 @@ msgstr ""
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:101
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr ""
 
@@ -1077,7 +1077,7 @@ msgid "Total Staked Balance"
 msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:115
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Yatırılmış Toplam Değer"
@@ -1090,10 +1090,18 @@ msgstr ""
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
 
-#: src/views/BondV2/ChooseBondV2.tsx:86
+#: src/views/BondV2/ChooseBondV2.tsx:77
 #: src/views/ChooseBond/ChooseBond.tsx:105
 msgid "Treasury Balance"
 msgstr "Hazine Bakiyesi"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
+msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
+msgid "Treasury Market Value per OHM"
+msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1189,8 +1197,8 @@ msgstr ""
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "{quantity} sOHM çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
 
-#: src/components/Sidebar/NavContent.tsx:142
-#: src/components/Sidebar/NavContent.tsx:159
+#: src/components/Sidebar/NavContent.tsx:123
+#: src/components/Sidebar/NavContent.tsx:140
 msgid "Wrap"
 msgstr ""
 
@@ -1335,7 +1343,7 @@ msgstr "Toplam kazandığınız ödül"
 msgid "Your wallet balance"
 msgstr "Cüzdan bakiyeniz"
 
-#: src/components/Sidebar/NavContent.tsx:137
+#: src/components/Sidebar/NavContent.tsx:118
 msgid "Zap"
 msgstr ""
 
@@ -1414,7 +1422,7 @@ msgstr ""
 msgid "gOHM (Tokemak)"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
 msgid "gOHM = sOHM * index"
 msgstr ""
 
@@ -1428,7 +1436,7 @@ msgstr ""
 msgid "gOHM Balance in Fuse"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:97
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
 msgid "gOHM Price"
 msgstr ""
 

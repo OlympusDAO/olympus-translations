@@ -34,7 +34,7 @@ msgstr "3, 3 Together"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:129
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "APY"
@@ -118,18 +118,18 @@ msgid "Award period has finished, you can navigate to Pool Together's UI to comp
 msgstr "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-msgid "Backing per OHM"
-msgstr "Backing per OHM"
+#~ msgid "Backing per OHM"
+#~ msgstr "Backing per OHM"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
 msgid "Balance"
 msgstr "Balance"
 
-#: src/components/Sidebar/NavContent.tsx:98
+#: src/components/Sidebar/NavContent.tsx:79
 #: src/views/BondV2/AccordionSection.tsx:46
-#: src/views/BondV2/ChooseBondV2.tsx:83
-#: src/views/BondV2/ChooseBondV2.tsx:110
+#: src/views/BondV2/ChooseBondV2.tsx:74
+#: src/views/BondV2/ChooseBondV2.tsx:101
 #: src/views/ChooseBond/ChooseBond.tsx:102
 #: src/views/ChooseBond/ChooseBond.tsx:123
 #: src/views/ChooseBond/ClaimBonds.tsx:28
@@ -146,8 +146,8 @@ msgstr "Bond Price"
 msgid "Bond {0}"
 msgstr "Bond {0}"
 
-#: src/components/Sidebar/NavContent.tsx:146
-#: src/components/Sidebar/NavContent.tsx:163
+#: src/components/Sidebar/NavContent.tsx:127
+#: src/components/Sidebar/NavContent.tsx:144
 msgid "Bridge"
 msgstr "Bridge"
 
@@ -261,7 +261,7 @@ msgstr "Current"
 msgid "Current Deposit"
 msgstr "Current Deposit"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -289,7 +289,7 @@ msgstr "DATE"
 msgid "DEPOSITED"
 msgstr "DEPOSITED"
 
-#: src/components/Sidebar/NavContent.tsx:97
+#: src/components/Sidebar/NavContent.tsx:78
 msgid "Dashboard"
 msgstr "Dashboard"
 
@@ -339,7 +339,7 @@ msgstr "Disconnect"
 #: src/views/Bond/BondRedeem.tsx:113
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
-#: src/views/BondV2/ChooseBondV2.tsx:116
+#: src/views/BondV2/ChooseBondV2.tsx:107
 #: src/views/ChooseBond/BondRow.tsx:60
 #: src/views/ChooseBond/ChooseBond.tsx:129
 msgid "Discount"
@@ -364,7 +364,7 @@ msgstr "Donors"
 
 #: src/views/BondV2/BondPurchase.tsx:220
 #: src/views/BondV2/BondRow.tsx:65
-#: src/views/BondV2/ChooseBondV2.tsx:119
+#: src/views/BondV2/ChooseBondV2.tsx:110
 msgid "Duration"
 msgstr "Duration"
 
@@ -465,7 +465,7 @@ msgid "Get Started"
 msgstr "Get Started"
 
 #: src/components/GiveProject/GiveHeader.tsx:31
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/components/Sidebar/NavContent.tsx:121
 msgid "Give"
 msgstr "Give"
 
@@ -489,7 +489,7 @@ msgstr "Governance"
 msgid "Grants"
 msgstr "Grants"
 
-#: src/components/Sidebar/NavContent.tsx:108
+#: src/components/Sidebar/NavContent.tsx:89
 msgid "Highest Discount"
 msgstr "Highest Discount"
 
@@ -607,7 +607,7 @@ msgstr "My Donations"
 msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
 msgstr "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
 
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/components/Sidebar/NavContent.tsx:121
 msgid "New"
 msgstr "New"
 
@@ -621,7 +621,7 @@ msgid "New sOHM deposit"
 msgstr "New sOHM deposit"
 
 #: src/views/Give/RedeemYield.tsx:197
-#: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeNextRebaseAmount.tsx:19
+#: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeNextRebaseAmount.tsx:48
 #: src/views/V1-Stake/V1-Stake.jsx:431
 msgid "Next Reward Amount"
 msgstr "Next Reward Amount"
@@ -632,7 +632,7 @@ msgstr "Next Reward Amount"
 msgid "Next Reward Yield"
 msgstr "Next Reward Yield"
 
-#: src/views/BondV2/ChooseBondV2.tsx:91
+#: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
 msgid "OHM Price"
@@ -654,7 +654,7 @@ msgstr "OlyZap reduces complexity, saves you time and keeps you here on Olympus.
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 msgstr "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 
-#: src/components/Sidebar/NavContent.tsx:151
+#: src/components/Sidebar/NavContent.tsx:132
 msgid "Olympus Pro"
 msgstr "Olympus Pro"
 
@@ -796,7 +796,7 @@ msgid "Pre-migration"
 msgstr "Pre-migration"
 
 #: src/views/BondV2/BondRow.tsx:49
-#: src/views/BondV2/ChooseBondV2.tsx:113
+#: src/views/BondV2/ChooseBondV2.tsx:104
 #: src/views/ChooseBond/BondRow.tsx:46
 #: src/views/ChooseBond/ChooseBond.tsx:126
 #: src/views/Wrap/Wrap.tsx:188
@@ -949,7 +949,7 @@ msgstr "Sold Out"
 msgid "Something not right, fren? Check Pool Together's UI below."
 msgstr "Something not right, fren? Check Pool Together's UI below."
 
-#: src/components/Sidebar/NavContent.tsx:134
+#: src/components/Sidebar/NavContent.tsx:115
 #: src/views/V1-Stake/V1-Stake.jsx:237
 msgid "Stake"
 msgstr "Stake"
@@ -996,7 +996,7 @@ msgstr "Swap into sOHM"
 msgid "TVL"
 msgstr "TVL"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 
@@ -1012,7 +1012,7 @@ msgstr "The maximum quantity of payout token we are able to offer via bonds at t
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:101
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "The price of gOHM is equal to the price of OHM multiplied by the current index"
 
@@ -1077,7 +1077,7 @@ msgid "Total Staked Balance"
 msgstr "Total Staked Balance"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:115
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Total Value Deposited"
@@ -1090,10 +1090,18 @@ msgstr "Total Value Deposited, is the dollar amount of all OHM staked in the pro
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "Transaction may revert if price changes by more than slippage %"
 
-#: src/views/BondV2/ChooseBondV2.tsx:86
+#: src/views/BondV2/ChooseBondV2.tsx:77
 #: src/views/ChooseBond/ChooseBond.tsx:105
 msgid "Treasury Balance"
 msgstr "Treasury Balance"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
+msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+msgstr "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
+msgid "Treasury Market Value per OHM"
+msgstr "Treasury Market Value per OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1189,8 +1197,8 @@ msgstr "Withdrawing sOHM donation"
 msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 msgstr "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
 
-#: src/components/Sidebar/NavContent.tsx:142
-#: src/components/Sidebar/NavContent.tsx:159
+#: src/components/Sidebar/NavContent.tsx:123
+#: src/components/Sidebar/NavContent.tsx:140
 msgid "Wrap"
 msgstr "Wrap"
 
@@ -1335,7 +1343,7 @@ msgstr "Your total awards"
 msgid "Your wallet balance"
 msgstr "Your wallet balance"
 
-#: src/components/Sidebar/NavContent.tsx:137
+#: src/components/Sidebar/NavContent.tsx:118
 msgid "Zap"
 msgstr "Zap"
 
@@ -1414,7 +1422,7 @@ msgstr "gOHM (Polygon)"
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
 msgid "gOHM = sOHM * index"
 msgstr "gOHM = sOHM * index"
 
@@ -1428,7 +1436,7 @@ msgstr "gOHM Balance"
 msgid "gOHM Balance in Fuse"
 msgstr "gOHM Balance in Fuse"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:97
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
 msgid "gOHM Price"
 msgstr "gOHM Price"
 
