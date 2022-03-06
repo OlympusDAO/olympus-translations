@@ -22,6 +22,10 @@ msgstr "(6 Günlük Erken Çekme ücreti iptal edildi. Ağ gas ücreti halen etk
 msgid "(includes rebase rewards)"
 msgstr "(Faiz geliri dahil)"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "(total / liquid)"
+msgstr ""
+
 #: src/views/BondV2/BondV2.tsx:106
 msgid "--"
 msgstr "--"
@@ -34,7 +38,7 @@ msgstr "3, 3 Together"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Zap, herhangi bir varlığı tek işlemde OHM ile takas edip otomatik olarak yatırmanızı sağlayan bir seri akıllı kontrattır."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:140
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "YFG"
@@ -67,7 +71,7 @@ msgstr "Hepsi bir arada kolay yatırım"
 msgid "All-in-one zap contracts"
 msgstr "Hepsi bir arada Zap kontratları"
 
-#: src/views/Bond/BondPurchase.tsx:169
+#: src/views/Bond/BondPurchase.tsx:170
 #: src/views/BondV2/BondPurchase.tsx:149
 msgid "Amount"
 msgstr "Miktar"
@@ -117,9 +121,9 @@ msgstr "Ödül süresi sona erdi, dağıtmaya başlamak için Pool Together'ın 
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'ın arayüzüne girebilirsiniz."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Backing per OHM"
-#~ msgstr "OHM başına ciro"
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "Backing per OHM"
+msgstr "OHM başına ciro"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
@@ -176,13 +180,13 @@ msgstr "Daha sonra yeniden kontrol edin."
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Alıcı adresi seçiniz. Varsayılan olarak, bu şu an bağlı olan adresinizdir."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:53
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:54
 msgid "Circulating Supply (total)"
 msgstr "Dolaşımdaki Arz (Toplam)"
 
-#: src/views/Bond/BondRedeem.tsx:75
+#: src/views/Bond/BondRedeem.tsx:76
 #: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:137
+#: src/views/ChooseBond/ClaimRow.tsx:138
 msgid "Claim"
 msgstr "Çek"
 
@@ -191,11 +195,11 @@ msgstr "Çek"
 msgid "Claim all"
 msgstr "Hepsini çek"
 
-#: src/views/Bond/BondRedeem.tsx:91
+#: src/views/Bond/BondRedeem.tsx:92
 msgid "Claim and Autostake"
 msgstr "Çek ve Otomatik yatır"
 
-#: src/views/ChooseBond/ClaimRow.tsx:148
+#: src/views/ChooseBond/ClaimRow.tsx:149
 msgid "Claim and Stake"
 msgstr "Çek ve yatır"
 
@@ -203,7 +207,7 @@ msgstr "Çek ve yatır"
 msgid "Claimable"
 msgstr "Çekilebilir"
 
-#: src/views/Bond/BondRedeem.tsx:100
+#: src/views/Bond/BondRedeem.tsx:101
 msgid "Claimable Rewards"
 msgstr "Mevcut Çekilebilir Bakiye"
 
@@ -261,7 +265,7 @@ msgstr "Güncel"
 msgid "Current Deposit"
 msgstr "Güncel Yatırım"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:93
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -293,8 +297,8 @@ msgstr "Yatırılmış miktar"
 msgid "Dashboard"
 msgstr "Gösterge Panosu"
 
-#: src/views/Bond/BondPurchase.tsx:260
-#: src/views/Bond/BondRedeem.tsx:119
+#: src/views/Bond/BondPurchase.tsx:261
+#: src/views/Bond/BondRedeem.tsx:120
 msgid "Debt Ratio"
 msgstr "Borç oranı"
 
@@ -335,8 +339,8 @@ msgstr "Zapper aranıyor..."
 msgid "Disconnect"
 msgstr "Bağlantıyı Kes"
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
+#: src/views/Bond/BondPurchase.tsx:255
+#: src/views/Bond/BondRedeem.tsx:114
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
 #: src/views/BondV2/ChooseBondV2.tsx:107
@@ -425,7 +429,7 @@ msgstr "Farm Havuzu"
 msgid "Finishes at {0} in your timezone"
 msgstr "Sizin saat diliminizde {0}'de bitecek"
 
-#: src/views/Bond/BondPurchase.tsx:160
+#: src/views/Bond/BondPurchase.tsx:161
 #: src/views/BondV2/BondPurchase.tsx:135
 msgid "First time bonding"
 msgstr "İlk kez Bono satın almak"
@@ -512,6 +516,10 @@ msgstr "İlk kez mi sOHM bağışlıyorsunuz? OlympusDAO'nun sOHM'larınızı ku
 msgid "Learn More"
 msgstr "Daha fazla"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:74
+msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
+msgstr ""
+
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
 msgstr "sOHM'larınızı Kasaya kilitleyin"
@@ -520,7 +528,7 @@ msgstr "sOHM'larınızı Kasaya kilitleyin"
 msgid "Looks like you haven’t made any donations yet"
 msgstr "Henüz bir bağış yapmadınız."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:25
 msgid "Market Cap"
 msgstr "Piyasa Değeri"
 
@@ -543,7 +551,7 @@ msgstr "Hazine Varlıklarının Piyasa Değeri, hazinede bulunan tüm varlıklar
 
 #: src/views/33Together/PoolDeposit.tsx:154
 #: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:181
+#: src/views/Bond/BondPurchase.tsx:182
 #: src/views/BondV2/BondPurchase.tsx:144
 #: src/views/Give/ManageDonationModal.tsx:555
 #: src/views/Give/RecipientModal.tsx:450
@@ -553,7 +561,7 @@ msgstr "Hazine Varlıklarının Piyasa Değeri, hazinede bulunan tüm varlıklar
 msgid "Max"
 msgstr "Maks."
 
-#: src/views/Bond/BondPurchase.tsx:242
+#: src/views/Bond/BondPurchase.tsx:243
 #: src/views/BondV2/BondPurchase.tsx:205
 msgid "Max You Can Buy"
 msgstr "Satın alabileceğiniz maksimum miktar"
@@ -634,7 +642,7 @@ msgstr "Sıradaki Faiz Yüzdesi"
 
 #: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:39
 msgid "OHM Price"
 msgstr "OHM Fiyatı"
 
@@ -683,7 +691,7 @@ msgstr "Kalan"
 msgid "Pending Payout"
 msgstr "Kalan miktar"
 
-#: src/views/Bond/BondRedeem.tsx:98
+#: src/views/Bond/BondRedeem.tsx:99
 msgid "Pending Rewards"
 msgstr "Kalan miktar"
 
@@ -697,7 +705,7 @@ msgstr "İşleniyor..."
 
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:65
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:71
-#: src/views/Bond/BondPurchase.tsx:161
+#: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:136
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Please approve Olympus Dao to use your"
@@ -734,7 +742,7 @@ msgstr "Lütfen 0'dan büyük bir miktar giriniz"
 msgid "Please enter a valid Ethereum address"
 msgstr "Lütfen geçerli bir Ethereum adresi giriniz"
 
-#: src/views/Bond/BondPurchase.tsx:64
+#: src/views/Bond/BondPurchase.tsx:65
 msgid "Please enter a valid value!"
 msgstr "Lütfen geçerli bir değer giriniz"
 
@@ -749,7 +757,7 @@ msgstr "Lütfen bir değer giriniz"
 #: src/components/GiveProject/ProjectCard.tsx:423
 #: src/views/33Together/PoolDeposit.tsx:58
 #: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:62
+#: src/views/Bond/BondPurchase.tsx:63
 #: src/views/BondV2/BondPurchase.tsx:55
 #: src/views/Give/CausesDashboard.tsx:52
 #: src/views/Give/CausesDashboard.tsx:52
@@ -846,7 +854,7 @@ msgstr "'dan faiz geliri elde eder"
 
 #: src/components/EducationCard.tsx:149
 #: src/components/EducationCard.tsx:224
-#: src/views/Bond/BondPurchase.tsx:263
+#: src/views/Bond/BondPurchase.tsx:264
 #: src/views/BondV2/BondPurchase.tsx:226
 #: src/views/Give/RecipientModal.tsx:314
 #: src/views/Give/RecipientModal.tsx:326
@@ -961,7 +969,7 @@ msgstr "'da yatır"
 
 #: src/views/Zap/ZapInfo.tsx:142
 msgid "Staking"
-msgstr "Yatırmak
+msgstr "Yatırmak"
 
 #: src/slices/PendingTxnsSlice.ts:30
 msgid "Staking OHM"
@@ -996,7 +1004,7 @@ msgstr "sOHM'a takas et"
 msgid "TVL"
 msgstr "Toplam Yatırılan Değer"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:94
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr "Güncel katsayı, 3,3 başladığından beri biriken sOHM'u takip eder. Kısaca, eğer başlangıçta 1 OHM yatırsaydınız ve tutsaydınız, şu an elinizde olacak miktar güncel katsayı kadar olurdu."
 
@@ -1012,7 +1020,7 @@ msgstr "Şu anda bono ile size sunabileceğimiz maksimum miktarı gösterir."
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "Ödül havuzu V2 Taşıması için geçici olarak devre dışı bırakıldı. Lütfen 33T'nizi çekiniz"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "gOHM fiyatı güncel OHM fiyatı ile güncel katsayının çarpımıdır."
 
@@ -1050,11 +1058,11 @@ msgstr "Bu, cüzdanınızda mevcut olan V1 varlıklardır."
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "Bu, taşınma tamamlandığında cüzdanınıza gelecek gOHM miktarıdır."
 
-#: src/views/Bond/BondRedeem.tsx:104
+#: src/views/Bond/BondRedeem.tsx:105
 msgid "Time until fully vested"
 msgstr "Tamamlanmasına kalan süre"
 
-#: src/components/Chart/Chart.tsx:526
+#: src/components/Chart/Chart.tsx:528
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr "Bugün"
@@ -1076,8 +1084,12 @@ msgstr "Toplam Sponsor Miktarı"
 msgid "Total Staked Balance"
 msgstr "Toplam Yatırılmış Miktar"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
+msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
+msgstr ""
+
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Yatırılmış Toplam Değer"
@@ -1096,12 +1108,12 @@ msgid "Treasury Balance"
 msgstr "Hazine Bakiyesi"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
-msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
-msgstr "Hazine Piyasa Değeri desteği, hazinenin OHM başına bütün market işlemleri için sahip olduğu toplam USD bütçesidir. (LP, takaslar, gelir elde etme, bonolar ve ters bonolar vs.)"
+#~ msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+#~ msgstr "Hazine Piyasa Değeri desteği, hazinenin OHM başına bütün market işlemleri için sahip olduğu toplam USD bütçesidir. (LP, takaslar, gelir elde etme, bonolar ve ters bonolar vs.)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-msgid "Treasury Market Value per OHM"
-msgstr "OHM başına Hazine Piyasa Değeri"
+#~ msgid "Treasury Market Value per OHM"
+#~ msgstr "OHM başına Hazine Piyasa Değeri"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1147,8 +1159,8 @@ msgstr "Değer pozitif olmalıdır"
 msgid "Vault"
 msgstr "Kasa"
 
-#: src/views/Bond/BondPurchase.tsx:261
-#: src/views/Bond/BondRedeem.tsx:120
+#: src/views/Bond/BondPurchase.tsx:262
+#: src/views/Bond/BondRedeem.tsx:121
 msgid "Vesting Term"
 msgstr "Tamamlanma Süresi"
 
@@ -1239,7 +1251,7 @@ msgstr "Siz yatırırsınız"
 msgid "You Pay"
 msgstr "Ödeyeceğiniz"
 
-#: src/views/Bond/BondPurchase.tsx:237
+#: src/views/Bond/BondPurchase.tsx:238
 #: src/views/BondV2/BondPurchase.tsx:196
 msgid "You Will Get"
 msgstr "Alacağınız Miktar"
@@ -1264,7 +1276,7 @@ msgstr "Bakiyenizden daha fazlasını çekemezsiniz"
 msgid "You cannot withdraw more than your pool balance"
 msgstr "Havuz bakiyenizden daha büyük bir değeri çekemezsiniz."
 
-#: src/views/Bond/BondPurchase.tsx:67
+#: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "Mevcut bir Bononuz bulunuyor. Teker Bono satın almak mevcut bononuzun süresini sıfırlayacak ve ödüllerinizden caymış olacaksınız. İlk önce ödüllerinizi çekmenizi veya yeni bir cüzdan kullanmanızı öneririz. Yine de devam etmek istiyor musunuz?"
 
@@ -1297,7 +1309,7 @@ msgstr "Daha fazla OHM yatırabilmek için varlıklarını taşımanız gerekmek
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "Devam edebilmek için sOHM bakiyeniz olmalıdır"
 
-#: src/views/Bond/BondPurchase.tsx:232
+#: src/views/Bond/BondPurchase.tsx:233
 #: src/views/BondV2/BondPurchase.tsx:191
 msgid "Your Balance"
 msgstr "Mevcut Bakiyeniz"
@@ -1380,7 +1392,7 @@ msgstr "Bono satın almak"
 msgid "do_stake"
 msgstr "Yatırmak"
 
-#: src/views/Bond/BondPurchase.tsx:162
+#: src/views/Bond/BondPurchase.tsx:163
 #: src/views/BondV2/BondPurchase.tsx:137
 msgid "for bonding"
 msgstr "bono satın almak için"
@@ -1422,7 +1434,7 @@ msgstr "gOHM (Polygon)"
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
 msgid "gOHM = sOHM * index"
 msgstr "gOHM = sOHM * Güncel Katsayı"
 
@@ -1436,7 +1448,7 @@ msgstr "gOHM Bakiyesi"
 msgid "gOHM Balance in Fuse"
 msgstr "Fuse'daki gOHM Bakiyesi"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
 msgid "gOHM Price"
 msgstr "gOHM Fiyatı"
 
@@ -1493,7 +1505,7 @@ msgstr "sOHM yatırımı"
 msgid "sec"
 msgstr "sn."
 
-#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:19
+#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "içerisinde sonraki faiz"
 
@@ -1503,7 +1515,7 @@ msgstr "V2 Bonoları"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:164
 msgid "wsOHM"
-msgstr "wsOHM
+msgstr "wsOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:173
 msgid "wsOHM (Arbitrum)"
