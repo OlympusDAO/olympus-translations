@@ -24,7 +24,7 @@ msgstr "(incluye recompensas rebase)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
 msgid "(total / liquid)"
-msgstr ""
+msgstr "(total / liquidez)"
 
 #: src/views/BondV2/BondV2.tsx:106
 msgid "--"
@@ -411,7 +411,7 @@ msgstr "Introducir una cantidad"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:102
 msgid "Enter an amount of"
-msgstr ""
+msgstr "Introducir una cantidad de"
 
 #: src/views/Zap/ZapStakeAction.tsx:406
 msgid "Exchange Rate"
@@ -518,7 +518,7 @@ msgstr "Conoce Más"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:74
 msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
-msgstr ""
+msgstr "Las Tesorería de Liquidez de Soporte no invluye LP OHM, activos bloqueados, o reservas usadas para soporte RFV. Esto representa el presupuesto de Tesorería que tiene para operaciones de mercado específicas que no pueden usar OHM (bonos inversos, algunas provisiones de liquidez, incentivos OHM, etc)"
 
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
@@ -613,7 +613,7 @@ msgstr "Mis Donaciones"
 
 #: src/views/BondV2/BondPurchase.tsx:215
 msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
-msgstr ""
+msgstr "Un descuento negativo es malo (esta pagando más que el valor de mercado). El descuento del bono es la diferencia en porcentage entre el valor de mercado del OHM y el precio del bono."
 
 #: src/components/Sidebar/NavContent.tsx:121
 msgid "New"
@@ -731,12 +731,12 @@ msgstr "Por favor, introduce una dirección diferente: no se puede dirigir a la 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:23
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:25
 msgid "Please enter a number"
-msgstr ""
+msgstr "Por favor, introduce un número"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:27
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:29
 msgid "Please enter a number greater than 0"
-msgstr ""
+msgstr "Por favor, introduce un número mayor que 0"
 
 #: src/views/Give/RecipientModal.tsx:195
 msgid "Please enter a valid Ethereum address"
@@ -771,7 +771,7 @@ msgstr "Por favor, introduce un valor!"
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:40
 msgid "Please refresh your page and try again"
-msgstr ""
+msgstr "Por favor, refresque su página y vuelva a probar"
 
 #: src/slices/RedeemThunk.ts:88
 msgid "Please switch to testnet!"
@@ -779,11 +779,11 @@ msgstr "Por favor, cambie a testnet!"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:35
 msgid "Please switch to the Ethereum network to stake your OHM"
-msgstr ""
+msgstr "Por favor, cambie a la red Etherum para destinar sus OHM en participaciones"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:38
 msgid "Please switch to the Ethereum network to unstake your"
-msgstr ""
+msgstr "Por favor, cambie a la red Etherum para retirar de las participaciones sus"
 
 #: src/views/33Together/PoolPrize.tsx:119
 msgid "Pool Award Balance is currently 0."
@@ -977,15 +977,15 @@ msgstr "OHM en Participaciones"
 
 #: src/views/Zap/ZapInfo.tsx:145
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal value of sOHM or gOHM."
-msgstr ""
+msgstr "Las participaciones son el valor principal de la estartegia de Olympus. En las participaciones, usted bloquea OHM y recibe sOHM or gOHM per el mismo valor."
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:58
 msgid "Successfully staked OHM"
-msgstr ""
+msgstr "OHM destinados en participaciones correctamente"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:61
 msgid "Successfully unstaked"
-msgstr ""
+msgstr "Retiradas sus participaciones correctamente"
 
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
@@ -1010,11 +1010,11 @@ msgstr "El índice actual indica la cantidad de sOHM acumulado desde el inicio d
 
 #: src/views/BondV2/BondPurchase.tsx:223
 msgid "The duration of the Bond whereby the bond can be claimed in it’s entirety.  Bonds are no longer vested linearly and are locked for entire duration."
-msgstr ""
+msgstr "La duración del bono donde se puede reclamar el bono en su completo. Los bonos no se bloquean lineramente y se bloquen por el período entero."
 
 #: src/views/BondV2/BondPurchase.tsx:210
 msgid "The maximum quantity of payout token we are able to offer via bonds at this moment in time."
-msgstr ""
+msgstr "La cantidad máxima de tokens que podemos ofrecer por bonos en este momento."
 
 #: src/views/33Together/PoolWithdraw.tsx:122
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
@@ -1034,7 +1034,7 @@ msgstr "La cartera especificada recibirá el interés de la cantidad que usted h
 
 #: src/views/BondV2/BondPurchase.tsx:201
 msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr ""
+msgstr "La cantidad de activos que recibirá de la compra de este bono. (La cantidad de sOHM serà superior gracias al rebasing)"
 
 #: src/components/EducationCard.tsx:134
 msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
@@ -1086,7 +1086,7 @@ msgstr "Balance Total de Participaciones"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
 msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
-msgstr ""
+msgstr "El total del valor de mercado de la Tesorería de Soporte es el presupuesto en USD de la Tesorería que tiene por OHM para gastar en todas las operaciones de mercado (LP, cambios, generación de beneficio, bonos y bonos inversos, etc)."
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
@@ -1113,7 +1113,7 @@ msgstr "Balance de Tesorería"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
 #~ msgid "Treasury Market Value per OHM"
-#~ msgstr ""
+#~ msgstr "Valor de Mercado de la Tesorería por OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1266,11 +1266,11 @@ msgstr "Usted puede retirar los fondos depositados en cualquier momento. Retiran
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "You cannot stake more than your OHM balance"
-msgstr ""
+msgstr "No se pueden destinar a particiapciones más que su balance en OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
 msgid "You cannot unstake more than your"
-msgstr ""
+msgstr "No se pueden retirar particiapciones más que su"
 
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
@@ -1324,15 +1324,15 @@ msgstr "Balance de sus Fondos (Retirable)"
 
 #: src/views/33Together/PoolDeposit.tsx:173
 msgid "Your Staked Balance (Depositable)"
-msgstr "Balance de su Participación (Depositable)"
+msgstr "Balance de Participaciones (Depositable)"
 
 #: src/views/Give/RecipientModal.tsx:443
 msgid "Your current Staked Balance is {0} sOHM"
-msgstr ""
+msgstr "Su Balance de Participaciones actual es {0} sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:548
 msgid "Your current deposit is {0} sOHM"
-msgstr ""
+msgstr "Su depósito actual es {0} sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:59
 msgid "Your odds"
@@ -1374,7 +1374,7 @@ msgstr "Zap-Stake"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
 msgid "balance"
-msgstr ""
+msgstr "balance"
 
 #: src/views/33Together/PoolPrize.tsx:149
 msgid "day"
@@ -1424,7 +1424,7 @@ msgstr "gOHM (Fantom)"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:146
 msgid "gOHM (Fuse)"
-msgstr ""
+msgstr "gOHM (Fuse)"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:119
 msgid "gOHM (Polygon)"
@@ -1469,7 +1469,7 @@ msgstr "sOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:155
 msgid "sOHM (v1)"
-msgstr ""
+msgstr "sOHM (v1)"
 
 #: src/views/Give/RecipientModal.tsx:429
 msgid "sOHM Allocation"
@@ -1515,15 +1515,15 @@ msgstr "Bonos v2"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:164
 msgid "wsOHM"
-msgstr ""
+msgstr "wsOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:173
 msgid "wsOHM (Arbitrum)"
-msgstr ""
+msgstr "wsOHM (Arbitrum)"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:182
 msgid "wsOHM (Avalanche)"
-msgstr ""
+msgstr "wsOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:401
 #: src/views/Wrap/WrapCrossChain.tsx:209
