@@ -22,6 +22,10 @@ msgstr "(Les frais pour les retraits prématurés de moins 6 jours ont été sup
 msgid "(includes rebase rewards)"
 msgstr "(Inclus les récompenses de rebasement)"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "(total / liquid)"
+msgstr ""
+
 #: src/views/BondV2/BondV2.tsx:106
 msgid "--"
 msgstr "--"
@@ -34,7 +38,7 @@ msgstr "3, 3 Together"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Un zap swap est un enchaînement de contrats intélligents qui déploient un actif sur un autre protocol afin d'y appliquer une transaction approuvée"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:140
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "APY"
@@ -67,7 +71,7 @@ msgstr "Dépôt tout en un"
 msgid "All-in-one zap contracts"
 msgstr "Contrats zap tout en un"
 
-#: src/views/Bond/BondPurchase.tsx:169
+#: src/views/Bond/BondPurchase.tsx:170
 #: src/views/BondV2/BondPurchase.tsx:149
 msgid "Amount"
 msgstr "Quantité"
@@ -117,9 +121,9 @@ msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Toget
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Together pour terminer la distribution"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Backing per OHM"
-#~ msgstr "Réserve par OHM"
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "Backing per OHM"
+msgstr "Réserve par OHM"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
@@ -176,13 +180,13 @@ msgstr "Rendez nous une autre visite plus tard!"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Choisissez l'addresse de reception. Par défaut il s'agit de l'addresse du portefeuille avec lequel vous êtes actuellement connecté"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:53
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:54
 msgid "Circulating Supply (total)"
 msgstr "Jetons en circulation (total)"
 
-#: src/views/Bond/BondRedeem.tsx:75
+#: src/views/Bond/BondRedeem.tsx:76
 #: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:137
+#: src/views/ChooseBond/ClaimRow.tsx:138
 msgid "Claim"
 msgstr "Retirer"
 
@@ -191,11 +195,11 @@ msgstr "Retirer"
 msgid "Claim all"
 msgstr "Tout retirer"
 
-#: src/views/Bond/BondRedeem.tsx:91
+#: src/views/Bond/BondRedeem.tsx:92
 msgid "Claim and Autostake"
 msgstr "Retirer et mettre en dépôt"
 
-#: src/views/ChooseBond/ClaimRow.tsx:148
+#: src/views/ChooseBond/ClaimRow.tsx:149
 msgid "Claim and Stake"
 msgstr "Retirer et mettre en dépôt"
 
@@ -203,7 +207,7 @@ msgstr "Retirer et mettre en dépôt"
 msgid "Claimable"
 msgstr "Disponible"
 
-#: src/views/Bond/BondRedeem.tsx:100
+#: src/views/Bond/BondRedeem.tsx:101
 msgid "Claimable Rewards"
 msgstr "Récompenses disponibles"
 
@@ -261,7 +265,7 @@ msgstr "Actuel"
 msgid "Current Deposit"
 msgstr "Dépôts actuel"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:93
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -293,8 +297,8 @@ msgstr ""
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: src/views/Bond/BondPurchase.tsx:260
-#: src/views/Bond/BondRedeem.tsx:119
+#: src/views/Bond/BondPurchase.tsx:261
+#: src/views/Bond/BondRedeem.tsx:120
 msgid "Debt Ratio"
 msgstr "Taux d'endettement"
 
@@ -335,8 +339,8 @@ msgstr "Appel de Zapper..."
 msgid "Disconnect"
 msgstr "Déconnexion"
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
+#: src/views/Bond/BondPurchase.tsx:255
+#: src/views/Bond/BondRedeem.tsx:114
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
 #: src/views/BondV2/ChooseBondV2.tsx:107
@@ -425,7 +429,7 @@ msgstr "Fermes"
 msgid "Finishes at {0} in your timezone"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:160
+#: src/views/Bond/BondPurchase.tsx:161
 #: src/views/BondV2/BondPurchase.tsx:135
 msgid "First time bonding"
 msgstr "Premier achat d'obligation"
@@ -512,6 +516,10 @@ msgstr ""
 msgid "Learn More"
 msgstr "Apprenez en plus"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:74
+msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
+msgstr ""
+
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
 msgstr "Vérouillez vos sOHM dans le coffre fort"
@@ -520,7 +528,7 @@ msgstr "Vérouillez vos sOHM dans le coffre fort"
 msgid "Looks like you haven’t made any donations yet"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:25
 msgid "Market Cap"
 msgstr "Capitalisation"
 
@@ -543,7 +551,7 @@ msgstr "Valeur de marché des actifs en trésorerie, la somme de la valeur (en d
 
 #: src/views/33Together/PoolDeposit.tsx:154
 #: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:181
+#: src/views/Bond/BondPurchase.tsx:182
 #: src/views/BondV2/BondPurchase.tsx:144
 #: src/views/Give/ManageDonationModal.tsx:555
 #: src/views/Give/RecipientModal.tsx:450
@@ -553,7 +561,7 @@ msgstr "Valeur de marché des actifs en trésorerie, la somme de la valeur (en d
 msgid "Max"
 msgstr "Max"
 
-#: src/views/Bond/BondPurchase.tsx:242
+#: src/views/Bond/BondPurchase.tsx:243
 #: src/views/BondV2/BondPurchase.tsx:205
 msgid "Max You Can Buy"
 msgstr "Maximum que vous pouvez acheter"
@@ -634,7 +642,7 @@ msgstr "Pourcentage de gain de la prochaine récompense"
 
 #: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:39
 msgid "OHM Price"
 msgstr "Valeur de OHM"
 
@@ -683,7 +691,7 @@ msgstr "En attente"
 msgid "Pending Payout"
 msgstr "Paiement en attente"
 
-#: src/views/Bond/BondRedeem.tsx:98
+#: src/views/Bond/BondRedeem.tsx:99
 msgid "Pending Rewards"
 msgstr "Récompenses en attente"
 
@@ -697,7 +705,7 @@ msgstr "En attente..."
 
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:65
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:71
-#: src/views/Bond/BondPurchase.tsx:161
+#: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:136
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Please approve Olympus Dao to use your"
@@ -734,7 +742,7 @@ msgstr ""
 msgid "Please enter a valid Ethereum address"
 msgstr "Veuillez saisir une addresse Ethereum valide"
 
-#: src/views/Bond/BondPurchase.tsx:64
+#: src/views/Bond/BondPurchase.tsx:65
 msgid "Please enter a valid value!"
 msgstr "Merci d'entrer une valeur valide!"
 
@@ -749,7 +757,7 @@ msgstr "Veuillez saisir une valeur"
 #: src/components/GiveProject/ProjectCard.tsx:423
 #: src/views/33Together/PoolDeposit.tsx:58
 #: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:62
+#: src/views/Bond/BondPurchase.tsx:63
 #: src/views/BondV2/BondPurchase.tsx:55
 #: src/views/Give/CausesDashboard.tsx:52
 #: src/views/Give/CausesDashboard.tsx:52
@@ -846,7 +854,7 @@ msgstr "Reçoit les intérêts de"
 
 #: src/components/EducationCard.tsx:149
 #: src/components/EducationCard.tsx:224
-#: src/views/Bond/BondPurchase.tsx:263
+#: src/views/Bond/BondPurchase.tsx:264
 #: src/views/BondV2/BondPurchase.tsx:226
 #: src/views/Give/RecipientModal.tsx:314
 #: src/views/Give/RecipientModal.tsx:326
@@ -996,7 +1004,7 @@ msgstr "Echangez pour des sOHM"
 msgid "TVL"
 msgstr "TVL"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:94
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr ""
 
@@ -1012,7 +1020,7 @@ msgstr ""
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "La cagnote a été temporairement désactivée pendant la migration pour la v2. Veuillez retirer vos 33T"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "Le prix de gOHM est égal au prix de OHM fois l'indice courant"
 
@@ -1050,11 +1058,11 @@ msgstr "Ceci correspond au solde de vos actifs Olympus V1 dans votre portefeuill
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "Ceci est le montant en gOHM que vous aurez après la migration."
 
-#: src/views/Bond/BondRedeem.tsx:104
+#: src/views/Bond/BondRedeem.tsx:105
 msgid "Time until fully vested"
 msgstr "Durée avant disponibilité totale"
 
-#: src/components/Chart/Chart.tsx:526
+#: src/components/Chart/Chart.tsx:528
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr "Aujourd'hui"
@@ -1076,8 +1084,12 @@ msgstr "Montant total des parrainages"
 msgid "Total Staked Balance"
 msgstr "Solde total en dépôt"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
+msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
+msgstr ""
+
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Montant total déposé"
@@ -1096,12 +1108,12 @@ msgid "Treasury Balance"
 msgstr "Solde de Trésorerie"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
-msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
-msgstr ""
+#~ msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+#~ msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-msgid "Treasury Market Value per OHM"
-msgstr ""
+#~ msgid "Treasury Market Value per OHM"
+#~ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1147,8 +1159,8 @@ msgstr "La valeur doit être positive"
 msgid "Vault"
 msgstr "Coffre-fort"
 
-#: src/views/Bond/BondPurchase.tsx:261
-#: src/views/Bond/BondRedeem.tsx:120
+#: src/views/Bond/BondPurchase.tsx:262
+#: src/views/Bond/BondRedeem.tsx:121
 msgid "Vesting Term"
 msgstr "Date de livraison"
 
@@ -1239,7 +1251,7 @@ msgstr "Vous donnez"
 msgid "You Pay"
 msgstr "Vous payez"
 
-#: src/views/Bond/BondPurchase.tsx:237
+#: src/views/Bond/BondPurchase.tsx:238
 #: src/views/BondV2/BondPurchase.tsx:196
 msgid "You Will Get"
 msgstr "Vous obtiendrez"
@@ -1264,7 +1276,7 @@ msgstr ""
 msgid "You cannot withdraw more than your pool balance"
 msgstr "Vous ne pouvez pas retirer plus ce que ce que vous avez déposé"
 
-#: src/views/Bond/BondPurchase.tsx:67
+#: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "Vous avez déjà une obligation. En acquérir une autre réinitialisera la durée de livraison. Nous vous recommendons de prendre livraison de vos récompenses ou d'utiliser un autre portefeuille. Souhaitez-vous vraiment continuer?"
 
@@ -1297,7 +1309,7 @@ msgstr "Vous devez termilaner la migration de vos actifs pour déposer des OHM a
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "Vous devez posséder un solde de SOHM (OHM déposé) pour continuer"
 
-#: src/views/Bond/BondPurchase.tsx:232
+#: src/views/Bond/BondPurchase.tsx:233
 #: src/views/BondV2/BondPurchase.tsx:191
 msgid "Your Balance"
 msgstr "Votre solde"
@@ -1380,7 +1392,7 @@ msgstr "Acheter"
 msgid "do_stake"
 msgstr "Déposer"
 
-#: src/views/Bond/BondPurchase.tsx:162
+#: src/views/Bond/BondPurchase.tsx:163
 #: src/views/BondV2/BondPurchase.tsx:137
 msgid "for bonding"
 msgstr "pour acquérir une obligation"
@@ -1422,7 +1434,7 @@ msgstr "gOHM (Polygon)"
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
 msgid "gOHM = sOHM * index"
 msgstr "gOHM = sOHM * indice"
 
@@ -1436,7 +1448,7 @@ msgstr "Solde gOHM"
 msgid "gOHM Balance in Fuse"
 msgstr "solde gOHM dans Fuse"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
 msgid "gOHM Price"
 msgstr "Prix de gOHM"
 
@@ -1493,7 +1505,7 @@ msgstr ""
 msgid "sec"
 msgstr "secs"
 
-#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:19
+#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "jusqu'au prochain changement de base"
 

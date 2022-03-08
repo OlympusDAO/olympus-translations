@@ -22,6 +22,10 @@ msgstr "(Phí rút sớm 6 ngày đã được miễn. Phí mạng được áp 
 msgid "(includes rebase rewards)"
 msgstr "(bao gồm cả phần thưởng rebase)"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "(total / liquid)"
+msgstr ""
+
 #: src/views/BondV2/BondV2.tsx:106
 msgid "--"
 msgstr "--"
@@ -34,7 +38,7 @@ msgstr "3, 3 cùng nhau"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Hoán đổi zap là một loạt các hợp đồng thông minh triển khai một tài sản sang một giao thức khác để xử lý một giao dịch tin cậy."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:140
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "APY"
@@ -67,7 +71,7 @@ msgstr "Tất cả trong một đặt cọc đơn giản"
 msgid "All-in-one zap contracts"
 msgstr "Tất cả trong một hợp đồng zap"
 
-#: src/views/Bond/BondPurchase.tsx:169
+#: src/views/Bond/BondPurchase.tsx:170
 #: src/views/BondV2/BondPurchase.tsx:149
 msgid "Amount"
 msgstr "Số lượng"
@@ -117,9 +121,9 @@ msgstr "Thời gian trao thưởng đã kết thúc, bạn có thể điều hư
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "Thời gian trao thưởng đã kết thúc, bạn có thể điều hướng đến giao diện người dùng của Pool Together để hoàn thành việc phân phối"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Backing per OHM"
-#~ msgstr "Hỗ trợ cho mỗi OHM"
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "Backing per OHM"
+msgstr "Hỗ trợ cho mỗi OHM"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
@@ -176,13 +180,13 @@ msgstr "Kiểm tra lại sớm!"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Chọn địa chỉ người nhận. Theo mặc định, đây là địa chỉ của ví mà bạn đang kết nối"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:53
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:54
 msgid "Circulating Supply (total)"
 msgstr "Nguồn cung lưu hành (tổng số)"
 
-#: src/views/Bond/BondRedeem.tsx:75
+#: src/views/Bond/BondRedeem.tsx:76
 #: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:137
+#: src/views/ChooseBond/ClaimRow.tsx:138
 msgid "Claim"
 msgstr "Nhận"
 
@@ -191,11 +195,11 @@ msgstr "Nhận"
 msgid "Claim all"
 msgstr "Nhận tất cả"
 
-#: src/views/Bond/BondRedeem.tsx:91
+#: src/views/Bond/BondRedeem.tsx:92
 msgid "Claim and Autostake"
 msgstr "Nhận và Tự động đặt cọc"
 
-#: src/views/ChooseBond/ClaimRow.tsx:148
+#: src/views/ChooseBond/ClaimRow.tsx:149
 msgid "Claim and Stake"
 msgstr "Nhận và Đặt cọc"
 
@@ -203,7 +207,7 @@ msgstr "Nhận và Đặt cọc"
 msgid "Claimable"
 msgstr "Nhận phần thưởng"
 
-#: src/views/Bond/BondRedeem.tsx:100
+#: src/views/Bond/BondRedeem.tsx:101
 msgid "Claimable Rewards"
 msgstr "Phần thưởng"
 
@@ -261,7 +265,7 @@ msgstr "Hiện tại"
 msgid "Current Deposit"
 msgstr "Tiền nạp hiện tại"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:93
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -293,8 +297,8 @@ msgstr "ĐÃ GỬI"
 msgid "Dashboard"
 msgstr "Bảng điều khiển"
 
-#: src/views/Bond/BondPurchase.tsx:260
-#: src/views/Bond/BondRedeem.tsx:119
+#: src/views/Bond/BondPurchase.tsx:261
+#: src/views/Bond/BondRedeem.tsx:120
 msgid "Debt Ratio"
 msgstr "Tỷ lệ nợ"
 
@@ -335,8 +339,8 @@ msgstr "Kết nồi với Zapper..."
 msgid "Disconnect"
 msgstr "Ngắt kết nối"
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
+#: src/views/Bond/BondPurchase.tsx:255
+#: src/views/Bond/BondRedeem.tsx:114
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
 #: src/views/BondV2/ChooseBondV2.tsx:107
@@ -425,7 +429,7 @@ msgstr "Pool canh tác lợi suất"
 msgid "Finishes at {0} in your timezone"
 msgstr "Hoàn thành theo múi giờ của bạn tại {0}"
 
-#: src/views/Bond/BondPurchase.tsx:160
+#: src/views/Bond/BondPurchase.tsx:161
 #: src/views/BondV2/BondPurchase.tsx:135
 msgid "First time bonding"
 msgstr "Mua trái phiếu lần đầu tiên"
@@ -512,6 +516,10 @@ msgstr "Đây có phải là lần đầu tiên bạn quyên góp sOHM? Vui lòn
 msgid "Learn More"
 msgstr "Tìm hiểu thêm"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:74
+msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
+msgstr ""
+
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
 msgstr "Khóa sOHM trong kho tiền"
@@ -520,7 +528,7 @@ msgstr "Khóa sOHM trong kho tiền"
 msgid "Looks like you haven’t made any donations yet"
 msgstr "Có vẻ như bạn chưa thực hiện bất kỳ khoản quyên góp nào "
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:25
 msgid "Market Cap"
 msgstr "Vốn hóa Thị trường"
 
@@ -543,7 +551,7 @@ msgstr "Giá Thị trường của các Tài sản trong Kho bạc, thể hiện
 
 #: src/views/33Together/PoolDeposit.tsx:154
 #: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:181
+#: src/views/Bond/BondPurchase.tsx:182
 #: src/views/BondV2/BondPurchase.tsx:144
 #: src/views/Give/ManageDonationModal.tsx:555
 #: src/views/Give/RecipientModal.tsx:450
@@ -553,7 +561,7 @@ msgstr "Giá Thị trường của các Tài sản trong Kho bạc, thể hiện
 msgid "Max"
 msgstr "Tối đa"
 
-#: src/views/Bond/BondPurchase.tsx:242
+#: src/views/Bond/BondPurchase.tsx:243
 #: src/views/BondV2/BondPurchase.tsx:205
 msgid "Max You Can Buy"
 msgstr "Mức có thể mua tối đa "
@@ -634,7 +642,7 @@ msgstr "Lợi suất tiếp theo"
 
 #: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:39
 msgid "OHM Price"
 msgstr "Giá OHM"
 
@@ -683,7 +691,7 @@ msgstr "Đang chờ đợi"
 msgid "Pending Payout"
 msgstr "Số tiền thanh toán đang chờ"
 
-#: src/views/Bond/BondRedeem.tsx:98
+#: src/views/Bond/BondRedeem.tsx:99
 msgid "Pending Rewards"
 msgstr "Phần thưởng đang chờ"
 
@@ -697,7 +705,7 @@ msgstr "Đang chờ..."
 
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:65
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:71
-#: src/views/Bond/BondPurchase.tsx:161
+#: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:136
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Please approve Olympus Dao to use your"
@@ -734,7 +742,7 @@ msgstr "Vui lòng nhập một số lớn hơn 0"
 msgid "Please enter a valid Ethereum address"
 msgstr "Vui lòng nhập địa chỉ Ethereum hợp lệ"
 
-#: src/views/Bond/BondPurchase.tsx:64
+#: src/views/Bond/BondPurchase.tsx:65
 msgid "Please enter a valid value!"
 msgstr "Vui lòng nhập một giá trị hợp lệ!"
 
@@ -749,7 +757,7 @@ msgstr "Vui lòng nhập một giá trị"
 #: src/components/GiveProject/ProjectCard.tsx:423
 #: src/views/33Together/PoolDeposit.tsx:58
 #: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:62
+#: src/views/Bond/BondPurchase.tsx:63
 #: src/views/BondV2/BondPurchase.tsx:55
 #: src/views/Give/CausesDashboard.tsx:52
 #: src/views/Give/CausesDashboard.tsx:52
@@ -846,7 +854,7 @@ msgstr "Nhận lợi suất từ"
 
 #: src/components/EducationCard.tsx:149
 #: src/components/EducationCard.tsx:224
-#: src/views/Bond/BondPurchase.tsx:263
+#: src/views/Bond/BondPurchase.tsx:264
 #: src/views/BondV2/BondPurchase.tsx:226
 #: src/views/Give/RecipientModal.tsx:314
 #: src/views/Give/RecipientModal.tsx:326
@@ -996,7 +1004,7 @@ msgstr "Hoán đổi thành sOHM"
 msgid "TVL"
 msgstr "TVL"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:94
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr "Chỉ số hiện tại theo dõi lượng sOHM được tích lũy kể từ khi bắt đầu đặt cược. Về cơ bản, một người sẽ có bao nhiêu sOHM nếu họ đặt và giữ 1 OHM từ khi giao thức ra mắt."
 
@@ -1012,7 +1020,7 @@ msgstr "Số lượng mã thông báo được trả tối đa mà chúng tôi c
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "Pool đã tạm thời bị vô hiệu hóa cho sáp nhập V2. Hãy rút 33T của bạn"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "Giá của gOHM bằng giá của OHM nhân với chỉ số hiện tại"
 
@@ -1050,11 +1058,11 @@ msgstr "Đây là số dư hiện tại của tài sản v1 trong ví của bạ
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "Đây là lượng gOHM tương đương mà bạn sẽ có trong ví sau khi quá trình sáp nhập hoàn tất."
 
-#: src/views/Bond/BondRedeem.tsx:104
+#: src/views/Bond/BondRedeem.tsx:105
 msgid "Time until fully vested"
 msgstr "Thời gian cho đến khi được cấp đầy đủ"
 
-#: src/components/Chart/Chart.tsx:526
+#: src/components/Chart/Chart.tsx:528
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr "Hôm nay"
@@ -1076,8 +1084,12 @@ msgstr "Tổng Tài trợ"
 msgid "Total Staked Balance"
 msgstr "Tổng Số dư đã Đặt cọc"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
+msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
+msgstr ""
+
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Tổng Giá trị đã Gửi"
@@ -1147,8 +1159,8 @@ msgstr "Giá trị phải là số dương"
 msgid "Vault"
 msgstr "Kho tiền"
 
-#: src/views/Bond/BondPurchase.tsx:261
-#: src/views/Bond/BondRedeem.tsx:120
+#: src/views/Bond/BondPurchase.tsx:262
+#: src/views/Bond/BondRedeem.tsx:121
 msgid "Vesting Term"
 msgstr "Kỳ hạn"
 
@@ -1239,7 +1251,7 @@ msgstr "Bạn cho đi "
 msgid "You Pay"
 msgstr "Bạn thanh toán"
 
-#: src/views/Bond/BondPurchase.tsx:237
+#: src/views/Bond/BondPurchase.tsx:238
 #: src/views/BondV2/BondPurchase.tsx:196
 msgid "You Will Get"
 msgstr "Bạn sẽ nhận được"
@@ -1264,7 +1276,7 @@ msgstr "Bạn không thể hoàn cọc nhiều hơn"
 msgid "You cannot withdraw more than your pool balance"
 msgstr "Bạn không thể rút nhiều hơn số dư pool của mình"
 
-#: src/views/Bond/BondPurchase.tsx:67
+#: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "Bạn có một trái phiếu hiện tại. Việc mua trái phiếu sẽ thiết lập lại kỳ hạn của bạn và mất phần thưởng. Chúng tôi khuyên bạn nên nhận phần thưởng trước hoặc sử dụng ví mới. Bạn vẫn muốn tiếp tục chứ?"
 
@@ -1297,7 +1309,7 @@ msgstr "Bạn có thể đang cố gắng đặt cọc nhiều hơn số dư c�
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "Bạn phải có số dư sOHM (OHM đặt cọc) để tiếp tục"
 
-#: src/views/Bond/BondPurchase.tsx:232
+#: src/views/Bond/BondPurchase.tsx:233
 #: src/views/BondV2/BondPurchase.tsx:191
 msgid "Your Balance"
 msgstr "Số dư của bạn"
@@ -1380,7 +1392,7 @@ msgstr "mua_trái phiếu"
 msgid "do_stake"
 msgstr "đặt_cọc"
 
-#: src/views/Bond/BondPurchase.tsx:162
+#: src/views/Bond/BondPurchase.tsx:163
 #: src/views/BondV2/BondPurchase.tsx:137
 msgid "for bonding"
 msgstr "đang mua trái phiếu cho"
@@ -1422,7 +1434,7 @@ msgstr "gOHM (Polygon)"
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
 msgid "gOHM = sOHM * index"
 msgstr "gOHM = sOHM * chỉ số hiện tại"
 
@@ -1436,7 +1448,7 @@ msgstr "Số dư gOHM"
 msgid "gOHM Balance in Fuse"
 msgstr "Số dư gOHM trong Fuse"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
 msgid "gOHM Price"
 msgstr "Giá gOHM"
 
@@ -1493,7 +1505,7 @@ msgstr "gửi sOHM"
 msgid "sec"
 msgstr "giây"
 
-#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:19
+#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "Cho đến kỳ rebase tiếp theo"
 
