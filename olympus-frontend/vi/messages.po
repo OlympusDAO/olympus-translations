@@ -20,7 +20,7 @@ msgstr "(Phí rút sớm 6 ngày đã được miễn. Phí mạng được áp 
 #: src/components/Migration/MigrationModal.tsx:257
 #: src/components/Migration/MigrationModalSingle.tsx:243
 msgid "(includes rebase rewards)"
-msgstr "(bao gồm cả phần thưởng tái cơ sở)"
+msgstr "(bao gồm cả phần thưởng rebase)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
 msgid "(total / liquid)"
@@ -111,7 +111,7 @@ msgstr "Tự động đặt cọc"
 
 #: src/views/33Together/PoolPrize.tsx:122
 msgid "Award Balance will grow at 1st rebase."
-msgstr "Số dư giải thưởng sẽ tăng ở kỳ tái cơ sở đầu tiên"
+msgstr "Số dư giải thưởng sẽ tăng ở kỳ rebase đầu tiên"
 
 #: src/views/33Together/PoolPrize.tsx:212
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
@@ -411,7 +411,7 @@ msgstr "Nhập số tiền"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:102
 msgid "Enter an amount of"
-msgstr ""
+msgstr "Nhập số lượng của"
 
 #: src/views/Zap/ZapStakeAction.tsx:406
 msgid "Exchange Rate"
@@ -423,7 +423,7 @@ msgstr "Thời gian thoát phí"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:51
 msgid "Farm Pool"
-msgstr "Bể canh tác lợi suất"
+msgstr "Pool canh tác lợi suất"
 
 #: src/components/GiveProject/ProjectCard.tsx:209
 msgid "Finishes at {0} in your timezone"
@@ -771,7 +771,7 @@ msgstr "Vui lòng nhập một giá trị!"
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:40
 msgid "Please refresh your page and try again"
-msgstr ""
+msgstr "Vui lòng làm mới trang và thử lại"
 
 #: src/slices/RedeemThunk.ts:88
 msgid "Please switch to testnet!"
@@ -779,11 +779,11 @@ msgstr "Vui lòng chuyển sang mạng thử nghiệm"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:35
 msgid "Please switch to the Ethereum network to stake your OHM"
-msgstr ""
+msgstr "Vui lòng chuyển sang mạng Ethereum để stake OHM của bạn"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:38
 msgid "Please switch to the Ethereum network to unstake your"
-msgstr ""
+msgstr "Vui lòng chuyển sang mạng Ethereum để hoàn stake OHM của bạn"
 
 #: src/views/33Together/PoolPrize.tsx:119
 msgid "Pool Award Balance is currently 0."
@@ -791,7 +791,7 @@ msgstr "Số dư tổng giải thưởng hiện tại là O."
 
 #: src/views/33Together/PoolInfo.tsx:90
 msgid "Pool owner"
-msgstr "Chủ sở hữu bể "
+msgstr "Chủ sở hữu pool "
 
 #: src/components/Migration/MigrationModal.tsx:247
 #: src/components/Migration/MigrationModalSingle.tsx:233
@@ -871,7 +871,7 @@ msgstr "Địa chỉ người nhận"
 
 #: src/views/Give/GiveInfo.tsx:23
 msgid "Recipient earns sOHM rebases"
-msgstr "Người nhận kiếm được phần thưởng tái cơ sở sOHM"
+msgstr "Người nhận kiếm được phần thưởng rebase sOHM"
 
 #: src/components/EducationCard.tsx:194
 #: src/components/GiveProject/GiveHeader.tsx:56
@@ -903,7 +903,7 @@ msgstr "Giá trị phi rủi ro, là số tiền mà kho bạc đảm bảo sẽ
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:174
 msgid "Runway Available"
-msgstr "Đường băng có sẵn"
+msgstr "Đường băng hiện có"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:204
 msgid "Runway, is the number of days sOHM emissions can be sustained at a given rate. Lower APY = longer runway"
@@ -925,7 +925,7 @@ msgstr "Chọn mã thông báo"
 
 #: src/views/Zap/ZapStakeHeader.tsx:29
 msgid "Select any asset"
-msgstr "Chọn bất cứ tài sản"
+msgstr "Chọn bất kì tài sản"
 
 #: src/views/Zap/SelectTokenModal.tsx:72
 msgid "Ser, you have no assets..."
@@ -937,7 +937,7 @@ msgstr "Đặt cọc đơn"
 
 #: src/views/Stake/components/StakeArea/StakeArea.tsx:15
 msgid "Single Stake (3, 3)"
-msgstr "Đặt cọc đơn (3,3)"
+msgstr "Đặt cọc đơn (3, 3)"
 
 #: src/views/BondV2/AdvancedSettings.tsx:29
 msgid "Slippage"
@@ -977,7 +977,7 @@ msgstr "Đang đặt cọc OHM"
 
 #: src/views/Zap/ZapInfo.tsx:145
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal value of sOHM or gOHM."
-msgstr "Đặt cọc là chiến lược tích lũy giá trị chính của Olympus. Khi bạn đặt cược, bạn khóa OHM và nhận được giá trị bằng sOHM hoặc gOHM"
+msgstr "Đặt cọc là chiến lược tích lũy giá trị chính của Olympus. Khi bạn stake, bạn khóa OHM và nhận được giá trị bằng sOHM hoặc gOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:58
 msgid "Successfully staked OHM"
@@ -1010,7 +1010,7 @@ msgstr "Chỉ số hiện tại theo dõi lượng sOHM được tích lũy kể
 
 #: src/views/BondV2/BondPurchase.tsx:223
 msgid "The duration of the Bond whereby the bond can be claimed in it’s entirety.  Bonds are no longer vested linearly and are locked for entire duration."
-msgstr "Thời hạn của Trái phiếu theo đó trái phiếu có thể được nhận toàn bộ. Trái phiếu không còn được trả một cách tuyến tính và bị khóa trong toàn bộ thời gian."
+msgstr "Thời hạn của Trái phiếu theo đó trái phiếu có thể được nhận lại hoàn toàn. Trái phiếu không còn được trả một cách tuyến tính và bị khóa trong toàn bộ thời gian."
 
 #: src/views/BondV2/BondPurchase.tsx:210
 msgid "The maximum quantity of payout token we are able to offer via bonds at this moment in time."
@@ -1018,7 +1018,7 @@ msgstr "Số lượng mã thông báo được trả tối đa mà chúng tôi c
 
 #: src/views/33Together/PoolWithdraw.tsx:122
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
-msgstr "Bể đã tạm thời bị vô hiệu hóa cho sáp nhập V2. Hãy rút 33T của bạn"
+msgstr "Pool đã tạm thời bị vô hiệu hóa cho sáp nhập V2. Hãy rút 33T của bạn"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
@@ -1026,19 +1026,19 @@ msgstr "Giá của gOHM bằng giá của OHM nhân với chỉ số hiện tạ
 
 #: src/components/EducationCard.tsx:240
 msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
-msgstr "Người nhận mà bạn đã chỉ định hoặc dự án bạn đã chọn,  sẽ nhận được các phần thưởng tái cơ sở liên quan đến khoản tiền gửi sOHM của bạn cho đến khi bạn rút tiền gốc sOHM của mình từ kho tiền."
+msgstr "Người nhận mà bạn đã chỉ định hoặc dự án bạn đã chọn, sẽ nhận được các phần thưởng rebase liên quan đến khoản tiền gửi sOHM của bạn cho đến khi bạn rút tiền gốc sOHM của mình từ kho tiền."
 
 #: src/views/Give/RecipientModal.tsx:330
 msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
-msgstr "Địa chỉ ví được chỉ định sẽ nhận được lợi suất tái cơ sở từ số tiền bạn gửi."
+msgstr "Địa chỉ ví được chỉ định sẽ nhận được lợi suất rebase từ số tiền bạn gửi."
 
 #: src/views/BondV2/BondPurchase.tsx:201
 msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr "Tổng số tài sản thanh toán bạn sẽ nhận được từ việc mua trái phiếu này. (lượng sOHM sẽ cao hơn do tái cơ sở)"
+msgstr "Tổng số tài sản thanh toán bạn sẽ nhận được từ việc mua trái phiếu này. (lượng sOHM sẽ cao hơn do rebase)"
 
 #: src/components/EducationCard.tsx:134
 msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
-msgstr "Sau đó, sOHM đã ký gửi của bạn được lưu giữ trong một hợp đồng thông minh kho tiền sẽ gửi các khoản thưởng tái cơ sở của bạn cho người nhận. Bạn có thể rút hoặc chỉnh sửa số sOHM chính của mình bất kỳ lúc nào."
+msgstr "Sau đó, sOHM đã ký gửi của bạn được lưu giữ trong một hợp đồng thông minh kho tiền sẽ gửi các khoản thưởng rebase của bạn cho người nhận. Bạn có thể rút hoặc chỉnh sửa số sOHM chính của mình bất kỳ lúc nào."
 
 #: src/views/33Together/PoolDeposit.tsx:117
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -1077,12 +1077,12 @@ msgstr "Tổng số tiền gửi"
 
 #: src/views/33Together/PoolInfo.tsx:85
 msgid "Total Sponsorship"
-msgstr "Tổng tài trợ"
+msgstr "Tổng Tài trợ"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeBalances.tsx:77
 #: src/views/V1-Stake/V1-Stake.jsx:378
 msgid "Total Staked Balance"
-msgstr "Tổng số dư đã đặt cọc"
+msgstr "Tổng Số dư đã Đặt cọc"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
 msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
@@ -1092,11 +1092,11 @@ msgstr ""
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
-msgstr "Tổng giá trị đã gửi"
+msgstr "Tổng Giá trị đã Gửi"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:197
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
-msgstr "Tổng giá trị đã ký gửi, là số tiền bằng đô la của tất cả OHM được đặt trong giao thức. Số liệu này thường được sử dụng làm chỉ báo tăng trưởng hoặc sức khỏe trong các dự án DeFi."
+msgstr "Tổng Giá trị đã Gửi, là số tiền bằng đô la của tất cả OHM được stake trong giao thức. Số liệu này thường được sử dụng làm chỉ báo cho tăng trưởng hoặc sức khỏe của các dự án DeFi."
 
 #: src/views/BondV2/AdvancedSettings.tsx:41
 msgid "Transaction may revert if price changes by more than slippage %"
@@ -1105,15 +1105,15 @@ msgstr "Giao dịch có thể hoàn nguyên nếu giá thay đổi hơn % trư�
 #: src/views/BondV2/ChooseBondV2.tsx:77
 #: src/views/ChooseBond/ChooseBond.tsx:105
 msgid "Treasury Balance"
-msgstr "Số dư kho bạc"
+msgstr "Số dư Kho bạc"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
-#~ msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
-#~ msgstr ""
+msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+msgstr "MV Dự phòng của Kho bạc là tổng ngân sách bằng USD mà kho bạc có trên mỗi OHM để chi cho tất cả các hoạt động thị trường (LP, swaps, tạo doanh thu, bonds và bonds đảo, vv)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Treasury Market Value per OHM"
-#~ msgstr ""
+msgid "Treasury Market Value per OHM"
+msgstr "Giá trị thị trường của Kho bạc trên OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1258,11 +1258,11 @@ msgstr "Bạn sẽ nhận được"
 
 #: src/components/Migration/MigrationModal.tsx:133
 msgid "You are now ready to migrate"
-msgstr "Bây giờ bạn đã sẵn sàng để sáp nhập"
+msgstr "Bây giờ bạn đã sẵn sàng để sát nhập"
 
 #: src/views/33Together/PoolWithdraw.tsx:98
 msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. Bằng cách rút tiền, bạn đang loại bỏ việc giảm cơ hội giành được giải thưởng trong bể này trong các kỳ giải thưởng trong tương lai"
+msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. Bằng cách rút tiền, bạn đang loại bỏ việc giảm cơ hội giành được giải thưởng trong pool này trong các kỳ giải thưởng trong tương lai"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "You cannot stake more than your OHM balance"
@@ -1274,7 +1274,7 @@ msgstr "Bạn không thể hoàn cọc nhiều hơn"
 
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
-msgstr "Bạn không thể rút nhiều hơn số dư bể của mình"
+msgstr "Bạn không thể rút nhiều hơn số dư pool của mình"
 
 #: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
@@ -1320,7 +1320,7 @@ msgstr "Quyên góp của bạn"
 
 #: src/views/33Together/PoolWithdraw.tsx:181
 msgid "Your Pooled Balance (withdrawable)"
-msgstr "Số dư trong bể của bạn (có thể rút)"
+msgstr "Số dư trong pool của bạn (có thể rút)"
 
 #: src/views/33Together/PoolDeposit.tsx:173
 msgid "Your Staked Balance (Depositable)"
@@ -1340,7 +1340,7 @@ msgstr "Tỷ lệ cược của bạn"
 
 #: src/views/33Together/PoolInfo.tsx:54
 msgid "Your pool deposits"
-msgstr "Tiền nạp của bạn trong bể"
+msgstr "Tiền nạp của bạn trong pool"
 
 #: src/views/Give/ManageDonationModal.tsx:537
 #: src/views/Give/RecipientModal.tsx:432
@@ -1483,11 +1483,11 @@ msgstr "Số dư sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:112
 msgid "sOHM Pool Details"
-msgstr "Chi tiết bể sOHM"
+msgstr "Chi tiết pool sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:108
 msgid "sOHM Prize Pool"
-msgstr "Tổng giải thướng sOHM"
+msgstr "Tổng Giải thưởng sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:288
 msgid "sOHM Yield"
@@ -1495,7 +1495,7 @@ msgstr "Lợi suất sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:300
 msgid "sOHM Yield Goal"
-msgstr "Lợi suất sOHM mục tiêu"
+msgstr "Mục tiêu Lợi suất sOHM"
 
 #: src/views/Give/RecipientModal.tsx:498
 msgid "sOHM deposit"
@@ -1507,7 +1507,7 @@ msgstr "giây"
 
 #: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
-msgstr "Cho đến kỳ tái cơ sở tiếp theo"
+msgstr "Cho đến kỳ rebase tiếp theo"
 
 #: src/views/ChooseBond/ChooseBond.tsx:87
 msgid "v2 bonds"
