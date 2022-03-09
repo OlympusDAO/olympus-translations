@@ -20,7 +20,7 @@ cd frontend
 pwd
 ls -al
 echo "Prevent build from failing on warnings"
-export process.env.CI = false
+export CI=false
 echo "Build OlympusDAP frontent web site"
 yarn install --frozen-lockfile
 yarn build
