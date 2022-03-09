@@ -8,9 +8,6 @@ jobs:
   build-test-preview:
     runs-on: ubuntu-latest
     steps:
-    - name: Remember work dir
-      run: |
-        pushd -n $(pwd)
     - name: Checkout olympus-frontend
       uses: actions/checkout@v3
       with:
@@ -25,7 +22,7 @@ jobs:
         path: src/locales/translations
     - name: Go to work dir
       run: |
-        popd
+        cd ${GITHUB_WORKSPACE}
     - name: Build UI for production
       run: |
         cd /
