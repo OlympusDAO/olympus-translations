@@ -52,8 +52,8 @@ A browser showing you the site should start with the latest develop branch and y
 git clone https://github.com/OlympusDAO/olympus-frontend.git`
 cd olympus-frontend
 
-# Switch to the translations develop branch
-yarn lingui:branch:develop
+# Switch to the translations 'translators' branch
+yarn lingui:branch:translators
 
 # Install the application dependencies
 yarn install 
@@ -66,5 +66,5 @@ yarn lingui:extract
 cd src/locales/translations
 git add .
 git commit
-git push origin develop
+git push origin translations
 ```
