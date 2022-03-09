@@ -11,6 +11,7 @@ echo "Move current branch translations into place for build"
 ls -al olympus-frontend
 cp -rf olympus-frontend frontend/src/locales/translations/
 ls -al frontend/src/locales/translations/
+ls -al frontend/src/locales/translations/olympus-frontend
 # prevent submodule pull
 touch frontend/src/locales/translations/.git
 ls -al frontend/src/locales/translations/
@@ -18,6 +19,8 @@ echo "Switch to frontend work dir"
 cd frontend
 pwd
 ls -al
+echo "Prevent build from failing on warnings"
+export process.env.CI = false
 echo "Build OlympusDAP frontent web site"
 yarn install --frozen-lockfile
 yarn build
