@@ -156,7 +156,7 @@ msgstr "Contracter {0}"
 #: src/components/Sidebar/NavContent.tsx:166
 #: src/components/Sidebar/NavContent.tsx:183
 msgid "Bridge"
-msgstr "Transférer"
+msgstr "Transférer (test)"
 
 #: src/components/Sidebar/externalUrls.tsx:27
 msgid "Bug Bounty"
