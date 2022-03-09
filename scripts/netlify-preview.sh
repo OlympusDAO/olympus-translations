@@ -21,7 +21,7 @@ pwd
 ls -al
 echo "Prevent build from failing on warnings"
 export CI=false
-echo "Build OlympusDAP frontent web site"
+echo "Build OlympusDAP frontent web site "
 yarn install --frozen-lockfile
 yarn build
 pwd
