@@ -68,3 +68,11 @@ git add .
 git commit
 git push origin translations
 ```
+
+### Clean up po files
+
+From time to time you may want to clean up po files from obsolete translations.
+
+Run: `npx lingui extract --clean`
+
+You should not do that to often because when translators have to translate a slightly modified version of an item, it helps to rely on the previously translated version.
