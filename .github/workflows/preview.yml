@@ -8,6 +8,9 @@ jobs:
   build-test-preview:
     runs-on: ubuntu-latest
     steps:
+    - name: Remember work dir
+      run: |
+        pushd
     - name: Checkout olympus-frontend
       uses: actions/checkout@v3
       with:
@@ -20,48 +23,11 @@ jobs:
       uses: actions/checkout@v3
       with:
         path: src/locales/translations
+    - name: Go to work dir
+      run: |
+        popd
     - name: Build UI for production
       run: |
+        cd /
         yarn install --frozen-lockfile
-        yarn lint
         yarn build
-    - name: Run unit tests
-      run: |
-        yarn test:unit
-
-  #
-  # Does OlympusDAO App use a pre-deploy service?
-  #
-  # If so and it works similar to NETLIFY, then we can run lighthouse test against it on each PR.
-  #
-  # TODO: Update script below to use proper env vars for pre-deploy servce
-  #
-  # lighthouse-deploy-preview:
-  #  runs-on: ubuntu-latest
-  #  steps:
-  #  - uses: actions/checkout@v2
-  #  - name: Wait for Netlify preview deployment of this git branch
-  #    if: github.repository_owner == 'ambianic'
-  #    uses: jakepartusch/wait-for-netlify-action@v1
-  #    id: get-netlify-url
-  #    with:
-  #      site_name: "ambianic-pwa-dist"
-  #      max_timeout: 180
-  #  - name: Run Lighthouse PWA check against Netlify PR Preview
-  #    uses: treosh/lighthouse-ci-action@v8
-  #    with:
-  #      urls: |
-  #        ${{ steps.get-netlify-url.outputs.url }}
-  #      uploadArtifacts: true # save results as an action artifacts
-  #      temporaryPublicStorage: true # upload lighthouse report to the temporary storage
-  #      # budgetPath: '.github/lighthouse/budget.json' # performance budgets
-  #      configPath: '.github/lighthouse/lighthouserc-netlify-preview.json' # PWA checks
-  #  - name: Run Lighthouse PWA sanity check against the existing Netlify production deployment
-  #    uses: treosh/lighthouse-ci-action@v8
-  #    with:
-  #      urls: |
-  #        https://ui.ambianic.ai
-  #      uploadArtifacts: true # save results as an action artifacts
-  #      temporaryPublicStorage: true # upload lighthouse report to the temporary storage
-  #      # budgetPath: '.github/lighthouse/budget.json' # performance budgets
-  #      configPath: '.github/lighthouse/lighthouserc-netlify-prod.json' # PWA checks
