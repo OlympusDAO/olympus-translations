@@ -25,5 +25,5 @@ jobs:
         yarn install --frozen-lockfile
         yarn build
       env:
-        # prevent errors from failing the build
+        # prevent errors from failing the build #
         CI: false
