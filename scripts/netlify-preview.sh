@@ -6,7 +6,7 @@ git clone https://github.com/OlympusDAO/olympus-frontend frontend
 echo "Remove translations from frontend develop checkout"
 rm -rf frontend/src/locales/translations/*
 echo "Move current branch translations into place for build"
-mv olympus-frontend frontend/src/locales/translations/
+cp -rf olympus-frontend frontend/src/locales/translations/
 echo "Switch to frontend work dir"
 cd frontend
 pwd
