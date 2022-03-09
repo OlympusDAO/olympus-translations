@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Remember work dir
       run: |
-        pushd
+        pushd -n $(pwd)
     - name: Checkout olympus-frontend
       uses: actions/checkout@v3
       with:
