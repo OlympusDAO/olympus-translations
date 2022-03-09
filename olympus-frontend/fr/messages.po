@@ -933,11 +933,11 @@ msgstr "Messire, vous ne possédez pas d'actifs..."
 
 #: src/views/V1-Stake/V1-Stake.jsx:189
 msgid "Single Stake"
-msgstr "Dépôt simple TESTING"
+msgstr "Dépôt simple"
 
 #: src/views/Stake/components/StakeArea/StakeArea.tsx:15
 msgid "Single Stake (3, 3)"
-msgstr "Dépôt simple TESTING (3, 3)"
+msgstr "Dépôt simple (3, 3)"
 
 #: src/views/BondV2/AdvancedSettings.tsx:29
 msgid "Slippage"
