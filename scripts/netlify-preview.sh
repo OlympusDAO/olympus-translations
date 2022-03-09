@@ -7,3 +7,5 @@ mv olympus-frontend src/locales/translations/
 cd frontend
 yarn install --frozen-lockfile
 yarn build
+pwd
+ls -al
