@@ -1,0 +1,29 @@
+name: Preview Deployment
+
+on:
+  pull_request:
+    branches: [ translators ]
+
+jobs:
+  build-test-preview:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout olympus-frontend
+      uses: actions/checkout@v3
+      with:
+        repository: OlympusDAO/olympus-frontend
+    - name: Prepare translations dir
+      run: |
+        rm -rf src/locales/translations/*
+    - name: Checkout translations
+      uses: actions/checkout@v3
+      with:
+        path: src/locales/translations
+    - name: Build UI for production
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        yarn install --frozen-lockfile
+        yarn build
+      env:
+        # prevent errors from failing the build
+        CI: false
