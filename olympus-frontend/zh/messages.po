@@ -22,6 +22,10 @@ msgstr "(6天提前退出免费用。使用网络费用。)"
 msgid "(includes rebase rewards)"
 msgstr ""
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "(total / liquid)"
+msgstr ""
+
 #: src/views/BondV2/BondV2.tsx:106
 msgid "--"
 msgstr ""
@@ -34,7 +38,7 @@ msgstr "一起 3, 3"
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "zap 换币是一系列的智能合约，将一种资产部署到另一种协议以处理受信任的交易。"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:140
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
 msgstr "年收益率"
@@ -67,7 +71,7 @@ msgstr "多合一轻松质押"
 msgid "All-in-one zap contracts"
 msgstr "多合一 Zap 合约"
 
-#: src/views/Bond/BondPurchase.tsx:169
+#: src/views/Bond/BondPurchase.tsx:170
 #: src/views/BondV2/BondPurchase.tsx:149
 msgid "Amount"
 msgstr "数量"
@@ -117,9 +121,9 @@ msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面开始
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr "奖励阶段已结束，您可以至一起彩池的使用者介面完成分发"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Backing per OHM"
-#~ msgstr "支持每个 OHM "
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "Backing per OHM"
+msgstr "支持每个 OHM "
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
@@ -176,13 +180,13 @@ msgstr "稍后检查！"
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "选择接收者地址，预设值为您当前连接的地址"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:53
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:54
 msgid "Circulating Supply (total)"
 msgstr "流通中的供应量 (总量)"
 
-#: src/views/Bond/BondRedeem.tsx:75
+#: src/views/Bond/BondRedeem.tsx:76
 #: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:137
+#: src/views/ChooseBond/ClaimRow.tsx:138
 msgid "Claim"
 msgstr "索取"
 
@@ -191,11 +195,11 @@ msgstr "索取"
 msgid "Claim all"
 msgstr "全部索取"
 
-#: src/views/Bond/BondRedeem.tsx:91
+#: src/views/Bond/BondRedeem.tsx:92
 msgid "Claim and Autostake"
 msgstr "索取并自动质押"
 
-#: src/views/ChooseBond/ClaimRow.tsx:148
+#: src/views/ChooseBond/ClaimRow.tsx:149
 msgid "Claim and Stake"
 msgstr "索取并质押"
 
@@ -203,7 +207,7 @@ msgstr "索取并质押"
 msgid "Claimable"
 msgstr "可索取的"
 
-#: src/views/Bond/BondRedeem.tsx:100
+#: src/views/Bond/BondRedeem.tsx:101
 msgid "Claimable Rewards"
 msgstr "可索取的奖励"
 
@@ -261,7 +265,7 @@ msgstr ""
 msgid "Current Deposit"
 msgstr "当前存入"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:93
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
@@ -293,8 +297,8 @@ msgstr ""
 msgid "Dashboard"
 msgstr "仪表盘"
 
-#: src/views/Bond/BondPurchase.tsx:260
-#: src/views/Bond/BondRedeem.tsx:119
+#: src/views/Bond/BondPurchase.tsx:261
+#: src/views/Bond/BondRedeem.tsx:120
 msgid "Debt Ratio"
 msgstr "负债比率"
 
@@ -335,8 +339,8 @@ msgstr "正在拨号给 Zapper..."
 msgid "Disconnect"
 msgstr "断开"
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
+#: src/views/Bond/BondPurchase.tsx:255
+#: src/views/Bond/BondRedeem.tsx:114
 #: src/views/BondV2/BondPurchase.tsx:213
 #: src/views/BondV2/BondRow.tsx:57
 #: src/views/BondV2/ChooseBondV2.tsx:107
@@ -425,7 +429,7 @@ msgstr "矿池"
 msgid "Finishes at {0} in your timezone"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:160
+#: src/views/Bond/BondPurchase.tsx:161
 #: src/views/BondV2/BondPurchase.tsx:135
 msgid "First time bonding"
 msgstr "第一次买债券"
@@ -512,6 +516,10 @@ msgstr ""
 msgid "Learn More"
 msgstr "了解更多"
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:74
+msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
+msgstr ""
+
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
 msgstr "将 sOHM 锁定在保险库中"
@@ -520,7 +528,7 @@ msgstr "将 sOHM 锁定在保险库中"
 msgid "Looks like you haven’t made any donations yet"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:25
 msgid "Market Cap"
 msgstr "市值"
 
@@ -543,7 +551,7 @@ msgstr ""
 
 #: src/views/33Together/PoolDeposit.tsx:154
 #: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:181
+#: src/views/Bond/BondPurchase.tsx:182
 #: src/views/BondV2/BondPurchase.tsx:144
 #: src/views/Give/ManageDonationModal.tsx:555
 #: src/views/Give/RecipientModal.tsx:450
@@ -553,7 +561,7 @@ msgstr ""
 msgid "Max"
 msgstr "最大限度"
 
-#: src/views/Bond/BondPurchase.tsx:242
+#: src/views/Bond/BondPurchase.tsx:243
 #: src/views/BondV2/BondPurchase.tsx:205
 msgid "Max You Can Buy"
 msgstr "您可以购买的最大数量"
@@ -634,7 +642,7 @@ msgstr "下一次奖励收获量"
 
 #: src/views/BondV2/ChooseBondV2.tsx:82
 #: src/views/ChooseBond/ChooseBond.tsx:110
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:39
 msgid "OHM Price"
 msgstr "OHM 价格"
 
@@ -683,7 +691,7 @@ msgstr "待定中"
 msgid "Pending Payout"
 msgstr ""
 
-#: src/views/Bond/BondRedeem.tsx:98
+#: src/views/Bond/BondRedeem.tsx:99
 msgid "Pending Rewards"
 msgstr "待定中的奖励"
 
@@ -697,7 +705,7 @@ msgstr "待定中..."
 
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:65
 #: src/components/TokenAllowanceGuard/TokenAllowanceGuard.tsx:71
-#: src/views/Bond/BondPurchase.tsx:161
+#: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:136
 #: src/views/V1-Stake/V1-Stake.jsx:265
 msgid "Please approve Olympus Dao to use your"
@@ -734,7 +742,7 @@ msgstr ""
 msgid "Please enter a valid Ethereum address"
 msgstr "请输入一个有效的以太坊地址"
 
-#: src/views/Bond/BondPurchase.tsx:64
+#: src/views/Bond/BondPurchase.tsx:65
 msgid "Please enter a valid value!"
 msgstr "请输入一个有效值！"
 
@@ -749,7 +757,7 @@ msgstr "请输入一个值"
 #: src/components/GiveProject/ProjectCard.tsx:423
 #: src/views/33Together/PoolDeposit.tsx:58
 #: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:62
+#: src/views/Bond/BondPurchase.tsx:63
 #: src/views/BondV2/BondPurchase.tsx:55
 #: src/views/Give/CausesDashboard.tsx:52
 #: src/views/Give/CausesDashboard.tsx:52
@@ -846,7 +854,7 @@ msgstr "获得收益自"
 
 #: src/components/EducationCard.tsx:149
 #: src/components/EducationCard.tsx:224
-#: src/views/Bond/BondPurchase.tsx:263
+#: src/views/Bond/BondPurchase.tsx:264
 #: src/views/BondV2/BondPurchase.tsx:226
 #: src/views/Give/RecipientModal.tsx:314
 #: src/views/Give/RecipientModal.tsx:326
@@ -996,7 +1004,7 @@ msgstr "换取 OHM"
 msgid "TVL"
 msgstr "总锁仓价值"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:94
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr ""
 
@@ -1012,7 +1020,7 @@ msgstr ""
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
 msgstr "该矿池已被临时禁用以进行 V2 迁移。请提取您的 33T"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr ""
 
@@ -1050,11 +1058,11 @@ msgstr "这是您钱包中 v1 资产的当前余额。"
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "这将与迁移完成后您钱包中的 gOHM 数量相等。"
 
-#: src/views/Bond/BondRedeem.tsx:104
+#: src/views/Bond/BondRedeem.tsx:105
 msgid "Time until fully vested"
 msgstr "待全数售予时间"
 
-#: src/components/Chart/Chart.tsx:526
+#: src/components/Chart/Chart.tsx:528
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr ""
@@ -1076,8 +1084,12 @@ msgstr "总赞助"
 msgid "Total Staked Balance"
 msgstr ""
 
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
+msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
+msgstr ""
+
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:126
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "存入总价值"
@@ -1096,12 +1108,12 @@ msgid "Treasury Balance"
 msgstr "金库余额"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
-msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
-msgstr ""
+#~ msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
+#~ msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-msgid "Treasury Market Value per OHM"
-msgstr ""
+#~ msgid "Treasury Market Value per OHM"
+#~ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/StakeInputArea.tsx:86
 #: src/views/V1-Stake/V1-Stake.jsx:238
@@ -1147,8 +1159,8 @@ msgstr "数值必须为正 "
 msgid "Vault"
 msgstr "保险库"
 
-#: src/views/Bond/BondPurchase.tsx:261
-#: src/views/Bond/BondRedeem.tsx:120
+#: src/views/Bond/BondPurchase.tsx:262
+#: src/views/Bond/BondRedeem.tsx:121
 msgid "Vesting Term"
 msgstr "授予期限"
 
@@ -1239,7 +1251,7 @@ msgstr "你提供"
 msgid "You Pay"
 msgstr "你支付"
 
-#: src/views/Bond/BondPurchase.tsx:237
+#: src/views/Bond/BondPurchase.tsx:238
 #: src/views/BondV2/BondPurchase.tsx:196
 msgid "You Will Get"
 msgstr "你将会获得"
@@ -1264,7 +1276,7 @@ msgstr ""
 msgid "You cannot withdraw more than your pool balance"
 msgstr "您的提款金额不能超过您的矿池余额"
 
-#: src/views/Bond/BondPurchase.tsx:67
+#: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
 msgstr "您已经有一张债券，现在再购买债券将重置您的授予期限且失去奖励。我们建议您先领取奖励或使用新钱包。您还想要继续执行吗？"
 
@@ -1297,7 +1309,7 @@ msgstr "您必须完成资产迁移才能质押额外的 OHM"
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "您必须拥有 sOHM（质押 OHM）余额才能继续"
 
-#: src/views/Bond/BondPurchase.tsx:232
+#: src/views/Bond/BondPurchase.tsx:233
 #: src/views/BondV2/BondPurchase.tsx:191
 msgid "Your Balance"
 msgstr "你的余额"
@@ -1380,7 +1392,7 @@ msgstr "买债券"
 msgid "do_stake"
 msgstr "进行质押"
 
-#: src/views/Bond/BondPurchase.tsx:162
+#: src/views/Bond/BondPurchase.tsx:163
 #: src/views/BondV2/BondPurchase.tsx:137
 msgid "for bonding"
 msgstr "用于买债券"
@@ -1422,7 +1434,7 @@ msgstr ""
 msgid "gOHM (Tokemak)"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:100
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
 msgid "gOHM = sOHM * index"
 msgstr ""
 
@@ -1436,7 +1448,7 @@ msgstr ""
 msgid "gOHM Balance in Fuse"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
 msgid "gOHM Price"
 msgstr "gOHM 价格"
 
@@ -1493,7 +1505,7 @@ msgstr ""
 msgid "sec"
 msgstr "秒"
 
-#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:19
+#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "至下一次变基"
 
