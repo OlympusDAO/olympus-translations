@@ -15,74 +15,74 @@ msgstr ""
 
 #: src/views/33Together/PoolWithdraw.tsx:125
 msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
-msgstr ""
+msgstr "(Плата за досрочный выход в течение 6 дней не взимается. Взимается плата за пользование сетью)."
 
 #: src/components/Migration/MigrationModal.tsx:257
 #: src/components/Migration/MigrationModalSingle.tsx:243
 msgid "(includes rebase rewards)"
-msgstr ""
+msgstr "(включает вознаграждение за ребазу)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
 msgid "(total / liquid)"
-msgstr ""
+msgstr "(общий / ликвидный )"
 
 #: src/views/BondV2/BondV2.tsx:115
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: src/views/33Together/33together.tsx:156
 msgid "3, 3 Together"
-msgstr ""
+msgstr "3, 3 Вместе"
 
 #: src/views/Zap/ZapInfo.tsx:96
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
-msgstr ""
+msgstr "Зап-свап - это серия смарт-контрактов, которые передают один актив другому протоколу для проведения доверенной транзакции."
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:140
 #: src/views/V1-Stake/V1-Stake.jsx:195
 msgid "APY"
-msgstr ""
+msgstr "APY"
 
 #: src/components/GiveProject/ProjectCard.tsx:773
 msgid "About"
-msgstr ""
+msgstr "О сайте"
 
 #: src/components/TopBar/Wallet/Token.tsx:218
 msgid "Add to Wallet"
-msgstr ""
+msgstr "Добавить в кошелек"
 
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
-msgstr ""
+msgstr "Регулировка проскальзывания"
 
 #: src/views/V1-Stake/V1-Stake.jsx:248
 msgid "All your assets are migrated"
-msgstr ""
+msgstr "Все ваши активы перенесены"
 
 #: src/views/Zap/ZapCta.tsx:51
 msgid "All-in-One contract to save time"
-msgstr ""
+msgstr "Договор "все в одном" для экономии времени"
 
 #: src/views/Zap/ZapInfo.tsx:119
 msgid "All-in-one easy staking"
-msgstr ""
+msgstr "Универсальный простой стейкинг"
 
 #: src/views/Zap/ZapInfo.tsx:114
 msgid "All-in-one zap contracts"
-msgstr ""
+msgstr "Контракты "все в одном"
 
 #: src/views/Bond/BondPurchase.tsx:170
 #: src/views/BondV2/BondPurchase.tsx:185
 msgid "Amount"
-msgstr ""
+msgstr "Сумма"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:203
 msgid "Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results."
-msgstr ""
+msgstr "Годовая процентная доходность - это нормализованное представление процентной ставки, основанной на периоде компаундирования в течение одного года. Обратите внимание, что представленные APY являются скорее приблизительными показателями, а не точными будущими результатами."
 
 #: src/views/Zap/ZapStakeHeader.tsx:29
 msgid "Any asset"
-msgstr ""
+msgstr "Любой актив"
 
 #: src/components/Migration/MigrationModal.tsx:214
 #: src/components/Migration/MigrationModal.tsx:311
@@ -93,42 +93,42 @@ msgstr ""
 #: src/views/V1-Stake/V1-Stake.jsx:362
 #: src/views/Zap/ZapStakeAction.tsx:486
 msgid "Approve"
-msgstr ""
+msgstr "Утвердить"
 
 #: src/components/Migration/MigrationModal.tsx:198
 #: src/components/Migration/MigrationModal.tsx:296
 #: src/views/Zap/ZapStakeAction.tsx:479
 msgid "Approved"
-msgstr ""
+msgstr "Одобрено"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:54
 msgid "Asset"
-msgstr ""
+msgstr "Активы"
 
 #: src/views/Zap/ZapStakeHeader.tsx:56
 msgid "Auto staked"
-msgstr ""
+msgstr "Автоматический стейкинг"
 
 #: src/views/33Together/PoolPrize.tsx:122
 msgid "Award Balance will grow at 1st rebase."
-msgstr ""
+msgstr "Баланс премии увеличивается при 1-м ребазе."
 
 #: src/views/33Together/PoolPrize.tsx:212
 msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr ""
+msgstr "Период награждения закончился, вы можете перейти в пользовательский интерфейс Pool Together, чтобы начать распределение."
 
 #: src/views/33Together/PoolPrize.tsx:191
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr ""
+msgstr "Период награждения закончился, вы можете перейти в пользовательский интерфейс Pool Together для завершения распределения"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
 msgid "Backing per OHM"
-msgstr ""
+msgstr "Поддержка на Ом"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:62
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:147
 msgid "Balance"
-msgstr ""
+msgstr "Баланс"
 
 #: src/components/Sidebar/NavContent.tsx:85
 #: src/views/BondV2/AccordionSection.tsx:46
@@ -142,97 +142,97 @@ msgstr ""
 #: src/views/ChooseBond/ChooseBond.tsx:123
 #: src/views/ChooseBond/ClaimBonds.tsx:28
 msgid "Bond"
-msgstr ""
+msgstr "Облигация"
 
 #: src/views/Bond/Bond.tsx:101
 #: src/views/BondV2/BondV2.tsx:110
 msgid "Bond Price"
-msgstr ""
+msgstr "Цена Облигации"
 
 #: src/views/ChooseBond/BondRow.tsx:93
 msgid "Bond {0}"
-msgstr ""
+msgstr "Облигация {0} "
 
 #: src/components/Sidebar/NavContent.tsx:166
 #: src/components/Sidebar/NavContent.tsx:183
 msgid "Bridge"
-msgstr ""
+msgstr "Мост"
 
 #: src/components/Sidebar/externalUrls.tsx:27
 msgid "Bug Bounty"
-msgstr ""
+msgstr "Баг Баунти"
 
 #: src/views/Give/Give.tsx:99
 msgid "Causes"
-msgstr ""
+msgstr "Причины"
 
 #: src/components/TopBar/ThemeSwitch.tsx:12
 msgid "Change Theme"
-msgstr ""
+msgstr "Изменить тему"
 
 #: src/components/TopBar/TopBar.tsx:64
 msgid "Change locale"
-msgstr ""
+msgstr "Изменить локаль"
 
 #: src/views/33Together/PoolDeposit.tsx:123
 #: src/views/33Together/PoolWithdraw.tsx:113
 msgid "Check back soon!"
-msgstr ""
+msgstr "Загляните в ближайшее время!"
 
 #: src/views/BondV2/AdvancedSettings.tsx:58
 msgid "Choose recipient address. By default, this is your currently connected address"
-msgstr ""
+msgstr "Выберите адрес получателя. По умолчанию это ваш текущий подключенный адрес"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:54
 msgid "Circulating Supply (total)"
-msgstr ""
+msgstr "Циркулирующий Объем (всего)"
 
 #: src/views/Bond/BondRedeem.tsx:76
 #: src/views/BondV2/ClaimRow.tsx:129
 #: src/views/ChooseBond/ClaimRow.tsx:138
 msgid "Claim"
-msgstr ""
+msgstr "Клейм"
 
 #: src/views/BondV2/ClaimBonds.tsx:128
 #: src/views/BondV2/ClaimBonds.tsx:192
 msgid "Claim all"
-msgstr ""
+msgstr "Заклеймить все"
 
 #: src/views/Bond/BondRedeem.tsx:92
 msgid "Claim and Autostake"
-msgstr ""
+msgstr "Клейм и Автостейк"
 
 #: src/views/ChooseBond/ClaimRow.tsx:149
 msgid "Claim and Stake"
-msgstr ""
+msgstr "Клейм и Стейк"
 
 #: src/views/ChooseBond/ClaimBonds.tsx:31
 msgid "Claimable"
-msgstr ""
+msgstr "Доступно для Клейма"
 
 #: src/views/Bond/BondRedeem.tsx:101
 msgid "Claimable Rewards"
-msgstr ""
+msgstr "Доступные Награды"
 
 #: src/components/Migration/MigrationModal.tsx:142
 msgid "Click on the Migrate button to complete the upgrade to v2."
-msgstr ""
+msgstr "Нажмите на кнопку Migrate, чтобы завершить обновление до версии 2."
 
 #: src/components/GiveProject/ProjectCard.tsx:192
 msgid "Completed"
-msgstr ""
+msgstr "Завершено"
 
 #: src/views/Give/RecipientModal.tsx:518
 msgid "Confirm"
-msgstr ""
+msgstr "Подтвердить"
 
 #: src/views/Give/ManageDonationModal.tsx:630
 msgid "Confirm New sOHM"
-msgstr ""
+msgstr "Подтвердить новый sOHM"
 
 #: src/views/Give/RedeemYieldModal.tsx:90
 msgid "Confirm {0} sOHM"
-msgstr ""
+msgstr "Подтвердить {0} sOHM"
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/GiveProject/ProjectCard.tsx:705
@@ -240,49 +240,49 @@ msgstr ""
 #: src/views/Give/Give.tsx:46
 #: src/views/Give/RecipientModal.tsx:391
 msgid "Connect Wallet"
-msgstr ""
+msgstr "Подключить кошелек"
 
 #: src/views/Stake/components/StakeArea/components/StakeActionArea/StakeActionArea.tsx:23
 #: src/views/V1-Stake/V1-Stake.jsx:221
 msgid "Connect your wallet to stake OHM"
-msgstr ""
+msgstr "Подключите свой кошелек для стейка OHM"
 
 #: src/views/Zap/Zap.tsx:42
 msgid "Connect your wallet to use Zap"
-msgstr ""
+msgstr "Подключите свой кошелек, чтобы использовать Zap"
 
 #: src/components/GiveProject/ProjectCard.tsx:254
 msgid "Connect your wallet to view the fundraising progress"
-msgstr ""
+msgstr "Подключите свой кошелек для просмотра хода сбора средств"
 
 #: src/views/Give/ManageDonationModal.tsx:563
 #: src/views/Give/RecipientModal.tsx:470
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:191
 msgid "Current"
-msgstr ""
+msgstr "Текущий"
 
 #: src/components/EducationCard.tsx:255
 msgid "Current Deposit"
-msgstr ""
+msgstr "Текущий депозит"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:93
 #: src/views/V1-Stake/V1-Stake.jsx:207
 #: src/views/Wrap/Wrap.tsx:193
 #: src/views/Wrap/WrapCrossChain.tsx:169
 msgid "Current Index"
-msgstr ""
+msgstr "Текущий индекс"
 
 #: src/views/33Together/PoolPrize.tsx:129
 msgid "Current Prize"
-msgstr ""
+msgstr "Текущая премия"
 
 #: src/views/Give/ManageDonationModal.tsx:580
 #: src/views/Give/ManageDonationModal.tsx:614
 msgid "Current sOHM deposit"
-msgstr ""
+msgstr "Текущий депозит sOHM"
 
 #: src/views/Give/CausesDashboard.tsx:132
 msgid "Custom Recipient"
