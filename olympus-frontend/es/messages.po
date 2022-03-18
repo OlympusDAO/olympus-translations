@@ -507,16 +507,16 @@ msgstr "Poseedores, representa el número total de Ohmies (Poseedores de sOHM)"
 
 #: src/views/BondV2/BondPurchase.tsx:42
 msgid "Important: Inverse Bonds have 0 vesting time & payout instantly."
-msgstr ""
+msgstr "Importante: Bonos Inversos tiene un tiempo de inversión 0 y remuneración instantánea."
 
 #: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:77
 msgid "Important: Inverse bonds allow you to bond your OHM for treasury assets. Vesting time is 0 and payouts are instant."
-msgstr ""
+msgstr "Importante: Bonos Inversos te permite invertir sus OHM para activos de tresorería. Tiempo de inversión 0 y remuneración instantánea."
 
 #: src/views/BondV2/BondPurchase.tsx:43
 #: src/views/BondV2/ChooseStraightBond.tsx:76
 msgid "Important: New bonds are auto-staked (accrue rebase rewards) and no longer vest linearly. Simply claim as sOHM or gOHM at the end of the term."
-msgstr ""
+msgstr "Importante: Nuevos bonos se reinvierten (se acumulan las recompensas de rebase) y no se inverten más linealmente. Simplemente, reclama como sOHM o gOHM al final del período."
 
 #: src/views/Zap/SlippageModal.tsx:70
 msgid "Important: Recommended slippage is 1-3% to avoid a failed transaction."
@@ -525,11 +525,11 @@ msgstr "Importante: Slippage recomendado de 1-3% para evitar una transacción fa
 #: src/views/BondV2/ChooseBondV2.tsx:71
 #: src/views/BondV2/ChooseBondV2.tsx:100
 msgid "Inverse Bond"
-msgstr ""
+msgstr "Bono Inverso"
 
 #: src/components/Sidebar/NavContent.tsx:129
 msgid "Inverse Bonds"
-msgstr ""
+msgstr "Bonos Inversos"
 
 #: src/views/Give/RecipientModal.tsx:407
 msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
@@ -669,7 +669,7 @@ msgstr "Interés de la Siguiente Recompensa"
 #: src/views/BondV2/ChooseStraightBond.tsx:38
 #: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:40
 msgid "No active bonds"
-msgstr ""
+msgstr "No hay bonos activos"
 
 #: src/views/BondV2/ChooseBondV2.tsx:79
 #: src/views/ChooseBond/ChooseBond.tsx:110
@@ -717,7 +717,7 @@ msgstr "Remuneración"
 
 #: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:54
 msgid "Payout Asset"
-msgstr ""
+msgstr "Activo de Remuneración"
 
 #: src/views/ChooseBond/ClaimBonds.tsx:34
 msgid "Pending"
@@ -1049,7 +1049,7 @@ msgstr "La duración del bono donde se puede reclamar el bono en su completo. Lo
 
 #: src/views/BondV2/BondPurchase.tsx:254
 msgid "The maximum quantity of payout token we are able to offer via bonds at this moment in time."
-msgstr "La cantidad máxima de tokens que podemos ofrecer por bonos en este momento."
+msgstr "La cantidad máxima de tokens de remuneración que podemos ofrecer por bonos en este momento."
 
 #: src/views/33Together/PoolWithdraw.tsx:122
 msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
@@ -1069,7 +1069,7 @@ msgstr "La cartera especificada recibirá el interés de la cantidad que usted h
 
 #: src/views/BondV2/BondPurchase.tsx:239
 msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr "La cantidad de activos que recibirá de la compra de este bono. (La cantidad de sOHM serà superior gracias al rebasing)"
+msgstr "La cantidad de activos de remuneración que recibirá de la compra de este bono. (La cantidad de sOHM serà superior gracias al rebasing)"
 
 #: src/components/EducationCard.tsx:134
 msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
@@ -1430,7 +1430,7 @@ msgstr "Participación"
 
 #: src/views/BondV2/BondRow.tsx:97
 msgid "for"
-msgstr ""
+msgstr "para"
 
 #: src/views/Bond/BondPurchase.tsx:163
 #: src/views/BondV2/BondPurchase.tsx:173
@@ -1576,8 +1576,8 @@ msgstr "Balance wsOHM a FiatDAO"
 
 #: src/views/Wrap/Wrap.tsx:198
 msgid "{gOHM} Price"
-msgstr ""
+msgstr "{gOHM} Precio"
 
 #: src/views/Wrap/Wrap.tsx:188
 msgid "{sOHM} Price"
-msgstr ""
+msgstr "{sOHM} Precio"
