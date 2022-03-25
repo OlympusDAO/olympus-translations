@@ -36,7 +36,7 @@ msgstr "3, 3 cùng nhau"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:112
 msgid "5 Days"
-msgstr ""
+msgstr "5 ngày"
 
 #: src/views/Zap/ZapInfo.tsx:95
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
@@ -54,7 +54,7 @@ msgstr "Về chúng tôi"
 
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Active"
-msgstr ""
+msgstr "Hoạt động"
 
 #: src/components/TopBar/Wallet/Token.tsx:218
 #~ msgid "Add to Wallet"
@@ -166,15 +166,15 @@ msgstr "Trái phiếu {0}"
 #: src/components/TopBar/Wallet/GetOhm.tsx:178
 #: src/components/TopBar/Wallet/GetOhm.tsx:186
 msgid "Borrow on Market.xyz"
-msgstr ""
+msgstr "Mượn từ Market.xyz"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:169
 msgid "Borrow on Rari"
-msgstr ""
+msgstr "Mược từ Rari"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:194
 msgid "Borrow on Vesta Finance"
-msgstr ""
+msgstr "Mượn từ Vesta Finance"
 
 #: src/components/Sidebar/NavContent.tsx:166
 #: src/components/Sidebar/NavContent.tsx:183
@@ -243,7 +243,7 @@ msgstr "Nhấn vào nút di chuyển để hoàn tất việc nâng cấp lên v
 
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Closed"
-msgstr ""
+msgstr "Đã đóng"
 
 #: src/components/GiveProject/ProjectCard.tsx:193
 msgid "Completed"
@@ -263,7 +263,7 @@ msgstr "Xác nhận sOHM {0}"
 
 #: src/components/TopBar/TopBar.tsx:50
 msgid "Connect"
-msgstr ""
+msgstr "Kết nối"
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/GiveProject/ProjectCard.tsx:706
@@ -341,15 +341,15 @@ msgstr "Gửi LP"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:142
 msgid "Deposit on Dopex"
-msgstr ""
+msgstr "Gửi trên Dopex"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:150
 msgid "Deposit on Jones DAO"
-msgstr ""
+msgstr "Gửi trên Jones DAO"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:158
 msgid "Deposit on Tokemak"
-msgstr ""
+msgstr "Gửi trên Tokemak"
 
 #: src/views/33Together/PoolDeposit.tsx:133
 msgid "Deposit sOHM"
@@ -459,7 +459,7 @@ msgstr "Nhập số lượng của"
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:76
 msgid "Enter an amount of wsOHM"
-msgstr ""
+msgstr "Nhập một số lượng wsOHM"
 
 #: src/views/Zap/ZapStakeAction.tsx:404
 msgid "Exchange Rate"
@@ -493,11 +493,11 @@ msgstr "Hoàn cọc lần đầu tiên"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:82
 msgid "First time unwrapping"
-msgstr ""
+msgstr "Lần đầu tiên mở gói"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:76
 msgid "First time wrapping"
-msgstr ""
+msgstr "Lần đầu tiên gói"
 
 #: src/views/BondV2/BondV2.tsx:101
 msgid "Fixed Expiration"
@@ -543,7 +543,7 @@ msgstr "Chuyển đến đặt cọc V2"
 
 #: src/views/Wrap/components/WrapSwitchNetwork.tsx:41
 msgid "Got wsOHM on Avalanche or Arbitrum? Click below to switch networks and migrate to gOHM (no bridge required!)"
-msgstr ""
+msgstr "Bạn có wsOHM trên Avalanche hoặc Arbitrum? Nhấp vào bên dưới để chuyển đổi mạng và chuyển sang gOHM (không cần cầu nối!)"
 
 #: src/components/Sidebar/externalUrls.tsx:17
 msgid "Governance"
@@ -600,7 +600,7 @@ msgstr "Tìm hiểu thêm"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:81
 msgid "Liquid Backing per OHM"
-msgstr ""
+msgstr "Thanh khoản hỗ trợ mỗi OHM"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
 msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
@@ -633,7 +633,7 @@ msgstr "Giá trị thị trường của các tài sản trong kho bạc"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
-msgstr ""
+msgstr "Giá trị thị trường của tài sản kho bạc, là tổng giá trị (tính bằng đô la) của tất cả tài sản do kho bạc nắm giữ (Không bao gồm pTokens và mã thông báo trong kỳ hạn). "
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 #~ msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
@@ -808,7 +808,7 @@ msgstr "Đang chờ..."
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
 msgid "Please approve Olympus DAO to use your"
-msgstr ""
+msgstr "Vui lòng chấp thuận Olympus DAO để sử dụng "
 
 #: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:172
@@ -895,7 +895,7 @@ msgstr "Vui lòng chuyển sang mạng thử nghiệm!"
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:30
 msgid "Please switch to the Abritrum or Avalanche networks to migrate"
-msgstr ""
+msgstr "Vui lòng chuyển sang mạng Abritrum hoặc Avalanche để di chuyển"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "Please switch to the Ethereum network to stake your OHM"
@@ -907,11 +907,11 @@ msgstr "Vui lòng chuyển sang mạng Ethereum để hoàn cọc OHM của bạ
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:33
 msgid "Please switch to the Ethereum network to unwrap your gOHM"
-msgstr ""
+msgstr "Vui lòng chuyển sang mạng Ethereum để mở gOHM của bạn "
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:33
 msgid "Please switch to the Ethereum network to wrap your sOHM"
-msgstr ""
+msgstr "Vui lòng chuyển sang mạng Ethereum để gói sOHM của bạn "
 
 #: src/views/33Together/PoolPrize.tsx:119
 msgid "Pool Award Balance is currently 0."
@@ -1093,7 +1093,7 @@ msgstr "Đặt cọc"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:110
 msgid "Stake Now"
-msgstr ""
+msgstr "Đặt cọc ngay"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:129
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:172
@@ -1114,7 +1114,7 @@ msgstr "Đặt cọc là chiến lược tích lũy giá trị chính của Olym
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:55
 msgid "Successfully migrated from wsOHM to gOHM"
-msgstr ""
+msgstr "Đã sáp nhập thành công từ wsOHM sang gOHM "
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:56
 msgid "Successfully staked OHM"
@@ -1126,11 +1126,11 @@ msgstr "Hoàn cọc OHM thành công"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:54
 msgid "Successfully unwrapped from gOHM to sOHM"
-msgstr ""
+msgstr "Đã mở thành công từ gOHM sang sOHM"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:54
 msgid "Successfully wrapped sOHM to gOHM"
-msgstr ""
+msgstr "Đã bọc thành công sOHM thành gOHM"
 
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
@@ -1413,7 +1413,7 @@ msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. 
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:36
 msgid "You cannot migrate more than your wsOHM balance"
-msgstr ""
+msgstr "Bạn không thể sáp nhập nhiều hơn số dư wsOHM của mình "
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:31
 msgid "You cannot stake more than your OHM balance"
@@ -1425,7 +1425,7 @@ msgstr "Bạn không thể hoàn cọc nhiều hơn"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:31
 msgid "You cannot unwrap more than your gOHM balance"
-msgstr ""
+msgstr "Bạn không thể mở nhiều hơn số dư gOHM của mình "
 
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
@@ -1433,7 +1433,7 @@ msgstr "Bạn không thể rút nhiều hơn số dư pool của mình"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:31
 msgid "You cannot wrap more than your sOHM balance"
-msgstr ""
+msgstr "Bạn không thể gói nhiều hơn số dư sOHM của mình "
 
 #: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
@@ -1487,7 +1487,7 @@ msgstr "Số dư đặt cọc của bạn (Có thể nạp)"
 
 #: src/views/Give/RecipientModal.tsx:443
 msgid "Your current Staked Balance is"
-msgstr ""
+msgstr "Số dư đặt cọc hiện tại của bạn là "
 
 #: src/views/Give/RecipientModal.tsx:443
 #~ msgid "Your current Staked Balance is {0} sOHM"
@@ -1528,7 +1528,7 @@ msgstr "Zap là 1 hoán đổi"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:87
 msgid "Zap with more assets"
-msgstr ""
+msgstr "Zap với nhiều tài sản hơn "
 
 #: src/views/Zap/ZapCta.tsx:41
 msgid "Zap with more assets and stake <0>OHM</0>"
@@ -1570,7 +1570,7 @@ msgstr "đang mua trái phiếu cho"
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
 msgid "for migrating"
-msgstr ""
+msgstr "để sáp nhập"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:96
 msgid "for staking"
@@ -1583,11 +1583,11 @@ msgstr "đang hoàn cọc cho"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
 msgid "for unwrapping"
-msgstr ""
+msgstr "để mở gói"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
 msgid "for wrapping"
-msgstr ""
+msgstr "để gói"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:98
 msgid "gOHM"
@@ -1607,11 +1607,11 @@ msgstr "gOHM (Fantom)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:160
 msgid "gOHM (Fuse)"
-msgstr ""
+msgstr "gOHM (Fuse)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:142
 msgid "gOHM (Optimism)"
-msgstr ""
+msgstr "gOHM (Optimism)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:124
 msgid "gOHM (Polygon)"
@@ -1632,11 +1632,11 @@ msgstr "Số dư gOHM"
 
 #: src/views/Wrap/components/WrapBalances.tsx:47
 msgid "gOHM Balance (Arbitrum)"
-msgstr ""
+msgstr "Số dư gOHM (Arbitrum)"
 
 #: src/views/Wrap/components/WrapBalances.tsx:31
 msgid "gOHM Balance (Avalanche)"
-msgstr ""
+msgstr "Số dư gOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:393
 msgid "gOHM Balance in Fuse"
@@ -1663,7 +1663,7 @@ msgstr "sOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:169
 msgid "sOHM (v1)"
-msgstr ""
+msgstr "sOHM (v1)"
 
 #: src/views/Give/RecipientModal.tsx:429
 msgid "sOHM Allocation"
@@ -1709,15 +1709,15 @@ msgstr "Trái phiếu v2"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:178
 msgid "wsOHM"
-msgstr ""
+msgstr "wsOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:187
 msgid "wsOHM (Arbitrum)"
-msgstr ""
+msgstr "wsOHM (Arbitrum)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:196
 msgid "wsOHM (Avalanche)"
-msgstr ""
+msgstr "wsOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:401
 msgid "wsOHM Balance"
@@ -1725,11 +1725,11 @@ msgstr "Số dư wsOHM"
 
 #: src/views/Wrap/components/WrapBalances.tsx:42
 msgid "wsOHM Balance (Arbitrum)"
-msgstr ""
+msgstr "Số dư wsOHM (Arbitrum)"
 
 #: src/views/Wrap/components/WrapBalances.tsx:26
 msgid "wsOHM Balance (Avalanche)"
-msgstr ""
+msgstr "Số dư wsOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:409
 msgid "wsOHM Balance in FiatDAO"
