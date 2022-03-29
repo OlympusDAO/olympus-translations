@@ -36,7 +36,7 @@ msgstr "3, 3 Juntos"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:112
 msgid "5 Days"
-msgstr ""
+msgstr "5 Días"
 
 #: src/views/Zap/ZapInfo.tsx:95
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
@@ -54,7 +54,7 @@ msgstr "Sobre"
 
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #: src/components/TopBar/Wallet/Token.tsx:218
 #~ msgid "Add to Wallet"
@@ -132,7 +132,7 @@ msgstr "El período de asignación ha terminado, usted puede navegar al Fondo Ju
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
 #~ msgid "Backing per OHM"
-#~ msgstr "Soportado por OHM"
+#~ msgstr "Respaldo por OHM"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:82
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:165
@@ -166,15 +166,15 @@ msgstr "Bono {0}"
 #: src/components/TopBar/Wallet/GetOhm.tsx:178
 #: src/components/TopBar/Wallet/GetOhm.tsx:186
 msgid "Borrow on Market.xyz"
-msgstr ""
+msgstr "Pedir préstamo en Market.xyz"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:169
 msgid "Borrow on Rari"
-msgstr ""
+msgstr "Pedir préstamo en Rari"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:194
 msgid "Borrow on Vesta Finance"
-msgstr ""
+msgstr "Pedir préstamo en Vesta Finance"
 
 #: src/components/Sidebar/NavContent.tsx:166
 #: src/components/Sidebar/NavContent.tsx:183
@@ -243,7 +243,7 @@ msgstr "Pulse al botón Migrar para completar el cambio a v2."
 
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Closed"
-msgstr ""
+msgstr "Cerrado"
 
 #: src/components/GiveProject/ProjectCard.tsx:193
 msgid "Completed"
@@ -263,7 +263,7 @@ msgstr "Confirmar {0} sOHM"
 
 #: src/components/TopBar/TopBar.tsx:50
 msgid "Connect"
-msgstr ""
+msgstr "Conectar"
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/GiveProject/ProjectCard.tsx:706
@@ -341,15 +341,15 @@ msgstr "Depositar LP"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:142
 msgid "Deposit on Dopex"
-msgstr ""
+msgstr "Depositar en Dopex"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:150
 msgid "Deposit on Jones DAO"
-msgstr ""
+msgstr "Depositar en Jones DAO"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:158
 msgid "Deposit on Tokemak"
-msgstr ""
+msgstr "Depositar en Tokemak"
 
 #: src/views/33Together/PoolDeposit.tsx:133
 msgid "Deposit sOHM"
@@ -459,7 +459,7 @@ msgstr "Introducir una cantidad de"
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:76
 msgid "Enter an amount of wsOHM"
-msgstr ""
+msgstr "Introducir una cantidad de wsOHM"
 
 #: src/views/Zap/ZapStakeAction.tsx:404
 msgid "Exchange Rate"
@@ -493,11 +493,11 @@ msgstr "Primer vez en retirar participaciones"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:82
 msgid "First time unwrapping"
-msgstr ""
+msgstr "Primer vez en desempaquetar"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:76
 msgid "First time wrapping"
-msgstr ""
+msgstr "Primer vez en empaquetar"
 
 #: src/views/BondV2/BondV2.tsx:101
 msgid "Fixed Expiration"
@@ -543,7 +543,7 @@ msgstr "Ir a Participaciones V2"
 
 #: src/views/Wrap/components/WrapSwitchNetwork.tsx:41
 msgid "Got wsOHM on Avalanche or Arbitrum? Click below to switch networks and migrate to gOHM (no bridge required!)"
-msgstr ""
+msgstr "Consigue wsOHM en Avalanche o Arbitrum? Clica abajo para cambiar las redes y migrar a gOHM (no se necesita puente!)"
 
 #: src/components/Sidebar/externalUrls.tsx:17
 msgid "Governance"
@@ -600,11 +600,11 @@ msgstr "Conoce Más"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:81
 msgid "Liquid Backing per OHM"
-msgstr ""
+msgstr "Respaldo Líquido por OHM"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
 msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
-msgstr "Las Tesorería de Liquidez de Soporte no invluye LP OHM, activos bloqueados, o reservas usadas para soporte RFV. Esto representa el presupuesto de Tesorería que tiene para operaciones de mercado específicas que no pueden usar OHM (bonos inversos, algunas provisiones de liquidez, incentivos OHM, etc)"
+msgstr "Las Tesorería de Liquidez de Respaldo no invluye LP OHM, activos bloqueados, o reservas usadas para respaldo de RFV. Esto representa el presupuesto de Tesorería que tiene para operaciones de mercado específicas que no pueden usar OHM (bonos inversos, algunas provisiones de liquidez, incentivos OHM, etc)"
 
 #: src/views/Give/GiveInfo.tsx:20
 msgid "Lock sOHM in vault"
@@ -629,11 +629,11 @@ msgstr "Mercado SLP"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:58
 msgid "Market Value of Treasury Assets"
-msgstr "Market Value of Treasury Assets"
+msgstr "Valor de Mercado de los Activos de la Tesorería"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
-msgstr ""
+msgstr "Valor de Mercado de los Activos de la Tesorería, es la suma del valor (en dólares) de todos los activos de la tesorería (Excluyendo pTokens y tokens Vested)."
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 #~ msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
@@ -808,7 +808,7 @@ msgstr "Pendiente..."
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
 msgid "Please approve Olympus DAO to use your"
-msgstr ""
+msgstr "Por favor, aprueba Olympus Dao para usar su"
 
 #: src/views/Bond/BondPurchase.tsx:162
 #: src/views/BondV2/BondPurchase.tsx:172
@@ -895,7 +895,7 @@ msgstr "Por favor, cambie a testnet!"
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:30
 msgid "Please switch to the Abritrum or Avalanche networks to migrate"
-msgstr ""
+msgstr "Por favor, cambia a las redes Arbitrum o Avalanche para migrar"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "Please switch to the Ethereum network to stake your OHM"
@@ -907,11 +907,11 @@ msgstr "Por favor, cambie a la red Etherum para retirar de las participaciones s
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:33
 msgid "Please switch to the Ethereum network to unwrap your gOHM"
-msgstr ""
+msgstr "Por favor, cambia a la red Etherum para desempaquetar sus gOHM"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:33
 msgid "Please switch to the Ethereum network to wrap your sOHM"
-msgstr ""
+msgstr "Por favor, cambia a la red Etherum para desempaquetar sus sOHM"
 
 #: src/views/33Together/PoolPrize.tsx:119
 msgid "Pool Award Balance is currently 0."
@@ -1093,7 +1093,7 @@ msgstr "Participar"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:110
 msgid "Stake Now"
-msgstr ""
+msgstr "Participar Ahora"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:129
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:172
@@ -1114,7 +1114,7 @@ msgstr "Las participaciones son el valor principal de la estartegia de Olympus. 
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:55
 msgid "Successfully migrated from wsOHM to gOHM"
-msgstr ""
+msgstr "wsOHM migrados a gOHM correctamente"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:56
 msgid "Successfully staked OHM"
@@ -1126,11 +1126,11 @@ msgstr "Retiradas sus participaciones correctamente"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:54
 msgid "Successfully unwrapped from gOHM to sOHM"
-msgstr ""
+msgstr "gOHM desempaquetados a sOHM correctamente"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:54
 msgid "Successfully wrapped sOHM to gOHM"
-msgstr ""
+msgstr "sOHM empaquetados a gOHM correctamente
 
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
@@ -1231,7 +1231,7 @@ msgstr "Balance Total de Participaciones"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
 #~ msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
-#~ msgstr "El total del valor de mercado de la Tesorería de Soporte es el presupuesto en USD de la Tesorería que tiene por OHM para gastar en todas las operaciones de mercado (LP, cambios, generación de beneficio, bonos y bonos inversos, etc)."
+#~ msgstr "El total del valor de mercado de la Tesorería de Respaldo es el presupuesto en USD de la Tesorería que tiene por OHM para gastar en todas las operaciones de mercado (LP, cambios, generación de beneficio, bonos y bonos inversos, etc)."
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
@@ -1413,7 +1413,7 @@ msgstr "Usted puede retirar los fondos depositados en cualquier momento. Retiran
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:36
 msgid "You cannot migrate more than your wsOHM balance"
-msgstr ""
+msgstr "Usted no puede migrar más de su balance de wsOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:31
 msgid "You cannot stake more than your OHM balance"
@@ -1425,7 +1425,7 @@ msgstr "No se pueden retirar particiapciones más que su"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:31
 msgid "You cannot unwrap more than your gOHM balance"
-msgstr ""
+msgstr "Usted no puede desempaquetar más de su balance de gOHM"
 
 #: src/views/33Together/PoolWithdraw.tsx:91
 msgid "You cannot withdraw more than your pool balance"
@@ -1433,7 +1433,7 @@ msgstr "Usted no puede retirar una cantidad mayor de la que hay en el Balance de
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:31
 msgid "You cannot wrap more than your sOHM balance"
-msgstr ""
+msgstr "Usted no puede empaquetar más de su balance de sOHM"
 
 #: src/views/Bond/BondPurchase.tsx:68
 msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
@@ -1487,7 +1487,7 @@ msgstr "Balance de Participaciones (Depositable)"
 
 #: src/views/Give/RecipientModal.tsx:443
 msgid "Your current Staked Balance is"
-msgstr ""
+msgstr "Su Balance de Participaciones actual es "
 
 #: src/views/Give/RecipientModal.tsx:443
 #~ msgid "Your current Staked Balance is {0} sOHM"
@@ -1528,7 +1528,7 @@ msgstr "Zap es un intercambio"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:87
 msgid "Zap with more assets"
-msgstr ""
+msgstr "Zap con más activos"
 
 #: src/views/Zap/ZapCta.tsx:41
 msgid "Zap with more assets and stake <0>OHM</0>"
@@ -1570,7 +1570,7 @@ msgstr "para bonos"
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
 msgid "for migrating"
-msgstr ""
+msgstr "para migrar"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:96
 msgid "for staking"
@@ -1583,11 +1583,11 @@ msgstr "para retirar la participación"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
 msgid "for unwrapping"
-msgstr ""
+msgstr "para desempaquetar"
 
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
 msgid "for wrapping"
-msgstr ""
+msgstr "para empaquetar"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:98
 msgid "gOHM"
@@ -1611,7 +1611,7 @@ msgstr "gOHM (Fuse)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:142
 msgid "gOHM (Optimism)"
-msgstr ""
+msgstr "gOHM (Optimism)"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:124
 msgid "gOHM (Polygon)"
@@ -1632,11 +1632,11 @@ msgstr "Balance gOHM"
 
 #: src/views/Wrap/components/WrapBalances.tsx:47
 msgid "gOHM Balance (Arbitrum)"
-msgstr ""
+msgstr "Balance gOHM (Arbitrum)"
 
 #: src/views/Wrap/components/WrapBalances.tsx:31
 msgid "gOHM Balance (Avalanche)"
-msgstr ""
+msgstr "Balance gOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:393
 msgid "gOHM Balance in Fuse"
@@ -1725,11 +1725,11 @@ msgstr "Balance wsOHM"
 
 #: src/views/Wrap/components/WrapBalances.tsx:42
 msgid "wsOHM Balance (Arbitrum)"
-msgstr ""
+msgstr "Balance wsOHM (Arbitrum)"
 
 #: src/views/Wrap/components/WrapBalances.tsx:26
 msgid "wsOHM Balance (Avalanche)"
-msgstr ""
+msgstr "Balance wsOHM (Avalanche)"
 
 #: src/views/V1-Stake/V1-Stake.jsx:409
 msgid "wsOHM Balance in FiatDAO"
