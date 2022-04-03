@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: se\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: src/components/GiveProject/ProjectCard.tsx:246
 msgid "% of goal"
@@ -117,7 +123,7 @@ msgid "Award period has finished, you can navigate to Pool Together's UI to comp
 msgstr ""
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:92
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:175
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:181
 msgid "Balance"
 msgstr ""
 
@@ -1102,8 +1108,8 @@ msgstr ""
 msgid "Stake Now"
 msgstr ""
 
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:139
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:182
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:145
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:188
 msgid "Stake on"
 msgstr ""
 
@@ -1244,7 +1250,7 @@ msgstr ""
 msgid "Total Sponsorship"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:82
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:83
 #: src/views/V1-Stake/V1-Stake.jsx:378
 msgid "Total Staked Balance"
 msgstr ""
@@ -1277,7 +1283,7 @@ msgstr ""
 msgid "Unstake OHM"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:72
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:73
 #: src/views/V1-Stake/V1-Stake.jsx:370
 msgid "Unstaked Balance"
 msgstr ""
@@ -1603,40 +1609,40 @@ msgstr ""
 msgid "for wrapping"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:98
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:99
 msgid "gOHM"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:106
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:107
 msgid "gOHM (Arbitrum)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:115
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:116
 msgid "gOHM (Avalanche)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:133
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:134
 msgid "gOHM (Fantom)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:160
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:161
 msgid "gOHM (Fuse)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:142
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:143
 msgid "gOHM (Optimism)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:124
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:125
 msgid "gOHM (Polygon)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:151
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:152
 msgid "gOHM (Tokemak)"
 msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:422
-#: src/views/Wrap/components/WrapBalances.tsx:56
+#: src/views/Wrap/components/WrapBalances.tsx:61
 msgid "gOHM Balance"
 msgstr ""
 
@@ -1663,11 +1669,11 @@ msgstr ""
 #: src/views/Give/RedeemYield.tsx:212
 #: src/views/Give/RedeemYield.tsx:217
 #: src/views/Give/RedeemYield.tsx:222
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:90
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:91
 msgid "sOHM"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:169
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:170
 msgid "sOHM (v1)"
 msgstr ""
 
@@ -1677,7 +1683,7 @@ msgstr ""
 
 #: src/views/V1-Stake/V1-Stake.jsx:386
 #: src/views/V1-Stake/V1-Stake.jsx:416
-#: src/views/Wrap/components/WrapBalances.tsx:55
+#: src/views/Wrap/components/WrapBalances.tsx:56
 msgid "sOHM Balance"
 msgstr ""
 
@@ -1723,15 +1729,15 @@ msgstr ""
 msgid "v2 bonds"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:178
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:179
 msgid "wsOHM"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:187
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:188
 msgid "wsOHM (Arbitrum)"
 msgstr ""
 
-#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:196
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:197
 msgid "wsOHM (Avalanche)"
 msgstr ""
 
