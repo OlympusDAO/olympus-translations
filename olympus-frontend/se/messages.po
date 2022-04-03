@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-03-09 08:45+0100\n"
+"POT-Creation-Date: 2022-03-30 14:45+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: it\n"
+"Language: se\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
@@ -25,10 +25,6 @@ msgstr ""
 #: src/components/Migration/MigrationModalSingle.tsx:243
 msgid "(includes rebase rewards)"
 msgstr ""
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
-#~ msgid "(total / liquid)"
-#~ msgstr ""
 
 #: src/views/BondV2/BondV2.tsx:115
 msgid "--"
@@ -52,17 +48,9 @@ msgstr ""
 msgid "APY"
 msgstr ""
 
-#: src/components/GiveProject/ProjectCard.tsx:774
-#~ msgid "About"
-#~ msgstr ""
-
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Active"
 msgstr ""
-
-#: src/components/TopBar/Wallet/Token.tsx:218
-#~ msgid "Add to Wallet"
-#~ msgstr ""
 
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
@@ -133,10 +121,6 @@ msgstr ""
 #: src/views/33Together/PoolPrize.tsx:191
 msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
 msgstr ""
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
-#~ msgid "Backing per OHM"
-#~ msgstr ""
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:92
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:181
@@ -305,10 +289,6 @@ msgstr ""
 #: src/views/TreasuryDashboard/treasuryData.ts:191
 msgid "Current"
 msgstr ""
-
-#: src/components/EducationCard.tsx:255
-#~ msgid "Current Deposit"
-#~ msgstr ""
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:97
 #: src/views/V1-Stake/V1-Stake.jsx:207
@@ -657,10 +637,6 @@ msgstr ""
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
 msgstr ""
-
-#: src/views/TreasuryDashboard/treasuryData.ts:198
-#~ msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
-#~ msgstr ""
 
 #: src/views/33Together/PoolDeposit.tsx:154
 #: src/views/33Together/PoolWithdraw.tsx:140
@@ -1216,10 +1192,6 @@ msgid ""
 "sOHM deposit until you withdraw your sOHM principal from the vault."
 msgstr ""
 
-#: src/components/EducationCard.tsx:240
-#~ msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
-#~ msgstr ""
-
 #: src/views/Give/RecipientModal.tsx:424
 #: src/views/Give/RecipientModal.tsx:521
 msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
@@ -1234,10 +1206,6 @@ msgid ""
 "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient.\n"
 "You can withdraw or edit your principal sOHM amount at any time."
 msgstr ""
-
-#: src/components/EducationCard.tsx:134
-#~ msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
-#~ msgstr ""
 
 #: src/views/33Together/PoolDeposit.tsx:117
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -1287,10 +1255,6 @@ msgstr ""
 msgid "Total Staked Balance"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
-#~ msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
-#~ msgstr ""
-
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
 #: src/views/TreasuryDashboard/treasuryData.ts:186
@@ -1331,10 +1295,6 @@ msgstr ""
 #: src/slices/PendingTxnsSlice.ts:42
 msgid "Unwrapping sOHM"
 msgstr ""
-
-#: src/components/EducationCard.tsx:275
-#~ msgid "Updated Deposit"
-#~ msgstr ""
 
 #: src/views/Give/GrantsDashboard.tsx:106
 msgid "Upon receiving an Olympus Grant, you gain exposure to the Olympus Give ecosystem where your performance is rewarded every 8 hours through the yield your grant generates; you then can also receive support from other Ohmies and this acts as a loop that compounds value and amplifies the reach and growth of your mission."
@@ -1444,10 +1404,6 @@ msgstr ""
 msgid "Yield Source"
 msgstr ""
 
-#: src/components/EducationCard.tsx:178
-#~ msgid "You"
-#~ msgstr ""
-
 #: src/views/Zap/ZapInfo.tsx:136
 msgid "You Choose"
 msgstr ""
@@ -1525,10 +1481,6 @@ msgstr ""
 msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:384
-#~ msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
-#~ msgstr ""
-
 #: src/views/V1-Stake/V1-Stake.jsx:249
 msgid "You must complete the migration of your assets to stake additional OHM"
 msgstr ""
@@ -1559,10 +1511,6 @@ msgstr ""
 #: src/views/Give/RecipientModal.tsx:409
 msgid "Your current Staked Balance is"
 msgstr ""
-
-#: src/views/Give/RecipientModal.tsx:443
-#~ msgid "Your current Staked Balance is {0} sOHM"
-#~ msgstr ""
 
 #: src/views/Give/ManageDonationModal.tsx:568
 msgid "Your current deposit is {0} sOHM"
@@ -1693,10 +1641,6 @@ msgstr ""
 msgid "gOHM (Tokemak)"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
-#~ msgid "gOHM = sOHM * index"
-#~ msgstr ""
-
 #: src/views/V1-Stake/V1-Stake.jsx:422
 #: src/views/Wrap/components/WrapBalances.tsx:61
 msgid "gOHM Balance"
@@ -1713,10 +1657,6 @@ msgstr ""
 #: src/views/V1-Stake/V1-Stake.jsx:393
 msgid "gOHM Balance in Fuse"
 msgstr ""
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
-#~ msgid "gOHM Price"
-#~ msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:156
 msgid "hrs"
@@ -1816,11 +1756,3 @@ msgstr ""
 #: src/views/V1-Stake/V1-Stake.jsx:409
 msgid "wsOHM Balance in FiatDAO"
 msgstr ""
-
-#: src/views/Wrap/Wrap.tsx:198
-#~ msgid "{gOHM} Price"
-#~ msgstr ""
-
-#: src/views/Wrap/Wrap.tsx:188
-#~ msgid "{sOHM} Price"
-#~ msgstr ""
