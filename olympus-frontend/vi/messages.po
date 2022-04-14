@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/components/GiveProject/ProjectCard.tsx:246
 msgid "% of goal"
-msgstr ""
+msgstr "% của mục tiêu"
 
 #: src/views/33Together/PoolWithdraw.tsx:125
 msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
@@ -120,7 +120,7 @@ msgstr "Tài sản"
 
 #: src/views/Zap/ZapStakeHeader.tsx:56
 msgid "Auto staked"
-msgstr "Tự động đặt cọc"
+msgstr "Đặt cọc tự động"
 
 #: src/views/33Together/PoolPrize.tsx:110
 msgid "Award Balance will grow at 1st rebase."
@@ -169,7 +169,7 @@ msgstr "Trái phiếu {0}"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:206
 msgid "Borrow on Impermax"
-msgstr ""
+msgstr "Mượn trên Impermax"
 
 #: src/components/TopBar/Wallet/GetOhm.tsx:182
 #: src/components/TopBar/Wallet/GetOhm.tsx:190
@@ -195,7 +195,7 @@ msgstr "Phần thưởng Săn Bug"
 
 #: src/views/Give/ManageDonationModal.tsx:660
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 #: src/views/Give/Give.tsx:92
 msgid "Causes"
@@ -341,7 +341,7 @@ msgstr "Bảng tổng quan"
 
 #: src/views/Give/ManageDonationModal.tsx:455
 msgid "Date"
-msgstr ""
+msgstr "Ngày"
 
 #: src/views/Bond/BondPurchase.tsx:261
 #: src/views/Bond/BondRedeem.tsx:116
@@ -379,7 +379,7 @@ msgstr "Gửi sOHM để giành chiến thắng! Sau khi nạp, bạn sẽ nhậ
 
 #: src/views/Give/ManageDonationModal.tsx:457
 msgid "Deposited"
-msgstr ""
+msgstr "Đã gửi"
 
 #: src/views/Give/RedeemYield.tsx:211
 msgid "Deposited sOHM"
@@ -623,7 +623,7 @@ msgstr "Tìm hiểu thêm"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:81
 msgid "Liquid Backing per OHM"
-msgstr "Thanh khoản hỗ trợ mỗi OHM"
+msgstr "Hỗ trợ linh hoạt cho mỗi OHM"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
 msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
@@ -712,7 +712,7 @@ msgstr "Sáp nhập hoàn tất"
 
 #: src/components/GiveProject/GrantCard.tsx:212
 msgid "Milestone {0}: {1} sOHM"
-msgstr ""
+msgstr "Cột mốc {0}: {1} sOHM"
 
 #: src/views/Zap/ZapStakeAction.tsx:452
 #: src/views/Zap/ZapStakeAction.tsx:517
@@ -729,7 +729,7 @@ msgstr "Các khoản quyên góp của tôi"
 
 #: src/views/Give/RedeemYieldModal.tsx:81
 msgid "My Wallet Address"
-msgstr ""
+msgstr "Địa chỉ ví của tôi"
 
 #: src/views/BondV2/BondPurchase.tsx:259
 msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
@@ -1053,7 +1053,7 @@ msgstr "Số lượng có thể quy đổi"
 
 #: src/views/Give/RedeemYieldModal.tsx:63
 msgid "Redeemable Yield"
-msgstr ""
+msgstr "Lợi nhuận có thể quy đổi"
 
 #: src/components/GiveProject/ProjectCard.tsx:203
 msgid "Remaining"
@@ -1151,7 +1151,7 @@ msgstr "Đặt cọc là chiến lược tích lũy giá trị chính của Olym
 
 #: src/views/Give/ManageDonationModal.tsx:396
 msgid "Stop Donation"
-msgstr ""
+msgstr "Ngừng quyên góp"
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:55
 msgid "Successfully migrated from wsOHM to gOHM"
@@ -1215,6 +1215,8 @@ msgid ""
 "The recipient you specified, or the project you selected, will then receive the rebases associated with your\n"
 "sOHM deposit until you withdraw your sOHM principal from the vault."
 msgstr ""
+"Người nhận mà bạn đã chỉ định hoặc dự án bạn đã chọn, sau đó sẽ nhận được các khoản lợi nhuậ liên quan đến \ n của bạn"
+"tiền gửi sOHM cho đến khi bạn rút tiền gốc sOHM của mình từ kho tiền."
 
 #: src/components/EducationCard.tsx:240
 #~ msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
@@ -1234,6 +1236,8 @@ msgid ""
 "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient.\n"
 "You can withdraw or edit your principal sOHM amount at any time."
 msgstr ""
+"Sau đó, sOHM đã ký gửi của bạn được lưu giữ trong một hợp đồng thông minh vault sẽ gửi các khoản lợi nhuận của bạn cho người nhận. \ N"
+"Bạn có thể rút hoặc chỉnh sửa số sOHM chính của mình bất kỳ lúc nào."
 
 #: src/components/EducationCard.tsx:134
 #~ msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
@@ -1276,7 +1280,7 @@ msgstr "Tổng số tiền gửi"
 
 #: src/components/GiveProject/GrantCard.tsx:267
 msgid "Total Milestone Amount"
-msgstr ""
+msgstr "Tổng số lượng tại cột mốc"
 
 #: src/views/33Together/PoolInfo.tsx:85
 msgid "Total Sponsorship"
@@ -1346,7 +1350,7 @@ msgstr "Mở gói sOHM"
 
 #: src/views/Give/GrantsDashboard.tsx:106
 msgid "Upon receiving an Olympus Grant, you gain exposure to the Olympus Give ecosystem where your performance is rewarded every 8 hours through the yield your grant generates; you then can also receive support from other Ohmies and this acts as a loop that compounds value and amplifies the reach and growth of your mission."
-msgstr ""
+msgstr "Khi nhận được Olympus Grant, bạn được tiếp xúc với hệ sinh thái Olympus Give, nơi lợi suất của bạn được thưởng cứ sau 8 giờ thông qua lợi nhuận mà khoản tài trợ của bạn tạo ra; sau đó bạn cũng có thể nhận được sự hỗ trợ từ các Ohmies khác và điều này hoạt động như một vòng lặp kết hợp giá trị và khuếch đại phạm vi tiếp cận cũng như sự phát triển trong sứ mệnh của bạn. ""
 
 #: src/views/Give/ManageDonationModal.tsx:283
 msgid "Value cannot be more than your sOHM balance of"
@@ -1392,11 +1396,11 @@ msgstr "Ví"
 
 #: src/views/Give/CausesDashboard.tsx:107
 msgid "Want to give to a different cause?"
-msgstr ""
+msgstr "Bạn muốn tặng cho một quỹ từ thiện hay không?"
 
 #: src/views/Give/GrantsDashboard.tsx:47
 msgid "We don't have any grants open right now, but check back soon!"
-msgstr ""
+msgstr "Chúng tôi không có bất kỳ khoản tài trợ nào mở ngay bây giờ, nhưng hãy kiểm tra lại sớm!"
 
 #: src/views/33Together/PoolInfo.tsx:75
 msgid "Winners / prize period"
@@ -1446,7 +1450,7 @@ msgstr "LỢI SUẤT ĐÃ GỬI"
 
 #: src/views/Give/ManageDonationModal.tsx:458
 msgid "Yield Sent"
-msgstr ""
+msgstr "Lợi nhuận đã gửi"
 
 #: src/views/33Together/PoolInfo.tsx:89
 msgid "Yield Source"
@@ -1487,7 +1491,7 @@ msgstr "Bạn có thể chọn rút tiền đã ký gửi bất kỳ lúc nào. 
 
 #: src/views/Give/CausesDashboard.tsx:112
 msgid "You can direct your yield to a recipient of your choice"
-msgstr ""
+msgstr "Bạn có thể chuyển hướng lợi nhuận của mình cho người nhận do bạn lựa chọn"
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:36
 msgid "You cannot migrate more than your wsOHM balance"
@@ -1758,7 +1762,7 @@ msgstr "Số dư sOHM"
 #: src/components/GiveProject/GrantCard.tsx:620
 #: src/components/GiveProject/ProjectCard.tsx:700
 msgid "sOHM Deposited"
-msgstr ""
+msgstr "Đã gửi sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:112
 msgid "sOHM Pool Details"
@@ -1779,7 +1783,7 @@ msgstr "Mục tiêu Lợi suất sOHM"
 #: src/components/GiveProject/GrantCard.tsx:641
 #: src/components/GiveProject/ProjectCard.tsx:721
 msgid "sOHM Yield Sent"
-msgstr ""
+msgstr "Lợi suất sOHM đã gửi"
 
 #: src/views/Give/RecipientModal.tsx:492
 msgid "sOHM deposit"
