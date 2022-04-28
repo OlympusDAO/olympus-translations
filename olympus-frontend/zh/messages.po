@@ -16,15 +16,15 @@ msgstr ""
 #: src/components/Migration/MigrationModal.tsx:249
 #: src/components/Migration/MigrationModalSingle.tsx:237
 msgid "(includes rebase rewards)"
-msgstr ""
+msgstr "(包含变基奖励)"
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:122
-msgid "5 Days"
-msgstr ""
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
+msgid "(total / liquid)"
+msgstr "(总额 / 流动量)"
 
-#: src/views/Give/hooks/useEditGive.ts:98
-msgid "A decrease Give amount must be positive"
-msgstr ""
+#: src/views/BondV2/BondV2.tsx:115
+msgid "--"
+msgstr "--"
 
 #: src/views/Give/hooks/useGive.ts:33
 msgid "A give amount must be positive"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
-msgstr ""
+msgstr "调整滑点"
 
 #: src/views/V1-Stake/V1-Stake.jsx:236
 msgid "All your assets are migrated"
@@ -97,7 +97,7 @@ msgstr "资产"
 
 #: src/views/Zap/ZapStakeHeader.tsx:56
 msgid "Auto staked"
-msgstr ""
+msgstr "自动质押"
 
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:104
 #: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:191
@@ -156,7 +156,7 @@ msgstr ""
 
 #: src/views/Give/Give.tsx:92
 msgid "Causes"
-msgstr ""
+msgstr "目标"
 
 #: src/components/TopBar/ThemeSwitch.tsx:12
 msgid "Change Theme"
@@ -218,15 +218,15 @@ msgstr "完成 "
 
 #: src/views/Give/RecipientModal.tsx:508
 msgid "Confirm"
-msgstr ""
+msgstr "确认"
 
 #: src/views/Give/ManageDonationModal.tsx:657
 msgid "Confirm New sOHM"
-msgstr ""
+msgstr "确认新 sOHM"
 
-#: src/components/TopBar/TopBar.tsx:65
-msgid "Connect"
-msgstr ""
+#: src/views/Give/RedeemYieldModal.tsx:90
+msgid "Confirm {0} sOHM"
+msgstr "确认 {0} sOHM"
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
 #: src/components/GiveProject/GrantCard.tsx:480
@@ -251,7 +251,7 @@ msgstr "继续"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:191
 msgid "Current"
-msgstr ""
+msgstr "目前"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
 #: src/views/V1-Stake/V1-Stake.jsx:197
@@ -260,15 +260,15 @@ msgstr "当前指数"
 
 #: src/views/Give/ManageDonationModal.tsx:563
 msgid "Current sOHM deposit"
-msgstr ""
+msgstr "目前 sOHM 押金"
 
 #: src/views/Give/YieldRecipients.tsx:57
 msgid "DATE"
-msgstr ""
+msgstr "日期"
 
 #: src/views/Give/YieldRecipients.tsx:69
 msgid "DEPOSITED"
-msgstr ""
+msgstr "已存入"
 
 #: src/components/Sidebar/NavContent.tsx:48
 msgid "Dashboard"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: src/views/Give/RedeemYield.tsx:182
 msgid "Deposited sOHM"
-msgstr ""
+msgstr "已存入 sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:657
 #: src/views/Give/RecipientModal.tsx:507
@@ -319,7 +319,7 @@ msgstr "断开"
 #: src/views/Bond/components/BondList.tsx:163
 #: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:160
 msgid "Discount"
-msgstr ""
+msgstr "折扣"
 
 #: src/components/Sidebar/NavContent.tsx:95
 msgid "Docs"
@@ -333,7 +333,7 @@ msgstr "捐赠收益"
 
 #: src/views/Give/YieldRecipients.tsx:43
 msgid "Donate to a cause"
-msgstr ""
+msgstr "捐款给一个目标"
 
 #: src/components/GiveProject/GrantCard.tsx:239
 #: src/components/GiveProject/ProjectCard.tsx:295
@@ -345,7 +345,7 @@ msgstr "捐赠者"
 #: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:167
 #: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:139
 msgid "Duration"
-msgstr ""
+msgstr "期限"
 
 #: src/components/Migration/MigrationModalSingle.tsx:312
 msgid "Each asset type requires two transactions. First Approve, then Migrate each asset. Amounts less than than 10$ are ignored."
@@ -355,7 +355,7 @@ msgstr ""
 #: src/components/GiveProject/ProjectCard.tsx:614
 #: src/views/Give/ManageDonationModal.tsx:342
 msgid "Edit Donation"
-msgstr ""
+msgstr "编辑捐赠"
 
 #: src/views/Zap/ZapStakeAction.tsx:486
 #: src/views/Zap/ZapStakeAction.tsx:550
@@ -375,7 +375,7 @@ msgstr "输入金额"
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:118
 #: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:104
 msgid "Enter an amount of"
-msgstr ""
+msgstr "输入数量"
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:76
 msgid "Enter an amount of wsOHM"
@@ -391,7 +391,7 @@ msgstr "矿池"
 
 #: src/components/GiveProject/ProjectCard.tsx:185
 msgid "Finishes at {0} in your timezone"
-msgstr ""
+msgstr "结束在{0}您所在的时区 "
 
 #: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:84
 msgid "First time bonding"
@@ -416,20 +416,24 @@ msgstr ""
 
 #: src/views/Bond/components/BondModal/BondModal.tsx:89
 msgid "Fixed Expiration"
-msgstr ""
+msgstr "固定的期效"
 
 #: src/views/Bond/components/BondModal/BondModal.tsx:89
 msgid "Fixed Term"
-msgstr ""
+msgstr "固定的时限"
 
 #: src/components/Sidebar/NavContent.tsx:91
 msgid "Forum"
 msgstr "论坛"
 
-#: src/views/Bond/components/BondList.tsx:82
-#: src/views/Bond/components/BondList.tsx:225
-msgid "Get Asset"
-msgstr ""
+#: src/views/ChooseBond/ClaimBonds.tsx:37
+msgid "Fully Vested"
+msgstr "全数授予"
+
+#: src/views/BondV2/BondRow.tsx:40
+#: src/views/BondV2/BondRow.tsx:129
+msgid "Get LP"
+msgstr "取得 LP"
 
 #: src/components/CallToAction/CallToAction.tsx:53
 msgid "Get Started"
@@ -469,6 +473,10 @@ msgstr "治理"
 msgid "Grants"
 msgstr ""
 
+#: src/components/Sidebar/NavContent.tsx:96
+msgid "Highest Discount"
+msgstr "最高折扣"
+
 #: src/views/TreasuryDashboard/treasuryData.ts:201
 msgid "Holders, represents the total number of Ohmies (sOHM holders)"
 msgstr ""
@@ -496,11 +504,11 @@ msgstr ""
 #: src/views/Bond/Bond.tsx:24
 #: src/views/Bond/Bond.tsx:43
 msgid "Inverse Bond"
-msgstr ""
+msgstr "反向债卷"
 
 #: src/components/Sidebar/NavContent.tsx:159
 msgid "Inverse Bonds"
-msgstr ""
+msgstr "反向债卷"
 
 #: src/views/Give/RecipientModal.tsx:328
 msgid "Is this your first time donating"
@@ -527,7 +535,7 @@ msgstr "将 sOHM 锁定在保险库中"
 
 #: src/views/Give/YieldRecipients.tsx:38
 msgid "Looks like you haven’t made any donations yet"
-msgstr ""
+msgstr "您似乎未曾捐赠过"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
 msgid "Market Cap"
@@ -539,11 +547,11 @@ msgstr "市场价格"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:192
 msgid "Market SLP"
-msgstr ""
+msgstr "市场 SLP"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:58
 msgid "Market Value of Treasury Assets"
-msgstr ""
+msgstr "金库资产市值"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
@@ -570,7 +578,7 @@ msgstr "迁移"
 
 #: src/components/Migration/MigrationModal.tsx:330
 msgid "Migrate all to"
-msgstr ""
+msgstr "全部迁移至"
 
 #: src/components/Migration/MigrationModal.tsx:186
 #: src/components/Migration/MigrationModal.tsx:284
@@ -582,7 +590,7 @@ msgstr "已迁移"
 #: src/components/Migration/MigrationModal.tsx:152
 #: src/components/Migration/MigrationModalSingle.tsx:134
 msgid "Migration Output"
-msgstr ""
+msgstr "迁移产量"
 
 #: src/components/Migration/MigrationModal.tsx:123
 #: src/components/Migration/MigrationModalSingle.tsx:111
@@ -596,7 +604,7 @@ msgstr ""
 #: src/views/Zap/ZapStakeAction.tsx:490
 #: src/views/Zap/ZapStakeAction.tsx:554
 msgid "Minimum Output Amount: 0.5"
-msgstr ""
+msgstr "最低迁移产量: 0.5"
 
 #: src/views/Zap/ZapStakeAction.tsx:459
 msgid "Minimum You Get"
@@ -614,13 +622,13 @@ msgstr "我的捐款"
 msgid "My Wallet Address"
 msgstr ""
 
-#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:162
-msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
-msgstr ""
+#: src/components/Sidebar/NavContent.tsx:161
+msgid "New"
+msgstr "新"
 
 #: src/views/Give/ManageDonationModal.tsx:511
 msgid "New sOHM Amount"
-msgstr ""
+msgstr "新 sOHM 数量"
 
 #: src/views/Give/ManageDonationModal.tsx:582
 msgid "New sOHM deposit"
@@ -640,11 +648,11 @@ msgstr "下一次奖励收获量"
 
 #: src/views/Bond/components/BondList.tsx:34
 msgid "No active bonds"
-msgstr ""
+msgstr "没有启动的债卷"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:148
 msgid "OHM Staked"
-msgstr ""
+msgstr "OHM 已质押"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:202
 msgid "OHM Staked is the ratio of sOHM to circulating supply of OHM (staked vs total)"
@@ -661,7 +669,7 @@ msgstr "Olympus Give 是一种将你从 sOHM 上获取的收益导向到另一�
 #: src/components/Sidebar/NavContent.tsx:73
 #: src/views/TreasuryDashboard/TreasuryDashboard.tsx:109
 msgid "Olympus Pro"
-msgstr ""
+msgstr "Olympus Pro"
 
 #: src/components/Migration/MigrationModal.tsx:135
 #: src/components/Migration/MigrationModalSingle.tsx:117
@@ -685,11 +693,23 @@ msgstr ""
 msgid "Payout Asset"
 msgstr ""
 
-#: src/slices/PendingTxnsSlice.ts:38
-#: src/slices/PendingTxnsSlice.ts:42
-#: src/slices/PendingTxnsSlice.ts:46
-#: src/views/Zap/ZapStakeAction.tsx:484
-#: src/views/Zap/ZapStakeAction.tsx:524
+#: src/views/ChooseBond/ClaimBonds.tsx:34
+msgid "Pending"
+msgstr "待定中"
+
+#: src/views/BondV2/AccordionSection.tsx:50
+msgid "Pending Payout"
+msgstr "待定中的款项"
+
+#: src/views/Bond/BondRedeem.tsx:99
+msgid "Pending Rewards"
+msgstr "待定中的奖励"
+
+#: src/slices/PendingTxnsSlice.ts:48
+#: src/slices/PendingTxnsSlice.ts:52
+#: src/slices/PendingTxnsSlice.ts:56
+#: src/views/Zap/ZapStakeAction.tsx:445
+#: src/views/Zap/ZapStakeAction.tsx:486
 msgid "Pending..."
 msgstr "待定中..."
 
@@ -726,7 +746,7 @@ msgstr "请输入不同的地址：不能导向同一个钱包"
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:23
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:23
 msgid "Please enter a number"
-msgstr ""
+msgstr "请输入一个数字"
 
 #: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:40
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:27
@@ -735,7 +755,7 @@ msgstr ""
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:27
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:27
 msgid "Please enter a number greater than 0"
-msgstr ""
+msgstr "请输入一个大于0的数字"
 
 #: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:42
 msgid "Please enter a slippage amount greater than 0"
@@ -786,7 +806,7 @@ msgstr "请输入一个值！"
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:29
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:35
 msgid "Please refresh your page and try again"
-msgstr ""
+msgstr "请重新整理再试一次"
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:30
 msgid "Please switch to the Abritrum or Avalanche networks to migrate"
@@ -806,11 +826,11 @@ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:33
 msgid "Please switch to the Ethereum network to stake your OHM"
-msgstr ""
+msgstr "请切换至 Ethereum 伺服来质押您的 OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:35
 msgid "Please switch to the Ethereum network to unstake your"
-msgstr ""
+msgstr "请切换至 Ethereum 伺服来解质押您的 OHM"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:33
 msgid "Please switch to the Ethereum network to unwrap your gOHM"
@@ -844,7 +864,7 @@ msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:120
 msgid "Protocol Owned Liquidity OHM-DAI"
-msgstr ""
+msgstr "协议拥有的流动性 OHM-DAI"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:200
 msgid "Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users."
@@ -852,7 +872,7 @@ msgstr ""
 
 #: src/views/Give/YieldRecipients.tsx:63
 msgid "RECIPIENT"
-msgstr ""
+msgstr "承受者"
 
 #: src/views/Give/RedeemYield.tsx:208
 #: src/views/Stake/components/StakeArea/components/StakeFiveDayYield.tsx:9
@@ -877,7 +897,11 @@ msgstr "接收者"
 msgid "Recipient Address"
 msgstr "接收者地址"
 
-#: src/components/EducationCard.tsx:154
+#: src/views/Give/RecipientModal.tsx:505
+msgid "Recipient address"
+msgstr "承受者地址"
+
+#: src/views/Give/GiveInfo.tsx:23
 msgid "Recipient earns sOHM rebases"
 msgstr "接收者将获得 sOHM 变基"
 
@@ -917,7 +941,7 @@ msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:93
 msgid "Risk Free Value of Treasury Assets"
-msgstr ""
+msgstr "无风险资产的金库价值"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:199
 msgid "Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM."
@@ -1033,11 +1057,11 @@ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:56
 msgid "Successfully staked OHM"
-msgstr ""
+msgstr "成功质押 OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:58
 msgid "Successfully unstaked"
-msgstr ""
+msgstr "成功解除质押"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:54
 msgid "Successfully unwrapped from gOHM to sOHM"
@@ -1126,7 +1150,7 @@ msgstr "这将与迁移完成后您钱包中的 gOHM 数量相等。"
 #: src/components/Chart/Chart.tsx:546
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: src/views/Bond/components/BondList.tsx:149
 #: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:136
@@ -1320,7 +1344,7 @@ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
 msgid "You cannot unstake more than your"
-msgstr ""
+msgstr "您无法解除质押多于您的"
 
 #: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:31
 msgid "You cannot unwrap more than your gOHM balance"
@@ -1352,15 +1376,23 @@ msgstr "你的余额"
 #: src/components/GiveProject/GrantCard.tsx:502
 #: src/components/GiveProject/ProjectCard.tsx:567
 msgid "Your Donations"
-msgstr ""
+msgstr "您的捐赠"
 
-#: src/views/Give/RecipientModal.tsx:359
-msgid "Your current Staked Balance is"
-msgstr ""
+#: src/views/33Together/PoolWithdraw.tsx:181
+msgid "Your Pooled Balance (withdrawable)"
+msgstr "您于矿池中的余额（可被提取的）"
+
+#: src/views/33Together/PoolDeposit.tsx:173
+msgid "Your Staked Balance (Depositable)"
+msgstr "您的质押余额（可存入的）"
+
+#: src/views/Give/RecipientModal.tsx:443
+msgid "Your current Staked Balance is {0} sOHM"
+msgstr "您目前已质押的结馀 {0} sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:527
 msgid "Your current deposit is {0} sOHM"
-msgstr ""
+msgstr "您目前的总存"
 
 #: src/views/Give/ManageDonationModal.tsx:513
 #: src/views/Give/RecipientModal.tsx:337
@@ -1370,7 +1402,7 @@ msgstr "当您提交时，您的 sOHM 将被转移到保险库中。 您需要�
 
 #: src/components/Sidebar/NavContent.tsx:57
 msgid "Zap"
-msgstr ""
+msgstr "Zap"
 
 #: src/views/Zap/ZapInfo.tsx:92
 msgid "Zap is a swap"
@@ -1389,11 +1421,9 @@ msgstr "使用 Zap 换取更多资产并质押 <0>OHM</0>"
 msgid "Zap-Stake"
 msgstr "Zap 质押"
 
-#: src/hooks/useZapExecute.ts:66
-#: src/hooks/useZapExecute.ts:67
-#: src/views/Zap/ZapStakeAction.tsx:118
-msgid "Zaps are only available on Ethereum Mainnet. Please switch networks."
-msgstr ""
+#: src/views/Stake/components/StakeArea/components/StakeActionArea/components/StakeInputArea/hooks/useUnstakeToken.ts:36
+msgid "balance"
+msgstr "总存"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
 msgid "balance"
@@ -1410,7 +1440,7 @@ msgstr "进行质押"
 
 #: src/views/Bond/components/BondList.tsx:135
 msgid "for"
-msgstr ""
+msgstr "给"
 
 #: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:86
 msgid "for bonding"
@@ -1443,7 +1473,7 @@ msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:99
 msgid "gOHM"
-msgstr ""
+msgstr "gOHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:107
 msgid "gOHM (Arbitrum)"
@@ -1556,10 +1586,10 @@ msgstr ""
 msgid "wsOHM Balance (Arbitrum)"
 msgstr ""
 
-#: src/views/Wrap/components/WrapBalances.tsx:26
-msgid "wsOHM Balance (Avalanche)"
-msgstr ""
+#: src/views/Wrap/Wrap.tsx:198
+msgid "{gOHM} Price"
+msgstr "{gOHM} 价格"
 
-#: src/views/Give/RedeemYieldModal.tsx:72
-msgid "{0} sOHM"
-msgstr ""
+#: src/views/Wrap/Wrap.tsx:188
+msgid "{sOHM} Price"
+msgstr "{sOHM} 价格"
