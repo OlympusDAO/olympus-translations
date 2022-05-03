@@ -13,62 +13,42 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/components/GiveProject/ProjectCard.tsx:246
-msgid "% of goal"
-msgstr ""
-
-#: src/views/33Together/PoolWithdraw.tsx:125
-msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
-msgstr "(Плата за досрочный выход в течение 6 дней не взимается. Взимается плата за пользование сетью)."
-
-#: src/components/Migration/MigrationModal.tsx:257
-#: src/components/Migration/MigrationModalSingle.tsx:243
+#: src/components/Migration/MigrationModal.tsx:249
+#: src/components/Migration/MigrationModalSingle.tsx:237
 msgid "(includes rebase rewards)"
 msgstr "(включает вознаграждение за ребазу)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
-#~ msgid "(total / liquid)"
-#~ msgstr "(общий / ликвидный )"
-
-#: src/views/BondV2/BondV2.tsx:115
-msgid "--"
-msgstr "--"
-
-#: src/views/33Together/33together.tsx:156
-msgid "3, 3 Together"
-msgstr "3, 3 Вместе"
-
-#: src/components/TopBar/Wallet/GetOhm.tsx:113
+#: src/components/TopBar/Wallet/GetOhm.tsx:122
 msgid "5 Days"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:98
+msgid "A decrease Give amount must be positive"
+msgstr ""
+
+#: src/views/Give/hooks/useGive.ts:33
+msgid "A give amount must be positive"
 msgstr ""
 
 #: src/views/Zap/ZapInfo.tsx:95
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Зап-свап - это серия смарт-контрактов, которые передают один актив другому протоколу для проведения доверенной транзакции."
 
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:90
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:144
-#: src/views/V1-Stake/V1-Stake.jsx:195
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:102
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:145
+#: src/views/V1-Stake/V1-Stake.jsx:185
 msgid "APY"
 msgstr "APY"
-
-#: src/components/GiveProject/ProjectCard.tsx:774
-#~ msgid "About"
-#~ msgstr "О сайте"
 
 #: src/components/TopBar/Wallet/Info/Proposals.tsx:46
 msgid "Active"
 msgstr ""
 
-#: src/components/TopBar/Wallet/Token.tsx:218
-#~ msgid "Add to Wallet"
-#~ msgstr "Добавить в кошелек"
-
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
 msgstr "Регулировка проскальзывания"
 
-#: src/views/V1-Stake/V1-Stake.jsx:248
+#: src/views/V1-Stake/V1-Stake.jsx:236
 msgid "All your assets are migrated"
 msgstr "Все ваши активы перенесены"
 
@@ -84,10 +64,9 @@ msgstr "Универсальный простой стейкинг"
 msgid "All-in-one zap contracts"
 msgstr "Контракты \"все в одном"
 
-#: src/views/Bond/BondPurchase.tsx:170
-#: src/views/BondV2/BondPurchase.tsx:185
-msgid "Amount"
-msgstr "Сумма"
+#: src/views/Give/hooks/useEditGive.ts:33
+msgid "An increase Give amount must be positive"
+msgstr ""
 
 #: src/views/TreasuryDashboard/treasuryData.ts:203
 msgid "Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results."
@@ -97,24 +76,22 @@ msgstr "Годовая процентная доходность - это нор
 msgid "Any asset"
 msgstr "Любой актив"
 
-#: src/components/Migration/MigrationModal.tsx:214
-#: src/components/Migration/MigrationModal.tsx:311
-#: src/components/Migration/MigrationModalSingle.tsx:200
-#: src/components/Migration/MigrationModalSingle.tsx:303
-#: src/views/33Together/PoolDeposit.tsx:137
-#: src/views/Give/RecipientModal.tsx:377
-#: src/views/V1-Stake/V1-Stake.jsx:362
-#: src/views/Zap/ZapStakeAction.tsx:484
+#: src/components/Migration/MigrationModal.tsx:206
+#: src/components/Migration/MigrationModal.tsx:303
+#: src/components/Migration/MigrationModalSingle.tsx:194
+#: src/components/Migration/MigrationModalSingle.tsx:297
+#: src/views/V1-Stake/V1-Stake.jsx:337
+#: src/views/Zap/ZapStakeAction.tsx:524
 msgid "Approve"
 msgstr "Утвердить"
 
-#: src/components/Migration/MigrationModal.tsx:198
-#: src/components/Migration/MigrationModal.tsx:296
-#: src/views/Zap/ZapStakeAction.tsx:477
+#: src/components/Migration/MigrationModal.tsx:190
+#: src/components/Migration/MigrationModal.tsx:288
+#: src/views/Zap/ZapStakeAction.tsx:517
 msgid "Approved"
 msgstr "Одобрено"
 
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:84
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:96
 msgid "Asset"
 msgstr "Активы"
 
@@ -122,78 +99,58 @@ msgstr "Активы"
 msgid "Auto staked"
 msgstr "Автоматический стейкинг"
 
-#: src/views/33Together/PoolPrize.tsx:122
-msgid "Award Balance will grow at 1st rebase."
-msgstr "Баланс премии увеличивается при 1-м ребазе."
-
-#: src/views/33Together/PoolPrize.tsx:212
-msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr "Период награждения закончился, вы можете перейти в пользовательский интерфейс Pool Together, чтобы начать распределение."
-
-#: src/views/33Together/PoolPrize.tsx:191
-msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr "Период награждения закончился, вы можете перейти в пользовательский интерфейс Pool Together для завершения распределения"
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
-#~ msgid "Backing per OHM"
-#~ msgstr "Поддержка на Ом"
-
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:92
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:181
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:104
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:191
 msgid "Balance"
 msgstr "Баланс"
 
-#: src/components/Sidebar/NavContent.tsx:85
-#: src/views/BondV2/AccordionSection.tsx:46
-#: src/views/BondV2/BondRow.tsx:96
-#: src/views/BondV2/BondRow.tsx:97
-#: src/views/BondV2/ChooseBondV2.tsx:71
-#: src/views/BondV2/ChooseBondV2.tsx:98
-#: src/views/BondV2/ChooseStraightBond.tsx:50
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:51
-#: src/views/ChooseBond/ChooseBond.tsx:102
-#: src/views/ChooseBond/ChooseBond.tsx:123
-#: src/views/ChooseBond/ClaimBonds.tsx:28
+#: src/views/Give/RecipientModal.tsx:343
+msgid "Balance: {0} sOHM"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.tsx:50
+#: src/views/Bond/Bond.tsx:24
+#: src/views/Bond/Bond.tsx:42
+#: src/views/Bond/components/BondList.tsx:135
+#: src/views/Bond/components/BondList.tsx:136
 msgid "Bond"
 msgstr "Облигация"
 
-#: src/views/Bond/Bond.tsx:101
-#: src/views/BondV2/BondV2.tsx:110
+#: src/views/Bond/components/BondModal/BondModal.tsx:103
 msgid "Bond Price"
 msgstr "Цена Облигации"
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:103
-#: src/views/ChooseBond/BondRow.tsx:93
+#: src/components/TopBar/Wallet/GetOhm.tsx:112
 msgid "Bond {0}"
 msgstr "Облигация {0} "
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:206
+#: src/components/TopBar/Wallet/GetOhm.tsx:218
 msgid "Borrow on Impermax"
 msgstr ""
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:182
-#: src/components/TopBar/Wallet/GetOhm.tsx:190
+#: src/components/TopBar/Wallet/GetOhm.tsx:194
+#: src/components/TopBar/Wallet/GetOhm.tsx:202
 msgid "Borrow on Market.xyz"
 msgstr ""
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:173
+#: src/components/TopBar/Wallet/GetOhm.tsx:185
 msgid "Borrow on Rari"
 msgstr ""
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:198
+#: src/components/TopBar/Wallet/GetOhm.tsx:210
 msgid "Borrow on Vesta Finance"
 msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:166
-#: src/components/Sidebar/NavContent.tsx:183
+#: src/components/Sidebar/NavContent.tsx:65
+#: src/components/Sidebar/NavContent.tsx:85
 msgid "Bridge"
 msgstr "Мост"
 
-#: src/components/Sidebar/externalUrls.tsx:27
+#: src/components/Sidebar/NavContent.tsx:97
 msgid "Bug Bounty"
 msgstr "Баг Баунти"
 
-#: src/views/Give/ManageDonationModal.tsx:660
+#: src/views/Give/ManageDonationModal.tsx:624
 msgid "Cancel"
 msgstr ""
 
@@ -205,51 +162,49 @@ msgstr "Причины"
 msgid "Change Theme"
 msgstr "Изменить тему"
 
-#: src/components/TopBar/TopBar.tsx:75
+#: src/components/TopBar/TopBar.tsx:73
 msgid "Change locale"
 msgstr "Изменить локаль"
 
-#: src/views/33Together/PoolDeposit.tsx:123
-#: src/views/33Together/PoolWithdraw.tsx:113
-msgid "Check back soon!"
-msgstr "Загляните в ближайшее время!"
-
-#: src/views/BondV2/AdvancedSettings.tsx:58
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:62
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Выберите адрес получателя. По умолчанию это ваш текущий подключенный адрес"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:66
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:67
 msgid "Circulating Supply (total)"
 msgstr "Циркулирующий Объем (всего)"
 
-#: src/views/Bond/BondRedeem.tsx:76
-#: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:138
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:124
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:194
 msgid "Claim"
 msgstr "Клейм"
 
-#: src/views/BondV2/ClaimBonds.tsx:128
-#: src/views/BondV2/ClaimBonds.tsx:192
-msgid "Claim all"
-msgstr "Заклеймить все"
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:77
+msgid "Claim All"
+msgstr ""
 
-#: src/views/Bond/BondRedeem.tsx:92
-msgid "Claim and Autostake"
-msgstr "Клейм и Автостейк"
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:58
+msgid "Claimable Balance"
+msgstr ""
 
-#: src/views/ChooseBond/ClaimRow.tsx:149
-msgid "Claim and Stake"
-msgstr "Клейм и Стейк"
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:53
+msgid "Claimed all bonds successfully"
+msgstr ""
 
-#: src/views/ChooseBond/ClaimBonds.tsx:31
-msgid "Claimable"
-msgstr "Доступно для Клейма"
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:53
+msgid "Claimed bond successfully"
+msgstr ""
 
-#: src/views/Bond/BondRedeem.tsx:101
-msgid "Claimable Rewards"
-msgstr "Доступные Награды"
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:76
+msgid "Claiming all..."
+msgstr ""
 
-#: src/components/Migration/MigrationModal.tsx:142
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:123
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:193
+msgid "Claiming..."
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:134
 msgid "Click on the Migrate button to complete the upgrade to v2."
 msgstr "Нажмите на кнопку Migrate, чтобы завершить обновление до версии 2."
 
@@ -257,48 +212,40 @@ msgstr "Нажмите на кнопку Migrate, чтобы завершить 
 msgid "Closed"
 msgstr ""
 
-#: src/components/GiveProject/ProjectCard.tsx:175
+#: src/components/GiveProject/ProjectCard.tsx:172
 msgid "Completed"
 msgstr "Завершено"
 
-#: src/views/Give/RecipientModal.tsx:545
+#: src/views/Give/RecipientModal.tsx:508
 msgid "Confirm"
 msgstr "Подтвердить"
 
-#: src/views/Give/ManageDonationModal.tsx:693
+#: src/views/Give/ManageDonationModal.tsx:657
 msgid "Confirm New sOHM"
 msgstr "Подтвердить новый sOHM"
 
-#: src/views/Give/RedeemYieldModal.tsx:95
-msgid "Confirm {0} sOHM"
-msgstr "Подтвердить {0} sOHM"
-
-#: src/components/TopBar/TopBar.tsx:50
+#: src/components/TopBar/TopBar.tsx:65
 msgid "Connect"
 msgstr ""
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
-#: src/components/GiveProject/GrantCard.tsx:581
-#: src/components/GiveProject/ProjectCard.tsx:657
-#: src/components/TopBar/Wallet/index.tsx:69
-#: src/components/TopBar/Wallet/index.tsx:79
+#: src/components/GiveProject/GrantCard.tsx:480
+#: src/components/GiveProject/ProjectCard.tsx:544
+#: src/components/TopBar/Wallet/index.tsx:66
+#: src/components/TopBar/Wallet/index.tsx:76
 msgid "Connect Wallet"
 msgstr "Подключить кошелек"
 
-#: src/views/V1-Stake/V1-Stake.jsx:221
+#: src/views/V1-Stake/V1-Stake.jsx:211
 msgid "Connect your wallet to stake OHM"
 msgstr "Подключите свой кошелек для стейка OHM"
 
-#: src/views/Zap/Zap.tsx:42
+#: src/views/Zap/Zap.tsx:45
 msgid "Connect your wallet to use Zap"
 msgstr "Подключите свой кошелек, чтобы использовать Zap"
 
-#: src/components/GiveProject/ProjectCard.tsx:239
-msgid "Connect your wallet to view the fundraising progress"
-msgstr "Подключите свой кошелек для просмотра хода сбора средств"
-
-#: src/views/Give/ManageDonationModal.tsx:587
-#: src/views/Give/RecipientModal.tsx:460
+#: src/views/Give/ManageDonationModal.tsx:547
+#: src/views/Give/RecipientModal.tsx:423
 msgid "Continue"
 msgstr "Продолжить"
 
@@ -306,176 +253,127 @@ msgstr "Продолжить"
 msgid "Current"
 msgstr "Текущий"
 
-#: src/components/EducationCard.tsx:255
-#~ msgid "Current Deposit"
-#~ msgstr "Текущий депозит"
-
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:97
-#: src/views/V1-Stake/V1-Stake.jsx:207
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/V1-Stake/V1-Stake.jsx:197
 msgid "Current Index"
 msgstr "Текущий индекс"
 
-#: src/views/33Together/PoolPrize.tsx:129
-msgid "Current Prize"
-msgstr "Текущая премия"
-
-#: src/views/Give/ManageDonationModal.tsx:603
+#: src/views/Give/ManageDonationModal.tsx:563
 msgid "Current sOHM deposit"
 msgstr "Текущий депозит sOHM"
 
-#: src/views/Give/CausesDashboard.tsx:117
-msgid "Custom Recipient"
-msgstr "Пользовательский адресат"
-
-#: src/views/Give/YieldRecipients.tsx:67
+#: src/views/Give/YieldRecipients.tsx:57
 msgid "DATE"
 msgstr "ДАТА"
 
-#: src/views/Give/YieldRecipients.tsx:79
+#: src/views/Give/YieldRecipients.tsx:69
 msgid "DEPOSITED"
 msgstr "ДЕПОЗИТ"
 
-#: src/components/Sidebar/NavContent.tsx:84
+#: src/components/Sidebar/NavContent.tsx:48
 msgid "Dashboard"
 msgstr "Панель"
 
-#: src/views/Give/ManageDonationModal.tsx:455
+#: src/views/Give/ManageDonationModal.tsx:410
 msgid "Date"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:261
-#: src/views/Bond/BondRedeem.tsx:120
-msgid "Debt Ratio"
-msgstr "Коэффициент задолженности"
-
-#: src/views/ChooseBond/BondRow.tsx:36
-#: src/views/ChooseBond/BondRow.tsx:119
-msgid "Deposit LP"
-msgstr "Депозит LP"
-
-#: src/components/TopBar/Wallet/GetOhm.tsx:146
+#: src/components/TopBar/Wallet/GetOhm.tsx:158
 msgid "Deposit on Dopex"
 msgstr ""
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:154
+#: src/components/TopBar/Wallet/GetOhm.tsx:166
 msgid "Deposit on Jones DAO"
 msgstr ""
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:162
+#: src/components/TopBar/Wallet/GetOhm.tsx:174
 msgid "Deposit on Tokemak"
 msgstr ""
 
-#: src/views/33Together/PoolDeposit.tsx:133
-msgid "Deposit sOHM"
-msgstr "Депозит sOHM"
-
-#: src/components/EducationCard.tsx:126
+#: src/components/EducationCard.tsx:131
 msgid "Deposit sOHM from wallet"
 msgstr "Депозит sOHM из кошелька"
 
-#: src/views/33Together/PoolDeposit.tsx:108
-msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
-msgstr "Внесите sOHM, чтобы выиграть! После внесения депозита вы получите соответствующую сумму в размере 33T и будете участвовать в выигрыше до тех пор, пока ваш sOHM не будет снят."
-
-#: src/views/Give/ManageDonationModal.tsx:457
+#: src/views/Give/ManageDonationModal.tsx:413
 msgid "Deposited"
 msgstr ""
 
-#: src/views/Give/RedeemYield.tsx:211
+#: src/views/Give/RedeemYield.tsx:182
 msgid "Deposited sOHM"
 msgstr "Депозит sOHM"
 
-#: src/views/33Together/PoolDeposit.tsx:163
-msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "Внесение {количество} sOHM увеличит шансы на выигрыш до 1 к {newOdds}"
+#: src/views/Give/ManageDonationModal.tsx:657
+#: src/views/Give/RecipientModal.tsx:507
+msgid "Depositing sOHM"
+msgstr ""
 
-#: src/views/33Together/PoolDeposit.tsx:120
-msgid "Deposits can be made once the prize has been awarded."
-msgstr "Депозиты могут быть сделаны после вручения приза."
-
-#: src/views/Zap/SelectTokenModal.tsx:66
+#: src/views/Zap/SelectTokenModal.tsx:64
 msgid "Dialing Zapper..."
 msgstr "Набираю номер Заппера..."
 
-#: src/components/TopBar/Wallet/index.tsx:91
+#: src/components/TopBar/Wallet/index.tsx:88
 msgid "Disconnect"
 msgstr "Отключить"
 
-#: src/views/Bond/BondPurchase.tsx:255
-#: src/views/Bond/BondRedeem.tsx:114
-#: src/views/BondV2/BondPurchase.tsx:257
-#: src/views/BondV2/BondRow.tsx:70
-#: src/views/BondV2/ChooseStraightBond.tsx:56
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:60
-#: src/views/ChooseBond/BondRow.tsx:60
-#: src/views/ChooseBond/ChooseBond.tsx:129
+#: src/views/Bond/components/BondList.tsx:103
+#: src/views/Bond/components/BondList.tsx:163
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:160
 msgid "Discount"
 msgstr "Скидка"
 
-#: src/components/Sidebar/externalUrls.tsx:22
+#: src/components/Sidebar/NavContent.tsx:95
 msgid "Docs"
 msgstr "Документы"
 
-#: src/components/GiveProject/GrantCard.tsx:591
-#: src/components/GiveProject/ProjectCard.tsx:667
-#: src/views/Give/RecipientModal.tsx:219
+#: src/components/GiveProject/GrantCard.tsx:490
+#: src/components/GiveProject/ProjectCard.tsx:554
+#: src/views/Give/RecipientModal.tsx:183
 msgid "Donate Yield"
 msgstr "Задонатить"
 
-#: src/views/Give/YieldRecipients.tsx:53
+#: src/views/Give/YieldRecipients.tsx:43
 msgid "Donate to a cause"
 msgstr "Пожертвовать на какое-либо дело"
 
-#: src/components/GiveProject/GrantCard.tsx:250
-#: src/components/GiveProject/ProjectCard.tsx:320
+#: src/components/GiveProject/GrantCard.tsx:239
+#: src/components/GiveProject/ProjectCard.tsx:295
 msgid "Donors"
 msgstr "Доноры"
 
-#: src/views/BondV2/BondPurchase.tsx:264
-#: src/views/BondV2/BondRow.tsx:86
-#: src/views/BondV2/ChooseStraightBond.tsx:59
+#: src/views/Bond/components/BondList.tsx:122
+#: src/views/Bond/components/BondList.tsx:168
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:167
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:139
 msgid "Duration"
 msgstr "Продолжительность"
 
-#: src/components/Migration/MigrationModalSingle.tsx:318
+#: src/components/Migration/MigrationModalSingle.tsx:312
 msgid "Each asset type requires two transactions. First Approve, then Migrate each asset. Amounts less than than 10$ are ignored."
 msgstr "Для каждого типа активов требуется две операции. Сначала утвердите, а затем перенесите каждый актив. Суммы менее 10$ игнорируются."
 
-#: src/views/33Together/PoolInfo.tsx:92
-msgid "Early Exit Fee"
-msgstr "Комиссия за досрочный вывод"
-
-#: src/views/33Together/PoolWithdraw.tsx:163
-msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr "За досрочный вывод средств взимается комиссия за справедливость в размере {exitFee}."
-
-#: src/components/GiveProject/GrantCard.tsx:653
-#: src/components/GiveProject/ProjectCard.tsx:731
-#: src/views/Give/ManageDonationModal.tsx:391
+#: src/components/GiveProject/GrantCard.tsx:550
+#: src/components/GiveProject/ProjectCard.tsx:614
+#: src/views/Give/ManageDonationModal.tsx:342
 msgid "Edit Donation"
 msgstr "Редактировать Пожертвование"
 
-#: src/slices/PendingTxnsSlice.ts:37
-msgid "Editing sOHM donation amount"
-msgstr "Редактирование суммы пожертвования sOHM"
-
-#: src/views/Zap/ZapStakeAction.tsx:445
-#: src/views/Zap/ZapStakeAction.tsx:510
+#: src/views/Zap/ZapStakeAction.tsx:486
+#: src/views/Zap/ZapStakeAction.tsx:550
 msgid "Enter Amount"
 msgstr "Введите сумму"
 
-#: src/views/Give/RecipientModal.tsx:318
+#: src/views/Give/RecipientModal.tsx:283
 msgid "Enter a wallet address in the form of 0x ..."
 msgstr "Введите адрес кошелька в виде 0x ..."
 
-#: src/views/33Together/PoolDeposit.tsx:149
-#: src/views/Give/ManageDonationModal.tsx:564
-#: src/views/Give/RecipientModal.tsx:404
+#: src/views/Give/ManageDonationModal.tsx:522
+#: src/views/Give/RecipientModal.tsx:351
 msgid "Enter an amount"
 msgstr "Введите количество"
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:98
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:118
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:101
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:104
 msgid "Enter an amount of"
 msgstr "Введите сумму"
 
@@ -483,24 +381,19 @@ msgstr "Введите сумму"
 msgid "Enter an amount of wsOHM"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.tsx:404
+#: src/views/Zap/ZapStakeAction.tsx:441
 msgid "Exchange Rate"
 msgstr "Обменный курс"
 
-#: src/views/33Together/PoolInfo.tsx:94
-msgid "Exit Fee Decay Time"
-msgstr "Выходная комиссия Время спада"
-
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:79
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:91
 msgid "Farm Pool"
 msgstr "Пул Фарминга"
 
-#: src/components/GiveProject/ProjectCard.tsx:191
+#: src/components/GiveProject/ProjectCard.tsx:185
 msgid "Finishes at {0} in your timezone"
 msgstr "Заканчивается в {0} в вашем часовом поясе"
 
-#: src/views/Bond/BondPurchase.tsx:161
-#: src/views/BondV2/BondPurchase.tsx:171
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:84
 msgid "First time bonding"
 msgstr "Первый бондинг"
 
@@ -509,57 +402,57 @@ msgid "First time staking"
 msgstr "Первый стейкинг"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:100
-#: src/views/V1-Stake/V1-Stake.jsx:263
+#: src/views/V1-Stake/V1-Stake.jsx:251
 msgid "First time unstaking"
 msgstr "Первый анстейкинг"
 
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:82
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:85
 msgid "First time unwrapping"
 msgstr ""
 
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:76
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:79
 msgid "First time wrapping"
 msgstr ""
 
-#: src/views/BondV2/BondV2.tsx:101
+#: src/views/Bond/components/BondModal/BondModal.tsx:89
 msgid "Fixed Expiration"
 msgstr "Фиксированный срок действия"
 
-#: src/views/BondV2/BondV2.tsx:101
+#: src/views/Bond/components/BondModal/BondModal.tsx:89
 msgid "Fixed Term"
 msgstr "Фиксированный срок"
 
-#: src/components/Sidebar/externalUrls.tsx:12
+#: src/components/Sidebar/NavContent.tsx:91
 msgid "Forum"
 msgstr "Форум"
 
-#: src/views/ChooseBond/ClaimBonds.tsx:37
-msgid "Fully Vested"
-msgstr "Полный разлок"
-
-#: src/views/BondV2/BondRow.tsx:40
-#: src/views/BondV2/BondRow.tsx:129
-msgid "Get LP"
-msgstr "Получить LP"
+#: src/views/Bond/components/BondList.tsx:82
+#: src/views/Bond/components/BondList.tsx:225
+msgid "Get Asset"
+msgstr ""
 
 #: src/components/CallToAction/CallToAction.tsx:53
 msgid "Get Started"
 msgstr "Приступить к работе"
 
-#: src/components/Sidebar/NavContent.tsx:161
+#: src/components/Sidebar/NavContent.tsx:59
 #: src/views/Give/Give.tsx:75
 msgid "Give"
 msgstr "Дать"
 
-#: src/slices/PendingTxnsSlice.ts:35
-msgid "Giving sOHM"
-msgstr "Дать sOHM"
+#: src/hooks/useGiveInfo.ts:59
+#: src/hooks/useGiveInfo.ts:157
+#: src/hooks/useGiveInfo.ts:208
+#: src/hooks/useGiveInfo.ts:281
+#: src/hooks/useGiveInfo.ts:352
+#: src/views/Give/hooks/useEditGive.ts:38
+#: src/views/Give/hooks/useEditGive.ts:103
+#: src/views/Give/hooks/useGive.ts:38
+#: src/views/Give/hooks/useRedeem.ts:30
+msgid "Give is not supported on this network. Please switch to a supported network, such as Ethereum mainnet"
+msgstr ""
 
-#: src/views/V1-Stake/V1-Stake.jsx:319
-msgid "Go to Bonds"
-msgstr "Перейти к облигациям"
-
-#: src/views/V1-Stake/V1-Stake.jsx:332
+#: src/views/V1-Stake/V1-Stake.jsx:307
 msgid "Go to Stake V2"
 msgstr "Перейти в раздел Стейкинг V2"
 
@@ -567,33 +460,24 @@ msgstr "Перейти в раздел Стейкинг V2"
 msgid "Got wsOHM on Avalanche or Arbitrum? Click below to switch networks and migrate to gOHM (no bridge required!)"
 msgstr ""
 
-#: src/components/Sidebar/externalUrls.tsx:17
+#: src/components/Sidebar/NavContent.tsx:93
 msgid "Governance"
 msgstr "Управление"
 
-#: src/components/Sidebar/externalUrls.tsx:32
+#: src/components/Sidebar/NavContent.tsx:99
 #: src/views/Give/Give.tsx:93
 msgid "Grants"
 msgstr "Гранты"
-
-#: src/components/Sidebar/NavContent.tsx:96
-msgid "Highest Discount"
-msgstr "Наибольшая скидка"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:201
 msgid "Holders, represents the total number of Ohmies (sOHM holders)"
 msgstr "Держатели, представляет собой общее количество омис (держателей sOHM)"
 
-#: src/views/BondV2/BondPurchase.tsx:42
-msgid "Important: Inverse Bonds have 0 vesting time & payout instantly."
-msgstr "Важно: Инверсные облигации имеют 0 времени наделения правами и выплачиваются мгновенно."
-
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:77
+#: src/views/Bond/components/BondInfoText.tsx:6
 msgid "Important: Inverse bonds allow you to bond your OHM for treasury assets. Vesting time is 0 and payouts are instant."
 msgstr "Важно: Инверсные облигации позволяют вам связать ваш OHM с казначейскими активами. Время наделения правами равно 0, а выплаты производятся мгновенно."
 
-#: src/views/BondV2/BondPurchase.tsx:43
-#: src/views/BondV2/ChooseStraightBond.tsx:76
+#: src/views/Bond/components/BondInfoText.tsx:7
 msgid "Important: New bonds are auto-staked (accrue rebase rewards) and no longer vest linearly. Simply claim as sOHM or gOHM at the end of the term."
 msgstr "Важно: Новые облигации автостейкаются (начисляют вознаграждение за ребазу) и больше не наделяются линейными правами. Просто заявите о себе как о sOHM или gOHM в конце срока."
 
@@ -601,48 +485,55 @@ msgstr "Важно: Новые облигации автостейкаются (
 msgid "Important: Recommended slippage is 1-3% to avoid a failed transaction."
 msgstr "Важно: Рекомендуемое проскальзывание составляет 1-3%, чтобы избежать неудачной сделки."
 
-#: src/views/BondV2/ChooseBondV2.tsx:71
-#: src/views/BondV2/ChooseBondV2.tsx:100
+#: src/hooks/useZapExecute.ts:123
+msgid "Insufficient balance."
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:28
+msgid "Invalid address"
+msgstr ""
+
+#: src/views/Bond/Bond.tsx:24
+#: src/views/Bond/Bond.tsx:43
 msgid "Inverse Bond"
 msgstr "Инверсная облигация"
 
-#: src/components/Sidebar/NavContent.tsx:129
+#: src/components/Sidebar/NavContent.tsx:159
 msgid "Inverse Bonds"
 msgstr "Инверсные облигации"
 
-#: src/views/Give/RecipientModal.tsx:361
-msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
-msgstr "Вы впервые жертвуете sOHM? Пожалуйста, разрешите OlympusDAO использовать ваш sOHM для донорства."
+#: src/views/Give/RecipientModal.tsx:328
+msgid "Is this your first time donating"
+msgstr ""
 
 #: src/components/CallToAction/CallToAction.tsx:17
-#: src/components/Migration/MigrationModal.tsx:152
-#: src/components/Migration/MigrationModalSingle.tsx:132
-#: src/views/Give/GiveInfo.tsx:22
+#: src/components/Migration/MigrationModal.tsx:144
+#: src/components/Migration/MigrationModalSingle.tsx:126
+#: src/views/Give/GiveInfo.tsx:28
 msgid "Learn More"
 msgstr "Подробнее"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:81
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
 msgid "Liquid Backing per OHM"
 msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
 msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
 msgstr "Ликвидная казначейская поддержка не включает LP OHM, заблокированные активы или резервы, используемые для RFV поддержки. Оно представляет собой бюджет, имеющийся у Казначейства для конкретных рыночных операций, которые не могут использовать OHM (обратные облигации, некоторые виды обеспечения ликвидности, стимулы OHM и т.д.)."
 
-#: src/components/EducationCard.tsx:137
+#: src/components/EducationCard.tsx:142
 msgid "Lock sOHM in vault"
 msgstr "Залочить sOHM в хранилище"
 
-#: src/views/Give/YieldRecipients.tsx:48
+#: src/views/Give/YieldRecipients.tsx:38
 msgid "Looks like you haven’t made any donations yet"
 msgstr "Похоже, вы еще не сделали ни одного пожертвования."
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:23
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
 msgid "Market Cap"
 msgstr "Рыночная капитализация"
 
-#: src/views/Bond/Bond.tsx:109
-#: src/views/BondV2/BondV2.tsx:126
+#: src/views/Bond/components/BondModal/BondModal.tsx:113
 msgid "Market Price"
 msgstr "Рыночная Цена"
 
@@ -658,116 +549,98 @@ msgstr "Рыночная стоимость активов казначейст�
 msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
 msgstr ""
 
-#: src/views/TreasuryDashboard/treasuryData.ts:198
-#~ msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
-#~ msgstr "Рыночная стоимость активов казначейства - это сумма стоимости (в долларах) всех активов, принадлежащих казначейству."
-
-#: src/views/33Together/PoolDeposit.tsx:154
-#: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:182
-#: src/views/BondV2/BondPurchase.tsx:180
-#: src/views/Give/ManageDonationModal.tsx:575
-#: src/views/Give/RecipientModal.tsx:416
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:94
+#: src/views/Give/ManageDonationModal.tsx:534
+#: src/views/Give/RecipientModal.tsx:366
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:114
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:73
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:96
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:99
 msgid "Max"
 msgstr "Максимум"
 
-#: src/views/Bond/BondPurchase.tsx:243
-#: src/views/BondV2/BondPurchase.tsx:243
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:141
 msgid "Max You Can Buy"
 msgstr "Максимум, что можно купить"
 
-#: src/views/BondV2/BondPurchase.tsx:78
-msgid "Max capacity is {maxBondable} {0} for {1} sOHM. Click Max to autocomplete."
-msgstr "Максимальная емкость - {maxBondable} {0} для {1} sOHM. Нажмите Макс для автозаполнения."
-
-#: src/components/Migration/MigrationModalSingle.tsx:184
-#: src/components/Migration/MigrationModalSingle.tsx:287
-#: src/views/V1-Stake/V1-Stake.jsx:306
+#: src/components/Migration/MigrationModalSingle.tsx:178
+#: src/components/Migration/MigrationModalSingle.tsx:281
+#: src/views/V1-Stake/V1-Stake.jsx:294
 msgid "Migrate"
 msgstr "Перенести"
 
-#: src/components/Migration/MigrationModal.tsx:338
+#: src/components/Migration/MigrationModal.tsx:330
 msgid "Migrate all to"
 msgstr "Перенести все на"
 
-#: src/components/Migration/MigrationModal.tsx:194
-#: src/components/Migration/MigrationModal.tsx:292
-#: src/components/Migration/MigrationModalSingle.tsx:175
-#: src/components/Migration/MigrationModalSingle.tsx:278
+#: src/components/Migration/MigrationModal.tsx:186
+#: src/components/Migration/MigrationModal.tsx:284
+#: src/components/Migration/MigrationModalSingle.tsx:169
+#: src/components/Migration/MigrationModalSingle.tsx:272
 msgid "Migrated"
 msgstr "Перенесено"
 
-#: src/components/Migration/MigrationModal.tsx:160
-#: src/components/Migration/MigrationModalSingle.tsx:140
+#: src/components/Migration/MigrationModal.tsx:152
+#: src/components/Migration/MigrationModalSingle.tsx:134
 msgid "Migration Output"
 msgstr "Миграционный вывод"
 
-#: src/components/Migration/MigrationModal.tsx:131
-#: src/components/Migration/MigrationModalSingle.tsx:117
+#: src/components/Migration/MigrationModal.tsx:123
+#: src/components/Migration/MigrationModalSingle.tsx:111
 msgid "Migration complete"
 msgstr "Миграция завершена"
 
-#: src/components/GiveProject/GrantCard.tsx:212
+#: src/components/GiveProject/GrantCard.tsx:197
 msgid "Milestone {0}: {1} sOHM"
 msgstr ""
 
-#: src/views/Zap/ZapStakeAction.tsx:449
-#: src/views/Zap/ZapStakeAction.tsx:514
+#: src/views/Zap/ZapStakeAction.tsx:490
+#: src/views/Zap/ZapStakeAction.tsx:554
 msgid "Minimum Output Amount: 0.5"
 msgstr "Минимальный выходной объем: 0.5"
 
-#: src/views/Zap/ZapStakeAction.tsx:420
+#: src/views/Zap/ZapStakeAction.tsx:459
 msgid "Minimum You Get"
 msgstr "Минимум, который вы получаете"
+
+#: src/hooks/useZapExecute.ts:63
+msgid "Minimum amount must be greater than 0"
+msgstr ""
 
 #: src/views/Give/Give.tsx:94
 msgid "My Donations"
 msgstr "Мои Донаты"
 
-#: src/views/Give/RedeemYieldModal.tsx:81
+#: src/views/Give/RedeemYieldModal.tsx:88
 msgid "My Wallet Address"
 msgstr ""
 
-#: src/views/BondV2/BondPurchase.tsx:259
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:162
 msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
 msgstr "Отрицательный дисконт - это плохо (вы платите больше, чем рыночная стоимость). Дисконт облигации - это процентная разница между рыночной стоимостью OHM и ценой облигации."
 
-#: src/components/Sidebar/NavContent.tsx:161
-msgid "New"
-msgstr "Новый"
-
-#: src/views/Give/ManageDonationModal.tsx:553
+#: src/views/Give/ManageDonationModal.tsx:511
 msgid "New sOHM Amount"
 msgstr "Новая сумма sOHM"
 
-#: src/views/Give/ManageDonationModal.tsx:621
+#: src/views/Give/ManageDonationModal.tsx:582
 msgid "New sOHM deposit"
 msgstr "Новый депозит sOHM"
 
-#: src/views/Give/RedeemYield.tsx:221
+#: src/views/Give/RedeemYield.tsx:196
 #: src/views/Stake/components/StakeArea/components/StakeNextRebaseAmount.tsx:54
-#: src/views/V1-Stake/V1-Stake.jsx:431
+#: src/views/V1-Stake/V1-Stake.jsx:390
 msgid "Next Reward Amount"
 msgstr "Следующая сумма вознаграждения"
 
-#: src/views/Give/RedeemYield.tsx:226
+#: src/views/Give/RedeemYield.tsx:202
 #: src/views/Stake/components/StakeArea/components/StakeRebaseYield.tsx:9
-#: src/views/V1-Stake/V1-Stake.jsx:436
+#: src/views/V1-Stake/V1-Stake.jsx:395
 msgid "Next Reward Yield"
 msgstr "Следующая Доходность вознаграждения"
 
-#: src/views/BondV2/ChooseStraightBond.tsx:38
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:40
+#: src/views/Bond/components/BondList.tsx:34
 msgid "No active bonds"
 msgstr "Отсутствие активных облигаций"
-
-#: src/views/BondV2/ChooseBondV2.tsx:79
-#: src/views/ChooseBond/ChooseBond.tsx:110
-msgid "OHM Price"
-msgstr "Цена OHM"
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:148
 msgid "OHM Staked"
@@ -781,87 +654,72 @@ msgstr "OHM Staked - это отношение sOHM к циркулирующе�
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
 msgstr "OlyZap снижает сложность, экономит ваше время и удерживает вас на Olympus."
 
-#: src/components/EducationCard.tsx:127
+#: src/components/EducationCard.tsx:132
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 msgstr "Olympus Give - это способ направить доход, накопленный на вашем sOHM, на другой кошелек. Первый шаг - пополнение вашего sOHM и указание получателя."
 
-#: src/components/Sidebar/NavContent.tsx:171
+#: src/components/Sidebar/NavContent.tsx:73
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:109
 msgid "Olympus Pro"
 msgstr "Olympus Pro"
 
-#: src/components/Migration/MigrationModal.tsx:143
-#: src/components/Migration/MigrationModalSingle.tsx:123
+#: src/components/Migration/MigrationModal.tsx:135
+#: src/components/Migration/MigrationModalSingle.tsx:117
 msgid "Olympus v2 introduces upgrades to on-chain governance and bonds to enhance decentralization and immutability."
 msgstr "В Olympus v2 внесены изменения в управление цепочкой и облигации для повышения децентрализации и неизменности."
 
-#: src/views/V1-Stake/V1-Stake.jsx:246
-msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
-msgstr "Как только ваши текущие облигации будут востребованы, вы можете перевести свои активы, чтобы заложить больше OHM"
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:106
+msgid "Overview"
+msgstr ""
 
 #: src/views/404/NotFound.tsx:16
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#: src/views/BondV2/AccordionSection.tsx:50
-#: src/views/BondV2/BondRow.tsx:79
+#: src/views/Bond/components/BondList.tsx:112
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:145
 msgid "Payout"
 msgstr "Выплаты"
 
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:54
+#: src/views/Bond/components/BondList.tsx:154
 msgid "Payout Asset"
 msgstr "Выплачиваемый актив"
 
-#: src/views/ChooseBond/ClaimBonds.tsx:34
-msgid "Pending"
-msgstr "В ожидании"
-
-#: src/views/BondV2/AccordionSection.tsx:50
-msgid "Pending Payout"
-msgstr "Ожидание выплаты"
-
-#: src/views/Bond/BondRedeem.tsx:99
-msgid "Pending Rewards"
-msgstr "Ожидаемые вознаграждения"
-
-#: src/slices/PendingTxnsSlice.ts:48
-#: src/slices/PendingTxnsSlice.ts:52
-#: src/slices/PendingTxnsSlice.ts:56
-#: src/views/Zap/ZapStakeAction.tsx:443
+#: src/slices/PendingTxnsSlice.ts:38
+#: src/slices/PendingTxnsSlice.ts:42
+#: src/slices/PendingTxnsSlice.ts:46
 #: src/views/Zap/ZapStakeAction.tsx:484
+#: src/views/Zap/ZapStakeAction.tsx:524
 msgid "Pending..."
 msgstr "В ожидании..."
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:85
+#: src/views/Give/RecipientModal.tsx:329
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:96
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:102
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:81
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:87
 msgid "Please approve Olympus DAO to use your"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:162
-#: src/views/BondV2/BondPurchase.tsx:172
-#: src/views/V1-Stake/V1-Stake.jsx:265
+#: src/views/V1-Stake/V1-Stake.jsx:253
 msgid "Please approve Olympus Dao to use your"
 msgstr "Пожалуйста, разрешите Olympus Dao использовать ваши активы"
 
-#: src/slices/GiveThunk.ts:73
-#: src/slices/GiveThunk.ts:115
-msgid "Please connect your wallet"
-msgstr "Пожалуйста, подключите свой кошелек"
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:21
+msgid "Please connect a wallet to claim bonds"
+msgstr ""
 
-#: src/slices/GiveThunk.ts:180
-#: src/slices/GiveThunk.ts:257
-#: src/slices/GiveThunk.ts:334
-#: src/slices/RedeemThunk.ts:39
-#: src/slices/RedeemThunk.ts:92
-msgid "Please connect your wallet!"
-msgstr "Пожалуйста, подключите свой кошелек!"
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:63
+msgid "Please connect a wallet to purchase a bond"
+msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:204
+#: src/views/Give/RecipientModal.tsx:168
 msgid "Please enter a different address: cannot direct to the same wallet"
 msgstr "Пожалуйста, введите другой адрес: невозможно направить на тот же кошелек"
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:34
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:23
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:25
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:23
@@ -870,6 +728,7 @@ msgstr "Пожалуйста, введите другой адрес: невоз
 msgid "Please enter a number"
 msgstr "Пожалуйста, введите номер"
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:40
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:27
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:29
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:27
@@ -878,40 +737,45 @@ msgstr "Пожалуйста, введите номер"
 msgid "Please enter a number greater than 0"
 msgstr "Пожалуйста, введите число больше 0"
 
-#: src/views/Give/RecipientModal.tsx:198
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:42
+msgid "Please enter a slippage amount greater than 0"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:162
 msgid "Please enter a valid Ethereum address"
 msgstr "Пожалуйста, введите действительный адрес Ethereum"
 
-#: src/views/Bond/BondPurchase.tsx:65
-msgid "Please enter a valid value!"
-msgstr "Пожалуйста, введите действительное значение!"
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:61
+msgid "Please enter a valid address as the recipient address"
+msgstr ""
 
-#: src/views/Give/ManageDonationModal.tsx:266
-#: src/views/Give/RecipientModal.tsx:156
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:35
+msgid "Please enter a valid slippage amount"
+msgstr ""
+
+#: src/views/Give/ManageDonationModal.tsx:215
+#: src/views/Give/RecipientModal.tsx:118
 msgid "Please enter a value"
 msgstr "Пожалуйста, введите значение"
 
-#: src/components/GiveProject/GrantCard.tsx:318
-#: src/components/GiveProject/GrantCard.tsx:318
-#: src/components/GiveProject/GrantCard.tsx:367
-#: src/components/GiveProject/GrantCard.tsx:367
-#: src/components/GiveProject/ProjectCard.tsx:384
-#: src/components/GiveProject/ProjectCard.tsx:384
-#: src/components/GiveProject/ProjectCard.tsx:433
-#: src/components/GiveProject/ProjectCard.tsx:433
-#: src/views/33Together/PoolDeposit.tsx:58
-#: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:63
-#: src/views/BondV2/BondPurchase.tsx:74
-#: src/views/Give/CausesDashboard.tsx:55
-#: src/views/Give/CausesDashboard.tsx:55
-#: src/views/Give/DepositRow.tsx:66
-#: src/views/Give/DepositRow.tsx:66
-#: src/views/Give/GrantsDashboard.tsx:58
-#: src/views/Give/GrantsDashboard.tsx:58
+#: src/components/GiveProject/GrantCard.tsx:307
+#: src/components/GiveProject/GrantCard.tsx:307
+#: src/components/GiveProject/GrantCard.tsx:324
+#: src/components/GiveProject/GrantCard.tsx:324
+#: src/components/GiveProject/ProjectCard.tsx:359
+#: src/components/GiveProject/ProjectCard.tsx:359
+#: src/components/GiveProject/ProjectCard.tsx:376
+#: src/components/GiveProject/ProjectCard.tsx:376
+#: src/views/Give/CausesDashboard.tsx:60
+#: src/views/Give/CausesDashboard.tsx:60
+#: src/views/Give/DepositRow.tsx:71
+#: src/views/Give/DepositRow.tsx:71
+#: src/views/Give/GrantsDashboard.tsx:60
+#: src/views/Give/GrantsDashboard.tsx:60
 msgid "Please enter a value!"
 msgstr "Пожалуйста, введите значение!"
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:44
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:29
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:35
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:31
@@ -924,12 +788,20 @@ msgstr "Пожалуйста, введите значение!"
 msgid "Please refresh your page and try again"
 msgstr "Пожалуйста, обновите страницу и попробуйте снова"
 
-#: src/slices/RedeemThunk.ts:97
-msgid "Please switch to testnet!"
-msgstr "Пожалуйста, перейдите на testnet!"
-
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:30
 msgid "Please switch to the Abritrum or Avalanche networks to migrate"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:25
+msgid "Please switch to the Ethereum network to claim all bonds"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:26
+msgid "Please switch to the Ethereum network to claim this bond"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:66
+msgid "Please switch to the Ethereum network to purchase this bond"
 msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:33
@@ -948,42 +820,27 @@ msgstr ""
 msgid "Please switch to the Ethereum network to wrap your sOHM"
 msgstr ""
 
-#: src/views/33Together/PoolPrize.tsx:119
-msgid "Pool Award Balance is currently 0."
-msgstr "Баланс премии пула в настоящее время равен 0."
-
-#: src/views/33Together/PoolInfo.tsx:90
-msgid "Pool owner"
-msgstr "Владелец пула"
-
-#: src/components/Migration/MigrationModal.tsx:247
-#: src/components/Migration/MigrationModalSingle.tsx:233
+#: src/components/Migration/MigrationModal.tsx:239
+#: src/components/Migration/MigrationModalSingle.tsx:227
 msgid "Post-migration"
 msgstr "После миграции"
 
-#: src/components/Migration/MigrationModal.tsx:234
-#: src/components/Migration/MigrationModalSingle.tsx:220
+#: src/components/Migration/MigrationModal.tsx:226
+#: src/components/Migration/MigrationModalSingle.tsx:214
 msgid "Pre-migration"
 msgstr "Предварительная миграция"
 
-#: src/views/BondV2/BondRow.tsx:62
-#: src/views/BondV2/ChooseStraightBond.tsx:53
-#: src/views/BondV2/InverseBond/ChooseInverseBond.tsx:57
-#: src/views/ChooseBond/BondRow.tsx:46
-#: src/views/ChooseBond/ChooseBond.tsx:126
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:37
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:51
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:112
+#: src/views/Bond/components/BondList.tsx:95
+#: src/views/Bond/components/BondList.tsx:159
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:52
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:113
 msgid "Price"
 msgstr "Цена"
 
-#: src/views/33Together/PoolInfo.tsx:44
-msgid "Prize Pool Info"
-msgstr "Информация о призовом фонде"
-
-#: src/views/33Together/PoolPrize.tsx:135
-msgid "Prize is being awarded"
-msgstr "Приз вручается"
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:110
+msgid "Proteus"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:120
 msgid "Protocol Owned Liquidity OHM-DAI"
@@ -993,71 +850,70 @@ msgstr "Протокол Собственная ликвидность OHM-DAI"
 msgid "Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users."
 msgstr "Ликвидность, принадлежащая протоколу, - это количество LP, которым владеет и управляет казначейство. Чем больше ПОЛ, тем лучше для протокола и его пользователей."
 
-#: src/views/ChooseBond/BondRow.tsx:73
-#: src/views/ChooseBond/ChooseBond.tsx:132
-msgid "Purchased"
-msgstr "Приобретено"
-
-#: src/views/Give/YieldRecipients.tsx:73
+#: src/views/Give/YieldRecipients.tsx:63
 msgid "RECIPIENT"
 msgstr "ПОЛУЧАТЕЛЬ"
 
-#: src/views/Give/RedeemYield.tsx:231
+#: src/views/Give/RedeemYield.tsx:208
 #: src/views/Stake/components/StakeArea/components/StakeFiveDayYield.tsx:9
-#: src/views/V1-Stake/V1-Stake.jsx:441
+#: src/views/V1-Stake/V1-Stake.jsx:400
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5-дневная ставка)"
 
-#: src/views/33Together/PoolWithdraw.tsx:171
-msgid "Read more about Fairness"
-msgstr "Подробнее о Справедливость"
+#: src/components/EducationCard.tsx:84
+msgid "Receives Yield from"
+msgstr ""
 
-#: src/components/EducationCard.tsx:78
-msgid "Receives yield from"
-msgstr "Получает доход от"
-
-#: src/components/EducationCard.tsx:76
-#: src/components/EducationCard.tsx:148
-#: src/views/Bond/BondPurchase.tsx:264
-#: src/views/BondV2/BondPurchase.tsx:271
-#: src/views/Give/ManageDonationModal.tsx:456
-#: src/views/Give/RecipientModal.tsx:422
+#: src/components/EducationCard.tsx:82
+#: src/components/EducationCard.tsx:153
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:174
+#: src/views/Give/ManageDonationModal.tsx:411
 msgid "Recipient"
 msgstr "Получатель"
 
-#: src/views/BondV2/AdvancedSettings.tsx:47
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:48
+#: src/views/Give/RecipientModal.tsx:372
+#: src/views/Give/RecipientModal.tsx:483
 msgid "Recipient Address"
 msgstr "Адрес получателя"
 
-#: src/views/Give/RecipientModal.tsx:519
-msgid "Recipient address"
-msgstr "Адрес получателя"
-
-#: src/components/EducationCard.tsx:149
+#: src/components/EducationCard.tsx:154
 msgid "Recipient earns sOHM rebases"
 msgstr "Получатель зарабатывает ребазы sOHM"
 
-#: src/views/Bond/Bond.tsx:132
 #: src/views/Give/Give.tsx:95
 msgid "Redeem"
 msgstr "Выкупить"
 
-#: src/views/Give/RedeemYield.tsx:164
-#: src/views/Give/RedeemYieldModal.tsx:56
+#: src/views/Give/RedeemYield.tsx:135
+#: src/views/Give/RedeemYieldModal.tsx:63
 msgid "Redeem Yield"
 msgstr "Доходность выкупа"
 
-#: src/views/Give/RedeemYield.tsx:216
+#: src/views/Give/RedeemYieldModal.tsx:104
+msgid "Redeem {0} sOHM"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:189
 msgid "Redeemable Amount"
 msgstr "Сумма к погашению"
 
-#: src/views/Give/RedeemYieldModal.tsx:63
+#: src/views/Give/RedeemYieldModal.tsx:70
 msgid "Redeemable Yield"
 msgstr ""
 
-#: src/components/GiveProject/ProjectCard.tsx:203
+#: src/views/Give/RedeemYieldModal.tsx:103
+msgid "Redeeming {0} sOHM"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:195
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:142
 msgid "Remaining"
 msgstr "Оставшиеся"
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:108
+msgid "Revenue"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:93
 msgid "Risk Free Value of Treasury Assets"
@@ -1079,13 +935,17 @@ msgstr "Взлетно-посадочная полоса - это количес
 msgid "SLP Treasury"
 msgstr "Казначейство SLP"
 
-#: src/components/Migration/MigrationModal.tsx:347
+#: src/components/Migration/MigrationModal.tsx:339
 msgid "Save on gas fees by migrating all your assets to the new gOHM or sOHM in one transaction. Each asset asset above must be approved before all can be migrated."
 msgstr "Сэкономьте на оплате газа, переведя все свои активы в новый gOHM или sOHM одной транзакцией. Каждый вышеуказанный актив должен быть одобрен, прежде чем все активы будут перенесены."
 
-#: src/views/Zap/SelectTokenModal.tsx:52
-#: src/views/Zap/ZapStakeAction.tsx:307
-#: src/views/Zap/ZapStakeAction.tsx:335
+#: src/views/Give/CausesDashboard.tsx:106
+msgid "Select Custom Recipient"
+msgstr ""
+
+#: src/views/Zap/SelectTokenModal.tsx:50
+#: src/views/Zap/ZapStakeAction.tsx:343
+#: src/views/Zap/ZapStakeAction.tsx:372
 msgid "Select Token"
 msgstr "Выберите токен"
 
@@ -1093,11 +953,11 @@ msgstr "Выберите токен"
 msgid "Select any asset"
 msgstr "Выберите любой актив"
 
-#: src/views/Zap/SelectTokenModal.tsx:72
+#: src/views/Zap/SelectTokenModal.tsx:70
 msgid "Ser, you have no assets..."
 msgstr "Сер, у вас нет имущества..."
 
-#: src/views/V1-Stake/V1-Stake.jsx:189
+#: src/views/V1-Stake/V1-Stake.jsx:179
 msgid "Single Stake"
 msgstr "Одиночный стейкинг"
 
@@ -1105,35 +965,29 @@ msgstr "Одиночный стейкинг"
 msgid "Single Stake (3, 3)"
 msgstr "Одиночный стейкинг (3, 3)"
 
-#: src/views/BondV2/AdvancedSettings.tsx:29
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:26
 msgid "Slippage"
 msgstr "Проскальзывание"
 
-#: src/views/Zap/ZapStakeAction.tsx:392
+#: src/views/Zap/ZapStakeAction.tsx:429
 msgid "Slippage Tolerance"
 msgstr "Допустимое проскальзывание"
 
-#: src/views/BondV2/BondPurchase.tsx:193
-#: src/views/BondV2/BondRow.tsx:94
-#: src/views/BondV2/BondRow.tsx:187
-msgid "Sold Out"
-msgstr "Продано"
+#: src/hooks/useZapExecute.ts:58
+msgid "Slippage should be a number"
+msgstr ""
 
-#: src/views/33Together/PoolInfo.tsx:103
-msgid "Something not right, fren? Check Pool Together's UI below."
-msgstr "Что-то не так, приятель? Проверьте пользовательский интерфейс Pool Together ниже."
-
-#: src/components/Sidebar/NavContent.tsx:156
-#: src/views/V1-Stake/V1-Stake.jsx:237
+#: src/components/Sidebar/NavContent.tsx:55
+#: src/views/V1-Stake/V1-Stake.jsx:227
 msgid "Stake"
 msgstr "Стейк"
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:111
+#: src/components/TopBar/Wallet/GetOhm.tsx:120
 msgid "Stake Now"
 msgstr ""
 
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:145
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:188
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:155
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:198
 msgid "Stake on"
 msgstr "Стейкать"
 
@@ -1141,7 +995,7 @@ msgstr "Стейкать"
 msgid "Staking"
 msgstr "Стейкинг"
 
-#: src/slices/PendingTxnsSlice.ts:30
+#: src/slices/PendingTxnsSlice.ts:28
 msgid "Staking OHM"
 msgstr "Стейкинг OHM"
 
@@ -1149,12 +1003,32 @@ msgstr "Стейкинг OHM"
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal value of sOHM or gOHM."
 msgstr "Стейкинг - это основная стратегия накопления стоимости в Olympus. Когда вы делаете ставку, вы блокируете OHM и получаете равное значение sOHM или gOHM."
 
-#: src/views/Give/ManageDonationModal.tsx:396
+#: src/views/Give/ManageDonationModal.tsx:347
 msgid "Stop Donation"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:108
+msgid "Successfully bonded"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:141
+msgid "Successfully decreased sOHM deposit"
+msgstr ""
+
+#: src/views/Give/hooks/useGive.ts:77
+msgid "Successfully deposited sOHM"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:76
+msgid "Successfully increased sOHM deposit"
 msgstr ""
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:55
 msgid "Successfully migrated from wsOHM to gOHM"
+msgstr ""
+
+#: src/views/Give/hooks/useRedeem.ts:69
+msgid "Successfully redeemed all available yield"
 msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:56
@@ -1185,114 +1059,95 @@ msgstr "Обмен на sOHM"
 msgid "Swap into sOHM"
 msgstr "Замена на sOHM"
 
-#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:87
-#: src/views/V1-Stake/V1-Stake.jsx:201
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:99
+#: src/views/V1-Stake/V1-Stake.jsx:191
 msgid "TVL"
 msgstr "TVL"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr "Текущий индекс отслеживает количество sOHM, накопленное с момента начала ставок. По сути, сколько sOHM было бы у человека, если бы он сделал ставку и удерживал 1 OHM с момента запуска."
 
-#: src/views/BondV2/BondPurchase.tsx:267
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:169
 msgid "The duration of the Bond whereby the bond can be claimed in it’s entirety.  Bonds are no longer vested linearly and are locked for entire duration."
 msgstr "Срок действия облигации, в течение которого облигация может быть востребована в полном объеме.  Облигации больше не наделяются правами линейно, а блокируются на весь срок действия."
 
-#: src/views/BondV2/BondPurchase.tsx:254
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:142
 msgid "The maximum quantity of payout token we are able to offer via bonds at this moment in time."
 msgstr "Максимальное количество токенов выплат, которое мы можем предложить через облигации в данный момент времени."
 
-#: src/views/33Together/PoolWithdraw.tsx:122
-msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
-msgstr "Пул был временно отключен для V2 Migration. Пожалуйста, снимите свои 33T"
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:51
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:57
+msgid "The maximum you can bond at this time is"
+msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:116
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:117
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "Цена gOHM равна цене OHM, умноженной на текущий индекс"
 
-#: src/components/EducationCard.tsx:150
+#: src/views/Give/RecipientModal.tsx:374
+msgid "The rebase rewards from the sOHM that you deposit will be redirected to the wallet address that you specify"
+msgstr ""
+
+#: src/components/EducationCard.tsx:155
 msgid ""
 "The recipient you specified, or the project you selected, will then receive the rebases associated with your\n"
 "sOHM deposit until you withdraw your sOHM principal from the vault."
 msgstr ""
 
-#: src/components/EducationCard.tsx:240
-#~ msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
-#~ msgstr "Указанный вами получатель или выбранный вами проект будет получать ребазы, связанные с вашим депозитом sOHM, до тех пор, пока вы не заберете основную сумму sOHM из хранилища."
-
-#: src/views/Give/RecipientModal.tsx:424
-#: src/views/Give/RecipientModal.tsx:521
+#: src/views/Give/RecipientModal.tsx:485
 msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
 msgstr "На указанный адрес кошелька будет начисляться доходность ребейс от суммы, которую вы внесли."
 
-#: src/views/BondV2/BondPurchase.tsx:239
-msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr "Общая сумма актива выплаты, которую вы получите от покупки этой облигации. (сумма sOHM будет выше из-за пересчета)"
+#: src/hooks/useZapExecute.ts:60
+msgid "The tokenAddress parameter must be set"
+msgstr ""
 
-#: src/components/EducationCard.tsx:138
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:137
+msgid "The total amount of payout asset you will recieve from this bond purchase. (sOHM quantity will be higher due to rebasing)"
+msgstr ""
+
+#: src/components/EducationCard.tsx:143
 msgid ""
 "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient.\n"
 "You can withdraw or edit your principal sOHM amount at any time."
 msgstr ""
 
-#: src/components/EducationCard.tsx:134
-#~ msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
-#~ msgstr "Затем ваш депонированный sOHM хранится в смарт-контракте хранилища, который отправит ваши ребазы получателю. Вы можете снять или изменить основную сумму sOHM в любое время."
-
-#: src/views/33Together/PoolDeposit.tsx:117
-msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr "В настоящее время данный призовой фонд не может принимать депозиты."
-
-#: src/views/33Together/PoolWithdraw.tsx:107
-msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr "В настоящее время данный призовой фонд не может принимать снятие средств."
-
-#: src/components/Migration/MigrationModal.tsx:237
-#: src/components/Migration/MigrationModalSingle.tsx:223
+#: src/components/Migration/MigrationModal.tsx:229
+#: src/components/Migration/MigrationModalSingle.tsx:217
 msgid "This is the current balance of v1 assets in your wallet."
 msgstr "Это текущий баланс v1 активов в вашем кошельке."
 
-#: src/components/Migration/MigrationModal.tsx:250
-#: src/components/Migration/MigrationModalSingle.tsx:236
+#: src/components/Migration/MigrationModal.tsx:242
+#: src/components/Migration/MigrationModalSingle.tsx:230
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "Это эквивалентное количество gOHM, которое будет у вас в кошельке после завершения миграции."
-
-#: src/views/Bond/BondRedeem.tsx:105
-msgid "Time until fully vested"
-msgstr "Время до полного разлока"
 
 #: src/components/Chart/Chart.tsx:546
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr "Сегодня"
 
-#: src/components/GiveProject/ProjectCard.tsx:337
-msgid "Total Active sOHM"
-msgstr "Всего активных sOHM"
+#: src/views/Bond/components/BondList.tsx:149
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:136
+msgid "Token"
+msgstr ""
 
-#: src/views/33Together/PoolInfo.tsx:80
-msgid "Total Deposits"
-msgstr "Итого депозитов"
+#: src/views/Give/RedeemYield.tsx:160
+msgid "Total Donated"
+msgstr ""
 
-#: src/components/GiveProject/GrantCard.tsx:267
+#: src/components/GiveProject/GrantCard.tsx:256
 msgid "Total Milestone Amount"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.tsx:85
-msgid "Total Sponsorship"
-msgstr "Общее спонсорство"
-
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:83
-#: src/views/V1-Stake/V1-Stake.jsx:378
+#: src/views/V1-Stake/V1-Stake.jsx:353
 msgid "Total Staked Balance"
 msgstr "Общий баланс в стейке"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:72
-#~ msgid "Total Treasury MV backing is the total USD budget the Treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)."
-#~ msgstr "Общий резерв казначейства MV - это общий бюджет в долларах США, которым располагает казначейство в расчете на OHM для проведения всех рыночных операций (LP, свопы, получение доходов, облигации и обратные облигации и т.д.)."
-
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:130
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:131
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Общая стоимость депонированных средств"
@@ -1301,134 +1156,109 @@ msgstr "Общая стоимость депонированных средст�
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
 msgstr "Total Value Deposited - долларовая сумма всех OHM, внесенных в протокол. Эта метрика часто используется в качестве индикатора роста или здоровья в проектах DeFi."
 
-#: src/views/BondV2/AdvancedSettings.tsx:41
+#: src/views/Give/RedeemYield.tsx:160
+msgid "Total sOHM Donated"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:41
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "Сделка может быть возвращена, если цена изменится более чем на % проскальзывания"
 
-#: src/views/BondV2/ChooseBondV2.tsx:74
-#: src/views/ChooseBond/ChooseBond.tsx:105
+#: src/hooks/useZapExecute.ts:121
+msgid "Transaction would fail due to slippage. Please use a higher slippage tolerance value."
+msgstr ""
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:107
+msgid "Treasury"
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:163
 msgid "Treasury Balance"
 msgstr "Баланс казначейства"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:69
-#~ msgid "Treasury MV backing is the total USD budget the treasury has per OHM to spend on all market operations (LP, swaps, revenue generation, bonds and inverse bonds, etc)"
-#~ msgstr "Казначейское обеспечение MV - это общий бюджет в долларах США, который казначейство имеет в расчете на OHM для проведения всех рыночных операций (LP, свопы, получение дохода, облигации и инверсные облигации, и т.д.)."
+#: src/hooks/useZapExecute.ts:72
+msgid "Unable to access Zap contract on network {networkId}"
+msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:68
-#~ msgid "Treasury Market Value per OHM"
-#~ msgstr "Казначейская рыночная стоимость за OHM"
+#: src/hooks/useZapExecute.ts:78
+msgid "Unable to fetch address for token ({0}) on network {networkId}"
+msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:84
-#: src/views/V1-Stake/V1-Stake.jsx:238
+#: src/views/V1-Stake/V1-Stake.jsx:228
 msgid "Unstake"
 msgstr "Анстейк"
 
-#: src/views/V1-Stake/V1-Stake.jsx:350
+#: src/views/V1-Stake/V1-Stake.jsx:325
 msgid "Unstake OHM"
 msgstr "Анстейк OHM"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:73
-#: src/views/V1-Stake/V1-Stake.jsx:370
+#: src/views/V1-Stake/V1-Stake.jsx:345
 msgid "Unstaked Balance"
 msgstr "Анстейкнутый Баланс"
 
-#: src/slices/PendingTxnsSlice.ts:30
+#: src/slices/PendingTxnsSlice.ts:28
 msgid "Unstaking sOHM"
 msgstr "Анстейкнутый sOHM"
 
-#: src/slices/PendingTxnsSlice.ts:42
+#: src/slices/PendingTxnsSlice.ts:32
 msgid "Unwrapping sOHM"
 msgstr "Развернутый sOHM"
 
-#: src/components/EducationCard.tsx:275
-#~ msgid "Updated Deposit"
-#~ msgstr "Обновленный депозит"
-
-#: src/views/Give/GrantsDashboard.tsx:106
+#: src/views/Give/GrantsDashboard.tsx:77
 msgid "Upon receiving an Olympus Grant, you gain exposure to the Olympus Give ecosystem where your performance is rewarded every 8 hours through the yield your grant generates; you then can also receive support from other Ohmies and this acts as a loop that compounds value and amplifies the reach and growth of your mission."
 msgstr ""
 
-#: src/views/Give/ManageDonationModal.tsx:283
+#: src/views/Give/ManageDonationModal.tsx:233
 msgid "Value cannot be more than your sOHM balance of"
 msgstr "Значение не может быть больше, чем ваш баланс sOHM "
 
-#: src/views/Give/RecipientModal.tsx:173
+#: src/views/Give/RecipientModal.tsx:136
 msgid "Value cannot be more than your sOHM balance of {0}"
 msgstr "Значение не может быть больше, чем ваш баланс sOHM {0}"
 
-#: src/views/Give/ManageDonationModal.tsx:272
-#: src/views/Give/RecipientModal.tsx:162
+#: src/views/Give/ManageDonationModal.tsx:221
+#: src/views/Give/RecipientModal.tsx:124
 msgid "Value must be positive"
 msgstr "Значение должно быть положительным"
 
-#: src/components/EducationCard.tsx:65
-#: src/components/EducationCard.tsx:136
+#: src/components/EducationCard.tsx:71
+#: src/components/EducationCard.tsx:141
 msgid "Vault"
 msgstr "Хранилище"
 
-#: src/views/Bond/BondPurchase.tsx:262
-#: src/views/Bond/BondRedeem.tsx:121
-msgid "Vesting Term"
-msgstr "Срок наделения правами"
-
-#: src/views/BondV2/BondRow.tsx:52
-#: src/views/BondV2/BondRow.tsx:143
-#: src/views/BondV2/BondRow.tsx:166
-msgid "View Asset"
-msgstr "Посмотреть активы"
-
-#: src/components/GiveProject/GrantCard.tsx:528
-#: src/components/GiveProject/ProjectCard.tsx:592
+#: src/components/GiveProject/GrantCard.tsx:426
+#: src/components/GiveProject/ProjectCard.tsx:478
 msgid "View Details"
 msgstr "Посмотреть детали"
 
-#: src/components/EducationCard.tsx:55
-#: src/components/EducationCard.tsx:125
-#: src/components/TopBar/TopBar.tsx:50
-#: src/components/TopBar/Wallet/index.tsx:69
-#: src/components/TopBar/Wallet/index.tsx:79
+#: src/components/EducationCard.tsx:61
+#: src/components/EducationCard.tsx:130
+#: src/components/TopBar/TopBar.tsx:65
+#: src/components/TopBar/Wallet/index.tsx:66
+#: src/components/TopBar/Wallet/index.tsx:76
 msgid "Wallet"
 msgstr "Кошелек"
 
-#: src/views/Give/CausesDashboard.tsx:107
+#: src/views/Give/CausesDashboard.tsx:90
 msgid "Want to give to a different cause?"
 msgstr ""
 
-#: src/views/Give/GrantsDashboard.tsx:47
+#: src/views/Give/GrantsDashboard.tsx:49
 msgid "We don't have any grants open right now, but check back soon!"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.tsx:75
-msgid "Winners / prize period"
-msgstr "Победители/призовой период"
-
-#: src/views/33Together/33together.tsx:167
-#: src/views/Give/ManageDonationModal.tsx:655
+#: src/views/Give/ManageDonationModal.tsx:619
 msgid "Withdraw"
 msgstr "Вывод средств"
 
-#: src/views/33Together/PoolWithdraw.tsx:144
-msgid "Withdraw Early & pay"
-msgstr "Досрочное снятие и оплата"
+#: src/views/Give/ManageDonationModal.tsx:619
+msgid "Withdrawing sOHM"
+msgstr ""
 
-#: src/views/33Together/PoolWithdraw.tsx:145
-msgid "Withdraw sOHM"
-msgstr "Вывод sOHM"
-
-#: src/views/33Together/PoolWithdraw.tsx:110
-msgid "Withdrawals can be made once the prize has been awarded."
-msgstr "Вывод средств может быть осуществлен после получения приза."
-
-#: src/slices/PendingTxnsSlice.ts:38
-msgid "Withdrawing sOHM donation"
-msgstr "Отказ от пожертвования sOHM"
-
-#: src/views/33Together/PoolWithdraw.tsx:153
-msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr "Снятие {количество} sOHM уменьшает ваши шансы на выигрыш до 1 к {newOdds}"
-
-#: src/components/Sidebar/NavContent.tsx:162
-#: src/components/Sidebar/NavContent.tsx:179
+#: src/components/Sidebar/NavContent.tsx:61
+#: src/components/Sidebar/NavContent.tsx:81
 msgid "Wrap"
 msgstr "Обернуть"
 
@@ -1436,31 +1266,23 @@ msgstr "Обернуть"
 msgid "Wrap / Unwrap"
 msgstr "Обернуть / развернуть"
 
-#: src/slices/PendingTxnsSlice.ts:42
+#: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
 msgstr "Обертывание OHM"
 
-#: src/views/Give/YieldRecipients.tsx:85
+#: src/views/Give/YieldRecipients.tsx:75
 msgid "YIELD SENT"
 msgstr "ОТПРАВЛЕНО"
 
-#: src/views/Give/ManageDonationModal.tsx:458
+#: src/views/Give/ManageDonationModal.tsx:416
 msgid "Yield Sent"
 msgstr ""
-
-#: src/views/33Together/PoolInfo.tsx:89
-msgid "Yield Source"
-msgstr "Источник дохода"
-
-#: src/components/EducationCard.tsx:178
-#~ msgid "You"
-#~ msgstr "Вы"
 
 #: src/views/Zap/ZapInfo.tsx:136
 msgid "You Choose"
 msgstr "Ваш Выбор"
 
-#: src/views/Zap/ZapStakeAction.tsx:320
+#: src/views/Zap/ZapStakeAction.tsx:356
 msgid "You Get"
 msgstr "Вы Получаете"
 
@@ -1468,25 +1290,24 @@ msgstr "Вы Получаете"
 msgid "You Give"
 msgstr "Вы Отдаете"
 
-#: src/views/Zap/ZapStakeAction.tsx:252
+#: src/views/Zap/ZapStakeAction.tsx:277
 msgid "You Pay"
 msgstr "Вы Платите"
 
-#: src/views/Bond/BondPurchase.tsx:238
-#: src/views/BondV2/BondPurchase.tsx:232
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:125
 msgid "You Will Get"
 msgstr "Вы Получите"
 
-#: src/components/Migration/MigrationModal.tsx:133
+#: src/components/Migration/MigrationModal.tsx:125
 msgid "You are now ready to migrate"
 msgstr "Теперь вы готовы к миграции"
 
-#: src/views/33Together/PoolWithdraw.tsx:98
-msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr "Вы можете в любое время снять внесенный фонд. Снимая средства, вы уменьшаете шанс выиграть приз в этом пуле в будущих призовых периодах."
-
-#: src/views/Give/CausesDashboard.tsx:112
+#: src/views/Give/CausesDashboard.tsx:95
 msgid "You can direct your yield to a recipient of your choice"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:47
+msgid "You cannot bond more than your"
 msgstr ""
 
 #: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:36
@@ -1505,100 +1326,49 @@ msgstr "Вы не можете отдать больше, чем"
 msgid "You cannot unwrap more than your gOHM balance"
 msgstr ""
 
-#: src/views/33Together/PoolWithdraw.tsx:91
-msgid "You cannot withdraw more than your pool balance"
-msgstr "Вы не можете снять больше, чем баланс вашего пула"
-
 #: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:31
 msgid "You cannot wrap more than your sOHM balance"
 msgstr ""
 
-#: src/views/Bond/BondPurchase.tsx:68
-msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
-msgstr "У вас есть существующая облигация. Передача облигаций приведет к обнулению периода наделения правами и потере вознаграждений. Мы рекомендуем сначала потребовать вознаграждения или использовать новый кошелек. Вы все еще хотите продолжить?"
-
 #: src/components/CallToAction/CallToAction.tsx:49
-#: src/components/Migration/MigrationModal.tsx:134
-#: src/components/Migration/MigrationModalSingle.tsx:117
+#: src/components/Migration/MigrationModal.tsx:126
+#: src/components/Migration/MigrationModalSingle.tsx:111
 msgid "You have assets ready to migrate to v2"
 msgstr "У вас есть активы, готовые к миграции на v2"
 
-#: src/slices/RedeemThunk.ts:70
-#: src/slices/RedeemThunk.ts:128
-msgid "You have no yield that can be redeemed."
-msgstr "У вас нет урожая, который можно собрать."
-
-#: src/slices/GiveThunk.ts:231
-#: src/slices/GiveThunk.ts:308
-msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
-msgstr "Возможно, вы пытаетесь дать больше, чем ваш баланс! Код ошибки: 32603. Сообщение: ds-math-sub-underflow"
-
-#: src/views/Give/RecipientModal.tsx:384
-#~ msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
-#~ msgstr "Чтобы воспользоваться этой функцией, вы должны войти в свой кошелек. Нажмите на кнопку \"Подключить кошелек\" и повторите попытку."
-
-#: src/views/V1-Stake/V1-Stake.jsx:249
+#: src/views/V1-Stake/V1-Stake.jsx:237
 msgid "You must complete the migration of your assets to stake additional OHM"
 msgstr "Вы должны завершить миграцию своих активов чтобы застейкать еще OHM"
 
-#: src/views/Give/ManageDonationModal.tsx:278
-#: src/views/Give/RecipientModal.tsx:168
+#: src/views/Give/ManageDonationModal.tsx:227
+#: src/views/Give/RecipientModal.tsx:130
 msgid "You must have a balance of sOHM (staked OHM) to continue"
 msgstr "Для продолжения необходимо иметь баланс sOHM (staked OHM)"
 
-#: src/views/Bond/BondPurchase.tsx:233
-#: src/views/BondV2/BondPurchase.tsx:227
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:120
 msgid "Your Balance"
 msgstr "Ваш баланс"
 
-#: src/components/GiveProject/GrantCard.tsx:603
-#: src/components/GiveProject/ProjectCard.tsx:683
+#: src/components/GiveProject/GrantCard.tsx:502
+#: src/components/GiveProject/ProjectCard.tsx:567
 msgid "Your Donations"
 msgstr "Ваши Донаты"
 
-#: src/views/33Together/PoolWithdraw.tsx:181
-msgid "Your Pooled Balance (withdrawable)"
-msgstr "Ваш общий баланс (снимаемый)"
-
-#: src/views/33Together/PoolDeposit.tsx:173
-msgid "Your Staked Balance (Depositable)"
-msgstr "Ваш застейканный баланс (депозитный)"
-
-#: src/views/Give/RecipientModal.tsx:409
+#: src/views/Give/RecipientModal.tsx:359
 msgid "Your current Staked Balance is"
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:443
-#~ msgid "Your current Staked Balance is {0} sOHM"
-#~ msgstr "Ваш текущий  баланс в стейке составляет {0} sOHM"
-
-#: src/views/Give/ManageDonationModal.tsx:568
+#: src/views/Give/ManageDonationModal.tsx:527
 msgid "Your current deposit is {0} sOHM"
 msgstr "Ваш текущий депозит составляет {0} sOHM"
 
-#: src/views/33Together/PoolInfo.tsx:59
-msgid "Your odds"
-msgstr "Ваши шансы"
-
-#: src/views/33Together/PoolInfo.tsx:54
-msgid "Your pool deposits"
-msgstr "Ваши вклады в пул"
-
-#: src/views/Give/ManageDonationModal.tsx:555
-#: src/views/Give/RecipientModal.tsx:396
-#: src/views/Give/RecipientModal.tsx:494
+#: src/views/Give/ManageDonationModal.tsx:513
+#: src/views/Give/RecipientModal.tsx:337
+#: src/views/Give/RecipientModal.tsx:457
 msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
 msgstr "Ваш sOHM будет переведен в хранилище при подаче заявки. Вам необходимо будет одобрить транзакцию и оплатить комиссию за газ."
 
-#: src/views/33Together/PoolInfo.tsx:49
-msgid "Your total awards"
-msgstr "Ваши общие награды"
-
-#: src/views/33Together/PoolInfo.tsx:64
-msgid "Your wallet balance"
-msgstr "Баланс вашего кошелька"
-
-#: src/components/Sidebar/NavContent.tsx:159
+#: src/components/Sidebar/NavContent.tsx:57
 msgid "Zap"
 msgstr "Зап"
 
@@ -1606,7 +1376,7 @@ msgstr "Зап"
 msgid "Zap is a swap"
 msgstr "Зап это обмен"
 
-#: src/components/TopBar/Wallet/GetOhm.tsx:88
+#: src/components/TopBar/Wallet/GetOhm.tsx:96
 msgid "Zap with more assets"
 msgstr ""
 
@@ -1614,23 +1384,22 @@ msgstr ""
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "Зап с большим количеством активов и ставкой <0>OHM</0>"
 
-#: src/views/Zap/ZapStakeAction.tsx:447
-#: src/views/Zap/ZapStakeAction.tsx:512
+#: src/views/Zap/ZapStakeAction.tsx:488
+#: src/views/Zap/ZapStakeAction.tsx:552
 msgid "Zap-Stake"
 msgstr "Зап - Стейк"
+
+#: src/hooks/useZapExecute.ts:66
+#: src/hooks/useZapExecute.ts:67
+#: src/views/Zap/ZapStakeAction.tsx:118
+msgid "Zaps are only available on Ethereum Mainnet. Please switch networks."
+msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
 msgid "balance"
 msgstr "баланс"
 
-#: src/views/33Together/PoolPrize.tsx:149
-msgid "day"
-msgstr "день"
-
-#. The action of bonding (verb)
-#: src/views/Bond/Bond.tsx:127
-#: src/views/BondV2/BondRow.tsx:187
-#: src/views/ChooseBond/BondRow.tsx:158
+#: src/views/Bond/components/BondList.tsx:208
 msgid "do_bond"
 msgstr "взять_облигацию"
 
@@ -1639,14 +1408,17 @@ msgstr "взять_облигацию"
 msgid "do_stake"
 msgstr "застейкать"
 
-#: src/views/BondV2/BondRow.tsx:97
+#: src/views/Bond/components/BondList.tsx:135
 msgid "for"
 msgstr "для"
 
-#: src/views/Bond/BondPurchase.tsx:163
-#: src/views/BondV2/BondPurchase.tsx:173
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:86
 msgid "for bonding"
 msgstr "для облигаций"
+
+#: src/views/Give/RecipientModal.tsx:329
+msgid "for donating"
+msgstr ""
 
 #: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
 msgid "for migrating"
@@ -1657,15 +1429,15 @@ msgid "for staking"
 msgstr "для стейкинга"
 
 #: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:102
-#: src/views/V1-Stake/V1-Stake.jsx:266
+#: src/views/V1-Stake/V1-Stake.jsx:254
 msgid "for unstaking"
 msgstr "для анстейкинга"
 
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:84
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:87
 msgid "for unwrapping"
 msgstr ""
 
-#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:78
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:81
 msgid "for wrapping"
 msgstr ""
 
@@ -1701,11 +1473,7 @@ msgstr "gOHM (Polygon)"
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:110
-#~ msgid "gOHM = sOHM * index"
-#~ msgstr "gOHM = sOHM * index"
-
-#: src/views/V1-Stake/V1-Stake.jsx:422
+#: src/views/V1-Stake/V1-Stake.jsx:381
 #: src/views/Wrap/components/WrapBalances.tsx:61
 msgid "gOHM Balance"
 msgstr "Баланс"
@@ -1718,25 +1486,13 @@ msgstr ""
 msgid "gOHM Balance (Avalanche)"
 msgstr ""
 
-#: src/views/V1-Stake/V1-Stake.jsx:393
-msgid "gOHM Balance in Fuse"
-msgstr "gOHM Баланс Fuse"
+#: src/views/Give/RedeemYield.tsx:170
+msgid "of sOHM Goal"
+msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:108
-#~ msgid "gOHM Price"
-#~ msgstr "Цена gOHM"
-
-#: src/views/33Together/PoolPrize.tsx:156
-msgid "hrs"
-msgstr "часы"
-
-#: src/views/33Together/PoolPrize.tsx:163
-msgid "min"
-msgstr "минуты"
-
-#: src/views/Give/RedeemYield.tsx:212
-#: src/views/Give/RedeemYield.tsx:217
-#: src/views/Give/RedeemYield.tsx:222
+#: src/views/Give/RedeemYield.tsx:184
+#: src/views/Give/RedeemYield.tsx:191
+#: src/views/Give/RedeemYield.tsx:197
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:91
 msgid "sOHM"
 msgstr "sOHM"
@@ -1745,57 +1501,40 @@ msgstr "sOHM"
 msgid "sOHM (v1)"
 msgstr "sOHM (v1)"
 
-#: src/views/Give/RecipientModal.tsx:394
-msgid "sOHM Allocation"
-msgstr "sOHM Аллокация"
-
-#: src/views/V1-Stake/V1-Stake.jsx:386
-#: src/views/V1-Stake/V1-Stake.jsx:416
+#: src/views/V1-Stake/V1-Stake.jsx:361
+#: src/views/V1-Stake/V1-Stake.jsx:375
 #: src/views/Wrap/components/WrapBalances.tsx:56
 msgid "sOHM Balance"
 msgstr "sOHM Баланс"
 
-#: src/components/GiveProject/GrantCard.tsx:620
-#: src/components/GiveProject/ProjectCard.tsx:700
+#: src/views/Give/RecipientModal.tsx:335
+#: src/views/Give/RecipientModal.tsx:455
+msgid "sOHM Deposit"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:266
+msgid "sOHM Deposit Goal"
+msgstr ""
+
+#: src/components/GiveProject/GrantCard.tsx:521
+#: src/components/GiveProject/ProjectCard.tsx:312
+#: src/components/GiveProject/ProjectCard.tsx:587
 msgid "sOHM Deposited"
 msgstr ""
 
-#: src/views/33Together/PoolInfo.tsx:112
-msgid "sOHM Pool Details"
-msgstr "sOHM детали пула"
-
-#: src/views/33Together/PoolInfo.tsx:108
-msgid "sOHM Prize Pool"
-msgstr "sOHM Призовой Пул"
-
-#: src/components/GiveProject/ProjectCard.tsx:274
-msgid "sOHM Yield"
-msgstr "sOHM Заработок"
-
-#: src/components/GiveProject/ProjectCard.tsx:291
-msgid "sOHM Yield Goal"
-msgstr "sOHM Цель Заработка"
-
-#: src/components/GiveProject/GrantCard.tsx:641
-#: src/components/GiveProject/ProjectCard.tsx:721
-msgid "sOHM Yield Sent"
+#: src/views/Give/RedeemYield.tsx:150
+msgid "sOHM Goal"
 msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:492
-msgid "sOHM deposit"
-msgstr "sOHM депозит"
-
-#: src/views/33Together/PoolPrize.tsx:169
-msgid "sec"
-msgstr "секунда"
+#: src/components/GiveProject/GrantCard.tsx:538
+#: src/components/GiveProject/ProjectCard.tsx:249
+#: src/components/GiveProject/ProjectCard.tsx:604
+msgid "sOHM Yield Sent"
+msgstr ""
 
 #: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "до следующей ребазы"
-
-#: src/views/ChooseBond/ChooseBond.tsx:87
-msgid "v2 bonds"
-msgstr "v2 облигации"
 
 #: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:179
 msgid "wsOHM"
@@ -1809,7 +1548,7 @@ msgstr "wsOHM (Arbitrum)"
 msgid "wsOHM (Avalanche)"
 msgstr "wsOHM (Avalanche)"
 
-#: src/views/V1-Stake/V1-Stake.jsx:401
+#: src/views/V1-Stake/V1-Stake.jsx:368
 msgid "wsOHM Balance"
 msgstr "wsOHM Balance"
 
@@ -1821,14 +1560,6 @@ msgstr ""
 msgid "wsOHM Balance (Avalanche)"
 msgstr ""
 
-#: src/views/V1-Stake/V1-Stake.jsx:409
-msgid "wsOHM Balance in FiatDAO"
-msgstr "wsOHM Баланс FiatDAO"
-
-#: src/views/Wrap/Wrap.tsx:198
-#~ msgid "{gOHM} Price"
-#~ msgstr "{gOHM} Цена"
-
-#: src/views/Wrap/Wrap.tsx:188
-#~ msgid "{sOHM} Price"
-#~ msgstr "{sOHM} Цена"
+#: src/views/Give/RedeemYieldModal.tsx:72
+msgid "{0} sOHM"
+msgstr ""
