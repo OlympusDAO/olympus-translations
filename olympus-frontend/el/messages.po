@@ -6,46 +6,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: el\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: src/views/33Together/PoolWithdraw.tsx:125
-msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
-msgstr "(Το τέλος πρόωρης εξόδου 6 ημερών έχει καταργηθεί. Ισχύουν τα τέλη του δικτύου.)"
+#~ msgid "(The 6-day early exit fee has been waived. Network fees apply.)"
+#~ msgstr "(Το τέλος πρόωρης εξόδου 6 ημερών έχει καταργηθεί. Ισχύουν τα τέλη του δικτύου.)"
 
-#: src/components/Migration/MigrationModal.tsx:256
-#: src/components/Migration/MigrationModalSingle.tsx:243
+#: src/components/Migration/MigrationModal.tsx:249
+#: src/components/Migration/MigrationModalSingle.tsx:237
 msgid "(includes rebase rewards)"
 msgstr "(περιλαμβάνει ανταμοιβές rebase)"
 
 #: src/views/BondV2/BondV2.tsx:106
-msgid "--"
-msgstr ""
+#~ msgid "--"
+#~ msgstr ""
 
 #: src/views/33Together/33together.tsx:156
-msgid "3, 3 Together"
-msgstr "3, 3 Μαζί"
+#~ msgid "3, 3 Together"
+#~ msgstr "3, 3 Μαζί"
 
-#: src/views/Zap/ZapInfo.tsx:96
+#: src/components/TopBar/Wallet/GetOhm.tsx:124
+msgid "5 Days"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:107
+msgid "A decrease Give amount must be positive"
+msgstr ""
+
+#: src/views/Give/hooks/useGive.ts:33
+msgid "A give amount must be positive"
+msgstr ""
+
+#: src/views/Zap/ZapInfo.tsx:95
 msgid "A zap swap is a series of smart contracts that deploys one asset to another protocol to handle a trusted transaction."
 msgstr "Ένα zap swap είναι μια σειρά από έξυπνες συμβάσεις που αναπτύσσουν ένα περιουσιακό στοιχείο σε ένα άλλο πρωτόκολλο για τη διεκπεραίωση μιας αξιόπιστης συναλλαγής."
 
-#: src/views/Stake/Stake.tsx:321
-#: src/views/V1-Stake/V1-Stake.jsx:195
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:80
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:145
+#: src/views/V1-Stake/V1-Stake.jsx:185
 msgid "APY"
 msgstr "Ετήσια ποσοστιαία απόδοση"
 
 #: src/components/GiveProject/ProjectCard.tsx:781
-msgid "About"
-msgstr "Σχετικά με"
+#~ msgid "About"
+#~ msgstr "Σχετικά με"
+
+#: src/components/TopBar/Wallet/Info/Proposals.tsx:46
+msgid "Active"
+msgstr ""
 
 #: src/components/TopBar/Wallet/Token.tsx:218
-msgid "Add to Wallet"
-msgstr "Προσθήκη στο πορτοφόλι"
+#~ msgid "Add to Wallet"
+#~ msgstr "Προσθήκη στο πορτοφόλι"
 
 #: src/views/Zap/SlippageModal.tsx:62
 msgid "Adjust Slippage"
 msgstr "Ρυθμίστε την μείωση της απόδοσης"
 
-#: src/views/V1-Stake/V1-Stake.jsx:248
+#: src/views/V1-Stake/V1-Stake.jsx:236
 msgid "All your assets are migrated"
 msgstr "Όλα τα περιουσιακά σας στοιχεία μεταφέρονται"
 
@@ -53,18 +76,21 @@ msgstr "Όλα τα περιουσιακά σας στοιχεία μεταφέ�
 msgid "All-in-One contract to save time"
 msgstr "Σύμβαση All-in-One για εξοικονόμηση χρόνου"
 
-#: src/views/Zap/ZapInfo.tsx:119
+#: src/views/Zap/ZapInfo.tsx:118
 msgid "All-in-one easy staking"
 msgstr "Εύκολο κλείδωμα All-in-one"
 
-#: src/views/Zap/ZapInfo.tsx:114
+#: src/views/Zap/ZapInfo.tsx:113
 msgid "All-in-one zap contracts"
 msgstr "Συμβάσεις zap All-in-one"
 
-#: src/views/Bond/BondPurchase.tsx:169
-#: src/views/BondV2/BondPurchase.tsx:149
+#: src/views/Give/ManageDonationModal.tsx:582
 msgid "Amount"
 msgstr "Ποσό"
+
+#: src/views/Give/hooks/useEditGive.ts:34
+msgid "An increase Give amount must be positive"
+msgstr ""
 
 #: src/views/TreasuryDashboard/treasuryData.ts:203
 msgid "Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results."
@@ -75,29 +101,25 @@ msgid "Any asset"
 msgstr "Οποιοδήποτε περιουσιακό στοιχείο"
 
 #: src/views/Give/WithdrawDepositModal.tsx:101
-msgid "Any remaining yield will still be redeemable by the recipient ({0})."
-msgstr "Τυχόν εναπομείνασα απόδοση θα εξακολουθεί να είναι εξαγοράσιμη από τον παραλήπτη ({0})."
+#~ msgid "Any remaining yield will still be redeemable by the recipient ({0})."
+#~ msgstr "Τυχόν εναπομείνασα απόδοση θα εξακολουθεί να είναι εξαγοράσιμη από τον παραλήπτη ({0})."
 
-#: src/components/Migration/MigrationModal.tsx:213
-#: src/components/Migration/MigrationModal.tsx:310
-#: src/components/Migration/MigrationModalSingle.tsx:200
-#: src/components/Migration/MigrationModalSingle.tsx:303
-#: src/views/33Together/PoolDeposit.tsx:137
-#: src/views/Give/RecipientModal.tsx:438
-#: src/views/Stake/Stake.tsx:277
-#: src/views/Stake/Stake.tsx:281
-#: src/views/V1-Stake/V1-Stake.jsx:362
-#: src/views/Zap/ZapStakeAction.tsx:486
+#: src/components/Migration/MigrationModal.tsx:206
+#: src/components/Migration/MigrationModal.tsx:303
+#: src/components/Migration/MigrationModalSingle.tsx:194
+#: src/components/Migration/MigrationModalSingle.tsx:297
+#: src/views/V1-Stake/V1-Stake.jsx:337
+#: src/views/Zap/ZapStakeAction.tsx:524
 msgid "Approve"
 msgstr "Έγκριση"
 
-#: src/components/Migration/MigrationModal.tsx:198
-#: src/components/Migration/MigrationModal.tsx:295
-#: src/views/Zap/ZapStakeAction.tsx:479
+#: src/components/Migration/MigrationModal.tsx:190
+#: src/components/Migration/MigrationModal.tsx:288
+#: src/views/Zap/ZapStakeAction.tsx:517
 msgid "Approved"
 msgstr "Εγκεκριμένο"
 
-#: src/views/Stake/ExternalStakePool.tsx:121
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:72
 msgid "Asset"
 msgstr "Περιουσιακό στοιχείο"
 
@@ -106,56 +128,77 @@ msgid "Auto staked"
 msgstr "Αυτόματο κλείδωμα"
 
 #: src/views/33Together/PoolPrize.tsx:122
-msgid "Award Balance will grow at 1st rebase."
-msgstr "Το Υπόλοιπο Βραβείου θα αυξηθεί κατά το 1ο rebase."
+#~ msgid "Award Balance will grow at 1st rebase."
+#~ msgstr "Το Υπόλοιπο Βραβείου θα αυξηθεί κατά το 1ο rebase."
 
 #: src/views/33Together/PoolPrize.tsx:212
-msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
-msgstr "Η περίοδος απονομής έχει λήξει, μπορείτε να πλοηγηθείτε στο UI του Pool Together για να ξεκινήσετε τη διανομή."
+#~ msgid "Award period has finished, you can navigate to Pool Together's UI to begin distribution"
+#~ msgstr "Η περίοδος απονομής έχει λήξει, μπορείτε να πλοηγηθείτε στο UI του Pool Together για να ξεκινήσετε τη διανομή."
 
 #: src/views/33Together/PoolPrize.tsx:191
-msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
-msgstr "Η περίοδος απονομής έχει λήξει, μπορείτε να μεταβείτε στο UI του Pool Together για να ολοκληρώσετε τη διανομή"
+#~ msgid "Award period has finished, you can navigate to Pool Together's UI to complete distribution"
+#~ msgstr "Η περίοδος απονομής έχει λήξει, μπορείτε να μεταβείτε στο UI του Pool Together για να ολοκληρώσετε τη διανομή"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:70
-msgid "Backing per OHM"
-msgstr "Υποστήριξη ανά OHM"
+#~ msgid "Backing per OHM"
+#~ msgstr "Υποστήριξη ανά OHM"
 
-#: src/views/Stake/ExternalStakePool.tsx:58
-#: src/views/Stake/ExternalStakePool.tsx:127
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:83
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:204
 msgid "Balance"
 msgstr "Υπόλοιπο"
 
-#: src/components/Sidebar/NavContent.tsx:98
-#: src/views/BondV2/AccordionSection.tsx:46
-#: src/views/BondV2/ChooseBondV2.tsx:83
-#: src/views/BondV2/ChooseBondV2.tsx:110
-#: src/views/ChooseBond/ChooseBond.tsx:102
-#: src/views/ChooseBond/ChooseBond.tsx:123
-#: src/views/ChooseBond/ClaimBonds.tsx:28
+#: src/views/Give/RecipientModal.tsx:378
+msgid "Balance:"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.tsx:50
+#: src/views/Bond/Bond.tsx:27
+#: src/views/Bond/Bond.tsx:45
+#: src/views/Bond/components/BondList.tsx:137
+#: src/views/Bond/components/BondList.tsx:138
 msgid "Bond"
 msgstr "Ομόλογο"
 
-#: src/views/Bond/Bond.tsx:101
-#: src/views/BondV2/BondV2.tsx:101
+#: src/views/Bond/components/BondModal/BondModal.tsx:105
 msgid "Bond Price"
 msgstr "Τιμή Ομολόγου"
 
-#: src/views/BondV2/BondRow.tsx:89
-#: src/views/ChooseBond/BondRow.tsx:93
+#: src/components/TopBar/Wallet/GetOhm.tsx:114
 msgid "Bond {0}"
 msgstr "Ομόλογο {0}"
 
-#: src/components/Sidebar/NavContent.tsx:146
-#: src/components/Sidebar/NavContent.tsx:163
+#: src/components/TopBar/Wallet/GetOhm.tsx:223
+msgid "Borrow on Impermax"
+msgstr ""
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:199
+#: src/components/TopBar/Wallet/GetOhm.tsx:207
+msgid "Borrow on Market.xyz"
+msgstr ""
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:190
+msgid "Borrow on Rari"
+msgstr ""
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:215
+msgid "Borrow on Vesta Finance"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.tsx:65
+#: src/components/Sidebar/NavContent.tsx:85
 msgid "Bridge"
 msgstr "Γέφυρα"
 
-#: src/components/Sidebar/externalUrls.tsx:27
+#: src/components/Sidebar/NavContent.tsx:97
 msgid "Bug Bounty"
 msgstr "Επικήρυξη σφαλμάτων"
 
-#: src/views/Give/Give.tsx:105
+#: src/views/Give/ManageDonationModal.tsx:697
+msgid "Cancel"
+msgstr ""
+
+#: src/views/Give/Give.tsx:89
 msgid "Causes"
 msgstr "Αιτίες"
 
@@ -163,374 +206,530 @@ msgstr "Αιτίες"
 msgid "Change Theme"
 msgstr "Αλλαγή θέματος"
 
-#: src/components/TopBar/TopBar.tsx:64
+#: src/components/TopBar/TopBar.tsx:73
 msgid "Change locale"
 msgstr "Αλλαγή τοποθεσίας"
 
 #: src/views/33Together/PoolDeposit.tsx:123
 #: src/views/33Together/PoolWithdraw.tsx:113
-msgid "Check back soon!"
-msgstr "Επιστρέψτε σύντομα!"
+#~ msgid "Check back soon!"
+#~ msgstr "Επιστρέψτε σύντομα!"
 
-#: src/views/BondV2/AdvancedSettings.tsx:58
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:62
 msgid "Choose recipient address. By default, this is your currently connected address"
 msgstr "Επιλέξτε διεύθυνση παραλήπτη. Από προεπιλογή, αυτή είναι η τρέχουσα συνδεδεμένη διεύθυνσή σας"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:55
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:67
 msgid "Circulating Supply (total)"
 msgstr "Κυκλοφορούσα παροχή (συνολικά)"
 
-#: src/views/Bond/BondRedeem.tsx:75
-#: src/views/BondV2/ClaimRow.tsx:129
-#: src/views/ChooseBond/ClaimRow.tsx:137
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:124
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:194
 msgid "Claim"
 msgstr "Διεκδίκηση"
 
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:77
+msgid "Claim All"
+msgstr ""
+
 #: src/views/BondV2/ClaimBonds.tsx:128
 #: src/views/BondV2/ClaimBonds.tsx:192
-msgid "Claim all"
-msgstr "Διεκδίκηση όλων"
+#~ msgid "Claim all"
+#~ msgstr "Διεκδίκηση όλων"
 
 #: src/views/Bond/BondRedeem.tsx:91
-msgid "Claim and Autostake"
-msgstr "Διεκδίκηση και Αυτόματο Κλείδωμα"
+#~ msgid "Claim and Autostake"
+#~ msgstr "Διεκδίκηση και Αυτόματο Κλείδωμα"
 
 #: src/views/ChooseBond/ClaimRow.tsx:148
-msgid "Claim and Stake"
-msgstr "Διεκδίκηση και Κλείδωμα"
+#~ msgid "Claim and Stake"
+#~ msgstr "Διεκδίκηση και Κλείδωμα"
 
 #: src/views/ChooseBond/ClaimBonds.tsx:31
-msgid "Claimable"
-msgstr "Διεκδικούμενο"
+#~ msgid "Claimable"
+#~ msgstr "Διεκδικούμενο"
+
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:58
+msgid "Claimable Balance"
+msgstr ""
 
 #: src/views/Bond/BondRedeem.tsx:100
-msgid "Claimable Rewards"
-msgstr "Διεκδικούμενες Ανταμοιβές"
+#~ msgid "Claimable Rewards"
+#~ msgstr "Διεκδικούμενες Ανταμοιβές"
 
-#: src/components/Migration/MigrationModal.tsx:142
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:64
+msgid "Claimed all bonds successfully"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:64
+msgid "Claimed bond successfully"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:76
+msgid "Claiming all..."
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:123
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:193
+msgid "Claiming..."
+msgstr ""
+
+#: src/components/Migration/MigrationModal.tsx:134
 msgid "Click on the Migrate button to complete the upgrade to v2."
 msgstr "Κάντε κλικ στο κουμπί Μετεγκατάσταση για να ολοκληρώσετε την αναβάθμιση σε v2."
 
-#: src/components/GiveProject/ProjectCard.tsx:194
+#: src/components/TopBar/Wallet/Info/Proposals.tsx:46
+msgid "Closed"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:202
 msgid "Completed"
 msgstr "Ολοκληρωμένο"
 
-#: src/views/Give/RecipientModal.tsx:553
+#: src/views/Give/RecipientModal.tsx:548
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
+#: src/views/Give/ManageDonationModal.tsx:732
+msgid "Confirm New"
+msgstr ""
+
 #: src/views/Give/ManageDonationModal.tsx:596
-msgid "Confirm New sOHM"
-msgstr "Επιβεβαίωση νέου sOHM"
+#~ msgid "Confirm New sOHM"
+#~ msgstr "Επιβεβαίωση νέου sOHM"
 
 #: src/views/Give/RedeemYieldModal.tsx:95
-msgid "Confirm {0} sOHM"
-msgstr "Επιβεβαίωση {0} sOHM"
+#~ msgid "Confirm {0} sOHM"
+#~ msgstr "Επιβεβαίωση {0} sOHM"
+
+#: src/components/TopBar/TopBar.tsx:65
+msgid "Connect"
+msgstr ""
 
 #: src/components/ConnectButton/ConnectButton.tsx:10
-#: src/components/TopBar/Wallet/index.tsx:12
-#: src/views/Give/Give.tsx:46
-#: src/views/Give/RecipientModal.tsx:410
+#: src/components/GiveProject/GrantCard.tsx:539
+#: src/components/GiveProject/ProjectCard.tsx:625
+#: src/components/TopBar/Wallet/index.tsx:68
+#: src/components/TopBar/Wallet/index.tsx:78
 msgid "Connect Wallet"
 msgstr "Σύνδεση Πορτοφολιού"
 
 #: src/components/GiveProject/ProjectCard.tsx:712
-msgid "Connect wallet"
-msgstr "Σύνδεση πορτοφολιού"
+#~ msgid "Connect wallet"
+#~ msgstr "Σύνδεση πορτοφολιού"
 
-#: src/views/Stake/Stake.tsx:346
-#: src/views/V1-Stake/V1-Stake.jsx:221
+#: src/views/V1-Stake/V1-Stake.jsx:211
 msgid "Connect your wallet to stake OHM"
 msgstr "Συνδέστε το πορτοφόλι σας για να κλειδώσετε OHM"
 
-#: src/views/Zap/Zap.tsx:42
+#: src/views/Zap/Zap.tsx:45
 msgid "Connect your wallet to use Zap"
 msgstr "Συνδέστε το πορτοφόλι σας για να χρησιμοποιήσετε το Zap"
 
 #: src/components/GiveProject/ProjectCard.tsx:256
-msgid "Connect your wallet to view the fundraising progress"
-msgstr "Συνδέστε το πορτοφόλι σας για να δείτε την πρόοδο της συγκέντρωσης χρημάτων"
+#~ msgid "Connect your wallet to view the fundraising progress"
+#~ msgstr "Συνδέστε το πορτοφόλι σας για να δείτε την πρόοδο της συγκέντρωσης χρημάτων"
 
-#: src/views/Give/ManageDonationModal.tsx:590
-#: src/views/Give/RecipientModal.tsx:505
+#: src/views/Give/ManageDonationModal.tsx:620
+#: src/views/Give/RecipientModal.tsx:463
 msgid "Continue"
 msgstr "Συνέχεια"
 
+#: src/views/Give/ManageDonationModal.tsx:636
 #: src/views/TreasuryDashboard/treasuryData.ts:191
 msgid "Current"
 msgstr "Τρέχον"
 
 #: src/components/EducationCard.tsx:255
-msgid "Current Deposit"
-msgstr "Τρέχουσα Κατάθεση"
+#~ msgid "Current Deposit"
+#~ msgstr "Τρέχουσα Κατάθεση"
 
-#: src/views/Stake/Stake.tsx:333
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:84
-#: src/views/V1-Stake/V1-Stake.jsx:207
-#: src/views/Wrap/Wrap.tsx:193
-#: src/views/Wrap/WrapCrossChain.tsx:169
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:98
+#: src/views/V1-Stake/V1-Stake.jsx:197
 msgid "Current Index"
 msgstr "Τρέχων Δείκτης"
 
 #: src/views/33Together/PoolPrize.tsx:129
-msgid "Current Prize"
-msgstr "Τρέχον Βραβείο"
+#~ msgid "Current Prize"
+#~ msgstr "Τρέχον Βραβείο"
 
 #: src/views/Give/ManageDonationModal.tsx:489
-msgid "Current sOHM deposit"
-msgstr "Τρέχουσα κατάθεση sOHM"
+#~ msgid "Current sOHM deposit"
+#~ msgstr "Τρέχουσα κατάθεση sOHM"
 
 #: src/views/Give/CausesDashboard.tsx:135
-msgid "Custom Recipient"
-msgstr "Προσαρμοσμένος Παραλήπτης"
+#~ msgid "Custom Recipient"
+#~ msgstr "Προσαρμοσμένος Παραλήπτης"
 
-#: src/views/Give/YieldRecipients.tsx:76
+#: src/views/Give/YieldRecipients.tsx:61
 msgid "DATE"
 msgstr "ΗΜΕΡΟΜΗΝΙΑ"
 
-#: src/views/Give/YieldRecipients.tsx:88
+#: src/views/Give/YieldRecipients.tsx:73
 msgid "DEPOSITED"
 msgstr "ΚΑΤΑΘΕΤΗΜΕΝΑ"
 
-#: src/components/Sidebar/NavContent.tsx:97
+#: src/components/Sidebar/NavContent.tsx:48
 msgid "Dashboard"
 msgstr "Ταμπλό"
 
+#: src/views/Give/ManageDonationModal.tsx:475
+msgid "Date"
+msgstr ""
+
 #: src/views/Bond/BondPurchase.tsx:260
 #: src/views/Bond/BondRedeem.tsx:119
-msgid "Debt Ratio"
-msgstr Δείκτης Χρέους"
+#~ msgid "Debt Ratio"
+#~ msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:369
+#: src/views/Give/RecipientModal.tsx:495
+msgid "Deposit"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:311
+msgid "Deposit Goal"
+msgstr ""
 
 #: src/views/ChooseBond/BondRow.tsx:36
 #: src/views/ChooseBond/BondRow.tsx:119
-msgid "Deposit LP"
-msgstr "Κατάθεση LP"
+#~ msgid "Deposit LP"
+#~ msgstr "Κατάθεση LP"
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:163
+msgid "Deposit on Dopex"
+msgstr ""
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:171
+msgid "Deposit on Jones DAO"
+msgstr ""
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:179
+msgid "Deposit on Tokemak"
+msgstr ""
 
 #: src/views/33Together/PoolDeposit.tsx:133
-msgid "Deposit sOHM"
-msgstr "Κατάθεση sOHM"
+#~ msgid "Deposit sOHM"
+#~ msgstr "Κατάθεση sOHM"
 
-#: src/views/Give/GiveInfo.tsx:17
+#: src/components/EducationCard.tsx:138
 msgid "Deposit sOHM from wallet"
 msgstr "Κατάθεση sOHM από πορτοφόλι"
 
 #: src/views/33Together/PoolDeposit.tsx:108
-msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
-msgstr "Καταθέστε sOHM για να κερδίσετε! Μόλις καταθέσετε, θα λάβετε το αντίστοιχο ποσό των 33T και θα συμμετέχετε για να κερδίσετε μέχρι την ανάληψη των sOHM σας."
+#~ msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
+#~ msgstr "Καταθέστε sOHM για να κερδίσετε! Μόλις καταθέσετε, θα λάβετε το αντίστοιχο ποσό των 33T και θα συμμετέχετε για να κερδίσετε μέχρι την ανάληψη των sOHM σας."
 
-#: src/views/Give/RedeemYield.tsx:193
+#: src/components/GiveProject/GrantCard.tsx:574
+#: src/components/GiveProject/ProjectCard.tsx:361
+#: src/components/GiveProject/ProjectCard.tsx:661
+#: src/views/Give/ManageDonationModal.tsx:478
+msgid "Deposited"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:230
 msgid "Deposited sOHM"
 msgstr "Κατατεθειμένα sOHM"
 
+#: src/views/Give/ManageDonationModal.tsx:731
+#: src/views/Give/RecipientModal.tsx:547
+msgid "Depositing"
+msgstr ""
+
 #: src/views/33Together/PoolDeposit.tsx:163
-msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "Η κατάθεση {quantity} sOHM θα αυξήσει τις πιθανότητες νίκης σε 1 στις {newOdds}"
+#~ msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
+#~ msgstr "Η κατάθεση {quantity} sOHM θα αυξήσει τις πιθανότητες νίκης σε 1 στις {newOdds}"
 
 #: src/views/33Together/PoolDeposit.tsx:120
-msgid "Deposits can be made once the prize has been awarded."
-msgstr "Οι καταθέσεις μπορούν να γίνουν μετά την απονομή του βραβείου."
+#~ msgid "Deposits can be made once the prize has been awarded."
+#~ msgstr "Οι καταθέσεις μπορούν να γίνουν μετά την απονομή του βραβείου."
 
-#: src/views/Zap/SelectTokenModal.tsx:66
+#: src/views/Zap/SelectTokenModal.tsx:64
 msgid "Dialing Zapper..."
 msgstr "Καλώντας Zapper..."
 
-#: src/components/TopBar/Wallet/InitialWalletView.tsx:106
+#: src/components/TopBar/Wallet/index.tsx:90
 msgid "Disconnect"
 msgstr "Αποσύνδεση"
 
-#: src/views/Bond/BondPurchase.tsx:254
-#: src/views/Bond/BondRedeem.tsx:113
-#: src/views/BondV2/BondPurchase.tsx:213
-#: src/views/BondV2/BondRow.tsx:57
-#: src/views/BondV2/ChooseBondV2.tsx:116
-#: src/views/ChooseBond/BondRow.tsx:60
-#: src/views/ChooseBond/ChooseBond.tsx:129
+#: src/views/Bond/components/BondList.tsx:105
+#: src/views/Bond/components/BondList.tsx:165
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:166
 msgid "Discount"
 msgstr "Έκπτωση"
 
-#: src/components/Sidebar/externalUrls.tsx:22
+#: src/components/Sidebar/NavContent.tsx:95
 msgid "Docs"
 msgstr "Έγγραφα"
 
-#: src/components/GiveProject/ProjectCard.tsx:705
-#: src/views/Give/RecipientModal.tsx:227
+#: src/components/GiveProject/GrantCard.tsx:549
+#: src/components/GiveProject/ProjectCard.tsx:635
+#: src/views/Give/RecipientModal.tsx:215
 msgid "Donate Yield"
 msgstr "Δωρεά Απόδοσης"
 
-#: src/views/Give/YieldRecipients.tsx:60
+#: src/views/Give/YieldRecipients.tsx:46
 msgid "Donate to a cause"
 msgstr "Δωρεά για έναν σκοπό"
 
-#: src/components/GiveProject/ProjectCard.tsx:323
+#: src/views/Give/ManageDonationModal.tsx:445
+msgid "Donated"
+msgstr ""
+
+#: src/components/GiveProject/GrantCard.tsx:263
+#: src/components/GiveProject/ProjectCard.tsx:344
 msgid "Donors"
 msgstr "Δωρητές"
 
-#: src/views/BondV2/BondPurchase.tsx:220
-#: src/views/BondV2/BondRow.tsx:65
-#: src/views/BondV2/ChooseBondV2.tsx:119
+#: src/views/Bond/components/BondList.tsx:124
+#: src/views/Bond/components/BondList.tsx:170
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:175
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:139
 msgid "Duration"
 msgstr "Διάρκεια"
 
-#: src/components/Migration/MigrationModalSingle.tsx:318
+#: src/components/Migration/MigrationModalSingle.tsx:312
 msgid "Each asset type requires two transactions. First Approve, then Migrate each asset. Amounts less than than 10$ are ignored."
 msgstr "Κάθε τύπος περιουσιακού στοιχείου απαιτεί δύο συναλλαγές. Πρώτα Εγκρίνετε και στη συνέχεια Μεταφέρετε κάθε περιουσιακό στοιχείο. Ποσά μικρότερα από 10$ αγνοούνται."
 
 #: src/views/33Together/PoolInfo.tsx:92
-msgid "Early Exit Fee"
-msgstr "Τέλος Πρόωρης Εξόδου"
+#~ msgid "Early Exit Fee"
+#~ msgstr "Τέλος Πρόωρης Εξόδου"
 
 #: src/views/33Together/PoolWithdraw.tsx:163
-msgid "Early withdraw will incur a fairness fee of {exitFee}."
-msgstr "Η πρόωρη απόσυρση θα επιβαρυνθεί με τέλος δικαιοσύνης ύψους {exitFee}."
+#~ msgid "Early withdraw will incur a fairness fee of {exitFee}."
+#~ msgstr "Η πρόωρη απόσυρση θα επιβαρυνθεί με τέλος δικαιοσύνης ύψους {exitFee}."
 
-#: src/components/GiveProject/ProjectCard.tsx:758
+#: src/components/GiveProject/GrantCard.tsx:603
+#: src/components/GiveProject/ProjectCard.tsx:688
+#: src/views/Give/ManageDonationModal.tsx:396
 msgid "Edit Donation"
 msgstr "Επεξεργασία Δωρεάς"
 
 #: src/slices/PendingTxnsSlice.ts:37
-msgid "Editing sOHM donation amount"
-msgstr "Επεξεργασία ποσού δωρεάς sOHM"
+#~ msgid "Editing sOHM donation amount"
+#~ msgstr "Επεξεργασία ποσού δωρεάς sOHM"
 
-#: src/views/Zap/ZapStakeAction.tsx:447
-#: src/views/Zap/ZapStakeAction.tsx:512
+#: src/views/Zap/ZapStakeAction.tsx:486
+#: src/views/Zap/ZapStakeAction.tsx:550
 msgid "Enter Amount"
 msgstr "Εισάγετε το Ποσό"
 
-#: src/views/Give/RecipientModal.tsx:358
+#: src/views/Give/RecipientModal.tsx:313
 msgid "Enter a wallet address in the form of 0x ..."
 msgstr "Εισάγετε μια διεύθυνση πορτοφολιού με τη μορφή 0x ..."
 
-#: src/views/33Together/PoolDeposit.tsx:149
-#: src/views/Give/ManageDonationModal.tsx:517
-#: src/views/Give/RecipientModal.tsx:462
-#: src/views/Stake/Stake.tsx:417
-#: src/views/Wrap/Wrap.tsx:130
-#: src/views/Wrap/WrapCrossChain.tsx:111
+#: src/views/Give/ManageDonationModal.tsx:594
+#: src/views/Give/RecipientModal.tsx:386
 msgid "Enter an amount"
 msgstr "Εισάγετε ένα ποσό"
 
-#: src/views/Zap/ZapStakeAction.tsx:406
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:111
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:130
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:104
+msgid "Enter an amount of"
+msgstr ""
+
+#: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:76
+msgid "Enter an amount of wsOHM"
+msgstr ""
+
+#: src/views/Zap/ZapStakeAction.tsx:441
 msgid "Exchange Rate"
 msgstr "Συναλλαγματική Ισοτιμία"
 
 #: src/views/33Together/PoolInfo.tsx:94
-msgid "Exit Fee Decay Time"
-msgstr "Χρόνος Αποσύνθεσης Τέλους Εξόδου"
+#~ msgid "Exit Fee Decay Time"
+#~ msgstr "Χρόνος Αποσύνθεσης Τέλους Εξόδου"
 
-#: src/views/Stake/ExternalStakePool.tsx:118
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:67
 msgid "Farm Pool"
 msgstr "Κοινόχρηστο Ταμείο Καλλιέργειας"
 
-#: src/components/GiveProject/ProjectCard.tsx:211
+#: src/components/GiveProject/ProjectCard.tsx:215
 msgid "Finishes at {0} in your timezone"
 msgstr "Τελειώνει στις {0} στη ζώνη ώρας σας"
 
-#: src/views/Bond/BondPurchase.tsx:160
-#: src/views/BondV2/BondPurchase.tsx:135
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:97
 msgid "First time bonding"
 msgstr "Πρώτη φορά δέσμευση"
 
-#: src/views/Stake/Stake.tsx:384
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:106
 msgid "First time staking"
 msgstr "Πρώτη φορά κλείδωμα"
 
-#: src/views/Stake/Stake.tsx:391
-#: src/views/V1-Stake/V1-Stake.jsx:263
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:112
+#: src/views/V1-Stake/V1-Stake.jsx:251
 msgid "First time unstaking"
 msgstr "Πρώτη φορά ξεκλείδωμα"
 
-#: src/views/BondV2/BondV2.tsx:93
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:85
+msgid "First time unwrapping"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:79
+msgid "First time wrapping"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/BondModal.tsx:91
 msgid "Fixed Expiration"
 msgstr "Σταθερή Λήξη"
 
-#: src/views/BondV2/BondV2.tsx:93
+#: src/views/Bond/components/BondModal/BondModal.tsx:91
 msgid "Fixed Term"
 msgstr "Ορισμένου Χρόνου"
 
-#: src/components/Sidebar/externalUrls.tsx:12
+#: src/components/Sidebar/NavContent.tsx:91
 msgid "Forum"
 msgstr "Φόρουμ"
 
 #: src/views/ChooseBond/ClaimBonds.tsx:37
-msgid "Fully Vested"
-msgstr "Πλήρως Κατοχυρωμένα"
+#~ msgid "Fully Vested"
+#~ msgstr "Πλήρως Κατοχυρωμένα"
+
+#: src/views/Bond/components/BondList.tsx:82
+#: src/views/Bond/components/BondList.tsx:229
+msgid "Get Asset"
+msgstr ""
 
 #: src/views/BondV2/BondRow.tsx:30
 #: src/views/BondV2/BondRow.tsx:111
-msgid "Get LP"
-msgstr "Αποκτήστε LP"
+#~ msgid "Get LP"
+#~ msgstr "Αποκτήστε LP"
 
 #: src/components/CallToAction/CallToAction.tsx:53
 msgid "Get Started"
 msgstr "Ξεκινήστε"
 
-#: src/components/GiveProject/GiveHeader.tsx:31
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/components/Sidebar/NavContent.tsx:59
+#: src/views/Give/Give.tsx:71
 msgid "Give"
 msgstr "Δώστε"
 
+#: src/hooks/useGiveInfo.ts:68
+#: src/hooks/useGiveInfo.ts:177
+#: src/hooks/useGiveInfo.ts:220
+#: src/hooks/useGiveInfo.ts:278
+#: src/hooks/useGiveInfo.ts:366
+#: src/hooks/useGiveInfo.ts:442
+#: src/views/Give/hooks/useEditGive.ts:39
+#: src/views/Give/hooks/useEditGive.ts:112
+#: src/views/Give/hooks/useGive.ts:38
+#: src/views/Give/hooks/useRedeem.ts:31
+#: src/views/Give/hooks/useRedeemV1.ts:32
+msgid "Give is not supported on this network. Please switch to a supported network, such as Ethereum mainnet"
+msgstr ""
+
 #: src/slices/PendingTxnsSlice.ts:35
-msgid "Giving sOHM"
-msgstr "Δίνοντας sOHM"
+#~ msgid "Giving sOHM"
+#~ msgstr "Δίνοντας sOHM"
 
 #: src/views/V1-Stake/V1-Stake.jsx:319
-msgid "Go to Bonds"
-msgstr "Πηγαίνετε στα Ομόλογα"
+#~ msgid "Go to Bonds"
+#~ msgstr "Πηγαίνετε στα Ομόλογα"
 
-#: src/views/V1-Stake/V1-Stake.jsx:332
+#: src/views/V1-Stake/V1-Stake.jsx:307
 msgid "Go to Stake V2"
 msgstr "Πηγαίνετε στο Κλείδωμα V2"
 
-#: src/components/Sidebar/externalUrls.tsx:17
+#: src/views/Give/ManageDonationModal.tsx:435
+#: src/views/Give/ManageDonationModal.tsx:435
+#: src/views/Give/ManageDonationModal.tsx:460
+msgid "Goal"
+msgstr ""
+
+#: src/views/Wrap/components/WrapSwitchNetwork.tsx:41
+msgid "Got wsOHM on Avalanche or Arbitrum? Click below to switch networks and migrate to gOHM (no bridge required!)"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.tsx:93
 msgid "Governance"
 msgstr "Διακυβέρνηση"
 
-#: src/components/Sidebar/externalUrls.tsx:32
+#: src/components/Sidebar/NavContent.tsx:99
+#: src/views/Give/Give.tsx:92
 msgid "Grants"
 msgstr "Επιχορηγήσεις"
 
 #: src/components/Sidebar/NavContent.tsx:108
-msgid "Highest Discount"
-msgstr "Υψηλότερη έκπτωση"
+#~ msgid "Highest Discount"
+#~ msgstr "Υψηλότερη έκπτωση"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:201
 msgid "Holders, represents the total number of Ohmies (sOHM holders)"
 msgstr "Κάτοχοι, αντιπροσωπεύει το συνολικό αριθμό των Ohmies (κάτοχοι sOHM)"
 
+#: src/views/Bond/components/BondInfoText.tsx:6
+msgid "Important: Inverse bonds allow you to bond your OHM for treasury assets. Vesting time is 0 and payouts are instant."
+msgstr ""
+
+#: src/views/Bond/components/BondInfoText.tsx:7
+msgid "Important: New bonds are auto-staked (accrue rebase rewards) and no longer vest linearly. Simply claim as sOHM or gOHM at the end of the term."
+msgstr ""
+
 #: src/views/Zap/SlippageModal.tsx:70
 msgid "Important: Recommended slippage is 1-3% to avoid a failed transaction."
 msgstr "Σημαντικό: Η συνιστώμενη μείωση της απόδοσης είναι 1-3% για να αποφευχθεί μια αποτυχημένη συναλλαγή."
 
+#: src/hooks/useZapExecute.ts:123
+msgid "Insufficient balance."
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:29
+msgid "Invalid address"
+msgstr ""
+
+#: src/views/Bond/Bond.tsx:27
+#: src/views/Bond/Bond.tsx:46
+msgid "Inverse Bond"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.tsx:159
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:79
+msgid "Inverse Bonds"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:359
+msgid "Is this your first time donating"
+msgstr ""
+
 #: src/views/Give/RecipientModal.tsx:426
-msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
-msgstr "Είναι η πρώτη φορά που κάνετε δωρεά sOHM; Παρακαλώ εγκρίνετε το OlympusDAO να χρησιμοποιήσει το sOHM σας για δωρεά."
+#~ msgid "Is this your first time donating sOHM? Please approve OlympusDAO to use your sOHM for donating."
+#~ msgstr "Είναι η πρώτη φορά που κάνετε δωρεά sOHM; Παρακαλώ εγκρίνετε το OlympusDAO να χρησιμοποιήσει το sOHM σας για δωρεά."
 
 #: src/components/CallToAction/CallToAction.tsx:17
-#: src/components/Migration/MigrationModal.tsx:152
-#: src/components/Migration/MigrationModalSingle.tsx:132
-#: src/views/Give/GiveInfo.tsx:35
+#: src/components/Migration/MigrationModal.tsx:144
+#: src/components/Migration/MigrationModalSingle.tsx:126
+#: src/views/Give/GiveInfo.tsx:28
 msgid "Learn More"
 msgstr "Μάθετε περισσότερα"
 
 #: src/components/RebaseTimer/RebaseTimer.tsx:33
 #: src/components/RebaseTimer/RebaseTimer.tsx:58
-msgid "Less than a minute"
-msgstr "Λιγότερο από ένα λεπτό"
+#~ msgid "Less than a minute"
+#~ msgstr "Λιγότερο από ένα λεπτό"
 
-#: src/views/Give/GiveInfo.tsx:20
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:82
+msgid "Liquid Backing per OHM"
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:83
+msgid "Liquid Treasury Backing does not include LP OHM, locked assets, or reserves used for RFV backing. It represents the budget the Treasury has for specific market operations which cannot use OHM (inverse bonds, some liquidity provision, OHM incentives, etc)"
+msgstr ""
+
+#: src/components/EducationCard.tsx:149
 msgid "Lock sOHM in vault"
 msgstr "Κλειδώστε το sOHM στο θησαυροφυλάκιο"
 
-#: src/views/Give/YieldRecipients.tsx:56
+#: src/views/Give/YieldRecipients.tsx:40
 msgid "Looks like you haven’t made any donations yet"
 msgstr "Φαίνεται ότι δεν έχετε κάνει καμία δωρεά ακόμα"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:26
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:24
 msgid "Market Cap"
 msgstr "Κεφαλαιοποίηση αγοράς"
 
-#: src/views/Bond/Bond.tsx:109
-#: src/views/BondV2/BondV2.tsx:117
+#: src/views/Bond/components/BondModal/BondModal.tsx:115
 msgid "Market Price"
 msgstr "Τιμή αγοράς"
 
@@ -543,106 +742,135 @@ msgid "Market Value of Treasury Assets"
 msgstr "Αγοραία αξία των περιουσιακών στοιχείων του Ταμείου"
 
 #: src/views/TreasuryDashboard/treasuryData.ts:198
-msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
-msgstr "Αγοραία αξία των περιουσιακών στοιχείων του Ταμείου, είναι το άθροισμα της αξίας (σε δολάρια) όλων των περιουσιακών στοιχείων που κατέχει το Ταμείο."
+msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury (Excluding pTokens and Vested tokens)."
+msgstr ""
 
-#: src/views/33Together/PoolDeposit.tsx:154
-#: src/views/33Together/PoolWithdraw.tsx:140
-#: src/views/Bond/BondPurchase.tsx:181
-#: src/views/BondV2/BondPurchase.tsx:144
-#: src/views/Give/ManageDonationModal.tsx:534
-#: src/views/Give/RecipientModal.tsx:476
-#: src/views/Stake/Stake.tsx:421
-#: src/views/Wrap/Wrap.tsx:134
-#: src/views/Wrap/WrapCrossChain.tsx:115
+#: src/views/TreasuryDashboard/treasuryData.ts:198
+#~ msgid "Market Value of Treasury Assets, is the sum of the value (in dollars) of all assets held by the treasury."
+#~ msgstr "Αγοραία αξία των περιουσιακών στοιχείων του Ταμείου, είναι το άθροισμα της αξίας (σε δολάρια) όλων των περιουσιακών στοιχείων που κατέχει το Ταμείο."
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:107
+#: src/views/Give/ManageDonationModal.tsx:607
+#: src/views/Give/RecipientModal.tsx:397
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:126
+#: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:73
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:99
 msgid "Max"
 msgstr "Μέγιστο"
 
-#: src/views/Bond/BondPurchase.tsx:242
-#: src/views/BondV2/BondPurchase.tsx:205
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:154
 msgid "Max You Can Buy"
 msgstr "Μέγιστο που μπορείτε να αγοράσετε"
 
-#: src/views/BondV2/BondPurchase.tsx:59
-msgid "Max capacity is {maxBondable} {0} for {1} sOHM. Click Max to autocomplete."
-msgstr "Η μέγιστη χωρητικότητα είναι {maxBondable} {0} για {1} sOHM. Κάντε κλικ στο Μέγιστο για αυτόματη συμπλήρωση."
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:154
+msgid "Max You Can Sell"
+msgstr ""
 
-#: src/components/Migration/MigrationModalSingle.tsx:184
-#: src/components/Migration/MigrationModalSingle.tsx:287
-#: src/views/V1-Stake/V1-Stake.jsx:306
+#: src/views/BondV2/BondPurchase.tsx:59
+#~ msgid "Max capacity is {maxBondable} {0} for {1} sOHM. Click Max to autocomplete."
+#~ msgstr "Η μέγιστη χωρητικότητα είναι {maxBondable} {0} για {1} sOHM. Κάντε κλικ στο Μέγιστο για αυτόματη συμπλήρωση."
+
+#: src/components/Migration/MigrationModalSingle.tsx:178
+#: src/components/Migration/MigrationModalSingle.tsx:281
+#: src/views/V1-Stake/V1-Stake.jsx:294
 msgid "Migrate"
 msgstr "Μετεγκατάσταση"
 
-#: src/components/Migration/MigrationModal.tsx:337
+#: src/components/Migration/MigrationModal.tsx:330
 msgid "Migrate all to"
 msgstr "Μετεγκατάσταση όλων σε"
 
-#: src/components/Migration/MigrationModal.tsx:194
-#: src/components/Migration/MigrationModal.tsx:291
-#: src/components/Migration/MigrationModalSingle.tsx:175
-#: src/components/Migration/MigrationModalSingle.tsx:278
+#: src/components/Migration/MigrationModal.tsx:186
+#: src/components/Migration/MigrationModal.tsx:284
+#: src/components/Migration/MigrationModalSingle.tsx:169
+#: src/components/Migration/MigrationModalSingle.tsx:272
 msgid "Migrated"
 msgstr "Μετεγκατεστημένο"
 
-#: src/components/Migration/MigrationModal.tsx:160
-#: src/components/Migration/MigrationModalSingle.tsx:140
+#: src/components/Migration/MigrationModal.tsx:152
+#: src/components/Migration/MigrationModalSingle.tsx:134
 msgid "Migration Output"
 msgstr "Έξοδος μετεγκατάστασης"
 
-#: src/components/Migration/MigrationModal.tsx:131
-#: src/components/Migration/MigrationModalSingle.tsx:117
+#: src/components/Migration/MigrationModal.tsx:123
+#: src/components/Migration/MigrationModalSingle.tsx:111
 msgid "Migration complete"
 msgstr "Ολοκλήρωση της μετεγκατάστασης"
 
-#: src/views/Zap/ZapStakeAction.tsx:451
-#: src/views/Zap/ZapStakeAction.tsx:516
+#: src/components/GiveProject/GrantCard.tsx:221
+msgid "Milestone {0}: {1} sOHM"
+msgstr ""
+
+#: src/views/Zap/ZapStakeAction.tsx:490
+#: src/views/Zap/ZapStakeAction.tsx:554
 msgid "Minimum Output Amount: 0.5"
 msgstr "Ελάχιστο Ποσό Εξόδου: 0.5"
 
-#: src/views/Zap/ZapStakeAction.tsx:422
+#: src/views/Zap/ZapStakeAction.tsx:459
 msgid "Minimum You Get"
 msgstr "Ελάχιστο που παίρνετε"
 
-#: src/components/GiveProject/GiveHeader.tsx:43
-#: src/views/Give/Give.tsx:106
+#: src/hooks/useZapExecute.ts:63
+msgid "Minimum amount must be greater than 0"
+msgstr ""
+
+#: src/views/Give/Give.tsx:95
 msgid "My Donations"
 msgstr "Οι δωρεές μου"
 
-#: src/views/BondV2/BondPurchase.tsx:215
-msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
-msgstr "Η αρνητική έκπτωση είναι κακή (πληρώνετε περισσότερο από την αγοραία αξία). Η έκπτωση του ομολόγου είναι η ποσοστιαία διαφορά μεταξύ της αγοραίας αξίας του OHM και της τιμής του ομολόγου."
+#: src/views/Give/RedeemYieldModal.tsx:91
+msgid "My Wallet Address"
+msgstr ""
 
-#: src/components/Sidebar/NavContent.tsx:140
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:168
+msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between"
+msgstr ""
+
+#: src/views/BondV2/BondPurchase.tsx:215
+#~ msgid "Negative discount is bad (you pay more than the market value). The bond discount is the percentage difference between OHM's market value and the bond's price."
+#~ msgstr "Η αρνητική έκπτωση είναι κακή (πληρώνετε περισσότερο από την αγοραία αξία). Η έκπτωση του ομολόγου είναι η ποσοστιαία διαφορά μεταξύ της αγοραίας αξίας του OHM και της τιμής του ομολόγου."
+
+#: src/views/Give/ManageDonationModal.tsx:582
+#: src/views/Give/ManageDonationModal.tsx:656
 msgid "New"
 msgstr "Νέο"
 
 #: src/views/Give/ManageDonationModal.tsx:505
-msgid "New sOHM Amount"
-msgstr "Νέο ποσό sOHM"
+#~ msgid "New sOHM Amount"
+#~ msgstr "Νέο ποσό sOHM"
 
 #: src/views/Give/ManageDonationModal.tsx:496
-msgid "New sOHM deposit"
-msgstr "Νέα κατάθεση sOHM"
+#~ msgid "New sOHM deposit"
+#~ msgstr "Νέα κατάθεση sOHM"
 
-#: src/views/Give/RedeemYield.tsx:203
-#: src/views/Stake/Stake.tsx:552
-#: src/views/V1-Stake/V1-Stake.jsx:431
+#: src/views/Give/RedeemYield.tsx:243
+#: src/views/Stake/components/StakeArea/components/StakeNextRebaseAmount.tsx:54
+#: src/views/V1-Stake/V1-Stake.jsx:390
 msgid "Next Reward Amount"
 msgstr "Επόμενο ποσό ανταμοιβής"
 
-#: src/views/Give/RedeemYield.tsx:208
-#: src/views/Stake/Stake.tsx:557
-#: src/views/V1-Stake/V1-Stake.jsx:436
+#: src/views/Give/RedeemYield.tsx:249
+#: src/views/Stake/components/StakeArea/components/StakeRebaseYield.tsx:9
+#: src/views/V1-Stake/V1-Stake.jsx:395
 msgid "Next Reward Yield"
 msgstr "Επόμενη απόδοση ανταμοιβής"
+
+#: src/views/Bond/components/BondList.tsx:34
+msgid "No active bonds"
+msgstr ""
+
+#: src/components/GiveProject/GrantCard.tsx:355
+#: src/components/GiveProject/GrantCard.tsx:355
+msgid "No wallet set or user is not donating to this recipient"
+msgstr ""
 
 #: src/views/BondV2/ChooseBondV2.tsx:91
 #: src/views/ChooseBond/ChooseBond.tsx:110
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:40
-msgid "OHM Price"
-msgstr "Τιμή OHM"
+#~ msgid "OHM Price"
+#~ msgstr "Τιμή OHM"
 
-#: src/views/TreasuryDashboard/components/Graph/Graph.js:147
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:148
 msgid "OHM Staked"
 msgstr "Κλειδωμένα OHM"
 
@@ -650,151 +878,256 @@ msgstr "Κλειδωμένα OHM"
 msgid "OHM Staked is the ratio of sOHM to circulating supply of OHM (staked vs total)"
 msgstr "Κλειδωμένα OHM  είναι η αναλογία του sOHM προς την κυκλοφορούσα προσφορά OHM (κλειδωμένα vs συνολικά)"
 
-#: src/views/Zap/ZapInfo.tsx:122
+#: src/views/Zap/ZapInfo.tsx:121
 msgid "OlyZap reduces complexity, saves you time and keeps you here on Olympus."
 msgstr "Το OlyZap μειώνει την πολυπλοκότητα, σας εξοικονομεί χρόνο και σας κρατά εδώ στο Olympus."
 
-#: src/components/EducationCard.tsx:72
+#: src/components/EducationCard.tsx:139
 msgid "Olympus Give is a means of directing the yield that is accrued on your sOHM to another wallet. The first step is depositing your sOHM and specifying a recipient."
 msgstr "Το Olympus Give είναι ένα μέσο για να κατευθύνετε την απόδοση που συγκεντρώνεται στο sOHM σας σε ένα άλλο πορτοφόλι. Το πρώτο βήμα είναι η κατάθεση του sOHM σας και ο καθορισμός ενός παραλήπτη."
 
-#: src/components/Sidebar/NavContent.tsx:151
+#: src/components/Sidebar/NavContent.tsx:73
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:115
 msgid "Olympus Pro"
 msgstr "Olympus Pro"
 
-#: src/components/Migration/MigrationModal.tsx:143
-#: src/components/Migration/MigrationModalSingle.tsx:123
+#: src/components/Migration/MigrationModal.tsx:135
+#: src/components/Migration/MigrationModalSingle.tsx:117
 msgid "Olympus v2 introduces upgrades to on-chain governance and bonds to enhance decentralization and immutability."
 msgstr "Το Olympus v2 εισάγει αναβαθμίσεις στη διακυβέρνηση της αλυσίδας και στα ομόλογα για να ενισχύσει την αποκέντρωση και την αμεταβλητότητα."
 
 #: src/views/V1-Stake/V1-Stake.jsx:246
-msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
-msgstr "Μόλις διεκδικήσετε τα τρέχοντα ομόλογά σας, μπορείτε να μεταφέρετε τα περιουσιακά σας στοιχεία για να κλειδώσετε περισσότερα OHM"
+#~ msgid "Once your current bonds have been claimed, you can migrate your assets to stake more OHM"
+#~ msgstr "Μόλις διεκδικήσετε τα τρέχοντα ομόλογά σας, μπορείτε να μεταφέρετε τα περιουσιακά σας στοιχεία για να κλειδώσετε περισσότερα OHM"
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:112
+msgid "Overview"
+msgstr ""
 
 #: src/views/404/NotFound.tsx:16
 msgid "Page not found"
 msgstr "Η σελίδα δεν βρέθηκε"
 
-#: src/views/BondV2/AccordionSection.tsx:50
+#: src/views/Bond/components/BondList.tsx:114
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:145
 msgid "Payout"
 msgstr "Πληρωμή"
 
+#: src/views/Bond/components/BondList.tsx:156
+msgid "Payout Asset"
+msgstr ""
+
 #: src/views/ChooseBond/ClaimBonds.tsx:34
-msgid "Pending"
-msgstr "Εκκρεμεί"
+#~ msgid "Pending"
+#~ msgstr "Εκκρεμεί"
 
 #: src/views/BondV2/AccordionSection.tsx:50
-msgid "Pending Payout"
-msgstr "Εκκρεμεί πληρωμή"
+#~ msgid "Pending Payout"
+#~ msgstr "Εκκρεμεί πληρωμή"
 
 #: src/views/Bond/BondRedeem.tsx:98
-msgid "Pending Rewards"
-msgstr "Εκκρεμείς ανταμοιβές"
+#~ msgid "Pending Rewards"
+#~ msgstr "Εκκρεμείς ανταμοιβές"
 
-#: src/slices/PendingTxnsSlice.ts:48
-#: src/slices/PendingTxnsSlice.ts:52
-#: src/slices/PendingTxnsSlice.ts:56
-#: src/views/Zap/ZapStakeAction.tsx:445
-#: src/views/Zap/ZapStakeAction.tsx:486
+#: src/slices/PendingTxnsSlice.ts:38
+#: src/slices/PendingTxnsSlice.ts:42
+#: src/slices/PendingTxnsSlice.ts:46
+#: src/views/Zap/ZapStakeAction.tsx:484
+#: src/views/Zap/ZapStakeAction.tsx:524
 msgid "Pending..."
 msgstr "Εκκρεμεί..."
 
-#: src/views/Bond/BondPurchase.tsx:161
-#: src/views/BondV2/BondPurchase.tsx:136
-#: src/views/Stake/Stake.tsx:386
-#: src/views/Stake/Stake.tsx:393
-#: src/views/V1-Stake/V1-Stake.jsx:265
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:98
+#: src/views/Give/RecipientModal.tsx:360
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:108
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:114
+#: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:81
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:87
+msgid "Please approve Olympus DAO to use your"
+msgstr ""
+
+#: src/views/V1-Stake/V1-Stake.jsx:253
 msgid "Please approve Olympus Dao to use your"
 msgstr "Παρακαλώ εγκρίνετε το Olympus Dao να χρησιμοποιήσει το"
 
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:22
+msgid "Please connect a wallet to claim bonds"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:65
+msgid "Please connect a wallet to purchase a bond"
+msgstr ""
+
 #: src/slices/GiveThunk.ts:61
 #: src/slices/GiveThunk.ts:103
-msgid "Please connect your wallet"
-msgstr "Συνδέστε το πορτοφόλι σας"
+#~ msgid "Please connect your wallet"
+#~ msgstr "Συνδέστε το πορτοφόλι σας"
 
 #: src/slices/GiveThunk.ts:158
 #: src/slices/GiveThunk.ts:242
 #: src/slices/GiveThunk.ts:323
 #: src/slices/RedeemThunk.ts:26
 #: src/slices/RedeemThunk.ts:80
-msgid "Please connect your wallet!"
-msgstr "Παρακαλώ συνδέστε το πορτοφόλι σας!"
+#~ msgid "Please connect your wallet!"
+#~ msgstr "Παρακαλώ συνδέστε το πορτοφόλι σας!"
 
-#: src/views/Give/RecipientModal.tsx:212
+#: src/views/Give/RecipientModal.tsx:200
 msgid "Please enter a different address: cannot direct to the same wallet"
 msgstr "Παρακαλώ εισάγετε μια διαφορετική διεύθυνση: δεν μπορεί να κατευθύνει στο ίδιο πορτοφόλι"
 
-#: src/views/Give/RecipientModal.tsx:206
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:36
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:25
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:27
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:24
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:24
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:24
+msgid "Please enter a number"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:42
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:29
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:31
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:28
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:28
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:28
+msgid "Please enter a number greater than 0"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:44
+msgid "Please enter a slippage amount greater than 0"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:194
 msgid "Please enter a valid Ethereum address"
 msgstr "Παρακαλούμε εισάγετε μια έγκυρη διεύθυνση Ethereum"
 
-#: src/views/Bond/BondPurchase.tsx:64
-msgid "Please enter a valid value!"
-msgstr "Παρακαλώ εισάγετε μια έγκυρη τιμή!"
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:63
+msgid "Please enter a valid address as the recipient address"
+msgstr ""
 
-#: src/views/Give/ManageDonationModal.tsx:274
-#: src/views/Give/RecipientModal.tsx:164
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:37
+msgid "Please enter a valid slippage amount"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.tsx:64
+#~ msgid "Please enter a valid value!"
+#~ msgstr "Παρακαλώ εισάγετε μια έγκυρη τιμή!"
+
+#: src/views/Give/ManageDonationModal.tsx:276
+#: src/views/Give/RecipientModal.tsx:148
 msgid "Please enter a value"
 msgstr "Παρακαλούμε εισάγετε μια τιμή"
 
-#: src/components/GiveProject/ProjectCard.tsx:376
-#: src/components/GiveProject/ProjectCard.tsx:376
-#: src/components/GiveProject/ProjectCard.tsx:425
-#: src/components/GiveProject/ProjectCard.tsx:425
-#: src/views/33Together/PoolDeposit.tsx:58
-#: src/views/33Together/PoolWithdraw.tsx:50
-#: src/views/Bond/BondPurchase.tsx:62
-#: src/views/BondV2/BondPurchase.tsx:55
-#: src/views/Give/CausesDashboard.tsx:51
-#: src/views/Give/CausesDashboard.tsx:51
-#: src/views/Give/DepositRow.tsx:62
-#: src/views/Give/DepositRow.tsx:62
-#: src/views/Stake/Stake.tsx:172
-#: src/views/Stake/Stake.tsx:172
+#: src/components/GiveProject/GrantCard.tsx:331
+#: src/components/GiveProject/GrantCard.tsx:331
+#: src/components/GiveProject/GrantCard.tsx:359
+#: src/components/GiveProject/GrantCard.tsx:359
+#: src/components/GiveProject/ProjectCard.tsx:412
+#: src/components/GiveProject/ProjectCard.tsx:412
+#: src/components/GiveProject/ProjectCard.tsx:434
+#: src/components/GiveProject/ProjectCard.tsx:434
+#: src/views/Give/CausesDashboard.tsx:74
+#: src/views/Give/CausesDashboard.tsx:74
+#: src/views/Give/DepositRow.tsx:89
+#: src/views/Give/DepositRow.tsx:89
+#: src/views/Give/GrantsDashboard.tsx:74
+#: src/views/Give/GrantsDashboard.tsx:74
 msgid "Please enter a value!"
 msgstr "Παρακαλούμε εισάγετε μια τιμή!"
 
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:46
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:31
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:37
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:33
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:39
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:35
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:30
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:36
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:30
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:36
+msgid "Please refresh your page and try again"
+msgstr ""
+
 #: src/slices/RedeemThunk.ts:85
-msgid "Please switch to testnet!"
-msgstr "Παρακαλώ μεταβείτε στο δοκιμαστικό δίκτυο!"
+#~ msgid "Please switch to testnet!"
+#~ msgstr "Παρακαλώ μεταβείτε στο δοκιμαστικό δίκτυο!"
+
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:31
+msgid "Please switch to the Abritrum or Avalanche networks to migrate"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:26
+msgid "Please switch to the Ethereum network to claim all bonds"
+msgstr ""
+
+#: src/views/Bond/components/ClaimBonds/hooks/useClaimBonds.ts:27
+msgid "Please switch to the Ethereum network to claim this bond"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:68
+msgid "Please switch to the Ethereum network to purchase this bond"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:35
+msgid "Please switch to the Ethereum network to stake your OHM"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:37
+msgid "Please switch to the Ethereum network to unstake your"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:34
+msgid "Please switch to the Ethereum network to unwrap your gOHM"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:34
+msgid "Please switch to the Ethereum network to wrap your sOHM"
+msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:119
-msgid "Pool Award Balance is currently 0."
-msgstr "Το Υπόλοιπο Βραβείου Κοινόχρηστου Ταμείου είναι επί του παρόντος 0."
+#~ msgid "Pool Award Balance is currently 0."
+#~ msgstr "Το Υπόλοιπο Βραβείου Κοινόχρηστου Ταμείου είναι επί του παρόντος 0."
 
 #: src/views/33Together/PoolInfo.tsx:90
-msgid "Pool owner"
-msgstr "Ιδιοκτήτης κοινόχρηστου ταμείου"
+#~ msgid "Pool owner"
+#~ msgstr "Ιδιοκτήτης κοινόχρηστου ταμείου"
 
-#: src/components/Migration/MigrationModal.tsx:246
-#: src/components/Migration/MigrationModalSingle.tsx:233
+#: src/components/Migration/MigrationModal.tsx:239
+#: src/components/Migration/MigrationModalSingle.tsx:227
 msgid "Post-migration"
 msgstr "Μετά τη μετεγκατάσταση"
 
-#: src/components/Migration/MigrationModal.tsx:233
-#: src/components/Migration/MigrationModalSingle.tsx:220
+#: src/components/Migration/MigrationModal.tsx:226
+#: src/components/Migration/MigrationModalSingle.tsx:214
 msgid "Pre-migration"
 msgstr "Πριν από τη μετεγκατάσταση"
 
-#: src/views/BondV2/BondRow.tsx:49
-#: src/views/BondV2/ChooseBondV2.tsx:113
-#: src/views/ChooseBond/BondRow.tsx:46
-#: src/views/ChooseBond/ChooseBond.tsx:126
-#: src/views/Wrap/Wrap.tsx:188
-#: src/views/Wrap/Wrap.tsx:198
-#: src/views/Wrap/WrapCrossChain.tsx:164
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:166
+msgid "Premium"
+msgstr ""
+
+#: src/views/Bond/components/BondList.tsx:95
+#: src/views/Bond/components/BondList.tsx:161
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:38
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:52
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:113
 msgid "Price"
 msgstr "Τιμή"
 
 #: src/views/33Together/PoolInfo.tsx:44
-msgid "Prize Pool Info"
-msgstr "Πληροφορίες για το Χρηματικό Έπαθλο"
+#~ msgid "Prize Pool Info"
+#~ msgstr "Πληροφορίες για το Χρηματικό Έπαθλο"
 
 #: src/views/33Together/PoolPrize.tsx:135
-msgid "Prize is being awarded"
-msgstr "Το βραβείο απονέμεται"
+#~ msgid "Prize is being awarded"
+#~ msgstr "Το βραβείο απονέμεται"
 
-#: src/views/TreasuryDashboard/components/Graph/Graph.js:119
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:116
+msgid "Proteus"
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:120
 msgid "Protocol Owned Liquidity OHM-DAI"
 msgstr "Ρευστότητα OHM-DAI που ανήκει στο Πρωτόκολλο "
 
@@ -804,67 +1137,81 @@ msgstr "Ρευστότητα που Ανήκει στο Πρωτόκολλο (PO
 
 #: src/views/ChooseBond/BondRow.tsx:73
 #: src/views/ChooseBond/ChooseBond.tsx:132
-msgid "Purchased"
-msgstr "Αγορασμένο"
+#~ msgid "Purchased"
+#~ msgstr "Αγορασμένο"
 
-#: src/views/Give/YieldRecipients.tsx:82
+#: src/views/Give/YieldRecipients.tsx:67
 msgid "RECIPIENT"
 msgstr "ΠΑΡΑΛΗΠΤΗΣ"
 
-#: src/views/Give/RedeemYield.tsx:213
-#: src/views/Stake/Stake.tsx:562
-#: src/views/V1-Stake/V1-Stake.jsx:441
+#: src/views/Give/RedeemYield.tsx:255
+#: src/views/Stake/components/StakeArea/components/StakeFiveDayYield.tsx:9
+#: src/views/V1-Stake/V1-Stake.jsx:400
 msgid "ROI (5-Day Rate)"
 msgstr "Απόδοση της επένδυσης (ποσοστό 5 ημερών)"
 
 #: src/views/33Together/PoolWithdraw.tsx:171
-msgid "Read more about Fairness"
-msgstr "Διαβάστε περισσότερα για τη δικαιοσύνη"
+#~ msgid "Read more about Fairness"
+#~ msgstr "Διαβάστε περισσότερα για τη δικαιοσύνη"
 
-#: src/components/EducationCard.tsx:165
+#: src/components/EducationCard.tsx:91
 msgid "Receives yield from"
 msgstr "Λαμβάνει απόδοση από"
 
-#: src/components/EducationCard.tsx:149
-#: src/components/EducationCard.tsx:224
-#: src/views/Bond/BondPurchase.tsx:263
-#: src/views/BondV2/BondPurchase.tsx:226
-#: src/views/Give/RecipientModal.tsx:325
-#: src/views/Give/RecipientModal.tsx:345
+#: src/components/EducationCard.tsx:89
+#: src/components/EducationCard.tsx:160
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:182
+#: src/views/Give/ManageDonationModal.tsx:476
 msgid "Recipient"
 msgstr "Παραλήπτης"
 
-#: src/views/BondV2/AdvancedSettings.tsx:47
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:48
+#: src/views/Give/RecipientModal.tsx:404
+#: src/views/Give/RecipientModal.tsx:523
 msgid "Recipient Address"
 msgstr "Διεύθυνση Παραλήπτη"
 
 #: src/views/Give/RecipientModal.tsx:540
-msgid "Recipient address"
-msgstr "Διεύθυνση παραλήπτη"
+#~ msgid "Recipient address"
+#~ msgstr "Διεύθυνση παραλήπτη"
 
-#: src/views/Give/GiveInfo.tsx:23
+#: src/components/EducationCard.tsx:161
 msgid "Recipient earns sOHM rebases"
 msgstr "Ο παραλήπτης κερδίζει sOHM rebases"
 
-#: src/components/EducationCard.tsx:194
-#: src/components/GiveProject/GiveHeader.tsx:56
-#: src/views/Bond/Bond.tsx:132
-#: src/views/Give/Give.tsx:107
+#: src/views/Give/Give.tsx:98
 msgid "Redeem"
 msgstr "Εξαργύρωση"
 
-#: src/views/Give/RedeemYield.tsx:164
-#: src/views/Give/RedeemYieldModal.tsx:72
+#: src/views/Give/RedeemYield.tsx:179
+#: src/views/Give/RedeemYieldModal.tsx:64
 msgid "Redeem Yield"
 msgstr "Εξαργύρωση Απόδοσης"
 
-#: src/views/Give/RedeemYield.tsx:198
+#: src/views/Give/RedeemYieldModal.tsx:107
+msgid "Redeem {0} sOHM"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:237
 msgid "Redeemable Amount"
 msgstr "Εξαργυρώσιμο ποσό"
 
-#: src/components/GiveProject/ProjectCard.tsx:223
+#: src/views/Give/RedeemYieldModal.tsx:71
+msgid "Redeemable Yield"
+msgstr ""
+
+#: src/views/Give/RedeemYieldModal.tsx:106
+msgid "Redeeming {0} sOHM"
+msgstr ""
+
+#: src/components/GiveProject/ProjectCard.tsx:225
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:142
 msgid "Remaining"
 msgstr "Απομένει"
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:114
+msgid "Revenue"
+msgstr ""
 
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:93
 msgid "Risk Free Value of Treasury Assets"
@@ -874,7 +1221,7 @@ msgstr "Αξία χωρίς κίνδυνο των περιουσιακών στ�
 msgid "Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM."
 msgstr "Αξία Χωρίς Κίνδυνο, είναι το ποσό των κεφαλαίων που το Ταμείο εγγυάται ότι θα χρησιμοποιήσει για την κάλυψη των OHM."
 
-#: src/views/TreasuryDashboard/components/Graph/Graph.js:174
+#: src/views/TreasuryDashboard/components/Graph/Graph.js:176
 msgid "Runway Available"
 msgstr "Διάδρομος Διαθέσιμος"
 
@@ -886,13 +1233,17 @@ msgstr "Διάδρομος, είναι ο αριθμός των ημερών π�
 msgid "SLP Treasury"
 msgstr "Ταμείο SLP"
 
-#: src/components/Migration/MigrationModal.tsx:346
+#: src/components/Migration/MigrationModal.tsx:339
 msgid "Save on gas fees by migrating all your assets to the new gOHM or sOHM in one transaction. Each asset asset above must be approved before all can be migrated."
 msgstr "Εξοικονομήστε τα τέλη gas μεταφέροντας όλα τα περιουσιακά σας στοιχεία στο νέο gOHM ή sOHM με μία συναλλαγή. Κάθε παραπάνω περιουσιακό στοιχείο πρέπει να εγκριθεί πριν μεταφερθούν όλα."
 
-#: src/views/Zap/SelectTokenModal.tsx:52
-#: src/views/Zap/ZapStakeAction.tsx:309
-#: src/views/Zap/ZapStakeAction.tsx:337
+#: src/views/Give/CausesDashboard.tsx:114
+msgid "Select Custom Recipient"
+msgstr ""
+
+#: src/views/Zap/SelectTokenModal.tsx:50
+#: src/views/Zap/ZapStakeAction.tsx:343
+#: src/views/Zap/ZapStakeAction.tsx:372
 msgid "Select Token"
 msgstr "Επιλέξτε Token"
 
@@ -900,61 +1251,117 @@ msgstr "Επιλέξτε Token"
 msgid "Select any asset"
 msgstr "Επιλέξτε οποιοδήποτε περιουσιακό στοιχείο"
 
-#: src/views/Zap/SelectTokenModal.tsx:72
+#: src/views/Zap/SelectTokenModal.tsx:70
 msgid "Ser, you have no assets..."
 msgstr "Σερ, δεν έχετε περιουσιακά στοιχεία..."
 
-#: src/views/V1-Stake/V1-Stake.jsx:189
+#: src/views/V1-Stake/V1-Stake.jsx:179
 msgid "Single Stake"
 msgstr "Ενιαίο κλείδωμα"
 
-#: src/views/Stake/Stake.tsx:315
+#: src/views/Stake/components/StakeArea/StakeArea.tsx:20
 msgid "Single Stake (3, 3)"
 msgstr "Ενιαίο Κλείδωμα (3, 3)"
 
-#: src/views/BondV2/AdvancedSettings.tsx:29
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:26
 msgid "Slippage"
 msgstr "Μείωση της Απόδοσης"
 
-#: src/views/Zap/ZapStakeAction.tsx:394
+#: src/views/Zap/ZapStakeAction.tsx:429
 msgid "Slippage Tolerance"
 msgstr "Ανοχή Μείωσης της Απόδοσης"
+
+#: src/hooks/useZapExecute.ts:58
+msgid "Slippage should be a number"
+msgstr ""
 
 #: src/views/BondV2/BondPurchase.tsx:157
 #: src/views/BondV2/BondRow.tsx:89
 #: src/views/BondV2/BondRow.tsx:142
-msgid "Sold Out"
-msgstr "Εξαντλήθηκε"
+#~ msgid "Sold Out"
+#~ msgstr "Εξαντλήθηκε"
 
 #: src/views/33Together/PoolInfo.tsx:103
-msgid "Something not right, fren? Check Pool Together's UI below."
-msgstr "Κάτι δεν πάει καλά, φίλε; Ελέγξτε το UI του Pool Together παρακάτω."
+#~ msgid "Something not right, fren? Check Pool Together's UI below."
+#~ msgstr "Κάτι δεν πάει καλά, φίλε; Ελέγξτε το UI του Pool Together παρακάτω."
 
-#: src/components/Sidebar/NavContent.tsx:134
-#: src/views/V1-Stake/V1-Stake.jsx:237
+#: src/components/Sidebar/NavContent.tsx:55
+#: src/views/V1-Stake/V1-Stake.jsx:227
 msgid "Stake"
 msgstr "Κλειδώστε"
 
-#: src/views/Stake/ExternalStakePool.tsx:62
-#: src/views/Stake/ExternalStakePool.tsx:95
+#: src/components/TopBar/Wallet/GetOhm.tsx:122
+msgid "Stake Now"
+msgstr ""
+
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:168
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:211
 msgid "Stake on"
 msgstr "Κλειδώστε σε"
 
 #: src/views/Stake/Stake.tsx:294
-msgid "Stake to"
-msgstr "Κλειδώστε στο"
+#~ msgid "Stake to"
+#~ msgstr "Κλειδώστε στο"
 
-#: src/views/Zap/ZapInfo.tsx:142
+#: src/views/Zap/ZapInfo.tsx:141
 msgid "Staking"
 msgstr "Κλείδωμα"
 
-#: src/slices/PendingTxnsSlice.ts:30
+#: src/slices/PendingTxnsSlice.ts:28
 msgid "Staking OHM"
 msgstr "Κλείδωμα OHM"
 
-#: src/views/Zap/ZapInfo.tsx:145
+#: src/views/Zap/ZapInfo.tsx:144
 msgid "Staking is the primary value accrual strategy of Olympus. When you stake, you lock OHM and receive an equal value of sOHM or gOHM."
 msgstr "Το κλείδωμα είναι η κύρια στρατηγική συσσώρευσης αξίας του Olympus. Όταν κλειδώνετε, κλειδώνετε OHM και λαμβάνετε ίση αξία sOHM ή gOHM."
+
+#: src/views/Give/ManageDonationModal.tsx:401
+msgid "Stop Donation"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:127
+msgid "Successfully bonded"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:163
+msgid "Successfully decreased sOHM deposit"
+msgstr ""
+
+#: src/views/Give/hooks/useGive.ts:82
+msgid "Successfully deposited sOHM"
+msgstr ""
+
+#: src/views/Give/hooks/useEditGive.ts:82
+msgid "Successfully increased sOHM deposit"
+msgstr ""
+
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:62
+msgid "Successfully migrated from wsOHM to gOHM"
+msgstr ""
+
+#: src/views/Give/hooks/useRedeem.ts:71
+msgid "Successfully redeemed all available yield"
+msgstr ""
+
+#: src/views/Give/hooks/useRedeemV1.ts:73
+msgid "Successfully redeemed all yield off the old contract"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:70
+msgid "Successfully staked OHM"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:72
+msgid "Successfully unstaked"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:61
+msgid "Successfully unwrapped from gOHM to sOHM"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:61
+msgid "Successfully wrapped sOHM to gOHM"
+msgstr ""
 
 #: src/views/Zap/ZapStakeHeader.tsx:48
 msgid "Swap for OHM"
@@ -968,93 +1375,141 @@ msgstr "Ανταλλαγή για sOHM"
 msgid "Swap into sOHM"
 msgstr "Ανταλλαγή σε sOHM"
 
-#: src/views/Stake/ExternalStakePool.tsx:124
-#: src/views/V1-Stake/V1-Stake.jsx:201
+#: src/views/Stake/components/ExternalStakePools/ExternalStakePools.tsx:76
+#: src/views/V1-Stake/V1-Stake.jsx:191
 msgid "TVL"
 msgstr "Συνολική κλειδωμένη αξία"
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:85
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
 msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held 1 OHM from launch."
 msgstr "Ο τρέχων δείκτης παρακολουθεί την ποσότητα του sOHM που έχει συσσωρευτεί από την αρχή του κλειδώματος. Ουσιαστικά, πόσα sOHM θα είχε κάποιος αν κλείδωνε και κρατούσε 1 OHM από την έναρξη."
 
-#: src/views/BondV2/BondPurchase.tsx:223
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:177
 msgid "The duration of the Bond whereby the bond can be claimed in it’s entirety.  Bonds are no longer vested linearly and are locked for entire duration."
 msgstr "Η διάρκεια του ομολόγου κατά την οποία μπορεί να ζητηθεί το σύνολο της εγγύησης.  Τα ομόλογα δεν κατοχυρώνονται πλέον γραμμικά και είναι κλειδωμένα για ολόκληρη τη διάρκεια."
 
-#: src/views/BondV2/BondPurchase.tsx:210
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:155
 msgid "The maximum quantity of payout token we are able to offer via bonds at this moment in time."
 msgstr "Η μέγιστη ποσότητα token πληρωμής που μπορούμε να προσφέρουμε μέσω ομολόγων αυτή τη στιγμή."
 
-#: src/views/33Together/PoolWithdraw.tsx:122
-msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
-msgstr "Το κοινόχρηστο ταμείο έχει απενεργοποιηθεί προσωρινά για τη μετάβαση V2. Παρακαλούμε αποσύρετε τo 33T σας"
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:53
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:59
+msgid "The maximum you can bond at this time is"
+msgstr ""
 
-#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:104
+#: src/hooks/useGiveInfo.ts:215
+#: src/views/Give/hooks/useRedeemV1.ts:28
+msgid "The old Give contract is only supported on the mainnet. Please switch to Ethereum mainnet"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.tsx:122
+#~ msgid "The pool has been temporarily disabled for V2 Migration. Please withdraw your 33T"
+#~ msgstr "Το κοινόχρηστο ταμείο έχει απενεργοποιηθεί προσωρινά για τη μετάβαση V2. Παρακαλούμε αποσύρετε τo 33T σας"
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:117
 msgid "The price of gOHM is equal to the price of OHM multiplied by the current index"
 msgstr "Η τιμή του gOHM ισούται με την τιμή του OHM πολλαπλασιασμένη με τον τρέχοντα δείκτη."
 
-#: src/components/EducationCard.tsx:240
-msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
-msgstr "Ο παραλήπτης που καθορίσατε, ή το έργο που επιλέξατε, θα λαμβάνει στη συνέχεια τα rebases που σχετίζονται με την κατάθεσή σας στο sOHM μέχρι να αποσύρετε το κεφάλαιο του sOHM από το θησαυροφυλάκιο."
+#: src/views/Give/RecipientModal.tsx:406
+msgid "The rebase rewards from the sOHM that you deposit will be redirected to the wallet address that you specify"
+msgstr ""
 
-#: src/views/Give/RecipientModal.tsx:349
+#: src/components/EducationCard.tsx:162
+msgid ""
+"The recipient you specified, or the project you selected, will then receive the rebases associated with your\n"
+"sOHM deposit until you withdraw your sOHM principal from the vault."
+msgstr ""
+
+#: src/components/EducationCard.tsx:240
+#~ msgid "The recipient you specified, or the project you selected, will then receive the rebases associated with your sOHM deposit until you withdraw your sOHM principal from the vault."
+#~ msgstr "Ο παραλήπτης που καθορίσατε, ή το έργο που επιλέξατε, θα λαμβάνει στη συνέχεια τα rebases που σχετίζονται με την κατάθεσή σας στο sOHM μέχρι να αποσύρετε το κεφάλαιο του sOHM από το θησαυροφυλάκιο."
+
+#: src/views/Give/RecipientModal.tsx:525
 msgid "The specified wallet address will receive the rebase yield from the amount that you deposit."
 msgstr "Η καθορισμένη διεύθυνση πορτοφολιού θα λάβει την απόδοση rebase από το ποσό που καταθέσατε."
 
+#: src/hooks/useZapExecute.ts:60
+msgid "The tokenAddress parameter must be set"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:150
+msgid "The total amount of payout asset you will recieve from this bond purchase. (sOHM quantity will be higher due to rebasing)"
+msgstr ""
+
 #: src/views/BondV2/BondPurchase.tsx:201
-msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
-msgstr "Το συνολικό ποσό του περιουσιακού στοιχείου πληρωμής που θα λάβετε από αυτή την αγορά ομολόγου. (το ποσό sOHM θα είναι υψηλότερο λόγω του rebase)"
+#~ msgid "The total amount of payout asset you will recieve from this bond purhcase. (sOHM amount will be higher due to rebasing)"
+#~ msgstr "Το συνολικό ποσό του περιουσιακού στοιχείου πληρωμής που θα λάβετε από αυτή την αγορά ομολόγου. (το ποσό sOHM θα είναι υψηλότερο λόγω του rebase)"
+
+#: src/components/EducationCard.tsx:150
+msgid ""
+"Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient.\n"
+"You can withdraw or edit your principal sOHM amount at any time."
+msgstr ""
 
 #: src/components/EducationCard.tsx:134
-msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
-msgstr "Στη συνέχεια, το κατατεθειμένο sOHM σας φυλάσσεται σε ένα έξυπνο συμβόλαιο θησαυροφυλακίου που θα στείλει τα rebases σας στον παραλήπτη. Μπορείτε να αποσύρετε ή να επεξεργαστείτε το κύριο ποσό sOHM σας ανά πάσα στιγμή."
+#~ msgid "Then, your deposited sOHM is kept in a vault smart contract that will send your rebases to the recipient. You can withdraw or edit your principal sOHM amount at any time."
+#~ msgstr "Στη συνέχεια, το κατατεθειμένο sOHM σας φυλάσσεται σε ένα έξυπνο συμβόλαιο θησαυροφυλακίου που θα στείλει τα rebases σας στον παραλήπτη. Μπορείτε να αποσύρετε ή να επεξεργαστείτε το κύριο ποσό sOHM σας ανά πάσα στιγμή."
 
 #: src/views/33Together/PoolDeposit.tsx:117
-msgid "This Prize Pool is unable to accept deposits at this time."
-msgstr "Αυτό το ταμείο βραβείων δεν μπορεί να δεχτεί καταθέσεις αυτή τη στιγμή."
+#~ msgid "This Prize Pool is unable to accept deposits at this time."
+#~ msgstr "Αυτό το ταμείο βραβείων δεν μπορεί να δεχτεί καταθέσεις αυτή τη στιγμή."
 
 #: src/views/33Together/PoolWithdraw.tsx:107
-msgid "This Prize Pool is unable to accept withdrawals at this time."
-msgstr "Αυτό το ταμείο βραβείων δεν μπορεί να δεχτεί αποσύρσεις αυτή τη στιγμή."
+#~ msgid "This Prize Pool is unable to accept withdrawals at this time."
+#~ msgstr "Αυτό το ταμείο βραβείων δεν μπορεί να δεχτεί αποσύρσεις αυτή τη στιγμή."
 
-#: src/components/Migration/MigrationModal.tsx:236
-#: src/components/Migration/MigrationModalSingle.tsx:223
+#: src/components/Migration/MigrationModal.tsx:229
+#: src/components/Migration/MigrationModalSingle.tsx:217
 msgid "This is the current balance of v1 assets in your wallet."
 msgstr "Αυτό είναι το τρέχον υπόλοιπο των περιουσιακών στοιχείων v1 στο πορτοφόλι σας."
 
-#: src/components/Migration/MigrationModal.tsx:249
-#: src/components/Migration/MigrationModalSingle.tsx:236
+#: src/components/Migration/MigrationModal.tsx:242
+#: src/components/Migration/MigrationModalSingle.tsx:230
 msgid "This is the equivalent amount of gOHM you will have in your wallet once migration is complete."
 msgstr "Αυτό είναι το ισοδύναμο ποσό gOHM που θα έχετε στο πορτοφόλι σας μόλις ολοκληρωθεί η μετάβαση."
 
 #: src/views/Bond/BondRedeem.tsx:104
-msgid "Time until fully vested"
-msgstr "Χρόνος μέχρι την πλήρη κατοχύρωση"
+#~ msgid "Time until fully vested"
+#~ msgstr "Χρόνος μέχρι την πλήρη κατοχύρωση"
 
-#: src/components/Chart/Chart.tsx:526
+#: src/components/Chart/Chart.tsx:546
 #: src/components/Chart/ExpandedChart.tsx:58
 msgid "Today"
 msgstr "Σήμερα"
 
+#: src/views/Bond/components/BondList.tsx:151
+#: src/views/Bond/components/ClaimBonds/ClaimBonds.tsx:136
+msgid "Token"
+msgstr ""
+
+#: src/views/Give/ManageDonationModal.tsx:445
+#: src/views/Give/ManageDonationModal.tsx:445
+msgid "Total"
+msgstr ""
+
 #: src/components/GiveProject/ProjectCard.tsx:335
-msgid "Total Active sOHM"
-msgstr "Συνολικό ενεργό sOHM"
+#~ msgid "Total Active sOHM"
+#~ msgstr "Συνολικό ενεργό sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:80
-msgid "Total Deposits"
-msgstr "Σύνολο καταθέσεων"
+#~ msgid "Total Deposits"
+#~ msgstr "Σύνολο καταθέσεων"
+
+#: src/components/GiveProject/GrantCard.tsx:280
+msgid "Total Milestone Amount"
+msgstr ""
 
 #: src/views/33Together/PoolInfo.tsx:85
-msgid "Total Sponsorship"
-msgstr "Σύνολο Χορηγιών"
+#~ msgid "Total Sponsorship"
+#~ msgstr "Σύνολο Χορηγιών"
 
-#: src/views/Stake/Stake.tsx:449
-#: src/views/V1-Stake/V1-Stake.jsx:378
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:83
+#: src/views/V1-Stake/V1-Stake.jsx:353
 msgid "Total Staked Balance"
 msgstr "Συνολικό Κλειδωμένο Υπόλοιπο"
 
-#: src/views/Stake/Stake.tsx:327
 #: src/views/TreasuryDashboard/components/Graph/Graph.js:22
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:131
 #: src/views/TreasuryDashboard/treasuryData.ts:186
 msgid "Total Value Deposited"
 msgstr "Συνολική Κατατεθειμένη Αξία"
@@ -1063,433 +1518,634 @@ msgstr "Συνολική Κατατεθειμένη Αξία"
 msgid "Total Value Deposited, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects."
 msgstr "Συνολική αξία που έχει κατατεθεί, είναι το ποσό σε δολάρια όλων των OHM που έχουν κατατεθεί στο πρωτόκολλο. Αυτή η μέτρηση χρησιμοποιείται συχνά ως δείκτης ανάπτυξης ή υγείας σε έργα DeFi."
 
-#: src/views/BondV2/AdvancedSettings.tsx:41
+#: src/views/Bond/components/BondModal/components/BondSettingsModal.tsx:41
 msgid "Transaction may revert if price changes by more than slippage %"
 msgstr "Η συναλλαγή μπορεί να επανέλθει εάν η τιμή αλλάξει περισσότερο από την μείωση της απόδοσης %"
 
-#: src/views/BondV2/ChooseBondV2.tsx:86
-#: src/views/ChooseBond/ChooseBond.tsx:105
+#: src/hooks/useZapExecute.ts:121
+msgid "Transaction would fail due to slippage. Please use a higher slippage tolerance value."
+msgstr ""
+
+#: src/views/TreasuryDashboard/TreasuryDashboard.tsx:113
+msgid "Treasury"
+msgstr ""
+
+#: src/views/TreasuryDashboard/components/Metric/Metric.tsx:163
 msgid "Treasury Balance"
 msgstr "Υπόλοιπο Ταμείου"
 
-#: src/views/Stake/Stake.tsx:371
-#: src/views/V1-Stake/V1-Stake.jsx:238
+#: src/hooks/useZapExecute.ts:72
+msgid "Unable to access Zap contract on network {networkId}"
+msgstr ""
+
+#: src/hooks/useZapExecute.ts:78
+msgid "Unable to fetch address for token ({0}) on network {networkId}"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:96
+#: src/views/V1-Stake/V1-Stake.jsx:228
 msgid "Unstake"
 msgstr "Ξεκλειδώστε"
 
-#: src/views/V1-Stake/V1-Stake.jsx:350
+#: src/views/V1-Stake/V1-Stake.jsx:325
 msgid "Unstake OHM"
 msgstr "Ξεκλειδώστε OHM"
 
 #: src/views/Stake/Stake.tsx:306
-msgid "Unstake from"
-msgstr "Ξεκλειδώστε από"
+#~ msgid "Unstake from"
+#~ msgstr "Ξεκλειδώστε από"
 
-#: src/views/Stake/Stake.tsx:441
-#: src/views/V1-Stake/V1-Stake.jsx:370
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:73
+#: src/views/V1-Stake/V1-Stake.jsx:345
 msgid "Unstaked Balance"
 msgstr "Ξεκλειδωμένο Υπόλοιπο"
 
-#: src/slices/PendingTxnsSlice.ts:30
+#: src/slices/PendingTxnsSlice.ts:28
 msgid "Unstaking sOHM"
 msgstr "Ξεκλείδωμα sOHM"
 
-#: src/slices/PendingTxnsSlice.ts:42
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:77
+msgid "Unstaking your OHM? Trade for Treasury Stables with no slippage & zero trading fees via"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:32
 msgid "Unwrapping sOHM"
 msgstr "Ξετύλιγμα sOHM"
 
 #: src/components/EducationCard.tsx:275
-msgid "Updated Deposit"
-msgstr "Ενημερωμένη κατάθεση"
+#~ msgid "Updated Deposit"
+#~ msgstr "Ενημερωμένη κατάθεση"
+
+#: src/views/Give/GrantsDashboard.tsx:90
+msgid "Upon receiving an Olympus Grant, you gain exposure to the Olympus Give ecosystem where your performance is rewarded every 8 hours through the yield your grant generates; you then can also receive support from other Ohmies and this acts as a loop that compounds value and amplifies the reach and growth of your mission."
+msgstr ""
+
+#: src/views/Give/ManageDonationModal.tsx:294
+#: src/views/Give/RecipientModal.tsx:166
+msgid "Value cannot be more than your"
+msgstr ""
 
 #: src/views/Give/ManageDonationModal.tsx:291
-msgid "Value cannot be more than your sOHM balance of"
-msgstr "Η αξία δεν μπορεί να είναι μεγαλύτερη από το υπόλοιπο sOHM"
+#~ msgid "Value cannot be more than your sOHM balance of"
+#~ msgstr "Η αξία δεν μπορεί να είναι μεγαλύτερη από το υπόλοιπο sOHM"
 
 #: src/views/Give/RecipientModal.tsx:181
-msgid "Value cannot be more than your sOHM balance of {0}"
-msgstr "Η τιμή δεν μπορεί να είναι μεγαλύτερη από το υπόλοιπο των {0} sOHM"
+#~ msgid "Value cannot be more than your sOHM balance of {0}"
+#~ msgstr "Η τιμή δεν μπορεί να είναι μεγαλύτερη από το υπόλοιπο των {0} sOHM"
 
-#: src/views/Give/ManageDonationModal.tsx:280
-#: src/views/Give/RecipientModal.tsx:170
+#: src/views/Give/ManageDonationModal.tsx:282
+#: src/views/Give/RecipientModal.tsx:154
 msgid "Value must be positive"
 msgstr "Η αξία πρέπει να είναι θετική"
 
-#: src/components/EducationCard.tsx:87
-#: src/components/EducationCard.tsx:125
+#: src/components/EducationCard.tsx:78
+#: src/components/EducationCard.tsx:148
 msgid "Vault"
 msgstr "Θησαυροφυλάκιο"
 
 #: src/views/Bond/BondPurchase.tsx:261
 #: src/views/Bond/BondRedeem.tsx:120
-msgid "Vesting Term"
-msgstr "Διάρκεια κατοχύρωσης"
+#~ msgid "Vesting Term"
+#~ msgstr "Διάρκεια κατοχύρωσης"
 
 #: src/views/BondV2/BondRow.tsx:39
 #: src/views/BondV2/BondRow.tsx:121
-msgid "View Asset"
-msgstr "Προβολή περιουσιακού στοιχείου"
+#~ msgid "View Asset"
+#~ msgstr "Προβολή περιουσιακού στοιχείου"
 
-#: src/components/GiveProject/ProjectCard.tsx:575
-#: src/components/GiveProject/ProjectCard.tsx:623
+#: src/components/GiveProject/GrantCard.tsx:483
+#: src/components/GiveProject/ProjectCard.tsx:557
 msgid "View Details"
 msgstr "Προβολή λεπτομερειών"
 
-#: src/components/EducationCard.tsx:25
-#: src/components/EducationCard.tsx:63
-#: src/components/TopBar/Wallet/index.tsx:12
+#: src/components/EducationCard.tsx:62
+#: src/components/EducationCard.tsx:137
+#: src/components/TopBar/TopBar.tsx:65
+#: src/components/TopBar/Wallet/index.tsx:68
+#: src/components/TopBar/Wallet/index.tsx:78
 msgid "Wallet"
 msgstr "Πορτοφόλι"
 
-#: src/views/33Together/PoolInfo.tsx:75
-msgid "Winners / prize period"
-msgstr "Νικητές / περίοδος βραβείων"
+#: src/views/Give/CausesDashboard.tsx:103
+msgid "Want to give to a different cause?"
+msgstr ""
 
-#: src/views/33Together/33together.tsx:167
-#: src/views/Give/ManageDonationModal.tsx:580
-#: src/views/Give/WithdrawDepositModal.tsx:105
+#: src/views/Give/GrantsDashboard.tsx:63
+msgid "We don't have any grants open right now, but check back soon!"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.tsx:75
+#~ msgid "Winners / prize period"
+#~ msgstr "Νικητές / περίοδος βραβείων"
+
+#: src/views/Give/ManageDonationModal.tsx:692
 msgid "Withdraw"
 msgstr "Ανάληψη"
 
 #: src/views/Give/WithdrawDepositModal.tsx:91
-msgid "Withdraw Deposit?"
-msgstr "Απόσυρση κατάθεσης?"
+#~ msgid "Withdraw Deposit?"
+#~ msgstr "Απόσυρση κατάθεσης?"
 
 #: src/views/33Together/PoolWithdraw.tsx:144
-msgid "Withdraw Early & pay"
-msgstr "Πρόωρη απόσυρση & πληρωμή"
+#~ msgid "Withdraw Early & pay"
+#~ msgstr "Πρόωρη απόσυρση & πληρωμή"
 
 #: src/views/33Together/PoolWithdraw.tsx:145
-msgid "Withdraw sOHM"
-msgstr "Απόσυρση sOHM"
+#~ msgid "Withdraw sOHM"
+#~ msgstr "Απόσυρση sOHM"
 
 #: src/views/33Together/PoolWithdraw.tsx:110
-msgid "Withdrawals can be made once the prize has been awarded."
-msgstr "Οι αναλήψεις μπορούν να πραγματοποιηθούν μετά την απονομή του βραβείου."
+#~ msgid "Withdrawals can be made once the prize has been awarded."
+#~ msgstr "Οι αναλήψεις μπορούν να πραγματοποιηθούν μετά την απονομή του βραβείου."
+
+#: src/views/Give/ManageDonationModal.tsx:692
+msgid "Withdrawing"
+msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:38
-msgid "Withdrawing sOHM donation"
-msgstr "Απόσυρση δωρεάς sOHM"
+#~ msgid "Withdrawing sOHM donation"
+#~ msgstr "Απόσυρση δωρεάς sOHM"
 
 #: src/views/33Together/PoolWithdraw.tsx:153
-msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr "Η ανάληψη {quantity} sOHM μειώνει τις πιθανότητες κέρδους σας σε 1 στις {newOdds}"
+#~ msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
+#~ msgstr "Η ανάληψη {quantity} sOHM μειώνει τις πιθανότητες κέρδους σας σε 1 στις {newOdds}"
 
-#: src/components/Sidebar/NavContent.tsx:142
-#: src/components/Sidebar/NavContent.tsx:159
+#: src/components/Sidebar/NavContent.tsx:61
+#: src/components/Sidebar/NavContent.tsx:81
 msgid "Wrap"
 msgstr "Τύλιγμα"
 
-#: src/views/Wrap/Wrap.tsx:168
-#: src/views/Wrap/WrapCrossChain.tsx:147
+#: src/views/Wrap/Wrap.tsx:22
 msgid "Wrap / Unwrap"
 msgstr "Τυλίξτε / ξετυλίξτε"
 
-#: src/slices/PendingTxnsSlice.ts:42
+#: src/slices/PendingTxnsSlice.ts:32
 msgid "Wrapping OHM"
 msgstr "Τύλιγμα OHM"
 
-#: src/views/Give/YieldRecipients.tsx:94
+#: src/views/Give/YieldRecipients.tsx:79
 msgid "YIELD SENT"
 msgstr "ΑΠΟΔΟΣΗ ΑΠΕΣΤΑΛΗ"
 
+#: src/components/GiveProject/ProjectCard.tsx:292
+msgid "Yield"
+msgstr ""
+
+#: src/components/GiveProject/GrantCard.tsx:591
+#: src/components/GiveProject/ProjectCard.tsx:678
+#: src/views/Give/ManageDonationModal.tsx:483
+msgid "Yield Sent"
+msgstr ""
+
 #: src/views/33Together/PoolInfo.tsx:89
-msgid "Yield Source"
-msgstr "Πηγή απόδοσης"
+#~ msgid "Yield Source"
+#~ msgstr "Πηγή απόδοσης"
 
 #: src/components/EducationCard.tsx:178
-msgid "You"
-msgstr "Εσείς"
+#~ msgid "You"
+#~ msgstr "Εσείς"
 
-#: src/views/Zap/ZapInfo.tsx:137
+#: src/views/Zap/ZapInfo.tsx:136
 msgid "You Choose"
 msgstr "Εσείς επιλέγετε"
 
-#: src/views/Zap/ZapStakeAction.tsx:322
+#: src/views/Zap/ZapStakeAction.tsx:356
 msgid "You Get"
 msgstr "Παίρνετε"
 
-#: src/views/Zap/ZapInfo.tsx:88
+#: src/views/Zap/ZapInfo.tsx:87
 msgid "You Give"
 msgstr "Δίνετε"
 
-#: src/views/Zap/ZapStakeAction.tsx:254
+#: src/views/Zap/ZapStakeAction.tsx:277
 msgid "You Pay"
 msgstr "Πληρώνετε"
 
-#: src/views/Bond/BondPurchase.tsx:237
-#: src/views/BondV2/BondPurchase.tsx:196
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:138
 msgid "You Will Get"
 msgstr "Θα λάβετε"
 
-#: src/components/Migration/MigrationModal.tsx:133
+#: src/components/Migration/MigrationModal.tsx:125
 msgid "You are now ready to migrate"
 msgstr "Είστε τώρα έτοιμοι να μεταφερθείτε"
 
 #: src/views/33Together/PoolWithdraw.tsx:98
-msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
-msgstr "Μπορείτε να επιλέξετε να αποσύρετε το κατατεθειμένο κεφάλαιο ανά πάσα στιγμή. Με την απόσυρση του ποσού, μειώνετε την πιθανότητα να κερδίσετε το έπαθλο σε αυτό το σύνολο σε μελλοντικές περιόδους βραβείων."
+#~ msgid "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods"
+#~ msgstr "Μπορείτε να επιλέξετε να αποσύρετε το κατατεθειμένο κεφάλαιο ανά πάσα στιγμή. Με την απόσυρση του ποσού, μειώνετε την πιθανότητα να κερδίσετε το έπαθλο σε αυτό το σύνολο σε μελλοντικές περιόδους βραβείων."
+
+#: src/views/Give/CausesDashboard.tsx:108
+msgid "You can direct your yield to a recipient of your choice"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/hooks/usePurchaseBond.ts:49
+msgid "You cannot bond more than your"
+msgstr ""
+
+#: src/views/Wrap/components/MigrateInputArea/hooks/useMigrateWsohm.tsx:37
+msgid "You cannot migrate more than your wsOHM balance"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useStakeToken.ts:33
+msgid "You cannot stake more than your OHM balance"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:178
 #: src/views/Stake/Stake.tsx:178
-msgid "You cannot stake more than your OHM balance."
-msgstr "Δεν μπορείτε να ποντάρετε περισσότερα από το υπόλοιπο OHM σας."
+#~ msgid "You cannot stake more than your OHM balance."
+#~ msgstr "Δεν μπορείτε να ποντάρετε περισσότερα από το υπόλοιπο OHM σας."
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:35
+msgid "You cannot unstake more than your"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useUnwrapGohm.tsx:32
+msgid "You cannot unwrap more than your gOHM balance"
+msgstr ""
 
 #: src/views/33Together/PoolWithdraw.tsx:91
-msgid "You cannot withdraw more than your pool balance"
-msgstr "Δεν μπορείτε να αποσύρετε περισσότερα από το υπόλοιπο του ταμείου σας"
+#~ msgid "You cannot withdraw more than your pool balance"
+#~ msgstr "Δεν μπορείτε να αποσύρετε περισσότερα από το υπόλοιπο του ταμείου σας"
+
+#: src/views/Wrap/components/WrapInputArea/hooks/useWrapSohm.tsx:32
+msgid "You cannot wrap more than your sOHM balance"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:184
 #: src/views/Stake/Stake.tsx:184
-msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
-msgstr "Δεν έχετε αρκετό sOHM για να ολοκληρώσετε αυτή τη συναλλαγή.  Για να αποσυρθείτε από το gOHM, παρακαλείστε να αλλάξετε τον διακόπτη sohm-gohm."
+#~ msgid "You do not have enough sOHM to complete this transaction.  To unstake from gOHM, please toggle the sohm-gohm switch."
+#~ msgstr "Δεν έχετε αρκετό sOHM για να ολοκληρώσετε αυτή τη συναλλαγή.  Για να αποσυρθείτε από το gOHM, παρακαλείστε να αλλάξετε τον διακόπτη sohm-gohm."
 
 #: src/views/Bond/BondPurchase.tsx:67
-msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
-msgstr "Έχετε ένα υφιστάμενο ομόλογο. Η δέσμευση θα επαναφέρει την περίοδο κατοχύρωσης και θα χάσετε τις ανταμοιβές σας. Συνιστούμε να διεκδικήσετε πρώτα τις ανταμοιβές ή να χρησιμοποιήσετε ένα νέο πορτοφόλι. Θέλετε ακόμα να προχωρήσετε;"
+#~ msgid "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?"
+#~ msgstr "Έχετε ένα υφιστάμενο ομόλογο. Η δέσμευση θα επαναφέρει την περίοδο κατοχύρωσης και θα χάσετε τις ανταμοιβές σας. Συνιστούμε να διεκδικήσετε πρώτα τις ανταμοιβές ή να χρησιμοποιήσετε ένα νέο πορτοφόλι. Θέλετε ακόμα να προχωρήσετε;"
 
 #: src/components/CallToAction/CallToAction.tsx:49
-#: src/components/Migration/MigrationModal.tsx:134
-#: src/components/Migration/MigrationModalSingle.tsx:117
+#: src/components/Migration/MigrationModal.tsx:126
+#: src/components/Migration/MigrationModalSingle.tsx:111
 msgid "You have assets ready to migrate to v2"
 msgstr "Έχετε περιουσιακά στοιχεία έτοιμα για μετάβαση σε v2"
 
 #: src/slices/RedeemThunk.ts:54
 #: src/slices/RedeemThunk.ts:113
-msgid "You have no yield that can be redeemed."
-msgstr "Δεν έχετε καμία απόδοση που μπορεί να εξαργυρωθεί."
+#~ msgid "You have no yield that can be redeemed."
+#~ msgstr "Δεν έχετε καμία απόδοση που μπορεί να εξαργυρωθεί."
+
+#: src/views/Give/CallToRedeem.tsx:10
+msgid "You have redeemable yield on the old contract"
+msgstr ""
 
 #: src/slices/GiveThunk.ts:208
 #: src/slices/GiveThunk.ts:292
-msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
-msgstr "Μπορεί να προσπαθείτε να δώσετε περισσότερα από το υπόλοιπό σας! Κωδικός σφάλματος: 32603. Μήνυμα: ds-math-sub-underflow"
+#~ msgid "You may be trying to give more than your balance! Error code: 32603. Message: ds-math-sub-underflow"
+#~ msgstr "Μπορεί να προσπαθείτε να δώσετε περισσότερα από το υπόλοιπό σας! Κωδικός σφάλματος: 32603. Μήνυμα: ds-math-sub-underflow"
 
 #: src/views/Give/RecipientModal.tsx:403
-msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
-msgstr "Πρέπει να είστε συνδεδεμένοι στο πορτοφόλι σας για να χρησιμοποιήσετε αυτή τη λειτουργία. Κάντε κλικ στο κουμπί \"Σύνδεση πορτοφολιού\" και δοκιμάστε ξανά."
+#~ msgid "You must be logged into your wallet to use this feature. Click on the \"Connect Wallet\" button and try again."
+#~ msgstr "Πρέπει να είστε συνδεδεμένοι στο πορτοφόλι σας για να χρησιμοποιήσετε αυτή τη λειτουργία. Κάντε κλικ στο κουμπί \"Σύνδεση πορτοφολιού\" και δοκιμάστε ξανά."
 
-#: src/views/V1-Stake/V1-Stake.jsx:249
+#: src/views/V1-Stake/V1-Stake.jsx:237
 msgid "You must complete the migration of your assets to stake additional OHM"
 msgstr "Πρέπει να ολοκληρώσετε τη μετεγκατάσταση των περιουσιακών σας στοιχείων για να κλειδώσετε επιπλέον OHM"
 
+#: src/views/Give/ManageDonationModal.tsx:288
+#: src/views/Give/RecipientModal.tsx:160
+msgid "You must have a balance of"
+msgstr ""
+
 #: src/views/Give/ManageDonationModal.tsx:286
 #: src/views/Give/RecipientModal.tsx:176
-msgid "You must have a balance of sOHM (staked OHM) to continue"
-msgstr "Πρέπει να έχετε υπόλοιπο sOHM (κλειδωμένα OHM) για να συνεχίσετε."
+#~ msgid "You must have a balance of sOHM (staked OHM) to continue"
+#~ msgstr "Πρέπει να έχετε υπόλοιπο sOHM (κλειδωμένα OHM) για να συνεχίσετε."
 
-#: src/views/Bond/BondPurchase.tsx:232
-#: src/views/BondV2/BondPurchase.tsx:191
+#: src/views/Give/ManageDonationModal.tsx:584
+#: src/views/Give/RecipientModal.tsx:371
+#: src/views/Give/RecipientModal.tsx:497
+msgid "Your"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:133
 msgid "Your Balance"
 msgstr "Το Υπόλοιπό σας"
 
-#: src/components/GiveProject/ProjectCard.tsx:726
+#: src/components/GiveProject/GrantCard.tsx:561
+#: src/components/GiveProject/ProjectCard.tsx:648
 msgid "Your Donations"
 msgstr "Οι δωρεές σας"
 
 #: src/views/33Together/PoolWithdraw.tsx:181
-msgid "Your Pooled Balance (withdrawable)"
-msgstr "Το συγκεντρωτικό σας υπόλοιπο (με δυνατότητα ανάληψης)"
+#~ msgid "Your Pooled Balance (withdrawable)"
+#~ msgstr "Το συγκεντρωτικό σας υπόλοιπο (με δυνατότητα ανάληψης)"
 
 #: src/views/33Together/PoolDeposit.tsx:173
-msgid "Your Staked Balance (Depositable)"
-msgstr "Το Κλειδωμένο Υπόλοιπό σας (καταθέσιμο)"
+#~ msgid "Your Staked Balance (Depositable)"
+#~ msgstr "Το Κλειδωμένο Υπόλοιπό σας (καταθέσιμο)"
 
 #: src/views/Give/RecipientModal.tsx:484
-msgid "Your current Staked Balance is"
-msgstr "Το τρέχον Κλειδωμένο Υπόλοιπό σας είναι"
+#~ msgid "Your current Staked Balance is"
+#~ msgstr "Το τρέχον Κλειδωμένο Υπόλοιπό σας είναι"
 
-#: src/views/Give/ManageDonationModal.tsx:542
+#: src/views/Give/ManageDonationModal.tsx:598
 msgid "Your current deposit is"
 msgstr "Η τρέχουσα κατάθεσή σας είναι"
 
 #: src/views/33Together/PoolInfo.tsx:59
-msgid "Your odds"
-msgstr "Οι πιθανότητές σας"
+#~ msgid "Your odds"
+#~ msgstr "Οι πιθανότητές σας"
 
 #: src/views/33Together/PoolInfo.tsx:54
-msgid "Your pool deposits"
-msgstr "Οι καταθέσεις σας στο ταμείο"
+#~ msgid "Your pool deposits"
+#~ msgstr "Οι καταθέσεις σας στο ταμείο"
 
 #: src/views/Give/ManageDonationModal.tsx:508
 #: src/views/Give/RecipientModal.tsx:453
-msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
-msgstr "Το sOHM σας θα μεταφερθεί στο θησαυροφυλάκιο όταν το υποβάλετε. Θα πρέπει να εγκρίνετε τη συναλλαγή και να πληρώσετε τα τέλη gas."
+#~ msgid "Your sOHM will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
+#~ msgstr "Το sOHM σας θα μεταφερθεί στο θησαυροφυλάκιο όταν το υποβάλετε. Θα πρέπει να εγκρίνετε τη συναλλαγή και να πληρώσετε τα τέλη gas."
 
 #: src/views/33Together/PoolInfo.tsx:49
-msgid "Your total awards"
-msgstr "Your total awards"
+#~ msgid "Your total awards"
+#~ msgstr "Your total awards"
 
 #: src/views/33Together/PoolInfo.tsx:64
-msgid "Your wallet balance"
-msgstr "Το υπόλοιπο του πορτοφολιού σας"
+#~ msgid "Your wallet balance"
+#~ msgstr "Το υπόλοιπο του πορτοφολιού σας"
 
-#: src/components/Sidebar/NavContent.tsx:137
+#: src/components/Sidebar/NavContent.tsx:57
 msgid "Zap"
 msgstr "Zap"
 
-#: src/views/Zap/ZapInfo.tsx:93
+#: src/views/Zap/ZapInfo.tsx:92
 msgid "Zap is a swap"
 msgstr "Το Zap είναι μια ανταλλαγή"
+
+#: src/components/TopBar/Wallet/GetOhm.tsx:98
+msgid "Zap with more assets"
+msgstr ""
 
 #: src/views/Zap/ZapCta.tsx:41
 msgid "Zap with more assets and stake <0>OHM</0>"
 msgstr "Zap με περισσότερα περιουσιακά στοιχεία και κλείδωμα <0>OHM</0>"
 
-#: src/views/Zap/ZapStakeAction.tsx:449
-#: src/views/Zap/ZapStakeAction.tsx:514
+#: src/views/Zap/ZapStakeAction.tsx:488
+#: src/views/Zap/ZapStakeAction.tsx:552
 msgid "Zap-Stake"
 msgstr "Zap-Κλείδωμα"
 
+#: src/hooks/useZapExecute.ts:66
+#: src/hooks/useZapExecute.ts:67
+#: src/views/Zap/ZapStakeAction.tsx:118
+msgid "Zaps are only available on Ethereum Mainnet. Please switch networks."
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/hooks/useUnstakeToken.ts:35
+msgid "balance"
+msgstr ""
+
+#: src/views/Give/RecipientModal.tsx:166
+msgid "balance of"
+msgstr ""
+
 #: src/views/33Together/PoolPrize.tsx:149
-msgid "day"
-msgstr "ημέρα"
+#~ msgid "day"
+#~ msgstr "ημέρα"
+
+#: src/views/Give/ManageDonationModal.tsx:636
+#: src/views/Give/ManageDonationModal.tsx:656
+msgid "deposit"
+msgstr ""
 
 #: src/views/Give/WithdrawDepositModal.tsx:97
-msgid "deposited"
-msgstr "κατατεθειμένο"
+#~ msgid "deposited"
+#~ msgstr "κατατεθειμένο"
 
-#. The action of bonding (verb)
-#: src/views/Bond/Bond.tsx:127
-#: src/views/BondV2/BondRow.tsx:142
-#: src/views/ChooseBond/BondRow.tsx:158
+#: src/views/Bond/components/BondList.tsx:212
 msgid "do_bond"
 msgstr "δέσμευσε"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:366
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:94
 msgid "do_stake"
 msgstr "κλείδωσε"
 
-#: src/views/Bond/BondPurchase.tsx:162
-#: src/views/BondV2/BondPurchase.tsx:137
+#: src/views/Bond/components/BondList.tsx:137
+msgid "for"
+msgstr ""
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:99
 msgid "for bonding"
 msgstr "για δέσμευση"
 
-#: src/views/Stake/Stake.tsx:387
+#: src/views/Give/RecipientModal.tsx:361
+msgid "for donating."
+msgstr ""
+
+#: src/views/Wrap/components/MigrateInputArea/MigrateInputArea.tsx:62
+msgid "for migrating"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:108
 msgid "for staking"
 msgstr "για κλείδωμα"
 
-#: src/views/Stake/Stake.tsx:394
-#: src/views/V1-Stake/V1-Stake.jsx:266
+#: src/views/Stake/components/StakeArea/components/StakeInputArea/StakeInputArea.tsx:114
+#: src/views/V1-Stake/V1-Stake.jsx:254
 msgid "for unstaking"
 msgstr "για ξεκλείδωμα"
 
-#: src/views/Stake/Stake.tsx:470
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:87
+msgid "for unwrapping"
+msgstr ""
+
+#: src/views/Wrap/components/WrapInputArea/WrapInputArea.tsx:81
+msgid "for wrapping"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:99
+msgid "gOHM"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:107
 msgid "gOHM (Arbitrum)"
 msgstr "gOHM (Arbitrum)"
 
-#: src/views/Stake/Stake.tsx:478
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:116
 msgid "gOHM (Avalanche)"
 msgstr "gOHM (Avalanche)"
 
-#: src/views/Stake/Stake.tsx:494
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:134
 msgid "gOHM (Fantom)"
 msgstr "gOHM (Fantom)"
 
-#: src/views/Stake/Stake.tsx:486
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:161
+msgid "gOHM (Fuse)"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:143
+msgid "gOHM (Optimism)"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:125
 msgid "gOHM (Polygon)"
 msgstr "gOHM (Polygon)"
 
-#: src/views/Stake/Stake.tsx:502
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:152
 msgid "gOHM (Tokemak)"
 msgstr "gOHM (Tokemak)"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:102
-msgid "gOHM = sOHM * index"
-msgstr "gOHM = sOHM * δείκτης"
+#~ msgid "gOHM = sOHM * index"
+#~ msgstr "gOHM = sOHM * δείκτης"
 
-#: src/views/Stake/Stake.tsx:463
-#: src/views/V1-Stake/V1-Stake.jsx:422
-#: src/views/Wrap/Wrap.tsx:286
-#: src/views/Wrap/WrapCrossChain.tsx:214
+#: src/views/V1-Stake/V1-Stake.jsx:381
+#: src/views/Wrap/components/WrapBalances.tsx:61
 msgid "gOHM Balance"
 msgstr "Υπόλοιπο gOHM"
 
+#: src/views/Wrap/components/WrapBalances.tsx:47
+msgid "gOHM Balance (Arbitrum)"
+msgstr ""
+
+#: src/views/Wrap/components/WrapBalances.tsx:31
+msgid "gOHM Balance (Avalanche)"
+msgstr ""
+
 #: src/views/Stake/Stake.tsx:510
 #: src/views/V1-Stake/V1-Stake.jsx:393
-msgid "gOHM Balance in Fuse"
-msgstr "Υπόλοιπο gOHM στο Fuse"
+#~ msgid "gOHM Balance in Fuse"
+#~ msgstr "Υπόλοιπο gOHM στο Fuse"
 
 #: src/views/TreasuryDashboard/components/Metric/Metric.tsx:99
-msgid "gOHM Price"
-msgstr "Τιμή gOHM"
+#~ msgid "gOHM Price"
+#~ msgstr "Τιμή gOHM"
 
 #: src/views/33Together/PoolPrize.tsx:156
-msgid "hrs"
-msgstr "ώρες"
+#~ msgid "hrs"
+#~ msgstr "ώρες"
+
+#: src/views/Bond/components/BondModal/components/BondInputArea/BondInputArea.tsx:170
+msgid "market value and the bond's price."
+msgstr ""
 
 #: src/views/33Together/PoolPrize.tsx:163
-msgid "min"
-msgstr "ελάχιστο"
+#~ msgid "min"
+#~ msgstr "ελάχιστο"
 
-#: src/views/Give/RedeemYield.tsx:194
-#: src/views/Give/RedeemYield.tsx:199
-#: src/views/Give/RedeemYield.tsx:204
+#: src/views/Give/ManageDonationModal.tsx:460
+msgid "of"
+msgstr ""
+
+#: src/views/Give/ManageDonationModal.tsx:460
+msgid "of Goal"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:218
+msgid "of sOHM Goal"
+msgstr ""
+
+#: src/views/Give/RedeemYield.tsx:232
+#: src/views/Give/RedeemYield.tsx:238
+#: src/views/Give/RedeemYield.tsx:244
+#: src/views/Give/RedeemYieldModal.tsx:74
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:91
 msgid "sOHM"
 msgstr "sOHM"
 
-#: src/views/Give/RecipientModal.tsx:450
-msgid "sOHM Allocation"
-msgstr "Κατανομή sOHM"
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:170
+msgid "sOHM (v1)"
+msgstr ""
 
-#: src/views/Stake/Stake.tsx:457
-#: src/views/Stake/Stake.tsx:518
-#: src/views/V1-Stake/V1-Stake.jsx:386
-#: src/views/V1-Stake/V1-Stake.jsx:416
-#: src/views/Wrap/Wrap.tsx:281
+#: src/views/Give/RecipientModal.tsx:450
+#~ msgid "sOHM Allocation"
+#~ msgstr "Κατανομή sOHM"
+
+#: src/views/V1-Stake/V1-Stake.jsx:361
+#: src/views/V1-Stake/V1-Stake.jsx:375
+#: src/views/Wrap/components/WrapBalances.tsx:56
 msgid "sOHM Balance"
 msgstr "Υπόλοιπο sOHM"
 
 #: src/views/Stake/Stake.tsx:542
-msgid "sOHM Balance in Fuse (v1)"
-msgstr "Υπόλοιπο sOHM στο Fuse (v1)"
+#~ msgid "sOHM Balance in Fuse (v1)"
+#~ msgstr "Υπόλοιπο sOHM στο Fuse (v1)"
+
+#: src/views/Give/RedeemYield.tsx:194
+msgid "sOHM Goal"
+msgstr ""
 
 #: src/views/33Together/PoolInfo.tsx:112
-msgid "sOHM Pool Details"
-msgstr "Λεπτομέρειες Κοινόχρηστου Ταμείου sOHM"
+#~ msgid "sOHM Pool Details"
+#~ msgstr "Λεπτομέρειες Κοινόχρηστου Ταμείου sOHM"
 
 #: src/views/33Together/PoolInfo.tsx:108
-msgid "sOHM Prize Pool"
-msgstr "Χρηματικό Έπαθλο sOHM"
+#~ msgid "sOHM Prize Pool"
+#~ msgstr "Χρηματικό Έπαθλο sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:290
-msgid "sOHM Yield"
-msgstr "Απόδοση sOHM"
+#~ msgid "sOHM Yield"
+#~ msgstr "Απόδοση sOHM"
 
 #: src/components/GiveProject/ProjectCard.tsx:302
-msgid "sOHM Yield Goal"
-msgstr "Στόχος απόδοσης sOHM"
+#~ msgid "sOHM Yield Goal"
+#~ msgstr "Στόχος απόδοσης sOHM"
 
 #: src/views/Give/RecipientModal.tsx:533
-msgid "sOHM deposit"
-msgstr "Κατάθεση sOHM"
+#~ msgid "sOHM deposit"
+#~ msgstr "Κατάθεση sOHM"
 
 #: src/views/33Together/PoolPrize.tsx:169
-msgid "sec"
-msgstr "δευτερόλεπτα"
+#~ msgid "sec"
+#~ msgstr "δευτερόλεπτα"
 
-#: src/components/RebaseTimer/RebaseTimer.tsx:71
+#: src/views/Give/ManageDonationModal.tsx:288
+#: src/views/Give/RecipientModal.tsx:160
+msgid "to continue"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/RebaseTimer/RebaseTimer.tsx:20
 msgid "to next rebase"
 msgstr "στο επόμενο rebase"
 
 #: src/views/ChooseBond/ChooseBond.tsx:87
-msgid "v2 bonds"
-msgstr "ομόλογα v2"
+#~ msgid "v2 bonds"
+#~ msgstr "ομόλογα v2"
+
+#: src/views/Give/ManageDonationModal.tsx:584
+#: src/views/Give/RecipientModal.tsx:371
+#: src/views/Give/RecipientModal.tsx:497
+msgid "will be tansferred into the vault when you submit. You will need to approve the transaction and pay for gas fees."
+msgstr ""
 
 #: src/views/Give/WithdrawDepositModal.tsx:95
-msgid "withdrawn"
-msgstr "αποσυρθείσα"
+#~ msgid "withdrawn"
+#~ msgstr "αποσυρθείσα"
 
-#: src/views/Stake/Stake.tsx:526
-#: src/views/V1-Stake/V1-Stake.jsx:401
-#: src/views/Wrap/WrapCrossChain.tsx:209
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:179
+msgid "wsOHM"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:188
+msgid "wsOHM (Arbitrum)"
+msgstr ""
+
+#: src/views/Stake/components/StakeArea/components/StakeBalances.tsx:197
+msgid "wsOHM (Avalanche)"
+msgstr ""
+
+#: src/views/V1-Stake/V1-Stake.jsx:368
 msgid "wsOHM Balance"
 msgstr "Υπόλοιπο wsOHM"
 
+#: src/views/Wrap/components/WrapBalances.tsx:42
+msgid "wsOHM Balance (Arbitrum)"
+msgstr ""
+
+#: src/views/Wrap/components/WrapBalances.tsx:26
+msgid "wsOHM Balance (Avalanche)"
+msgstr ""
+
 #: src/views/V1-Stake/V1-Stake.jsx:409
-msgid "wsOHM Balance in FiatDAO"
-msgstr "Υπόλοιπο wsOHM στο FiatDAO"
+#~ msgid "wsOHM Balance in FiatDAO"
+#~ msgstr "Υπόλοιπο wsOHM στο FiatDAO"
 
 #: src/views/Stake/Stake.tsx:534
-msgid "wsOHM Balance in FiatDAO (v1)"
-msgstr "Υπόλοιπο wsOHM στο FiatDAO (v1)"
+#~ msgid "wsOHM Balance in FiatDAO (v1)"
+#~ msgstr "Υπόλοιπο wsOHM στο FiatDAO (v1)"
